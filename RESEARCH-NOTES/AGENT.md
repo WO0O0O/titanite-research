@@ -99,7 +99,7 @@ Paste here any specific information you already have about [TICKER] that should 
 - Any other qualitative signals considered relevant
 
 ```
-[PASTE KNOWN CONTEXT HERE]
+BLANK
 ```
 
 If a short report or fraud allegation is pasted here: do not dismiss it. Reconcile every specific claim against the financial filings, transcript quotes, and public record before generating a score. If a claim cannot be refuted with evidence, it must be reflected in the scoring. State explicitly which claims were reconciled and which could not be verified.
