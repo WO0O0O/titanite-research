@@ -4,9 +4,31 @@
 
 ---
 
+## WRITING STYLE — MANDATORY
+
+Apply these rules to every word of the output. Do not deviate.
+
+**Voice and register.** Write like a serious analyst who has thought about this harder than anyone else in the room. Think Leopold Aschenbrenner's _Situational Awareness_ essays crossed with Serenity's X thread style: dense with data, zero throat-clearing, no hedging language, no caveats that exist only to protect the writer. Every sentence should carry weight. Cut anything that does not add information.
+
+**British English throughout.** Colour, behaviour, organise, licence (noun), recognise, programme, defence, centre, catalogue. Not American spellings. Use the Oxford comma.
+
+**No emojis. Ever.** Do not use tick marks, cross marks, or any Unicode symbol as a substitute for prose judgment. If something is good, say it is good and explain why. If something is a red flag, call it a red flag in plain English.
+
+**No AI-flavoured filler.** Delete on sight: "It's worth noting that," "It is important to understand that," "In the context of," "This underscores the fact that," "delve into," "nuanced," "multifaceted," "comprehensive," "robust" (unless describing a specific technical property), "leveraging," "ecosystem" (unless referring to an actual biological system). These phrases signal that the writer did not know what to say.
+
+**No hedging for its own sake.** "May," "might," "could potentially," "it appears that" — use these only when genuine epistemic uncertainty exists and you are flagging it explicitly. Do not soften a conclusion you are confident in because it sounds more measured.
+
+**Directness.** State the verdict first. Explain it second. Never bury the lede in a paragraph of context-setting. If the thesis fails, say so in the first sentence of that section.
+
+**Numbers over adjectives.** "Significant demand growth" is useless. "MLCC demand growing at 30% annually, driven by AI server racks requiring an estimated 500,000 units each" is useful. Always quantify where a number exists.
+
+**Short sentences when making the most important points.** Long sentences for context. Short sentences for verdicts.
+
+---
+
 ## STEP 0 — EXECUTION PROTOCOL (run this before writing a single word of analysis)
 
-Do not begin scoring until you have completed all four steps below in order. Skipping this sequence is the most common reason AI analysis underscores pre-inflection small caps or misses fraud signals entirely.
+Do not begin scoring until you have completed all four steps below in order. Skipping this sequence is the most common reason analysis underscores pre-inflection small caps or misses fraud signals entirely.
 
 **Step A — Transcript keyword sweep (two passes)**
 
@@ -46,7 +68,7 @@ Before scoring, run explicit web and X searches for:
 - "[TICKER] auditor" or "[TICKER] auditor change"
 - Name of the CEO and Chairman individually: "[Name] fraud," "[Name] SEC," "[Name] bankruptcy," "[Name] SPAC"
 
-If any short reports exist, read them in full and include a summary of their core allegations under a prominent "Active Short Thesis" header before the scorecard. Do not proceed as if they do not exist. If a short report was published within the last 30 days and the AI cannot access it directly, flag this explicitly and state that the Known Context block should be used to paste in the allegations for reconciliation.
+If any short reports exist, read them in full and include a summary of their core allegations under a prominent "Active Short Thesis" header before the scorecard. Do not proceed as if they do not exist. If a short report was published within the last 30 days and the source cannot be accessed directly, flag this explicitly and state that the Known Context block should be used to paste in the allegations for reconciliation.
 
 **Step C — Forward vs. trailing separation**
 
@@ -55,7 +77,7 @@ Before scoring, explicitly sort all evidence gathered into two buckets:
 - **Trailing documented:** figures already in filed financials — reported revenue, reported gross margin, filed backlog, published lead times from press releases
 - **Forward run-rate signals:** management language about current booking pace, verbal capacity statements, guidance commentary, design-win pipeline language, qualification progress, volume ramp timelines
 
-Both buckets are valid evidence. The most important alpha in a pre-inflection small cap is almost always in the forward run-rate bucket. An AI that scores only trailing documented figures will systematically underrate the best opportunities in this framework.
+Both buckets are valid evidence. The most important alpha in a pre-inflection small cap is almost always in the forward run-rate bucket. Scoring only trailing documented figures will systematically underrate the best opportunities in this framework.
 
 **Step D — Qualification-cycle player check**
 
@@ -67,7 +89,7 @@ Before scoring any section, determine whether [TICKER] is a qualification-cycle 
 
 _Fill this section in before submitting. Leave blank if nothing to add._
 
-Paste here any specific information you already have about [TICKER] that the AI should treat as established context. This includes:
+Paste here any specific information you already have about [TICKER] that should be treated as established context. This includes:
 
 - Specific Serenity posts or X threads about [TICKER]
 - Supply chain intelligence from industry contacts
@@ -82,7 +104,7 @@ Paste here any specific information you already have about [TICKER] that the AI 
 
 If a short report or fraud allegation is pasted here: do not dismiss it. Reconcile every specific claim against the financial filings, transcript quotes, and public record before generating a score. If a claim cannot be refuted with evidence, it must be reflected in the scoring. State explicitly which claims were reconciled and which could not be verified.
 
-The AI must treat pasted context as high-confidence material that anchors the analysis. If known context contradicts a conservative reading of trailing financials, known context takes precedence and the AI must explain why the financial picture is lagging the fundamental reality — or why the allegation is credible.
+Pasted context is high-confidence material that anchors the analysis. If known context contradicts a conservative reading of trailing financials, known context takes precedence — explain why the financial picture is lagging the fundamental reality, or explain why the allegation is credible.
 
 ---
 
@@ -103,7 +125,7 @@ If it qualifies, also state:
 - Multiple expansion embedded in that target? (e.g. revenue 3× + P/S re-rates 2× to 8× = 12× stock)
 - Implied return from today's price to that target?
 
-The minimum acceptable implied return for this framework is 500%. If the math does not produce at least 5× from current price, the risk/reward does not justify the volatility of a small/micro-cap.
+The minimum acceptable implied return for this framework is 500%. If the maths does not produce at least 5× from current price, the risk/reward does not justify the volatility of a small or micro-cap.
 
 ---
 
@@ -188,7 +210,7 @@ _1 point_
 1. Who are [TICKER]'s direct customers? Trace to the end buyer.
 2. Are any of AWS, Google Cloud, Microsoft Azure, Meta, Oracle, NVIDIA, or their Tier 1 suppliers ultimately dependent on [TICKER]'s product?
 3. Confirmed design-ins, qualifications, or supply agreements? Quote with date.
-4. What percentage of revenue is driven by AI infrastructure CAPEX vs. legacy applications?
+4. What percentage of revenue is driven by AI infrastructure capex vs. legacy applications?
 5. Any "pull" signals — increased order volumes, shortened procurement cycles, public statements referencing [TICKER]'s technology?
 
 **Score 1 point** only if confirmed hyperscaler linkages or Tier 1 supplier relationships exist with documentary evidence.
@@ -199,13 +221,13 @@ _1 point_
 
 _2 points — highest weighted category_
 
-**Critical instruction:** AI models systematically score this section zero on pre-inflection small caps by reading trailing financials, finding choppy revenue or negative cash flow, and defaulting to conservative. This is the single most common scoring error. Forward-looking verbal signals from management are equally valid evidence. Weight them equally. For qualification-cycle players, apply the Framework Modifier rules above.
+**Critical instruction:** The most common scoring error in this framework is to read trailing financials, find choppy revenue or negative cash flow, and default to a zero. Forward-looking verbal signals from management are equally valid evidence. Weight them equally. For qualification-cycle players, apply the Framework Modifier rules above.
 
 **Sub-section A — Trailing documented evidence**
 
 1. Reported gross margin for the last 4 quarters — provide the table
 2. Reported backlog or deferred revenue — is it growing faster than revenue?
-3. Price increase announcements in press releases or 8-K filings in the past 12 months
+3. Price increase announcements in press releases or regulatory filings in the past 12 months
 4. Any "sold out" or "capacity constrained" language in filed documents
 
 **Sub-section B — Forward run-rate signals (from transcript keyword sweep)**
@@ -256,9 +278,9 @@ _1 point_
 1. Market cap and enterprise value? (Confirmed under $5B at gate check)
 2. Bull-case market cap in 24–36 months?
 3. Current EV/Revenue or P/S vs. comparable large-cap peers at maturity?
-4. Return math explicitly mapped: current revenue × growth multiplier = future revenue; apply target multiple; divide by current market cap = implied return. Show the arithmetic.
+4. Return maths explicitly mapped: current revenue × growth multiplier = future revenue; apply target multiple; divide by current market cap = implied return. Show the arithmetic.
 
-**Score 1 point** only if the return math produces at least 5× from today's price under a reasonable bull case.
+**Score 1 point** only if the return maths produces at least 5× from today's price under a reasonable bull case.
 
 ---
 
@@ -281,7 +303,7 @@ _1 point_
 
 _1 point_
 
-1. Top customer % of revenue? Top 3? Top 5? (10-K customer concentration section)
+1. Top customer % of revenue? Top 3? Top 5? (Annual report customer concentration section)
 2. Any top customers confirmed as hyperscalers or their direct Tier 1 suppliers?
 3. Design wins disclosed even if customers unnamed?
 4. Contract structure: spot, multi-year supply agreements, or take-or-pay?
@@ -311,13 +333,13 @@ _1 point_
 
 _1 point_
 
-1. Any equity offerings, convertible notes, or ATM programs in the past 12 months? Size and date?
+1. Any equity offerings, convertible notes, or ATM programmes in the past 12 months? Size and date?
 2. Use of proceeds — quote directly from prospectus or press release
 3. Timing: raised near trough or near a recent peak?
 4. Dilution as % of shares outstanding: under 10% acceptable; over 20% requires justification
 5. Post-raise stock performance: held / rallied (bullish) or continued falling (bearish)?
 
-Green flags: "expand manufacturing capacity," "fund growth capex," raised near trough, small dilution Red flags: "debt repayment," "extend runway," raised at recent high, stock continued declining post-raise
+Green flags: "expand manufacturing capacity," "fund growth capex," raised near trough, small dilution. Red flags: "debt repayment," "extend runway," raised at recent high, stock continued declining post-raise.
 
 **Score 1 point** only if the raise was for growth, well-timed, not distressed, and dilution is proportionate.
 
@@ -362,26 +384,26 @@ _1 point_
 
 _1 point — now encompasses both track record and integrity audit_
 
-This section has two components. A management team with a history of fraud, SPAC failures, or SEC investigations disqualifies the thesis regardless of how well the company scores elsewhere. Run the integrity audit first. If it fails, score this section 0 and flag the finding prominently.
+This section has two components. A management team with a history of fraud, SPAC failures, or regulatory investigations disqualifies the thesis regardless of how well the company scores elsewhere. Run the integrity audit first. If it fails, score this section 0 and flag the finding prominently.
 
 **Component A — Integrity audit (run before reviewing execution record)**
 
 Search the following for the CEO, Chairman, CFO, and any board members with significant ownership:
 
-1. Has any member of the current executive team or board been involved in a prior company that: went bankrupt under their leadership, was subject to an SEC enforcement action, was delisted from a major exchange, or collapsed following a SPAC transaction? Name the companies and outcomes.
+1. Has any member of the current executive team or board been involved in a prior company that: went bankrupt under their leadership, was subject to a regulatory enforcement action, was delisted from a major exchange, or collapsed following a SPAC transaction? Name the companies and outcomes.
 2. Has [TICKER] changed its auditor in the last 24 months? If yes, why? Did the departing auditor issue any qualified opinion, material weakness finding, or going-concern note before leaving?
 3. Has the current auditor flagged any material weaknesses in internal controls in the most recent annual filing?
-4. Are there any ongoing or recently settled SEC investigations, FINRA actions, class action lawsuits, or shareholder derivative suits?
+4. Are there any ongoing or recently settled regulatory investigations, class action lawsuits, or shareholder derivative suits?
 5. Are there related-party transactions disclosed in the filings? If yes, describe them. Do they appear to benefit insiders at the company's expense?
 
-If any integrity audit finding is negative — prior fraud involvement, going concern, auditor changes with unexplained departures, active SEC investigation, material weakness — score this section 0 and escalate to a prominent warning at the top of the report. A clean chokepoint thesis does not require trusting a compromised management team.
+If any integrity audit finding is negative — prior fraud involvement, going concern, auditor changes with unexplained departures, active regulatory investigation, material weakness — score this section 0 and escalate to a prominent warning at the top of the report. A clean chokepoint thesis does not require trusting a compromised management team.
 
 **Component B — Execution track record**
 
 1. How many consecutive quarters has [TICKER] beaten consensus EPS? Revenue estimates? (Target: 3+)
 2. Has management raised forward guidance — not merely maintained it — at least once in the past four quarters?
 3. Review prior calls for specific promises: new customer announcements, production targets, margin improvement timelines. Were they delivered? List any that were not.
-4. Insider ownership % and any open-market purchases in the past 12 months? (Form 4 filings)
+4. Insider ownership % and any open-market purchases in the past 12 months?
 5. Has guidance historically proved conservative (beats guidance consistently) or optimistic (misses consistently)?
 
 **Score 1 point** only if the integrity audit is clean AND there are 3+ consecutive earnings beats AND guidance was raised at least once with no major broken promises on record. A negative integrity finding overrides the execution record regardless of how many quarters were beaten.
@@ -392,7 +414,7 @@ If any integrity audit finding is negative — prior fraud involvement, going co
 
 _Required — no score, but the thesis cannot stand without completing it_
 
-Serenity runs the strongest possible bear case through an AI model before publishing. If a short report exists and was identified in Step B, it must be addressed here claim by claim — not dismissed.
+Run the strongest possible bear case before concluding. If a short report exists and was identified in Step B, it must be addressed here claim by claim — not dismissed.
 
 1. **Thesis killer:** The single most credible scenario in which this thesis fails completely within 24 months — specific mechanism, not generic macro risk
 2. **Short report reconciliation:** If an active short thesis exists, summarise its core allegations and explain specifically why each one is wrong using evidence from filings and transcripts — or acknowledge which allegations cannot be refuted
@@ -471,7 +493,7 @@ Known AI infrastructure institutional rotation sequence:
 
 **Automatic disqualifiers — score 0 and do not invest regardless of total:**
 
-- Active SEC investigation against the company or current executives
+- Active regulatory investigation against the company or current executives
 - Going concern opinion from the current auditor
 - Short report allegations that cannot be refuted with filed evidence
 - Integrity audit finding of prior fraud or securities violations by current leadership
