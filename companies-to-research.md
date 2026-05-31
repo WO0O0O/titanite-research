@@ -19,8 +19,9 @@ potential 50x:
 ACCON
 GAPW
 SILC
-SEYE
 TRT
+AL2SI
+ADTN
 
 Soitec
 Nyomic

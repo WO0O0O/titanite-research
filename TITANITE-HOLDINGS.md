@@ -2,37 +2,37 @@
 
 goal of 100-1000% returns per stock in 1-3 years.
 
-(as of 30/05/2026)
+(as of 30/05/2026) PF: 1.15
 
-LUNR
-LPK
-2DG
-RKLB
-HLIT
-XFAB
-P4O
-ASTS
-AAOI
+- LUNR
+- LPK
+- 2DG
+- RKLB
+- HLIT
+- XFAB
+- P4O
+- ASTS
+- AAOI
 
 ## AI planned holdings:
 
 ### CORE POSITIONS:
 
-LPK
-BRUN
+- LPK
+- BRUN
 
 ### TACTICAL SC's:
 
-SIVE
-IQE
-8996 - Kaori heat treatment
-P4O
-4092 - Nippon chemical
-HLIT
-XFAB
+- SIVE
+- IQE
+- 8996 - Kaori heat treatment
+- P4O
+- 4092 - Nippon chemical
+- HLIT
+- XFAB
 
 ### MID - LARGE CAPS:
 
-NBIS
-AAOI
-BE
+- NBIS
+- AAOI
+- BE
