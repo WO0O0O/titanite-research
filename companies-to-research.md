@@ -1,6 +1,10 @@
 IREN
 USAR
 
+more energy companies
+NNE
+ASPI
+
 ## SPACE
 
 SIDU

@@ -6,6 +6,10 @@ The scaling laws of AGI are no longer confined to the digital realm. As model tr
 
 Titanite Research is my personal research project to identify, analyse, and track the critical nodes, materials, and equipment manufacturers that underpin this transition. Inspired by the macro-industrial and national security outlook of Leopold Aschenbrenner's _Situational Awareness_ thesis, this repository focuses on the companies that will capture the economics of this capital spend before they are priced in by the consensus.
 
+## Portfolio & Active Holdings
+
+My current research conviction scores and active portfolio allocations are tracked in [TITANITE-HOLDINGS.md](file:///Users/danwooster/1.%20DEV/titanite/TITANITE-HOLDINGS.md).
+
 My research is organised around four interlocking structural pillars:
 
 1. **Compute & Semiconductor Scaling**: Hardware chokepoints in the advanced packaging, optical interconnect, and substrate layers (e.g. Glass Substrates, high-frequency Metrology, and micro-materials).
@@ -38,17 +42,25 @@ The agentic output is a starting filter, not the final investment decision. I ma
 My research is categorised by thematic bottlenecks:
 
 - **`RESEARCH-NOTES/SMALLCAP-AI-INFRA/`**: Small-cap chokepoints.
+  - `2-phase-cooling/`: Advanced liquid and phase-change cooling solutions for server chassis.
   - `3D-metrology/`: Yield inspection systems for high-bandwidth memory (HBM).
-  - `MLCC/`: High-capacitance capacitors for GPU power delivery.
-  - `TGV/`: Glass substrates and laser-induced deep etching (LIDE).
-  - `photonics/`: Silicon photonics and optical interconnects.
-  - `advanced-packaging-equip/`: 2.5D/3D chip stacking.
+  - `AI-CLOUD-INFRA/`: Private GPU cloud operators and sovereign hosting platforms.
+  - `MLCC/`: High-capacitance Multi-Layer Ceramic Capacitors for GPU power delivery.
   - `Semis/`: Specialty foundry and component fabrication.
+  - `TGV/`: Glass substrates and laser-induced deep etching (LIDE).
+  - `advanced-packaging-equip/`: 2.5D/3D chip stacking.
   - `broadband/`: Optical transport and cable infrastructure.
+  - `computer-vision/`: Machine vision systems for manufacturing and automotive safety.
+  - `directed-energy/`: Power transmission and specialized laser manufacturing tools.
+  - `photonics/`: Silicon photonics and optical interconnects.
+  - `robotics/`: Specialized automation and robotics components.
+  - `server-systems/`: Custom server chassis integration and power distribution systems.
 - **`RESEARCH-NOTES/SITUATIONAL-AWARENESS/`**: Mid-to-large cap scale-up plays.
-  - `ENERGY/`: Fuel cells, SMRs, power generation, and grid equipment.
   - `AI-CLOUD-INFRA/`: GPU cloud operators and sovereign hyperscalers.
+  - `ENERGY/`: Fuel cells, SMRs, power generation, and grid equipment.
+  - `defence/`: National security and sovereign space/communication systems.
   - `photonics/`: Transceivers and optical networking.
+  - `thermal/`: Liquid cooling, heat exchangers, and thermal management at data centre scale.
 - **`RESEARCH-NOTES/SPACE/`**: Launch services, satellite manufacturers, and orbital connectivity operators.
 
 ---
