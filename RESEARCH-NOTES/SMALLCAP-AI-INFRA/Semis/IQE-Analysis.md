@@ -11,10 +11,10 @@
 
 **Pass 2 — Red flag sweep result:** CLEAN.
 *   **Material Weakness / Internal Controls:** No material weaknesses in internal controls flagged in the FY 2024 or FY 2025 audited reports.
-*   **Going Concern:** Current auditor (EY) has not issued a going concern qualification. The risk of near-term insolvency has been structurally resolved by the £81 million capital raise concluded in May 2026.
+*   **Going Concern:** Current auditor (EY) has not issued a going concern qualification. The risk of near-term insolvency has been structurally resolved by the £81 million capital raise completed on 28 May 2026.
 *   **SEC/Regulatory Investigations:** No SEC or Financial Conduct Authority (FCA) investigations active. Legal proceedings against Tower Semiconductor (initiated in 2022 regarding proprietary porous silicon trade secrets) are IP-related, not regulatory or fraud-related.
 *   **Resignations:** The transition of Jutta Meier from Chief Financial Officer to Chief Executive Officer (announced in May 2025 alongside the FY 2024 results) was orderly. The position of permanent CFO is currently vacant but undergoing an active recruitment process; no red flags are associated with this transition.
-*   **Dilution / Equity Raises:** A massive £81 million fundraising package was approved by shareholders on 15 May 2026. This dilution is significant (representing ~11.5% voting rights to MACOM alone) but is classified as strategic growth capital rather than distressed refinancing. Details are analyzed in Section 9.
+*   **Dilution / Equity Raises:** A massive £81 million fundraising package was completed on 28 May 2026 (following shareholder approval on 15 May 2026). This dilution is significant (representing ~11.5% voting rights to MACOM alone) but is classified as strategic growth capital rather than distressed refinancing. Details are analyzed in Section 9.
 
 ---
 
@@ -33,18 +33,18 @@ two seats on the IQE Board of Directors.
 
 ## GATE CHECK — MARKET CAP FILTER
 
-*   **Market cap:** ~£465 million (~$620 million USD) based on a share price of ~35p.
-*   **Enterprise value:** ~£473 million (Market cap + £31.5 million net debt as of 31 December 2025, adjusting for the post-raise cash injection).
-*   **Shares outstanding:** ~1,328 million shares post-fundraise.
+*   **Market cap:** ~£623.5 million (~$839.2 million USD) based on a share price of 47.50 GBX (29 May 2026 close).
+*   **Enterprise value:** ~£631.5 million (Market cap + £31.5 million net debt as of 31 December 2025, adjusting for the post-raise cash injection).
+*   **Shares outstanding:** ~1,312.59 million shares post-fundraise (expected admission 1 June 2026).
 
 **PASSES the $5B hard gate.** IQE is a micro-to-small cap company.
 
 **Bull-case market cap in 24–36 months:**
-*   **Conservative Bull Case:** Photonics revenue expands at 20% CAGR driven by InP data centre demands, while the Wireless segment stabilizes and recovers to a 10% growth rate. Total revenue reaches £140 million by FY 2028. Applying a 5.0× EV/Revenue multiple (re-rating from the current ~4.8× EV/Revenue as margins inflect and debt is cleared), EV expands to £700 million → Market cap ~£680 million. Implied return: **+46%.**
-*   **Aggressive Bull Case:** The MACOM partnership accelerates design-wins. Photonics revenue grows at a 35% CAGR, reaching £104 million by FY 2028. Wireless recovers to £60 million. Total revenue reaches £164 million. Adjusted EBITDA margins expand to 20% on high factory utilization, yielding £32.8 million in EBITDA. Applying an 8.0× EV/Revenue multiple (the high-end historical multiple for pure-play semiconductor materials suppliers like VPEC at peak), EV expands to £1.31 billion → Market cap ~£1.28 billion. Implied return: **+175% (2.75× return).**
+*   **Conservative Bull Case:** Photonics revenue expands at 20% CAGR driven by InP data centre demands, while the Wireless segment stabilizes and recovers to a 10% growth rate. Total revenue reaches £140 million by FY 2028. Applying a 5.0× EV/Revenue multiple, EV expands to £700 million → Market cap ~£680 million. Implied return: **+9% (1.09× return).**
+*   **Aggressive Bull Case:** The MACOM partnership accelerates design-wins. Photonics revenue grows at a 35% CAGR, reaching £104 million by FY 2028. Wireless recovers to £60 million. Total revenue reaches £164 million. Adjusted EBITDA margins expand to 20% on high factory utilization, yielding £32.8 million in EBITDA. Applying an 8.0× EV/Revenue multiple (the high-end historical multiple for pure-play semiconductor materials suppliers like VPEC at peak), EV expands to £1.31 billion → Market cap ~£1.28 billion. Implied return: **+105% (2.05× return).**
 
 **GATE VERDICT: MARGINAL PASS.** 
-The current valuation does not mathematically yield the 500% minimum return bar required for a high-conviction Tier 1 rating under a realistic 36-month timeline. However, the presence of a strategic corporate partner (MACOM) investing at a substantial premium de-risks the downside and warrants proceeding with the complete chokepoint analysis.
+The current valuation does not mathematically yield the 500% minimum return bar required for a high-conviction Tier 1 rating under a realistic 36-month timeline. Indeed, following the share price rally to 47.50 GBX, the return potential has compressed further (to 2.05× under our aggressive bull case). However, the presence of a strategic corporate partner (MACOM) investing at a substantial premium de-risks the downside and warrants proceeding with the complete chokepoint analysis.
 
 ---
 
@@ -169,10 +169,10 @@ The business has established a trailing trough in H1 2025 and has guided to >20%
 
 ## SECTION 5 — SMALL CAP / ASYMMETRIC UPSIDE
 
-*   **Market Cap:** £465 million ($620 million USD)
-*   **Enterprise Value:** £473 million ($630 million USD)
-*   **TTM Revenue:** £97.3 million ($130 million USD)
-*   **Current EV/Revenue:** ~4.8×
+*   **Market Cap:** £623.5 million ($839.2 million USD)
+*   **Enterprise Value:** £631.5 million ($850.0 million USD)
+*   **TTM Revenue:** £97.3 million ($130.9 million USD)
+*   **Current EV/Revenue:** ~6.5× TTM
 
 ### Comparable Peer Multiples
 *   **VPEC (Visual Photonics Epitaxy Co.):** Historically trades between 6.0× and 10.0× revenue during optical upcycles.
@@ -185,10 +185,12 @@ The business has established a trailing trough in H1 2025 and has guided to >20%
 *   **Multiple Expansion:** Re-rating to 7.0× EV/Revenue on the back of expanding EBITDA margins (moving from 3% to 15% as factory utilisation improves).
 *   **Target EV:** £168m × 7.0 = £1.176 billion.
 *   **Target Market Cap:** £1.176B - Net Debt (£20m estimated post-cash generation) = £1.156 billion.
-*   **Implied Return:** £1.156B / £465M = **2.48× return (148% upside).**
+*   **Implied Return:**
+    *   **Conservative Bull Case:** £680M target market cap / £623.5M current = **1.09× return (9% upside).**
+    *   **Aggressive Bull Case:** £1.28B target market cap / £623.5M current = **2.05× return (105% upside).**
 
 ### **Score: 0/1**
-The return mathematics under a realistic bull case yields 2.5× upside, failing to meet the strict 5.0× (500% return) threshold required by the framework for taking micro-cap risk.
+The return mathematics under the aggressive bull case yields only 2.05× upside, failing to meet the strict 5.0× (500% return) threshold required by the framework for taking compound semiconductor micro-cap risk.
 
 ---
 
@@ -233,7 +235,7 @@ IQE maintains a clear technology lead in independent merchant epi-wafer supply, 
     *   **MACOM Subscription:** £30 million in equity (151,515,151 new shares at 19.8p, representing an 11.5% stake) plus £15 million in zero-coupon convertible loan notes.
     *   **Other Components:** £22.8 million notes subscription, £11 million institutional placing, and £2 million retail offer.
 *   **Use of Proceeds:** Repayment of the revolving credit facility (RCF) and redemption of historical loan notes. This restructure removes the restrictive debt covenants that threatened the company during H1 2025.
-*   **Dilution Assessment:** The share count expanded significantly. The placement was executed at 19.8p, near the cyclical trough. However, because the lead subscriber is a strategic customer (MACOM) providing LTSAs, this dilution is classified as value-creative growth funding rather than distressed survival equity.
+*   **Dilution Assessment:** The share count expanded significantly. The placement was executed at 19.8p, near the cyclical trough, with admission of the 332.18 million new shares expected on 1 June 2026 to bring the total shares in issue to 1,312.59 million. Because the lead subscriber is a strategic customer (MACOM) providing LTSAs, this dilution is classified as value-creative growth funding rather than distressed survival equity.
 
 ### **Score: 1/1**
 The raise was led by a strategic customer, resolved the legacy debt overhang, and is structured to fund capacity scaling rather than simple runway extension.
@@ -339,7 +341,7 @@ The balance sheet risk has been mitigated by the £81m raise, but the structural
 
 ## SYNTHESIS: THE ONE-PARAGRAPH PITCH
 
-IQE plc holds over 55% of the outsourced merchant market for advanced compound semiconductor epitaxial wafers, creating a critical materials chokepoint for the Indium Phosphide (InP) and Gallium Arsenide (GaAs) lasers that power 800G and 1.6T optical transceivers. This hyperscaler linkage was validated in April 2026 when Tier 1 supplier MACOM executed an £81 million strategic rescue and growth package, taking an 11.5% equity stake and signing Long-Term Supply Agreements to secure advanced epi-capacity. While trailing consolidated financials show a trough in H1 2025 (with FY 2025 gross margin at 1.4% due to a 40% collapse in wireless handset volumes), the Photonics division grew 15% to £57.1 million, and management has guided for >20% revenue growth in FY 2026 as the higher-margin optical business inflects. At a £465 million market cap, the stock represents a 2.5× return target under a realistic 36-month bull case, positioning it as an under-researched Phase 3 institutional rotation candidate prior to the wider market recognizing the structural shift from copper to optical interconnects.
+IQE plc holds over 55% of the outsourced merchant market for advanced compound semiconductor epitaxial wafers, creating a critical materials chokepoint for the Indium Phosphide (InP) and Gallium Arsenide (GaAs) lasers that power 800G and 1.6T optical transceivers. This hyperscaler linkage was validated in April 2026 when Tier 1 supplier MACOM executed an £81 million strategic rescue and growth package, taking an 11.5% equity stake and signing Long-Term Supply Agreements to secure advanced epi-capacity. While trailing consolidated financials show a trough in H1 2025 (with FY 2025 gross margin at 1.4% due to a 40% collapse in wireless handset volumes), the Photonics division grew 15% to £57.1 million, and management has guided for >20% revenue growth in FY 2026 as the higher-margin optical business inflects. At a £623 million market cap, the stock represents a 2.0× return target under an aggressive 36-month bull case, positioning it as an under-researched Phase 3 institutional rotation candidate prior to the wider market recognizing the structural shift from copper to optical interconnects.
 
 ---
 _Framework based on Serenity (@aleabitoreddit) Chokepoint Theory. Research use only — not financial advice. DYOR._
