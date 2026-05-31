@@ -1,8 +1,7 @@
 # Titanite Holdings
 
-goal of 1000% return over 2-3 years.
-
-(as of 30/05/2026) PF: 1.15
+Opened ISA 01/04/2024
+as of 31/05/2026: ~+770% return
 
 - LUNR (Intuitive Machines) — **7/12 (Tier 2)**
 - LPK (LPKF Laser & Electronics) — **11/13 (Tier 1)**
