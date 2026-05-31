@@ -3,9 +3,13 @@ VRT - Vertiv
 ONDS
 USAR
 
-SPACE
+## SPACE
+
 PL
-SPCE
+SIDU
+SPIR
+SATL
+BKSY
 
 AUR
 NN
