@@ -1,20 +1,15 @@
-BE
-AAOI
-NBIS
 IREN
 VRT - Vertiv
 ONDS
 USAR
 
 SPACE
-ASTS
-RKLB
 PL
 SPCE
-LUNR
 
 AUR
 NN
+ENAFF
 
 potential 50x:
 ACCON

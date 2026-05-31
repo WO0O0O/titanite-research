@@ -1,5 +1,7 @@
 # Titanite Holdings
 
+goal of 100-1000% returns per stock in 1-3 years.
+
 (as of 30/05/2026)
 
 LUNR
@@ -26,6 +28,8 @@ IQE
 8996 - Kaori heat treatment
 P4O
 4092 - Nippon chemical
+HLIT
+XFAB
 
 ### MID - LARGE CAPS:
 
