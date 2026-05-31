@@ -221,7 +221,7 @@ _1 point_
 4. What percentage of revenue is driven by AI infrastructure capex vs. legacy applications?
 5. Any "pull" signals — increased order volumes, shortened procurement cycles, public statements referencing [TICKER]'s technology?
 
-**Score 1 point** only if confirmed hyperscaler linkages or Tier 1 supplier relationships exist with documentary evidence.
+**Score 1 point** only if confirmed hyperscaler linkages or Tier 1 supplier relationships exist with documentary evidence. (For edge-AI, robotics, or other niche hardware, industry-specific Tier 1 supplier relationships — such as automotive Tier 1 integrators or major industrial distributors — are accepted as Tier 1 connections).
 
 ---
 
@@ -320,7 +320,7 @@ _1 point_
 
 Acceptable thresholds: top customer >25%; top 3–5 >50%; confirmed hyperscaler or Tier 1 design-in even if undisclosed.
 
-**Score 1 point** only if thresholds are met with confirmed hyperscaler or Tier 1 connections.
+**Score 1 point** only if thresholds are met with confirmed hyperscaler or Tier 1 connections (including industry-specific Tier 1 connections for edge or niche hardware).
 
 ---
 
@@ -415,7 +415,7 @@ If any integrity audit finding is negative — prior fraud involvement, going co
 4. Insider ownership % and any open-market purchases in the past 12 months?
 5. Has guidance historically proved conservative (beats guidance consistently) or optimistic (misses consistently)?
 
-**Score 1 point** only if the integrity audit is clean AND there are 3+ consecutive earnings beats AND guidance was raised at least once with no major broken promises on record. A negative integrity finding overrides the execution record regardless of how many quarters were beaten.
+**Score 1 point** only if the integrity audit is clean AND there are 3+ consecutive earnings beats AND guidance was raised at least once with no major broken promises on record. A negative integrity finding overrides the execution record regardless of how many quarters were beaten. (For companies that do not provide formal quarterly guidance or lack multi-analyst consensus coverage, such as European micro-caps, this point is scored 1 point if: the integrity audit is clean, they have met key operational or financial milestones without major delays, and there is significant insider buying or alignment).
 
 ---
 

@@ -17,7 +17,7 @@ ACCON
 GAPW
 SILC
 TRT
-AL2SI
+
 ADTN
 
 Nyomic
