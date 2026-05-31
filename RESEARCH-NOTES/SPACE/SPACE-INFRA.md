@@ -97,17 +97,27 @@ State the current market cap and enterprise value of [TICKER].
 - Market cap: $___
 - Enterprise value: $___
 
-**Hard gate 1: If [TICKER] has a market cap above $5 billion, stop here. Do not continue.**
-The space infrastructure sector is early-stage. Companies above $5B are already valued on fully realized constellations or launch monopolies (e.g. SpaceX equivalents). The asymmetric returns are found under this ceiling.
+**Tiered market cap rules — apply the tier that matches [TICKER]'s current market cap:**
 
-**Hard gate 2: Implied Dilution math check.**
+| Market cap | Rule | Return hurdle |
+|---|---|---|
+| Below $5B | Full framework. Target asymmetric chokepoint. | 5× in 36 months |
+| $5B–$15B | Full framework (e.g. LUNR, RKLB, ASTS). Require explicit 3× arithmetic before proceeding. Show the maths. | 3× in 36 months |
+| $15B–$50B | Continue for intelligence value. State clearly that the return hurdle is unlikely to be met. 2× acceptable. | 2× in 36 months acceptable |
+| Above $50B | Flag the market cap. Continue for intelligence value only (e.g. legacy aerospace primes or SpaceX). | Diagnostic/Intelligence only |
+
+**Hard gate: Implied Dilution math check.**
 Compute: (Capital needed for MVC – Current Cash) / Current Market Cap.
 **If the implied dilution to reach cash-flow neutrality exceeds 35%, stop here. Do not continue.**
 A business that must dilute current shareholders by more than 35% simply to deploy its minimum viable asset base is a capital trap, not an investment.
 
-If it passes both gates, state:
-- Realistic bull-case market cap in 24–36 months?
-- Implied return multiple from today's price to that target? (Minimum acceptable: 5×)
+For all companies passing the dilution gate, state:
+- Current consensus revenue for next 2 years
+- Implied revenue from manifest / backlog conversion math
+- Bull-case market cap in 24–36 months if deployment plays out
+- Multiple expansion narrative: what does the company re-rate to if consensus acknowledges the growth vector?
+- Implied return from today's price to that target
+- Which return tier applies and whether the return hurdle is met
 
 ---
 
@@ -162,8 +172,9 @@ If LAUNCH ACCIDENT RISK (no manifest bookings, or payload is single-vehicle lock
 
 **Sub-section A — Trailing documented evidence**
 1. Reported backlog for the last 4 quarters — provide the table.
-2. What percentage of the backlog is backed by cash deposits or binding government task orders?
-3. Any contract cancellations, manifest slips, or target date deferrals in the past 12 months?
+2. Backlog composition: Is backlog growth organic or driven by M&A (e.g. acquiring another satellite manufacturer)? Detail any integration risk or shifts in capital intensity.
+3. What percentage of the backlog is backed by cash deposits or binding government task orders?
+4. Any contract cancellations, manifest slips, or target date deferrals in the past 12 months?
 
 **Sub-section B — Forward run-rate signals**
 1. Has management stated in the last three earnings calls that they have secured launch slots and payload integration windows for the upcoming manifest? Quote verbatim.
@@ -171,9 +182,9 @@ If LAUNCH ACCIDENT RISK (no manifest bookings, or payload is single-vehicle lock
 3. What is the satellite build rate (units/month) and does it match the launch manifest pace?
 
 **Scoring logic:**
-Management confirming that 100% of next-stage payloads are manufactured and launched on-schedule with deposits paid = 2/2. A growing backlog with slipping launch dates or unbuilt satellites is a red flag.
+Management confirming that 100% of next-stage payloads are manufactured and launched on-schedule with deposits paid = 2/2. A growing backlog with slipping launch dates, unbuilt satellites, or high M&A integration risk is a red flag.
 
-**Score 2:** Backlog growing AND launch slots secured AND manufacturing cadence matches launch manifest. **Score 1:** Backlog growing but launch manifest is tight or subject to moderate slips. **Score 0:** Backlog declining, or manifest dates are speculative with no contracted launch slots.
+**Score 2:** Backlog growing organically (or M&A integrated cleanly) AND launch slots secured AND manufacturing cadence matches launch manifest. **Score 1:** Backlog growing but launch manifest is tight, subject to moderate slips, or carries elevated M&A integration risk. **Score 0:** Backlog declining, or manifest dates are speculative with no contracted launch slots.
 
 ---
 
@@ -190,15 +201,15 @@ Management confirming that 100% of next-stage payloads are manufactured and laun
 
 ---
 
-## SECTION 5 — SMALL CAP / ASYMMETRIC UPSIDE
+## SECTION 5 — VALUATION / ASYMMETRIC UPSIDE
 
 *1 point*
 
-1. Market cap and enterprise value? (Confirmed under $5B)
+1. Market cap and enterprise value?
 2. Implied return maths: current revenue × growth multiplier = future revenue; apply target multiple; divide by current market cap = implied return. Show the arithmetic.
-3. Does the math produce at least 5× from today's price under a reasonable bull case?
+3. Does the maths produce the required return hurdle for the company's market cap tier (e.g. 5× for under $5B, 3× for $5B–$15B, 2× for $15B–$50B) under a reasonable bull case?
 
-**Score 1 point** only if the return maths produces at least 5× from today's price under a realistic deployment scenario.
+**Score 1 point** only if the return maths clears the specific return hurdle for the company's market cap tier under a realistic deployment scenario.
 
 ---
 
@@ -209,10 +220,10 @@ Management confirming that 100% of next-stage payloads are manufactured and laun
 "Space is hard." Theoretical technology is worth zero.
 1. Does the company's hardware have spaceflight heritage? How many units are currently operating in orbit?
 2. What is the historical flight/deployment success rate of [TICKER]'s hardware?
-3. Any past in-orbit anomalies, power failures, or premature de-orbits? Detail the resolution.
+3. Mission Execution Quality: Have past deployments experienced in-orbit anomalies, payload slips, power degradation, or orientation failures (e.g. landers tipping or solar panel blockages)?
 4. Have the systems successfully completed end-to-end customer testing (e.g. data transmission, payload delivery)?
 
-**Score 1 point** only if the hardware has proven spaceflight heritage (operational in orbit) with zero unmitigated anomalies and completed customer validation.
+**Score 1 point** only if the hardware has proven spaceflight heritage (operational in orbit or successful mission landing) that successfully delivered payloads and met key customer milestones, with any anomalies systematically addressed or mitigated in subsequent iterations, and end-to-end customer validation is complete.
 
 ---
 
@@ -254,15 +265,15 @@ Management confirming that 100% of next-stage payloads are manufactured and laun
 
 ---
 
-## SECTION 10 — UNDER-FOLLOWED / SPAC-MERGER STIGMA
+## SECTION 10 — UNDER-FOLLOWED / CONSENSUS GAP
 
 *1 point*
 
 1. How many sell-side analysts actively cover the stock? (Target: fewer than 10)
 2. Is there a structural reason for the low valuation (e.g. listing via a low-quality SPAC, retail-heavy shareholder base, lack of institutional coverage)?
-3. Is there a clear valuation gap compared to legacy aerospace primes (e.g. Lockheed, Northrop) or mature satellite operators?
+3. Consensus Gap: Is the company a consensus gap player? That is, does the street's consensus revenue model build in a growth rate that dramatically underestimates the manifest deployment rate or the contract backlog conversion rate? Detail the model asymmetry.
 
-**Score 1 point** only if fewer than 10 analysts cover the stock, it carries a post-SPAC or retail-heavy valuation discount, and a clear information asymmetry exists.
+**Score 1 point** only if: (a) fewer than 10 analysts cover the stock and a clear information asymmetry exists, OR (b) the company is a consensus gap player where the street model structurally underestimates revenue inflection by a factor of 2× or more.
 
 ---
 
@@ -311,12 +322,12 @@ Write the investment thesis in one paragraph: direct, data-driven, zero fluff, n
 | 02 | Government & civil anchor customer | 1 | | Strong / Moderate / Weak |
 | 03 | Backlog quality & manifest realisation | 2 | | Strong / Moderate / Weak |
 | 04 | Constellation replenishment economics | 1 | | Strong / Moderate / Weak |
-| 05 | Small cap / asymmetric upside | 1 | | Strong / Moderate / Weak |
+| 05 | Valuation / asymmetric upside | 1 | | Strong / Moderate / Weak |
 | 06 | Spaceflight heritage & de-risking | 1 | | Strong / Moderate / Weak |
 | 07 | Upstream supply chain & component risk | 1 | | Strong / Moderate / Weak |
 | 08 | Capital structure & dilution protection | 1 | | Strong / Moderate / Weak |
 | 09 | Geopolitical & defence tailwinds | 1 | | Strong / Moderate / Weak |
-| 10 | Under-followed / SPAC-merger stigma | 1 | | Strong / Moderate / Weak |
+| 10 | Under-followed / consensus gap | 1 | | Strong / Moderate / Weak |
 | 11 | Management integrity & audit status | 1 | | Strong / Moderate / Weak |
 | | **TOTAL** | **12** | | |
 

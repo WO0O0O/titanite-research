@@ -1,0 +1,21 @@
+BE
+AAOI
+NBIS
+IREN
+VRT - Vertiv
+ONDS
+USAR
+
+SPACE
+ASTS
+RKLB
+PL
+SPCE
+LUNR
+
+AUR
+NN
+
+IQE
+Soitec
+Nyomic
