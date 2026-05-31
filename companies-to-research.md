@@ -16,6 +16,12 @@ LUNR
 AUR
 NN
 
-IQE
+potential 50x:
+ACCON
+GAPW
+SILC
+SEYE
+TRT
+
 Soitec
 Nyomic

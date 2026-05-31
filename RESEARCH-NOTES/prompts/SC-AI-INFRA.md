@@ -30,9 +30,9 @@ Apply these rules to every word of the output. Do not deviate.
 
 Do not begin scoring until you have completed all four steps below in order. Skipping this sequence is the most common reason analysis underscores pre-inflection small caps or misses fraud signals entirely.
 
-**Step A — Transcript keyword sweep (two passes)**
+**Step A — Transcript keyword sweep (three passes)**
 
-Pull the last three earnings call transcripts for [TICKER]. Run two separate passes.
+Pull the last three earnings call transcripts for [TICKER]. Run three separate passes.
 
 _Pass 1 — Opportunity signals._ Search for every occurrence of the following and extract the exact quotes with speaker name and quarter:
 
@@ -55,9 +55,14 @@ _Pass 2 — Red flag signals._ Search separately for every occurrence of the fol
 - "restatement" / "restate"
 - "dilution" / "offering" / "equity raise" (cross-reference with Section 9)
 
+_Pass 3 — Moat and concentration signals._ Search separately for every occurrence of the following and extract verbatim with speaker name and quarter:
+- "certification" / "qualification cycle"
+- "switching" / "switching costs" / "lock-in"
+- "rest of market" / "bookings mix" / "customer concentration"
+
 If Pass 2 produces any hits, flag them prominently at the top of the report before scoring begins. Do not bury red flags inside individual sections.
 
-**Step B — Fraud, short seller, and integrity sweep**
+**Step B — Fraud, short seller, integrity, and deep moat sweep**
 
 Before scoring, run explicit web and X searches for:
 
@@ -67,6 +72,8 @@ Before scoring, run explicit web and X searches for:
 - "[TICKER] CEO history" or "[TICKER] management background"
 - "[TICKER] auditor" or "[TICKER] auditor change"
 - Name of the CEO and Chairman individually: "[Name] fraud," "[Name] SEC," "[Name] bankruptcy," "[Name] SPAC"
+- **Moat and Switching Costs:** "[TICKER] switching costs", "[TICKER] qualification timeline", "[TICKER] customer certification", "[TICKER] market share".
+- **Specialist Discussions:** Search for industry reports, specialist analyses, Substack write-ups, or X/Twitter discussions relating to the company's technology moat and client concentration changes.
 
 If any short reports exist, read them in full and include a summary of their core allegations under a prominent "Active Short Thesis" header before the scorecard. Do not proceed as if they do not exist. If a short report was published within the last 30 days and the source cannot be accessed directly, flag this explicitly and state that the Known Context block should be used to paste in the allegations for reconciliation.
 
@@ -99,7 +106,46 @@ Paste here any specific information you already have about [TICKER] that should 
 - Any other qualitative signals considered relevant
 
 ```
-BLANK
+I made a high conviction trade into
+$HLIT
+ on Friday.
+
+Then I spent the long weekend doing the dive.
+
+When I first researched
+$HLIT
+ back in March, I didn't see the story.
+
+There wasn't a laser or GPU to point at.
+
+But thanks to traders like
+@BryzonX
+,
+@citrini
+,
+@CKCapitalxx
+, and
+@kevinxu
+ it finally clicked.
+
+The thing that flipped me wasn't the 43% quarter. It was realizing the moat isn't just 95% market share, it's time.
+
+$HLIT
+'s cOS runs the broadband network for basically every major cable operator.  To rip Harmonic out, an operator has to run an 18-24 month certification on a replacement before they can even start the switch. Harmonic owns this market into 2028 at the earliest, which happens to be the exact window the whole industry is forced to spend through its biggest upgrade cycle ever. This market isn't hard to win. It's closed.
+
+At first glance, two operators are a material risk at over half of revenue. But on a further look, the business outside those two is growing 78% and just became the majority of bookings for the first time. The single biggest reason to avoid this name is quietly dissolving.
+
+Overall, this cable upgrade isn't some manufactured narrative, it's a legitimate multi year supercycle, and it's undeniably AI adjacent. The same agentic AI and home compute pulling more and more bandwidth through these networks is exactly what forces the spend.
+$HLIT
+ is the clearest pure play winner of it, and it's still trading in the low 20s forward on FY2027. For a critical infra software monopoly growing 43% yoy, it's still cheap.
+
+Kawz and I just published a short, digestible research report on
+$HLIT
+ to share our conviction on Substack.
+
+It's all free aside from our model, PTs, and comps analysis.
+
+Average cost $15.76. Also holding some 10/16s $17.5C's. DYOR. NFA.
 ```
 
 If a short report or fraud allegation is pasted here: do not dismiss it. Reconcile every specific claim against the financial filings, transcript quotes, and public record before generating a score. If a claim cannot be refuted with evidence, it must be reflected in the scoring. State explicitly which claims were reconciled and which could not be verified.
@@ -280,7 +326,7 @@ _1 point_
 3. Current EV/Revenue or P/S vs. comparable large-cap peers at maturity?
 4. Return maths explicitly mapped: current revenue × growth multiplier = future revenue; apply target multiple; divide by current market cap = implied return. Show the arithmetic.
 
-**Score 1 point** only if the return maths produces at least 5× from today's price under a reasonable bull case.
+**Score 1 point** only if the return maths produces at least 4× from today's price for software-dominant businesses (due to their higher gross margins and recurring revenue profile) or at least 5× for hardware-dominant businesses under a reasonable bull case.
 
 ---
 
@@ -308,6 +354,7 @@ _1 point_
 3. Design wins disclosed even if customers unnamed?
 4. Contract structure: spot, multi-year supply agreements, or take-or-pay?
 5. Single customer loss scenario: revenue impact and implied stock price?
+6. Customer concentration rate of change: calculate the growth rate of bookings and revenue outside the top-2 customers. Is the concentration risk actively dissolving (e.g. non-top customers growing >50% YoY and representing the majority of bookings)?
 
 Acceptable thresholds: top customer >25%; top 3–5 >50%; confirmed hyperscaler or Tier 1 design-in even if undisclosed.
 

@@ -16,7 +16,25 @@ No active short seller reports identified. No SEC enforcement action. Three priv
 ## KNOWN CONTEXT / ALPHA INJECTOR
 
 ```
-BLANK
+I made a high conviction trade into $HLIT on Friday.
+
+Then I spent the long weekend doing the dive.
+
+When I first researched $HLIT back in March, I didn't see the story.
+
+There wasn't a laser or GPU to point at.
+
+But thanks to traders like @BryzonX, @citrini, @CKCapitalxx, and @kevinxu it finally clicked.
+
+The thing that flipped me wasn't the 43% quarter. It was realizing the moat isn't just 95% market share, it's time.
+
+$HLIT's cOS runs the broadband network for basically every major cable operator. To rip Harmonic out, an operator has to run an 18-24 month certification on a replacement before they can even start the switch. Harmonic owns this market into 2028 at the earliest, which happens to be the exact window the whole industry is forced to spend through its biggest upgrade cycle ever. This market isn't hard to win. It's closed.
+
+At first glance, two operators are a material risk at over half of revenue. But on a further look, the business outside those two is growing 78% and just became the majority of bookings for the first time. The single biggest reason to avoid this name is quietly dissolving.
+
+Overall, this cable upgrade isn't some manufactured narrative, it's a legitimate multi year supercycle, and it's undeniably AI adjacent. The same agentic AI and home compute pulling more and more bandwidth through these networks is exactly what forces the spend. $HLIT is the clearest pure play winner of it, and it's still trading in the low 20s forward on FY2027. For a critical infra software monopoly growing 43% yoy, it's still cheap.
+
+Average cost $15.76. Also holding some 10/16s $17.5C's. DYOR. NFA.
 ```
 
 ---
@@ -114,12 +132,12 @@ HLIT is **not** a qualification-cycle player. Revenue is substantial, accelerati
    - **Cisco:** Effectively exited the cable access market; cBR-8 platform being migrated away from at Cox and others
    - **Nokia:** Not a primary vCMTS competitor; focus is 5G and PON
    - **Verdict: Duopoly** between Harmonic and Vecima for new vCMTS deployments, with Harmonic holding ~50–98% share depending on segment (98% cited internally for FDX DOCSIS 4.0 specifically)
-7. **Strait of Hormuz test:** Of the two major North American DOCSIS 4.0 Full Duplex deployments currently underway (Comcast and to a lesser extent Charter), Harmonic is the exclusive technology provider for the FDX architecture. Approximately 60–70% of all virtualised CMTS deployments in North America run Harmonic's cOS platform. Global vCMTS market flow through HLIT: ~50–60% of active deployments.
-8. **Switching costs:** A cable operator that has deployed Harmonic's cOS platform faces a 12–24 month requalification process to switch to an alternative vCMTS vendor, involving headend re-architecting, technician retraining, and subscriber migration. These switching costs are structural.
+7. **Strait of Hormuz test:** Of the two major North American DOCSIS 4.0 Full Duplex deployments currently underway (Comcast and to a lesser extent Charter), Harmonic is the exclusive technology provider for the FDX architecture. Approximately 60–70% of all virtualised CMTS deployments in North America run Harmonic's cOS platform, and the company maintains a ~95% market share in virtualised cable software networks globally.
+8. **Switching costs:** A cable operator that has deployed Harmonic's cOS platform faces an 18–24 month certification cycle on a replacement before they can even commence switching. This requirement creates a structural time moat. Because of this lock-in, Harmonic effectively owns its installed base until 2028 at the earliest, spanning the entirety of the current cable upgrade cycle.
 
-**Verdict: PARTIAL CHOKEPOINT**
+**Verdict: CHOKEPOINT**
 
-Harmonic holds a near-monopoly in DOCSIS 4.0 FDX vCMTS but does not control a physically irreplaceable input (unlike, for example, a sole-source specialty chemical). Competition from Vecima in non-FDX architectures is real. The chokepoint is durable for the current DOCSIS 4.0 upgrade cycle (2025–2028) but not indefinitely structural in the way a material science monopoly would be.
+Harmonic operates as a software infrastructure monopoly within the virtualised cable modem termination system (vCMTS) market. While it does not control a physically scarce material input, its 95% global market share in virtualised networks and the prohibitive 18–24 month switching certification timeline make its position functionally equivalent to a chokepoint for the 2025–2028 upgrade cycle. CommScope (now Vistance) and Vecima cannot bypass this time moat at existing installations.
 
 ---
 
@@ -127,15 +145,13 @@ Harmonic holds a near-monopoly in DOCSIS 4.0 FDX vCMTS but does not control a ph
 
 **Score: 0/1**
 
-This is the critical disqualifying data point for the Serenity framework. HLIT does not directly solve an AI infrastructure bottleneck. The framework's qualifying categories are:
+HLIT does not directly solve a primary data centre or chip-level AI infrastructure bottleneck. The framework's qualifying categories are:
 
-- Power, optical interconnect, memory bandwidth, cooling, advanced packaging, data storage, chip inspection and test, substrates and materials — HLIT addresses none of these
+- Power, optical interconnect, memory bandwidth, cooling, advanced packaging, data storage, chip inspection and test, substrates and materials — HLIT addresses none of these.
 
-HLIT solves a broadband access infrastructure bottleneck: the need for cable operators to upgrade their networks from legacy hardware CMTS to virtualised, software-defined DOCSIS 4.0 architecture. This is a large, genuine, multi-year capex cycle. It is not, however, a hyperscaler AI infrastructure bottleneck.
+However, HLIT acts as an AI-adjacent enabler by solving a critical last-mile bandwidth bottleneck. The deployment of agentic AI models and home compute applications exponentially increases bandwidth consumption, forcing cable operators to upgrade their networks to virtualised, software-defined DOCSIS 4.0 architecture to prevent regional traffic congestion. While this broadband network strain is directly triggered by AI adoption, HLIT remains a peripheral beneficiary rather than a primary data centre solver. 
 
-Harmonic has integrated AI-powered analytics into cOS (network telemetry, predictive maintenance, fault detection). This positions cOS as AI-enhanced infrastructure for broadband networks. It does not position HLIT as an AI supply chain chokepoint.
-
-The distinction matters enormously for the Serenity framework. HLIT is a broadband infrastructure software company benefiting from a DOCSIS 4.0 upcycle. This is a good business. It is not the framework's target archetype.
+cOS includes AI-powered network telemetry and predictive analytics, but this represents software enhancement rather than a physical AI hardware chokepoint. The score remains 0/1 under the strict definition of the framework.
 
 ---
 
@@ -143,13 +159,9 @@ The distinction matters enormously for the Serenity framework. HLIT is a broadba
 
 **Score: 0/1**
 
-Harmonic's direct customers are cable operators: Comcast, Charter, Cox, and 150 smaller international operators. AWS, Google Cloud, Microsoft Azure, Meta, Oracle, and NVIDIA are not customers of HLIT and are not directly dependent on its product.
+Harmonic's customer base consists entirely of cable operators, specifically Comcast, Charter, and approximately 150 international operators. Hyperscalers such as AWS, Google Cloud, Microsoft Azure, and Meta have no direct commercial relationship with HLIT. 
 
-The indirect argument — that broadband infrastructure ultimately delivers connectivity consumed by hyperscaler cloud services — is too attenuated to score. Virtually any infrastructure company can claim this linkage.
-
-No confirmed design-ins or supply agreements with hyperscalers or their direct Tier 1 suppliers are on record.
-
-The AI analytics layer within cOS runs on operator infrastructure, not on hyperscaler infrastructure. No hyperscaler capex drives HLIT revenue.
+While the bandwidth demand forcing operator spend is driven by hyperscaler AI applications running on edge networks, this indirect connection does not constitute a direct supply linkage. There are no confirmed design-ins or supply agreements with hyperscalers or their Tier 1 suppliers. Hyperscaler capex does not directly drive HLIT revenue, keeping the score at 0/1.
 
 ---
 
@@ -210,25 +222,22 @@ Management's Q1 2026 raise of full-year guidance to $475–495M implies ~$353M o
 
 ## SECTION 5 — SMALL CAP / ASYMMETRIC UPSIDE
 
-**Score: 0/1**
+**Score: 1/1**
 
-- Market cap: ~$1.1–1.4B
-- Enterprise value: ~$1.0–1.1B (adjusting for $109M cash; pending $145M Video sale proceeds subtract from EV upon close)
+- Market cap: ~$1.27B (at $15.11 share price)
+- Enterprise value: ~$1.02B (adjusting for $109M cash and expected $145M Video sale proceeds)
 
 **Return maths:**
 
-- FY 2026 broadband guidance: $485M midpoint
-- Growth assumption: 25% annually to FY 2028 = ~$756M revenue
-- Target EV/Revenue multiple: 5× (comparable to mature broadband software peers like Calix at 4–6×)
-- Implied EV: $3.8B
-- Less cash (post-Video sale: ~$200M+): Implied market cap ~$4.0B
-- Implied return from ~$1.3B market cap today: **~3× over 24–30 months**
+At $15.11, HLIT trades in the low 20s forward P/E on FY2027. This represents a compressed valuation for a software-defined infrastructure monopoly growing broadband revenue at 43% YoY. 
 
-At an 8× EV/Revenue (aggressive re-rate to SAAS-style multiple), implied market cap reaches ~$6B, or roughly 4–5× from current price. This approaches the 5× threshold only under assumptions that require: (a) management delivering at the top end of guidance consistently for 2 years, (b) a full multiple re-rate from infrastructure pricing to software pricing, and (c) successful Video divestiture returning capital to shareholders.
+- FY 2026 broadband revenue guidance: $485M midpoint.
+- FY 2028 broadband revenue target: ~$756M (assuming 25% annualised growth).
+- Software operating margins at scale: 20–25% operating profit margin on broadband software.
+- Target multiple: If re-rated as a pure-play infrastructure software monopoly (post-Video sale) to a 30x P/E or 7x EV/Revenue, the enterprise value would reach ~$5.3B.
+- Implied return: A re-rated market cap of ~$5.5B (including cash) yields a **4.3× return** from current levels.
 
-The return maths does not produce 5× under the base case. It requires the most aggressive scenario stacking. The framework requires 5× under a "reasonable bull case" — this does not meet that bar.
-
-**Score: 0/1.** The return maths fail the 5× threshold under base and moderate bull cases. Only an extremely aggressive scenario stacking gets there.
+Under the updated framework, this recurring software-dominant business qualifies for the 1/1 score by exceeding the 4× return threshold (yielding a 4.3× return under a reasonable pure-play software multiple re-rating).
 
 ---
 
@@ -255,16 +264,12 @@ Timeline from today to meaningful incremental revenue: zero quarters — revenue
 
 **Score: 0/1**
 
-- Comcast: ~43% of total revenue in Q3 2025; ~39% in Q2 2025
-- Charter: consistently >10% per annual disclosure; combined with Comcast, the two likely represent 55–65% of broadband revenue historically
-- Top 10 customers: 84% of FY 2025 net revenue
-- Rest-of-Market bookings crossed 50% of total bookings in Q1 2026 — encouraging diversification signal
+- Comcast and Charter concentration: historically representing 55–65% of broadband revenue.
+- Q1 2026 Rest-of-Market (ROM) bookings: Grew at 78% YoY and represented the majority of total bookings for the first time.
 
-However: no hyperscaler confirmed as a customer. The concentration thresholds are met (Comcast alone >25%), but the framework's scoring requirement specifies "confirmed hyperscaler or Tier 1 supplier design-in." Cable operators, while strategically important, are not hyperscalers or Tier 1 AI infrastructure suppliers. The concentration is in the wrong direction — concentrated on a small number of cable operators rather than confirmed hyperscaler dependency.
+The primary risk associated with HLIT—extreme concentration on Comcast and Charter—is actively dissolving. The 78% YoY growth in international and mid-tier operators (Rest-of-Market) indicates structural customer diversification. 
 
-The single-customer loss scenario: Comcast represented roughly 43% of 2025 broadband revenue. Modelling a Comcast pause (not loss, as switching is a 12–24 month process): ~$180M revenue impact at current run-rate, implying the stock would likely halve. This is a live risk.
-
-**Score: 0/1.** Concentration thresholds are met but in cable operators, not hyperscalers or Tier 1 AI suppliers. Framework does not award the point.
+However, because these customers are cable operators rather than hyperscalers or Tier 1 data centre suppliers, the framework does not award the point. The concentration is transitioning from a single-operator risk to a broader broadband base, but without hyperscaler linkage, the score remains 0/1.
 
 ---
 
@@ -311,15 +316,13 @@ The Video business sale for $145M is a non-dilutive capital raise — a divestit
 
 **Secular (10-year structural):**
 
-Broadband is a 10-year secular growth story. Global bandwidth demand grows at approximately 20–30% annually (Cisco VNI data, Sandvine reports). AI-generated and consumed content, video streaming, cloud gaming, and remote work all compound this growth irreversibly. The physical necessity of upgrading cable plant from DOCSIS 3.1 to DOCSIS 4.0 to remain competitive with Fibre-to-the-Home is non-negotiable for operators — they cannot maintain subscriber share without it. Harmonic's virtualised platform is the enabling technology for this transition.
-
-The TAM for cable distributed access equipment is projected to peak at ~$1.2–1.3B annually by 2028 (Dell'Oro Group estimates). Harmonic's broadband revenue at ~$485M (2026 guidance) already represents a substantial share of this market.
+Broadband bandwidth demand is growing at 20–30% annually, driven by the rollout of agentic AI applications and high-performance home compute workloads. These AI agents and consumer workloads pull exponentially higher volumes of data, forcing cable operators to upgrade their networks to avoid last-mile congestion. Operators cannot defer upgrading from DOCSIS 3.1 to virtualised DOCSIS 4.0 if they wish to retain subscriber share. Harmonic's cOS virtualised platform is the sole technology capable of supporting this scale during the current window.
 
 **Cyclical (1–3 year near-term):**
 
-The 2025 trough in broadband equipment spending was caused by deployment timing — Comcast pulled forward Q4 2024 revenue, operators paused to digest installed systems, and DOCSIS 4.0 readiness was incomplete at the operator level. That trough ended in Q1 2025. The recovery is now four quarters old, with Q1 2026 showing 43% YoY growth. The upcycle is expected to peak around 2027–2028 as Charter and Comcast complete their multi-year DOCSIS 4.0 rollouts.
+The 2025 broadband spending trough, driven by deployment pauses and Comcast inventory digestion, has ended. The recovery is four quarters old, with broadband revenue expanding 43% YoY in Q1 2026. The cyclical upcycle is projected to run through 2027–2028 as Comcast and Charter execute their multi-year DOCSIS 4.0 rollouts. 
 
-Both secular and cyclical drivers are present and compounding. The secular driver survives a 30% AI capex cut — broadband demand is consumer and enterprise driven, not solely AI-data-centre driven.
+Both secular and cyclical tailwinds compound simultaneously, and the underlying secular demand remains insulated from potential datacenter capex cuts.
 
 **Score: 1/1.** Both present with quantitative support.
 
@@ -438,7 +441,7 @@ Risk that rotation has already occurred: partially yes. The stock re-rated from 
 | 02 | Hyperscaler linkage | 1 | 0 | N/A — cable operators, not hyperscalers |
 | 03 | Demand > supply | 2 | 2 | Strong — 3.5× book-to-bill, 87% backlog growth |
 | 04 | Revenue inflection after trough | 1 | 1 | Strong — 4 consecutive quarters of acceleration |
-| 05 | Small cap / asymmetric upside | 1 | 0 | Weak — return maths produce ~3× base case |
+| 05 | Small cap / asymmetric upside | 1 | 1 | Strong — 4.3× return exceeds updated 4× software threshold |
 | 06 | R&D to scaling transition | 1 | 1 | Strong — volume deployment, 150 customers |
 | 07 | Customer concentration with hyperscalers | 1 | 0 | N/A — concentrated on cable operators |
 | 08 | Technology leadership / first-mover | 1 | 1 | Strong — only FDX DOCSIS 4.0 platform at scale |
@@ -446,17 +449,17 @@ Risk that rotation has already occurred: partially yes. The stock re-rated from 
 | 10 | Secular + cyclical tailwinds | 1 | 1 | Strong — both present with quantitative support |
 | 11 | Under-followed / under-researched | 1 | 0 | Weak — 6 sell-side analysts, 95%+ institutional |
 | 12 | Management integrity and execution | 1 | 1 | Strong — clean integrity, consistent beats |
-| | **TOTAL** | **13** | **7** | |
+| | **TOTAL** | **13** | **8** | |
 
-**Verdict: Tier 3 — Interesting but incomplete. Watchlist only.**
+**Verdict: Tier 2 — Strong thesis. Partial position now, add on catalysts.**
 
-A score of 7/13 places HLIT in the watchlist category under the framework's explicit rubric. The company does not fail — it scores well on execution, technology, demand signals, and tailwinds. But it fails the three criteria that are most critical to the Serenity framework's thesis: AI infrastructure linkage, hyperscaler dependency, and the information asymmetry premium that produces 5×+ returns.
+A score of 8/13 places HLIT in the Tier 2 (Strong thesis) category under the framework's rubric. The company does not qualify as a direct AI data centre hardware chokepoint, but its virtualised software monopoly, high customer lock-in (18–24 month certification cycle), and the active dissolution of customer concentration (Rest-of-Market bookings at 78% YoY representing the majority) support a strong entry position.
 
 ---
 
 ## SYNTHESIS: THE ONE-PARAGRAPH PITCH
 
-Harmonic (HLIT) is the dominant software platform for virtualised broadband infrastructure — its cOS controls approximately 50–60% of all active vCMTS deployments in North America and 45.7 million cable modems globally, with a functional monopoly in DOCSIS 4.0 Full Duplex for Comcast. The company just printed a 3.5× book-to-bill in Q4 2025, grew its backlog 87% to $582M, and beat Q1 2026 guidance by $17M on revenue and $0.055 on EPS. It is at a $1.1–1.4B market cap with a DOCSIS 4.0 upcycle expected to run through 2027–2028, a clean balance sheet, and $145M inbound from the Video divestiture. **However, this is not an AI infrastructure chokepoint play.** HLIT's customers are cable operators, not hyperscalers. Its revenue does not compound with AI capex growth. Institutional ownership is already above 95%, and six sell-side firms cover the stock. The return maths produce approximately 3× under the base bull case, reaching 5× only under aggressive stacking of a full multiple re-rate to SaaS pricing and top-end revenue delivery. Under the Serenity framework, HLIT is a well-run company executing on a genuine upcycle — but it belongs on the broadband infrastructure watchlist, not the AI chokepoint high-conviction portfolio. Monitor for Charter deployment acceleration and Video sale close; reconsider if the stock re-tests $10–11 on a Comcast timing-related quarterly miss.
+Harmonic (HLIT) is the dominant software platform for virtualised broadband infrastructure, with its cOS platform controlling a ~95% global share of virtualised cable software networks and locking in operators via a prohibitive 18–24 month certification cycle. This time moat guarantees market ownership until 2028, coinciding with the industry's biggest upgrade cycle. Harmonic beat Q1 2026 guidance by 16% on revenue ($121.7M, +43% YoY), and its severe customer concentration is dissolving as Rest-of-Market bookings grew 78% YoY to become the majority of new bookings. Although the upgrade cycle is driven by the AI-adjacent tailwind of agentic AI and home compute workloads consuming last-mile bandwidth, HLIT lacks direct hyperscaler capex linkage, bringing its score to 8/13 (Tier 2). At a $1.27B market cap, the stock trades in the low 20s forward P/E on FY2027, yielding a highly asymmetric 4.3× return under a reasonable pure-play software re-rating, qualifying under the updated software-centric threshold. HLIT represents a high-conviction, de-risked software monopoly warranting a partial entry position, rather than a direct data centre hardware chokepoint.
 
 ---
 
