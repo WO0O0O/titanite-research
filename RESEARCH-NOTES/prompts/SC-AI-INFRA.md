@@ -75,6 +75,8 @@ Before scoring, run explicit web and X searches for:
 - Name of the CEO and Chairman individually: "[Name] fraud," "[Name] SEC," "[Name] bankruptcy," "[Name] SPAC"
 - **Moat and Switching Costs:** "[TICKER] switching costs", "[TICKER] qualification timeline", "[TICKER] customer certification", "[TICKER] market share".
 - **Specialist Discussions:** Search for industry reports, specialist analyses, Substack write-ups, or X/Twitter discussions relating to the company's technology moat and client concentration changes.
+- **Recent News Sweep (Last 30 Days):** Perform a search for "[Company Name] press release" and "[Company Name] news" restricted to the last 30 days to capture recently signed agreements not yet reflected in quarterly reports or aggregator summaries.
+- **National Innovation Agency Checks:** For European/regional micro-caps, explicitly search for the company name alongside regional funding bodies (e.g., "Vinnova", "FFI", "Horizon Europe", "Innovate UK") to catch government-backed cooperative projects.
 
 If any short reports exist, read them in full and include a summary of their core allegations under a prominent "Active Short Thesis" header before the scorecard. Do not proceed as if they do not exist. If a short report was published within the last 30 days and the source cannot be accessed directly, flag this explicitly and state that the Known Context block should be used to paste in the allegations for reconciliation.
 

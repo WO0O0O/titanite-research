@@ -13,11 +13,7 @@ NN
 ENAFF
 
 potential 50x:
-ACCON
-GAPW
-SILC
-TRT
-
-ADTN
+bitdeer
+Kopin
 
 Nyomic
