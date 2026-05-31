@@ -35,6 +35,7 @@ The following Serenity signals are treated as high-confidence anchors for this a
 - "We have two technologies that can feed into these three supercycles."
 - "The company continues to anticipate several volume production starts within AI data centers."
 - CPO/photonics revenue curve expected to be exponential from H2 2027 onwards.
+- **Nokia/FWA Catalyst:** Karin Raj, CTO of Nokia Europe, was recently re-elected to SIVE's Board of Directors for a third consecutive term. Concurrently, Sivers' recent investor presentation disclosed expanding Fixed Wireless Access (FWA) engagements: a combined $4.5 million across two frequency bands with Tachyon Networks (shipping 2026), and a "Tier-1 Telecom Vendor" in advanced systems integration targeting end-2026 product release and 2027 revenue. The obvious inference (Finland Tier-1 = Nokia) means SIVE is not just a CPO story; the wireless segment is quietly building a multi-year revenue line alongside photonics.
 
 Serenity's stated conviction: This is their highest-conviction CPO/photonics long.
 
@@ -112,6 +113,7 @@ Direct customer disclosure is limited, as is standard for a qualification-cycle 
 - **POET Technologies, O-Net Technologies, Enablence Technologies**: Confirmed integration partners for ELS modules targeting CPO and AI/HPC applications. These companies are suppliers directly into hyperscaler optical programmes.
 - **Win Semiconductor** (March 2025): Foundry partner for scaling DFB laser production. Win Semiconductor is embedded in Broadcom ($AVGO) and SpaceX supply chains — a validation signal for manufacturing credibility.
 - **Lead SATCOM customer:** Management confirmed in the Q1 2026 call that production orders from the lead SATCOM customer are imminent. SATCOM customers feeding AI connectivity infrastructure qualify as Tier 1 linkages.
+- **Tier-1 Telecom Vendor (Nokia inference):** Sivers disclosed an advanced FWA systems integration targeting late 2026 release. With Nokia Europe's CTO serving a third term on SIVE's board, this represents a structural Tier 1 global equipment manufacturer linkage in the wireless segment.
 - **AI data centre volume ramp:** "The company continues to anticipate several volume production starts within AI data centers" — Q1 2026 earnings call, Dr. Vickram Vathulya, CEO.
 
 No revenue from named hyperscalers has been disclosed directly. The linkage is structural and pipeline-confirmed, not yet reflected in filed financials. For a qualification-cycle player, this is the expected state.
@@ -177,6 +179,7 @@ The management language is unambiguous:
 - Volume ramp timeline for photonics (AI data centres): confirmed 2027 as the primary inflection year.
 - Automotive LiDAR customer volume ramp: Q4 2026, adding a near-term revenue layer ahead of photonics.
 - SATCOM volume production: "imminent" as of Q1 2026 — most immediate revenue catalyst.
+- **FWA Wireless recovery:** $4.5 million in combined 28GHz/60GHz contracts with Tachyon Networks shipping in 2026, plus a Tier-1 Telecom volume ramp scheduled for 2027. This provides a second core catalyst entirely independent of the AI CPO timeline.
 - Pipeline compounding at 77% over five months is not consistent with a business that is losing its thesis; it is consistent with a business approaching a volume ramp with more customers queuing than it can service.
 
 The trough (2024) is documented, the 2025 recovery is filed, and the Q1 2026 decline is specifically and credibly attributed to a one-time external event. The inflection is not yet confirmed in trailing quarterly revenue, but management's language — applying qualification-cycle modifier rules — is more than sufficient for a score of 1.
@@ -210,10 +213,11 @@ The market has already re-rated SIVE dramatically — the stock is up approximat
 
 **Score: 1/1 | Evidence: Strong**
 
-- **Current stage:** Early Commercial / Volume Ramp (photonics: qualification to volume; wireless: early commercial)
-- **Photonics transition milestones:**
+- **Transition milestones:**
   - Win Semiconductor manufacturing partnership active since March 2025 — foundry capacity being scaled
   - Jabil 1.6T LRO pluggable development programme active — April 2026
+  - POET Technologies, O-Net, Enablence design-in partnerships confirmed
+  - FWA rollouts: Tachyon Networks volume shipping in 2026; Tier-1 Telecom product release end-2026 for 2027 revenue
   - POET Technologies, O-Net, Enablence design-in partnerships confirmed
   - AI data centre volume production starts: anticipated H1–H2 2027
   - Automotive LiDAR customer volume ramp: Q4 2026 — first major photonics volume catalyst
@@ -234,6 +238,7 @@ Precise customer concentration percentages are not disclosed in quarterly filing
 
 - The company has historically had significant top-customer concentration — a small number of government/defence and wireless customers account for the majority of current revenue.
 - The photonics segment is ramping design wins across multiple integrators (Jabil, POET, O-Net, Enablence), which will diversify customer concentration structurally over time.
+- **FWA customer diversification:** The new Tachyon Networks contracts and the Tier-1 Telecom FWA integration (Nokia) validate a broadening customer base replacing legacy concentration within the wireless segment.
 - Lead SATCOM customer represents a meaningful share of near-term expected volume revenue — exact percentage undisclosed but described as the "lead" customer.
 - Jabil partnership directly connects SIVE into the Tier 1 supply chain for hyperscale AI data centres. Jabil's 1.6T transceiver programme is targeted explicitly at AWS, Google, Microsoft, and Meta-scale deployments.
 - CHIPS Act consortium participation (NEMC Hub) confirms US government-level strategic supplier recognition.
@@ -286,7 +291,7 @@ The optical interconnect bottleneck is structural and irreversible. Silicon cann
 This demand survives a 30% AI capex cut. Even a severe AI investment slowdown does not reduce the optical content per GPU or reduce the number of ports that require a laser source. It may delay the ramp by 6–12 months; it does not eliminate the structural demand.
 
 **Cyclical (1–3 year near-term):**
-
+Simultaneously, the wireless segment is entering its own recovery cycle via 5G Fixed Wireless Access (FWA) deployments starting late 2026 with Tachyon and the Tier-1 Telecom vendor. 
 The current CPO/photonics upcycle is driven by the transition from 400G to 800G and 1.6T transceiver standards. The trough was 2023–2024 as the post-5G wireless correction hit SIVE's wireless revenues. The photonics cyclical recovery began in earnest in H2 2025 and is now the primary revenue driver. The upcycle has runway through at least 2028 as CPO achieves mass adoption in hyperscaler data centres.
 
 Both tailwinds are compounding simultaneously, as the framework requires.

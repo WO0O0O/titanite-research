@@ -3,21 +3,34 @@
 Opened ISA 01/04/2024
 as of 31/05/2026: ~+770% return
 
-- LUNR (Intuitive Machines) — **7/12 (Tier 2)**
-- LPK (LPKF Laser & Electronics) — **11/13 (Tier 1)**
-- 2DG (Sivers Semiconductors / SIVE) — **11/13 (Tier 1)**
-- RKLB (Rocket Lab) — **8/12 (Tier 2)**
-- HLIT (Harmonic) — **8/13 (Tier 2)**
-- XFAB (X-Fab Silicon Foundries) — **10/13 (Tier 2)**
-- P4O (Planoptik) — **8/13 (Tier 2)**
-- ASTS (AST Spacemobile) — **9/12 (Tier 2)**
-- AAOI (Applied Optoelectronics) — **11/13 (Tier 1)**
+- LUNR (Intuitive Machines) 22% — **7/12 (Tier 2)** - sell just b4 SpaceX
+- LPK (LPKF Laser & Electronics) 19% — **11/13 (Tier 1)**
+- 2DG (Sivers Semiconductors / SIVE) 17.5%  — **11/13 (Tier 1)**
+- RKLB (Rocket Lab) 10% — **8/12 (Tier 2)** - sell just b4 SpaceX
+- XFAB (X-Fab Silicon Foundries) 6.7% — **10/13 (Tier 2)**
+- P4O (Planoptik) 5.8% — **8/13 (Tier 2)**
+- ASTS (AST Spacemobile) 5.6% — **9/12 (Tier 2)** - sell just b4 SpaceX
+- AAOI (Applied Optoelectronics) 5% — **11/13 (Tier 1)**
+- AL2SI (2CRSi S.A.) ~3% — **12/13 (Tier 1)** *(Deploying HLIT cash)*
+- TRT (Trio-Tech International) ~2.4% — **12/13 (Tier 1)** *(Deploying HLIT cash)*
+- ACCON (Acconeer) ~2% — **13/13 (Tier 1)** *(Deploying HLIT cash)*
 
 (needs updating)
 
+post spaceX:
+AL2SI: 18.0% (Tier 1 - Highest near-term upside)
+ACCON: 17.5% (Tier 1 - Highest framework score 13/13)
+LPK: 16.0% (Tier 1 - Safest structural chokepoint)
+SIVE: 15.0% (Tier 1 - Huge potential, but 2027 ramp)
+TRT: 14.0% (Tier 1 - Immediate catalyst, zero analyst coverage)
+AAOI: ~7.0% (Tier 1)
+XFAB: 6.7% (Tier 2)
+P4O: 5.8% (Tier 2)
+
 ---
 
-## AI planned holdings:
+## AI planned holdings: 
+(31/05/2026)
 
 ### BUY NOW:
 
@@ -39,7 +52,6 @@ as of 31/05/2026: ~+770% return
 - **P4O** (Planoptik) — Score: 8/13 (Tier 2)
 - **4092** (Nippon Chemical Industrial) — Score: 10/13 (Tier 2)
 - **HLIT** (Harmonic) — Score: 8/13 (Tier 2)
-
 ### AWAITING NEWS:
 
 - **BRUN** (Boost Run, Inc.) — Score: 11/13 (Tier 1) — _Monitor Flag_

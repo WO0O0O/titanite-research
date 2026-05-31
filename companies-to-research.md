@@ -21,3 +21,76 @@ bitdeer
 Kopin
 
 Nyomic
+
+from X
+
+SPACE/satellite
+$ASTS
+
+$RKLB
+ 
+$OPTX
+
+
+AI Infrastructure 
+$NBIS
+ 
+$PENG
+ 
+$HLIT
+
+
+Defense 
+$EOS.AX 
+$KRKNF 
+$OPTX
+ 
+
+Humanoid Robotics 
+$AMBA
+ 
+$OUST
+ 
+$VPG
+
+
+Memory & Semiconductors 
+$MU
+ 
+$SNDK
+ 
+$MX
+
+
+Quantum Computing 
+$INFQ
+ 
+$LAES
+ 
+$IONQ
+
+
+Data Center Power 
+$CEG
+ 
+$BE
+ 
+$FCEL
+
+
+Fintech 
+$HOOD
+ 
+$SOFI
+ 
+$COIN
+
+
+Optical Networking 
+$ADTN
+
+$HLIT
+
+$LITE
+
+
