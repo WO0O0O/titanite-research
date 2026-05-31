@@ -41,6 +41,7 @@ goal of 100-1000% returns per stock in 1-3 years.
 
 # keep an eye on:
 
+AL2SI - 2CRSi S.A.
 SOI - Soitec
 EOS.AX - Electro Optic Systems
 BRUN - Brunswick Corporation
