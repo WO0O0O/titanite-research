@@ -1,6 +1,6 @@
 # Titanite Holdings
 
-goal of 100-1000% returns per stock in 1-3 years.
+goal of 1000% return over 2-3 years.
 
 (as of 30/05/2026) PF: 1.15
 
@@ -13,6 +13,8 @@ goal of 100-1000% returns per stock in 1-3 years.
 - P4O (Planoptik) — **8/13 (Tier 2)**
 - ASTS (AST Spacemobile) — **9/12 (Tier 2)**
 - AAOI (Applied Optoelectronics) — **11/13 (Tier 1)**
+
+(needs updating)
 
 ---
 
