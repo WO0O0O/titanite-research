@@ -56,6 +56,7 @@ _Pass 2 — Red flag signals._ Search separately for every occurrence of the fol
 - "dilution" / "offering" / "equity raise" (cross-reference with Section 9)
 
 _Pass 3 — Moat and concentration signals._ Search separately for every occurrence of the following and extract verbatim with speaker name and quarter:
+
 - "certification" / "qualification cycle"
 - "switching" / "switching costs" / "lock-in"
 - "rest of market" / "bookings mix" / "customer concentration"
@@ -106,46 +107,7 @@ Paste here any specific information you already have about [TICKER] that should 
 - Any other qualitative signals considered relevant
 
 ```
-I made a high conviction trade into
-$HLIT
- on Friday.
 
-Then I spent the long weekend doing the dive.
-
-When I first researched
-$HLIT
- back in March, I didn't see the story.
-
-There wasn't a laser or GPU to point at.
-
-But thanks to traders like
-@BryzonX
-,
-@citrini
-,
-@CKCapitalxx
-, and
-@kevinxu
- it finally clicked.
-
-The thing that flipped me wasn't the 43% quarter. It was realizing the moat isn't just 95% market share, it's time.
-
-$HLIT
-'s cOS runs the broadband network for basically every major cable operator.  To rip Harmonic out, an operator has to run an 18-24 month certification on a replacement before they can even start the switch. Harmonic owns this market into 2028 at the earliest, which happens to be the exact window the whole industry is forced to spend through its biggest upgrade cycle ever. This market isn't hard to win. It's closed.
-
-At first glance, two operators are a material risk at over half of revenue. But on a further look, the business outside those two is growing 78% and just became the majority of bookings for the first time. The single biggest reason to avoid this name is quietly dissolving.
-
-Overall, this cable upgrade isn't some manufactured narrative, it's a legitimate multi year supercycle, and it's undeniably AI adjacent. The same agentic AI and home compute pulling more and more bandwidth through these networks is exactly what forces the spend.
-$HLIT
- is the clearest pure play winner of it, and it's still trading in the low 20s forward on FY2027. For a critical infra software monopoly growing 43% yoy, it's still cheap.
-
-Kawz and I just published a short, digestible research report on
-$HLIT
- to share our conviction on Substack.
-
-It's all free aside from our model, PTs, and comps analysis.
-
-Average cost $15.76. Also holding some 10/16s $17.5C's. DYOR. NFA.
 ```
 
 If a short report or fraud allegation is pasted here: do not dismiss it. Reconcile every specific claim against the financial filings, transcript quotes, and public record before generating a score. If a claim cannot be refuted with evidence, it must be reflected in the scoring. State explicitly which claims were reconciled and which could not be verified.

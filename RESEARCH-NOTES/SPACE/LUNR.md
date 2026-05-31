@@ -212,7 +212,7 @@
 
 1.  **Balance Sheet Metrics:** Cash is $231.6 million, total debt is $364.6 million (including $345.0 million in 2.500% convertible notes due 2030), and quarterly cash burn is $54.8 million.
 2.  **Cash Runway:** 3.6 quarters under actual burn; 5.2 quarters under normalized burn.
-3.  **Dilutive Programs:** Active ATM program and recent $175 million equity offering.
+3.  **Dilutive Programmes:** Active ATM programme and recent $175 million equity offering.
 4.  **Non-Dilutive Funding:** High. The majority of planned constellation manufacturing and launch costs are covered by non-dilutive milestone payments from NASA (CLPS/NSNS), satisfying the alternative gate criteria.
 
 **Score: 1 point**

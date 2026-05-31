@@ -36,3 +36,14 @@ goal of 100-1000% returns per stock in 1-3 years.
 - NBIS
 - AAOI
 - BE
+
+---
+
+# keep an eye on:
+
+SOI - Soitec
+EOS.AX - Electro Optic Systems
+BRUN - Brunswick Corporation
+TPE - PVA TePla
+SEYE - Smart Eye AB
+SEE - Seeing Machines

@@ -1,11 +1,8 @@
 IREN
-VRT - Vertiv
-ONDS
 USAR
 
 ## SPACE
 
-PL
 SIDU
 SPIR
 SATL
@@ -23,5 +20,4 @@ TRT
 AL2SI
 ADTN
 
-Soitec
 Nyomic
