@@ -16,60 +16,42 @@
 ## KNOWN CONTEXT / ALPHA INJECTOR
 
 ```
-$XFAB (photonics + power semis) is an interesting long idea at $1.28B MC, that I took positions in.
+Just some mobile shower thoughts around $XFAB and train of thought:
 
-Given EU CHIPS act 2 is today as the catalyst for European photonics players.
+1. 800vdc $NVDA push look for GaN/SiC players / power semis.
+2. $NVTS and other fabless/fab-lite beneficiaries of $NVDA push probably use foundry models.
+3. care more about Western supply chains over Asia, want to build up Western capabilities + Western premiums.
+4 China has a lot of capacity, maybe risk into 2028, but again it’s building up Western supply chains.
+5. XFAB only high volume SiC foundry in America (others like $ON or Infineon are vertically integrated).
+6. advanced 6in SiC, 8in GaN on Si, building out 8in GaN.
+7. Maybe likely they’re developing 8in SiC from CHIPS backing, just not public material.
+8. check SiC revenue -> 152% Y/Y growth okay. Probably something markets missed, since blended looks worse from automotive slump, that should come out recovery.
+9. $NVTS and others turns out to use $XFAB. $POWI cites $XFAB in filings, among others.
+10. both are $NVDA power semi explicit partners, great exposure indicator to 800vdc power semi players.
+11. US Dpt. of commerce cites $XFAB as only high volume SiC foundry in the US, $50M PMT.
+12. validation from US Gov about critical component in supply chains is amazing.
+13. EU CHIPS Act gives $XFAB $128M EU, for foundry (MEMS, AI, etc), okay turns out they’re critical MEMS player.
+14. So that’s validation from EU gov about critical component in supply chains, dual continent subsidies.
+15. So now we know $XFAB is a critical MEMS foundry so you get SiC capabilities, GaN development, and MEMS upside.
+16. they also got $47.6M EU funding for leading Silicon Photonics supply chain in EU. So that’s EU funding on multiple angles.
+17. Turns out, I know all the players there from smartphotonics from $GFS deck.
+18. $NVDA and $NOK are qualifying them for silicon photonics HVM. I think this is just a government backing angle for success in EU photonics so likely to succeed… kinda like how Us gov encourages everyone to use $INTC.
+19. Okay chips act 2 is coming out next week… so they’ll probably get funding there or more revenue commitments.
+20. 1.28 p/b, now that’s probably just book cost? Likely coming out of $SOI type legacy drag cycle.
+21. Did some modeling around actually replacement values, true replacement p/b cost likely ~.5/.7.
+22. Getting business for free, while having upside from SiC near term into Silicon Photonics / GaN as main growth past H2 2027.
 
-> 800 VDC power semi exposure to
-$NVDA
- push through
-$NVTS
- +
-$POWI
+Thoughts: derisked by p/b values + replacement value. maybe like 20% downside from macro.
+However, critical dual continent importance. So downside risk seems low, but upside is compelling.
+Lot of capex likely backstopped by upcoming chips act catalyst + national security concerns.
+Maybe 2.5-4x rerating seems possible/likely.
+Not a 10-20x, but recovery from depressed valuations from silicon photonics upside with SiC / GaN bridge.
 
-
-> Silicon Photonics / CPO exposure with
-$NVDA
- as evaluation stage for high volume manufacturing (optical transceivers/switches)
-
-> The only high-volume SiC foundry in the US.
-
-> One of the critical MEMS foundries
-
-> ~1.29 P/B, which was around what $SOI was sitting at when I went long. Depressed valuations due to legacy drag
-
-> ~6.5-8.5 fwd p/e 2028 personal est.
-
-> backstopped by Government:
-
-- EU CHIPS act, $128M Euros
-- US CHIPS act $50M PMT (department of commerce).
-
-With likely more coming (just signals critical importance to Western supply chains).
-
-So at a certain point with all the grants, they’re just getting the capex funded by the Governments.
-
-EU CHIPS act 2 is coming out this week, and I’m gonna go ahead and guess $XFAB might get included given they were before, and this package is specifically targeting photonics.
-
-~$1.3B MC seems compelling to me if it can pull a Soitec reversal (low p/b, very high growth segments, auto legacy drag).
-
-As for the
-$NVDA
- silicon photonics relationships it’s under “photonixFAB”.
-
-Markets probably missed this silicon photonics relationship (like
-$TSEM
- when I went long) with Nvidia since XFab leads this…  Just under a different name.
-
-For power semis, XFAB is named for SiC +
-$NVTS
-. In PCN-22181,
-$POWI
- explicitly names XFAB as its foundry.
-
-Given its exposure to power semis and photonics as growth, low P/B, gov backstop (of course dyor, just sharing my personal thoughts)
-
-Thought it personally seemed compelling.
+TLDR: likely trading lower than replacement value, dual continent subsidies likely subsidize capex.
+Gov grants shows importance to Western supply chains, photonics longer term upside, SiC/GaN demand likely near term upside and bridge.
+Don’t control any recent volatility, should shake out anyone not really confident in the thesis though.
+CHIPS act 2 from EU is coming up, $XFAB was listed in earlier blueprints for optical ecosystem, so should get a boost after that comes out as near term event catalysts.
+So now is the risk reward seems compelling, we’ll see if this is right or not.
 ```
 
 ---
@@ -84,7 +66,7 @@ Thought it personally seemed compelling.
 
 **Bull-case market cap in 24–36 months:**
 - **Base Case (Automotive Restocking & SiC Ramp):** Automotive clears, SiC scales to $100M+ run rate. 2028 revenue at $1.1 billion USD. Applying a 2.5× EV/Revenue multiple yields an EV of $2.75 billion USD. Market cap reaches ~$2.31 billion USD (after net debt reduction). Implied return: **+41% (1.41× return).**
-- **Bull Case (Soitec Reversal — Multiple & Book Value Expansion):** Legacy automotive drag clears and high-growth segments (SiC power + silicon photonics via photonixFAB) scale. Book value expands from ~$1.0 billion USD to ~$1.6 billion USD by 2028, driven by retained earnings and non-dilutive government grants (€128 million from the EU CHIPS Act and $50 million PMT from the US CHIPS Act, plus expected support from EU CHIPS Act 2). Under a Soitec-style reversal, the P/B multiple expands from the depressed 1.29x (now 1.65x) to 5.0x (peak specialty player re-rating). This yields a target market cap of $8.0 billion USD. Implied return: **+388% (4.88× return).** An extended bull case (including EU CHIPS Act 2 support and faster wide-bandgap ramp) targets book value at $1.7 billion to $1.8 billion USD, yielding an $8.5 billion to $9.0 billion USD market cap. Implied return: **+418% to +449% (5.18× to 5.49× return).**
+- **Bull Case (Soitec Reversal — Multiple & Book Value Expansion):** Legacy automotive drag clears and high-growth segments (SiC power + silicon photonics via photonixFAB) scale. Book value expands from ~$1.0 billion USD to ~$1.6 billion USD by 2028, driven by retained earnings and non-dilutive government grants (€128 million from the EU CHIPS Act for MEMS/AI, $47.6 million EU funding for Silicon Photonics, and $50 million PMT from the US CHIPS Act, plus expected support from EU CHIPS Act 2). Based on true replacement P/B cost models of ~0.5x to 0.7x, current levels indicate a deeply depressed valuation due to early-stage metrics and legacy drags. Under a Soitec-style reversal, the P/B multiple expands from the depressed 1.29x (now 1.65x) to 2.5x-4.0x or potentially 5.0x (peak specialty player re-rating). Using 5.0x yields a target market cap of $8.0 billion USD. Implied return: **+388% (4.88× return).** An extended bull case (including EU CHIPS Act 2 support and faster wide-bandgap ramp) targets book value at $1.7 billion to $1.8 billion USD, yielding an $8.5 billion to $9.0 billion USD market cap. Implied return: **+418% to +449% (5.18× to 5.49× return).**
 - **Alternate P/E-based Bull Case:** 2028 net income estimated at $180M–$200M USD. Re-rating to 35x P/E on $200M net income yields a target market cap of $7.0 billion USD (implied return: **+327% / 4.27× return**). An extended P/E bull case of 35x P/E on $250M net income (driven by faster high-margin silicon photonics and wide-bandgap adoption) yields a target market cap of $8.75 billion USD. Implied return: **+434% (5.34× return).**
 
 **GATE VERDICT: FULL PASS.** Under the extended Soitec Reversal and wide-bandgap growth scenario, multiple expansion and book value growth yield a credible return profile exceeding the 500% minimum (5×) required by this framework.
@@ -299,7 +281,7 @@ Revenue has not achieved consecutive quarters of acceleration from trough. The p
 
 *Bull Case (Soitec Reversal — Multiple & Book Value Expansion):*
 - High-growth segments (SiC power + silicon photonics via photonixFAB) scale, and the legacy automotive drag clears. 
-- Government funding backstops growth capex (reducing cash burn and growing book value): €128 million from the EU CHIPS Act, $50 million PMT from the US CHIPS Act, plus upcoming EU CHIPS Act 2 grants.
+- Government funding backstops growth capex (reducing cash burn and growing book value): €128 million from the EU CHIPS Act for foundry (MEMS, AI, etc.), $47.6 million EU funding for leading the Silicon Photonics supply chain, $50 million PMT from the US CHIPS Act, plus upcoming EU CHIPS Act 2 grants.
 - Book value expands from ~$1.0 billion USD to ~$1.6 billion USD by 2028 via retained earnings and grants.
 - Applying a Soitec-style re-rating of 5.0× P/B yields a target market cap of $8.0 billion USD. Implied return: **+388% (4.88× return).** An extended bull case (including EU CHIPS Act 2 support and faster wide-bandgap ramp) targets book value at $1.7 billion to $1.8 billion USD, yielding an $8.5 billion to $9.0 billion USD market cap. Implied return: **+418% to +449% (5.18× to 5.49× return).**
 
@@ -415,7 +397,7 @@ AI data centres are doubling in power draw per rack roughly every 18 months. Eac
 Ethernet and InfiniBand electrical interconnects cannot sustain AI cluster scaling beyond ~2027. Silicon photonics integration is the only volume-manufacturable path to multi-terabit data rates at acceptable power consumption. X-FAB's photonixFAB platform positions it at the centre of this secular shift. Market size: silicon photonics $1.5B in 2024 growing to $8–10B by 2032 at 25%+ CAGR.
 
 **Driver 3 — Government subsidies and backstops:**
-The transition is heavily supported by government initiatives. X-FAB has secured €128 million from the EU CHIPS Act, $50 million PMT from the US CHIPS Act, and is positioned for inclusion in the upcoming EU CHIPS Act 2 package (launching the week of 25 May 2026), which is targeting photonics as a sovereign priority. This funding effectively subsidises growth capex.
+The transition is heavily supported by government initiatives. X-FAB has secured €128 million from the EU CHIPS Act for MEMS and AI foundries, $47.6 million from the EU for leading the Silicon Photonics supply chain, $50 million PMT from the US CHIPS Act, and is positioned for inclusion in the upcoming EU CHIPS Act 2 package (launching the week of 25 May 2026), which is targeting photonics as a sovereign priority. This funding effectively subsidises growth capex.
 
 **Does demand survive a 30% AI capex cut for one year?**
 Yes. Data-centre power management ICs have 12–18 month procurement lead times. SiC for electric vehicles is structurally independent of AI capex. Silicon photonics is pre-revenue in the short term. The automotive analog segment (legacy) is immune to AI capex cycles. Only the data-centre power element (~15% of revenue today) is directly exposed; this exposure does not sink the thesis.
@@ -531,7 +513,7 @@ X-FAB's SiC processes use silicon carbide material — not directly impacted by 
 
 **3. Friend-shoring / domestic content incentives:**
 - **US CHIPS Act:** PMT for $50M direct funding + 25% CHIPS ITC for Lubbock expansion. X-FAB is the only high-volume SiC foundry in the US.
-- **EU CHIPS Act:** €128 million secured for open foundry expansion.
+- **EU CHIPS Act:** €128 million secured for open foundry expansion and $47.6 million EU funding for the Silicon Photonics supply chain.
 - **EU CHIPS Act 2:** Actively launching, with expected inclusion for X-FAB due to its lead in the photonixFAB consortium, which targets European sovereign photonics capability.
 - **EU IPCEI ME/CT:** Fab4Micro project in Erfurt, Germany — state-aid granted.
 
@@ -602,7 +584,7 @@ The specific criteria needed to upgrade to Tier 1:
 
 ## SYNTHESIS: THE ONE-PARAGRAPH PITCH
 
-X-FAB Silicon Foundries is the only high-volume pure-play SiC foundry in the United States and one of two credible specialty analog foundries in Europe, processing an estimated 30–50% of the open-access SiC foundry market globally, with switching costs of 24–36 months in automotive and medical applications making it structurally irreplaceable for hundreds of fabless customers. The market has missed its critical role in the NVIDIA ($NVDA) supply chain: X-FAB acts as the core foundry for Power Integrations ($POWI) (named in PCN-22181) and Navitas ($NVTS), both of which supply 800 VDC power semiconductors to NVIDIA, while NVIDIA is actively evaluating X-FAB's photonixFAB consortium for high-volume manufacturing of co-packaged optics (CPO) and switches. This growth is heavily backstopped by Western governments, with €128 million from the EU CHIPS Act, $50 million PMT from the US CHIPS Act, and expected inclusion in the upcoming EU CHIPS Act 2 package, effectively funding expansion capex non-dilutively and growing book value toward $1.6 billion USD. At a $1.64 billion USD current market cap (~1.65× P/B) with $436 million USD net debt, a Soitec-style reversal—as legacy automotive drag clears and SiC and photonics scale—should drive a P/B expansion to 5.0× on an expanded book value of $1.7 billion to $1.8 billion USD (backed by EU CHIPS Act 2), yielding an $8.5 billion to $9.0 billion USD market cap, representing a 5.18× to 5.49× return (+418% to +449%). Followed by only 8–11 analysts on a Euronext listing that keeps it invisible to US-based thematic ETFs, X-FAB is a Tier 2 strong conviction play, warranting a starter or partial position following the 27 May 2026 retail spike, ahead of the H2 2026 automotive recovery and photonixFAB risk production in 2027.
+X-FAB Silicon Foundries is the only high-volume pure-play SiC foundry in the United States and one of two credible specialty analog foundries in Europe, processing an estimated 30–50% of the open-access SiC foundry market globally, with switching costs of 24–36 months in automotive and medical applications making it structurally irreplaceable for hundreds of fabless customers. The market has missed its critical role in the NVIDIA ($NVDA) supply chain: X-FAB acts as the core foundry for Power Integrations ($POWI) (named in PCN-22181) and Navitas ($NVTS), both of which supply 800 VDC power semiconductors to NVIDIA, while NVIDIA and Nokia ($NOK) are actively qualifying X-FAB's photonixFAB consortium for high-volume manufacturing of co-packaged optics (CPO) and switches. This growth is heavily backstopped by Western governments, with €128 million from the EU CHIPS Act for MEMS/AI, $47.6 million from the EU for Silicon Photonics, $50 million PMT from the US CHIPS Act, and expected inclusion in the upcoming EU CHIPS Act 2 package, effectively funding expansion capex non-dilutively and growing book value toward $1.6 billion USD. At a $1.64 billion USD current market cap (~1.65× P/B, though true replacement P/B cost is likely closer to 0.5/0.7) with $436 million USD net debt, a Soitec-style reversal—as legacy automotive drag clears and SiC and photonics scale—should drive a P/B expansion to 2.5-4.0x or even 5.0× on an expanded book value of $1.7 billion to $1.8 billion USD (backed by EU CHIPS Act 2), yielding an $8.5 billion to $9.0 billion USD market cap, representing a 5.18× to 5.49× return (+418% to +449%). Followed by only 8–11 analysts on a Euronext listing that keeps it invisible to US-based thematic ETFs, X-FAB is a Tier 2 strong conviction play, warranting a starter or partial position following the 27 May 2026 retail spike, ahead of the H2 2026 automotive recovery and photonixFAB risk production in 2027.
 
 ---
 
