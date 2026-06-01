@@ -1,35 +1,44 @@
 # Titanite Holdings
 
 Opened ISA 01/04/2024
-as of 31/05/2026: ~+770% return
+as of 01/06/2026: ~+770% return
 
-- LUNR (Intuitive Machines) 22% — **7/12 (Tier 2)** - sell just b4 SpaceX
-- LPK (LPKF Laser & Electronics) 19% — **11/13 (Tier 1)**
-- 2DG (Sivers Semiconductors / SIVE) 17.5%  — **11/13 (Tier 1)**
-- RKLB (Rocket Lab) 10% — **8/12 (Tier 2)** - sell just b4 SpaceX
-- XFAB (X-Fab Silicon Foundries) 6.7% — **10/13 (Tier 2)**
-- P4O (Planoptik) 5.8% — **8/13 (Tier 2)**
-- ASTS (AST Spacemobile) 5.6% — **9/12 (Tier 2)** - sell just b4 SpaceX
-- AAOI (Applied Optoelectronics) 5% — **11/13 (Tier 1)**
-- AL2SI (2CRSi S.A.) ~3% — **12/13 (Tier 1)** *(Deploying HLIT cash)*
-- TRT (Trio-Tech International) ~2.4% — **12/13 (Tier 1)** *(Deploying HLIT cash)*
-- ACCON (Acconeer) ~2% — **13/13 (Tier 1)** *(Deploying HLIT cash)*
+### Current Positions (As of 1 June 2026)
 
-(needs updating)
-
-post spaceX:
-AL2SI: 18.0% (Tier 1 - Highest near-term upside)
-ACCON: 17.5% (Tier 1 - Highest framework score 13/13)
-LPK: 16.0% (Tier 1 - Safest structural chokepoint)
-SIVE: 15.0% (Tier 1 - Huge potential, but 2027 ramp)
-TRT: 14.0% (Tier 1 - Immediate catalyst, zero analyst coverage)
-AAOI: ~7.0% (Tier 1)
-XFAB: 6.7% (Tier 2)
-P4O: 5.8% (Tier 2)
+- **LPK** (LPKF Laser & Electronics) **20%** — **11/13 (Tier 1)** _(Long-Term Core Hold - do not trim during pullback)_
+- **LUNR** (Intuitive Machines) **20%** — **7/12 (Tier 2)** _(Gradual trigger-based trim only)_
+- **2DG / SIVE** (Sivers Semiconductors) **20%** — **11/13 (Tier 1)** _(Long-Term Core Hold - do not trim)_
+- **RKLB** (Rocket Lab) **10%** — **8/12 (Tier 2)** _(Gradual trigger-based trim only)_
+- **AAOI** (Applied Optoelectronics) **10%** — **11/13 (Tier 1)** _(Core Liquidity Anchor)_
+- **AL2SI** (2CRSi S.A.) **5%** — **12/13 (Tier 1)** _(Target: 15.0% - fund via Space trims)_
+- **P4O** (Planoptik) **5%** — **8/13 (Tier 2)** _(Hold core tracking position)_
+- **XFAB** (X-Fab Silicon Foundries) **5%** — **10/13 (Tier 2)** _(Target: 10.0% - fund via Space trims)_
+- **TRT** (Trio-Tech International) **5%** — **12/13 (Tier 1)** _(Target: 15.0% - fund via Space trims)_
+- **ACCON** (Acconeer) **0%** — **13/13 (Tier 1)** _(Blocked - IBKR)_
+- **SEYE** (Smart Eye) **0%** — **12/13 (Tier 1)** _(Blocked - IBKR)_
+- **GAPW** (Gapwaves) **0%** — **12/13 (Tier 1)** _(Blocked - IBKR)_
 
 ---
 
-## AI planned holdings: 
+### Space Trim Trigger Ladder & Rotation Strategy
+
+_Note: Trim Space holdings very gradually, only on retail-led price increases._
+
+#### **LUNR Triggers (Current: 20.0%, Price: ~$42.77)**
+
+- **Trigger 1 ($46.00):** Trim 5% of portfolio weight (LUNR → 15.0%). Rotate **+3.0% to TRT** (raising TRT from 5% to 8%) and **+2.0% to AL2SI** (raising AL2SI from 5% to 7%).
+- **Trigger 2 ($52.00):** Trim 5% of portfolio weight (LUNR → 10.0%). Rotate **+3.0% to TRT** (raising TRT from 8% to 11%) and **+2.0% to XFAB** (raising XFAB from 5% to 7%).
+- **Trigger 3 ($58.00):** Trim 5% of portfolio weight (LUNR → 5.0% tracker). Rotate **+2.5% to AL2SI** (raising AL2SI from 7% to 9.5%) and **+2.5% to XFAB** (raising XFAB from 7% to 9.5%).
+
+#### **RKLB Triggers (Current: 10.0%, Price: ~$142.24)**
+
+- **Trigger 1 ($152.00 - retest late May high):** Trim 3.0% of portfolio weight (RKLB → 7.0%). Rotate **+2.0% to TRT** (raising TRT to 13%) and **+1.0% to AL2SI** (raising AL2SI to 10.5%).
+- **Trigger 2 ($165.00):** Trim 3.0% of portfolio weight (RKLB → 4.0% tracker). Rotate **+1.5% to XFAB** (raising XFAB to 11.0%) and **+1.5% to AAOI** (raising AAOI to 11.5%).
+
+---
+
+## AI planned holdings:
+
 (31/05/2026)
 
 ### BUY NOW:
@@ -52,6 +61,7 @@ P4O: 5.8% (Tier 2)
 - **P4O** (Planoptik) — Score: 8/13 (Tier 2)
 - **4092** (Nippon Chemical Industrial) — Score: 10/13 (Tier 2)
 - **HLIT** (Harmonic) — Score: 8/13 (Tier 2)
+
 ### AWAITING NEWS:
 
 - **BRUN** (Boost Run, Inc.) — Score: 11/13 (Tier 1) — _Monitor Flag_

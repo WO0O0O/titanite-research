@@ -123,7 +123,7 @@ The $7.8 million in advanced AI GPU burn-in board orders provides documented evi
 | **Q2 FY2026** | 15.6 | 2.50 | 16.0% | n/a | 0.07 |
 | **Q3 FY2026** | 16.5 | 2.65 | 16.0% | (0.08) | (0.04) |
 
-Gross margins compressed from 25.0% to 16.0% due to setup and tooling costs associated with high-volume AI testing services. However, demand is actively outstripping the company's current footprint.
+Gross margins compressed from 25.0% to 16.0% (with Semiconductor Back-End Solutions segment margins dropping to 14.6%) due to setup and tooling costs associated with high-volume AI testing services. However, demand is actively outstripping the company's current footprint, and working capital efficiency has improved significantly, with Days Sales Outstanding (DSO) dropping from 106 days to 69 days during the volume ramp.
 
 ### Sub-section B — Forward Run-Rate Signals
 
@@ -244,8 +244,8 @@ Benefiting from both the secular structural demand for AI chip reliability and t
 ## SECTION 11 — UNDER-FOLLOWED AND UNDER-RESEARCHED
 
 *   **Analyst Coverage:** **0 analysts**. No Wall Street brokerage firm publishes research on Trio-Tech.
-*   **Institutional Ownership:** Estimated between 3% and 23%. Ignored by major US technology and thematic ETFs due to its micro-cap status and NYSE American listing.
-*   **Information Asymmetry:** The market views TRT as a legacy, low-margin packaging distributor. It has completely failed to price in the inflection of their SBS testing business and the new 104,000 sq ft Penang capacity dedicated to AI GPU screening.
+*   **Institutional Ownership:** Estimated between 3% and 23%. Ignored by major US technology and thematic ETFs due to its micro-cap status and NYSE American listing. However, 13F filings for the period ending 31 March 2026 reveal a 550% surge in net institutional inflows, with 26 hedge funds and institutions now holding positions (including 13 brand new positions). Notable buyers include Renaissance Technologies (which increased its holding by 162,848 shares to a total of 325,526 shares), Citadel Advisors LLC (which opened a new position of 38,547 shares), Marshall Wace LLP, and Vanguard.
+*   **Information Asymmetry:** The market views TRT as a legacy, low-margin packaging distributor. It has completely failed to price in the inflection of their SBS testing business, the major institutional inflows, and the new 104,000 sq ft Penang capacity dedicated to AI GPU screening.
 
 ### **Score: 1/1**
 Zero analyst coverage and a massive information mismatch regarding the company's shift toward high-performance AI GPU testing services.
@@ -273,21 +273,24 @@ Under the modified rules for non-covered micro-caps: the integrity audit is clea
 ## SECTION 13 — ADVERSARIAL TESTING: STEEL-MAN THE BEAR CASE
 
 ### 1. The Thesis Killer
-The single most credible failure mechanism is a prolonged gross margin suppression. If the high-volume AI GPU testing contracts remain priced at low gross margins (16.0%) due to aggressive pricing by regional competitors (like KESM), the company will fail to generate meaningful operating cash flow to cover the lease and capital costs of the new 104,000 sq ft Penang facility, leading to capital distress and dilution.
+The single most credible failure mechanism is prolonged gross margin suppression. If high-volume AI GPU testing contracts remain priced at compressed gross margins (16.0% consolidated, 14.6% in SBS) due to aggressive pricing by regional competitors like KESM Industries, the company will fail to generate sufficient operating cash flow to cover the lease and capital equipment costs of the new 104,000 sq ft Penang facility. This would lead to capital distress and dilutive equity raises.
 
-### 2. Substitute Threat
-The threat of wafer-level testing equipment suppliers (like Aehr Test Systems) convincing chip designers to perform 100% of burn-in at the wafer stage, bypassing the need for package-level burn-in services and boards where Trio-Tech specialises.
+### 2. Price-Taker and Competitive Pricing Risk
+Unlike wafer-level equipment vendors (such as Aehr Test Systems) that command 60%+ gross margins, Trio-Tech acts as a package-level services provider, rendering it a price-taker at the testing end of the portfolio. This exposure is exacerbated by the front-loaded costs of qualifying next-generation AI platforms. However, the drop in Days Sales Outstanding (DSO) from 106 to 69 days during the volume ramp indicates high urgency among customers, providing Trio-Tech with working capital flexibility that partially offsets this margin pressure.
 
-### 3. Customer Concentration Stress Test
-Losing the largest customer (~20% of sales) would wipe out ~$11.6 million in revenue. With the fixed costs of the new Penang lease, this would drive net losses to over $3.0 million annually and depress the share price below the $9.50 raise price.
+### 3. Substitute Threat
+The risk that wafer-level testing equipment suppliers (like Aehr Test Systems) convince chip designers to perform 100% of burn-in at the wafer stage, bypassing the package-level burn-in services and board fabrication where Trio-Tech specialises. However, package-level testing remains essential for complex multi-chip modules (such as next-generation Blackwell-class GPUs) to validate package-level thermal hotspots and assembly stresses (e.g. substrate warpage) that cannot be replicated at the wafer level.
 
-### 4. Balance Sheet and Runway Analysis
-*   **Cash Position:** Pro-forma cash of ~$27.8 million (including the April raise).
+### 4. Customer Concentration Stress Test
+Losing the largest customer (~20.7% of net revenue, or $12.1 million on a $58.3 million trailing base) would contract revenue by over a fifth. Under the fixed-cost weight of the new Penang facility lease, this would drive annual net losses to over $3.0 million and compress the share price below the $9.50 registered direct offering price. This risk is partially mitigated by the Penang capacity being leased in response to specific, multi-quarter customer qualification programmes.
+
+### 5. Balance Sheet and Runway Analysis
+*   **Cash Position:** Pro-forma cash of ~$27.8 million (including the $9.5 million net proceeds from the April 2026 registered direct offering).
 *   **Debt:** $0.5 million long-term.
-*   **Runway:** With minimal debt and a pro-forma cash cushion, the company has over 12 quarters of runway, even under an elevated capital expenditure cycle for the Penang expansion.
+*   **Runway:** With minimal debt, debt-to-equity at 0.11, and a pro-forma cash cushion, the company has over 12 quarters of runway, even under an elevated capital expenditure cycle for the Penang expansion.
 
 ### **Bear Case Rating: MODERATE**
-Operational leverage depends entirely on restoring gross margins toward historical 25% levels as the Penang facility ramps. Balance sheet risk is low post-raise.
+Operating leverage remains highly sensitive to gross margin recovery toward 20%+. Balance sheet risk is low post-raise, and customer concentration is a structural feature of the regional OSAT supply chain.
 
 ---
 
@@ -334,7 +337,7 @@ Operational leverage depends entirely on restoring gross margins toward historic
 
 ## SYNTHESIS: THE ONE-PARAGRAPH PITCH
 
-Trio-Tech International (TRT) controls an estimated 30% to 40% of the outsourced package-level reliability testing and burn-in services market in the Malaysia-Singapore semiconductor corridor, serving as a critical verification chokepoint for high-power AI GPUs and automotive chips. This role was validated by $7.8 million in recent orders for custom burn-in boards supporting a next-generation AI GPU platform, prompting the company to close a $10.0 million growth capital raise in April 2026 and lease a new 104,000-square-foot facility in Penang to expand testing capacity. Although trailing gross margins compressed to 16.0% in Q3 FY2026 due to upfront setup and tooling costs, consolidated revenue surged 123% YoY to $16.5 million, marking the fourth consecutive quarter of recovery from the Q3 FY2025 trough. At a $128.5 million market cap and 1.74x EV/Revenue, the stock has zero Wall Street analyst coverage and represents a 5.1x return target in an aggressive bull case as the Penang expansion goes online, positioning TRT as a prime Phase 4 institutional discovery candidate as the market realises the scaling limits of advanced AI silicon.
+Trio-Tech International (TRT) controls an estimated 30% to 40% of the outsourced package-level reliability testing and burn-in services market in the Malaysia-Singapore semiconductor corridor, serving as a critical verification chokepoint for high-power AI GPUs and automotive chips. This role was validated by $7.8 million in recent orders for custom burn-in boards supporting a next-generation AI GPU platform, prompting the company to lease a new 104,000-square-foot facility in Penang to expand testing capacity. This volume ramp is supported by a DSO reduction from 106 to 69 days and a 550% surge in net institutional inflows, with 26 hedge funds and institutions (including Citadel, Marshall Wace, and Renaissance Technologies) building positions in Q1 2026. Although trailing gross margins compressed to 16.0% in Q3 FY2026 (with SBS services segment margins at 14.6%) due to front-loaded setup and tooling costs, consolidated revenue surged 123% YoY to $16.5 million, marking the fourth consecutive quarter of recovery from the Q3 FY2025 trough. At a $128.5 million market cap and 1.74x EV/Revenue, the stock has zero Wall Street analyst coverage and represents a 5.1x return target in an aggressive bull case as the Penang expansion goes online, positioning TRT as a prime Phase 4 institutional discovery candidate as the market realises the scaling limits of advanced AI silicon.
 
 ---
 _Framework based on Serenity (@aleabitoreddit) Chokepoint Theory. Research use only — not financial advice. DYOR._
