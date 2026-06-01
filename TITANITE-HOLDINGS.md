@@ -2,6 +2,7 @@
 
 Opened ISA 01/04/2024
 as of 01/06/2026: ~+770% return
+(updated monthly)
 
 ### Current Positions (As of 1 June 2026)
 
@@ -9,14 +10,16 @@ as of 01/06/2026: ~+770% return
 - **LUNR** (Intuitive Machines) **20%** — **7/12 (Tier 2)** _(Gradual trigger-based trim only)_
 - **2DG / SIVE** (Sivers Semiconductors) **20%** — **11/13 (Tier 1)** _(Long-Term Core Hold - do not trim)_
 - **RKLB** (Rocket Lab) **10%** — **8/12 (Tier 2)** _(Gradual trigger-based trim only)_
-- **AAOI** (Applied Optoelectronics) **10%** — **11/13 (Tier 1)** _(Core Liquidity Anchor)_
+- **TRT** (Trio-Tech International) **10%** — **12/13 (Tier 1)** _(Target: 15.0% - fund via Space trims)_
+- **AAOI** (Applied Optoelectronics) **5%** — **11/13 (Tier 1)** _(Core Liquidity Anchor)_
 - **AL2SI** (2CRSi S.A.) **5%** — **12/13 (Tier 1)** _(Target: 15.0% - fund via Space trims)_
 - **P4O** (Planoptik) **5%** — **8/13 (Tier 2)** _(Hold core tracking position)_
 - **XFAB** (X-Fab Silicon Foundries) **5%** — **10/13 (Tier 2)** _(Target: 10.0% - fund via Space trims)_
-- **TRT** (Trio-Tech International) **5%** — **12/13 (Tier 1)** _(Target: 15.0% - fund via Space trims)_
+
 - **ACCON** (Acconeer) **0%** — **13/13 (Tier 1)** _(Blocked - IBKR)_
 - **SEYE** (Smart Eye) **0%** — **12/13 (Tier 1)** _(Blocked - IBKR)_
 - **GAPW** (Gapwaves) **0%** — **12/13 (Tier 1)** _(Blocked - IBKR)_
+- **SHT** (Smart High-Tech) **0%** — **13/13 (Tier 1)** _(Blocked - IBKR)_
 
 ---
 
@@ -50,6 +53,7 @@ _Note: Trim Space holdings very gradually, only on retail-led price increases._
 - **SEYE** (Smart Eye AB) — Score: 12/13 (Tier 1)
 - **GAPW** (Gapwaves AB) — Score: 12/13 (Tier 1)
 - **2DG / SIVE** (Sivers Semiconductors) — Score: 11/13 (Tier 1)
+- **SHT** (Smart High-Tech) — Score: 13/13 (Tier 1)
 
 ### GRADUAL POSITIONING:
 
@@ -96,6 +100,8 @@ Based on the latest chokepoint audits as of **31 May 2026**, here is the actiona
   - _Why Now:_ Waveguide radar antenna chokepoint. Oversubscribed rights issue (140% subscription level) completed, fully funding its transition to automotive mass production.
 - **Sivers Semiconductors (SIVE / 2DG) — Score: 11/13 (Tier 1)**
   - _Why Now:_ Merchant supplier of III-V DFB lasers for co-packaged optics (CPO) external light sources under active evaluation by Tier 1 transceiver makers. Dilution is minimal (2.5% fully diluted).
+- **Smart High-Tech (SHT) — Score: 13/13 (Tier 1)**
+  - _Why Now:_ Controls the patent chokepoint for vertically aligned graphene thermal interface materials (TIM 1.5) solving the GPU heating bottleneck at 1,000W+. Approved as a supplier by Nvidia with first delivery on May 25, 2026. Leverages Henkel's global distribution under the Loctite brand. Kept at 0.0% allocation currently due to Spotlight Stock Market trading locks on IBKR and monitoring the 15 July 2026 bridge loan repayment.
 
 ### 2. Gradual Positioning / Scale-In (Tactical Accumulation on Pullbacks)
 
