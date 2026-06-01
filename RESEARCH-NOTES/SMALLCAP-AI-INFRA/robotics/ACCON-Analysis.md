@@ -1,4 +1,4 @@
-# SERENITY CHOKEPOINT RESEARCH FRAMEWORK: ACCONEER AB (ACCON)
+# CHOKEPOINT RESEARCH REPORT: ACCONEER AB (ACCON)
 
 ### Deep AI supply chain bottleneck analysis — Stock: ACCON (Nasdaq First North Growth Market)
 

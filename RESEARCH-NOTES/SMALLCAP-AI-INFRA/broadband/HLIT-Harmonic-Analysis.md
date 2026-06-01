@@ -1,4 +1,4 @@
-# SERENITY CHOKEPOINT RESEARCH FRAMEWORK
+# CHOKEPOINT RESEARCH REPORT
 ### Deep AI supply chain bottleneck analysis — Stock: HLIT (Harmonic Inc.)
 
 **Date:** 30 May 2026  

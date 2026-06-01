@@ -1,4 +1,4 @@
-# SERENITY CHOKEPOINT RESEARCH FRAMEWORK
+# CHOKEPOINT RESEARCH REPORT
 ### Deep AI Supply Chain Bottleneck Analysis — Stock: 6173.TW (Prosperity Dielectrics Co., Ltd.)
 
 **Date of Research:** 30 May 2026  

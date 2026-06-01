@@ -1,4 +1,4 @@
-# SERENITY CHOKEPOINT RESEARCH FRAMEWORK
+# CHOKEPOINT RESEARCH REPORT
 
 ### Deep AI Supply Chain Bottleneck Analysis — Stock: **4092 (TSE) — Nippon Chemical Industrial Co., Ltd.**
 

@@ -1,4 +1,4 @@
-# SERENITY SPACE-INFRASTRUCTURE & ORBITAL CHOKEPOINT FRAMEWORK
+# SPACE-INFRASTRUCTURE & ORBITAL CHOKEPOINT FRAMEWORK
 
 ### Space-industrial buildout and orbital bottleneck analysis — Stock: [TICKER]
 

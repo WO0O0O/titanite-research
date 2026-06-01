@@ -1,4 +1,4 @@
-# SERENITY CHOKEPOINT RESEARCH FRAMEWORK
+# CHOKEPOINT RESEARCH REPORT
 
 ### Deep AI supply chain bottleneck analysis — Stock: Gapwaves AB (GAPW B)
 

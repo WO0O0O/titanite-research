@@ -1,4 +1,4 @@
-# SERENITY CHOKEPOINT RESEARCH FRAMEWORK
+# CHOKEPOINT RESEARCH REPORT
 ### Deep AI Supply Chain Bottleneck Analysis — Stock: 4078 / SACIF
 **Sakai Chemical Industry Co., Ltd.**
 **Date of Analysis: 30 May 2026**

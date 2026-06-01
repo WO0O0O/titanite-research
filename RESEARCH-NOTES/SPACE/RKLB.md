@@ -1,4 +1,4 @@
-# SERENITY SPACE-INFRASTRUCTURE & ORBITAL CHOKEPOINT REPORT
+# SPACE-INFRASTRUCTURE & ORBITAL CHOKEPOINT REPORT
 
 ### Space-industrial buildout and orbital bottleneck analysis — Stock: RKLB (Rocket Lab USA, Inc.)
 

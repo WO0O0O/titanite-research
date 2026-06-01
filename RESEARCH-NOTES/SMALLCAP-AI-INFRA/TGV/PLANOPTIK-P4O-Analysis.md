@@ -1,4 +1,4 @@
-# SERENITY CHOKEPOINT RESEARCH FRAMEWORK
+# CHOKEPOINT RESEARCH REPORT
 ### Deep AI supply chain bottleneck analysis — Stock: P4O (PLANOPTIK AG)
 
 **Research Date:** 30 May 2026  

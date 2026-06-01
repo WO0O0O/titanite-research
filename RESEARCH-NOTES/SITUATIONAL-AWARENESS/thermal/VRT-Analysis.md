@@ -1,4 +1,4 @@
-# SERENITY AI SCALE-UP RESEARCH FRAMEWORK
+# AI SCALE-UP RESEARCH FRAMEWORK
 ### Trillion-dollar cluster beneficiary analysis — Stock: VRT (Vertiv Holdings Co.)
 
 *Research date: 31 May 2026*

@@ -1,4 +1,4 @@
-# SERENITY AI SCALE-UP RESEARCH FRAMEWORK
+# AI SCALE-UP RESEARCH FRAMEWORK
 
 ### Trillion-dollar cluster beneficiary analysis — Stock: BE (Bloom Energy Corporation)
 

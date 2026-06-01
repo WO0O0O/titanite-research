@@ -1,4 +1,4 @@
-# SERENITY CHOKEPOINT RESEARCH FRAMEWORK
+# CHOKEPOINT RESEARCH REPORT
 
 ### Deep AI supply chain bottleneck analysis — Stock: $POET (POET Technologies Inc.)
 
@@ -20,7 +20,7 @@
 
 ---
 
-## KNOWN CONTEXT — SERENITY ALPHA INJECTOR
+## KNOWN CONTEXT — ALPHA INJECTOR
 
 The following POET developments and supply chain signals are treated as established context:
 

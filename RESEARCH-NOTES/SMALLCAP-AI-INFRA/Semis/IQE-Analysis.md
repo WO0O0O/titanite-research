@@ -1,4 +1,4 @@
-# SERENITY CHOKEPOINT RESEARCH FRAMEWORK
+# CHOKEPOINT RESEARCH REPORT
 ### Deep AI supply chain bottleneck analysis — Stock: IQE
 
 **Exchange:** London Stock Exchange (AIM: IQE)  

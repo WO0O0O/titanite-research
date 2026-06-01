@@ -1,4 +1,4 @@
-# SERENITY CHOKEPOINT RESEARCH FRAMEWORK
+# CHOKEPOINT RESEARCH REPORT
 
 ### Deep AI supply chain bottleneck analysis — Stock: $SIVE (Sivers Semiconductors AB)
 
@@ -20,7 +20,7 @@
 
 ---
 
-## KNOWN CONTEXT — SERENITY ALPHA INJECTOR
+## KNOWN CONTEXT — ALPHA INJECTOR
 
 The following Serenity signals are treated as high-confidence anchors for this analysis:
 

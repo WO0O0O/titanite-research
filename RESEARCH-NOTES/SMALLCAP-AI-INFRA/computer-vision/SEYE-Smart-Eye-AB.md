@@ -1,4 +1,4 @@
-# SERENITY CHOKEPOINT RESEARCH REPORT
+# CHOKEPOINT RESEARCH REPORT
 
 ### Deep AI supply chain bottleneck analysis — Stock: SEYE (Smart Eye AB)
 

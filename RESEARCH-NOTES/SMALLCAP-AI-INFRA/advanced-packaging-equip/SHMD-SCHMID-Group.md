@@ -1,4 +1,4 @@
-# SERENITY CHOKEPOINT RESEARCH FRAMEWORK
+# CHOKEPOINT RESEARCH REPORT
 ### Deep AI supply chain bottleneck analysis — Stock: $SHMD (SCHMID Group N.V.)
 
 **Research date:** 30 May 2026  
