@@ -3,7 +3,7 @@
 ### Deep AI supply chain bottleneck analysis — Stock: BRUN (Boost Run, Inc.)
 
 **Exchange:** NASDAQ (BRUN)  
-**Report Date:** 31 May 2026  
+**Report Date:** 2 June 2026  
 **Analyst:** Titanite Research  
 
 ---
@@ -12,13 +12,11 @@
 
 **Pass 2 — Red flag sweep result: MONITOR FLAG (Thesis active; caution warranted).**
 
-A review of recent regulatory filings and pre-merger disclosures reveals the following risk factors that prevent a completely clean pre-check:
-
 1. **Material Weaknesses:** In its pre-merger filings (specifically within its April 2026 S-4/A disclosures), Boost Run identified material weaknesses in its internal control over financial reporting (ICFR). These weaknesses relate specifically to the design and implementation of IT general controls over systems supporting financial reporting and an insufficient segregation of duties. 
-2. **Late Filing Notification:** On 26 May 2026, the company filed a Form NT 10-Q with the SEC, indicating that it would be delayed in filing its quarterly report for the period ended 31 March 2026. The company stated that the delay was due to the administrative complexity of closing its de-SPAC merger and that it expects to file the 10-Q by 1 June 2026.
-3. **Pre-Merger Going Concern:** Prospectus disclosures highlighted substantial doubt about the company's ability to continue as a going concern due to working capital deficits. This is a standard SPAC-merger disclosure and was resolved by the closing of the business combination on 8 May 2026, which injected $134.5 million in cash into the company. No active going-concern opinion has been issued by the current auditor post-merger.
+2. **Late Filing Notification (Resolved):** On 26 May 2026, the company filed a Form NT 10-Q indicating a delay due to de-SPAC complexity. The Form 10-Q was successfully filed on 1 June 2026, resolving the late filing status.
+3. **Pre-Merger Going Concern (Resolved):** Working capital concerns were resolved by the closing of the merger on 8 May 2026, injecting $134.5 million in cash. No active going-concern opinion exists post-merger.
 
-These issues do not disqualify the company under the framework, but they represent execution and controls risk. A monitor flag remains active until the company files its Q1 2026 Form 10-Q and demonstrates initial remediation of its internal controls.
+These issues do not disqualify the company under the framework, but they represent execution and controls risk. A monitor flag remains active solely to track the remediation of the material weaknesses in IT controls and segregation of duties.
 
 ---
 
@@ -127,7 +125,7 @@ BRUN directly addresses this bottleneck by providing dedicated AI cloud infrastr
 | FY2024      | $7.94M  | $6.01M       | 75.7%        |
 | FY2025      | $26.89M | $23.00M      | 85.5%        |
 
-*Note: Quarterly gross margins for 2026 are not yet available due to the pending Q1 10-Q filing.*
+*Note: Q1 2026 revenue of $10.96 million (+165% YoY) and net loss of $4.12 million confirm the start of the backlog ramp. Q1 gross margin details are not fully broken out in the preliminary 10-Q.*
 
 The increase in gross margin from 75.7% to 85.5% reflects significant pricing power and the high-yield nature of early GPU cloud deployments. 
 
@@ -182,7 +180,7 @@ The company has not experienced a "multi-year trough" because it is a newly foun
 
 1. **Current Stage:** Early Commercial to Volume Ramp.
 2. **Revenue Catalysts:** 
-   * Filing of the Q1 2026 Form 10-Q (expected by 1 June 2026).
+   * Filing of the Q1 2026 Form 10-Q (achieved 1 June 2026).
    * Initial hardware delivery and connectivity of the 5,000 Blackwell GPU cluster in H2 2026.
 3. **Qualifications:** BRUN is an NVIDIA Preferred Cloud Service Provider and has achieved validation for NVIDIA Blackwell architecture.
 4. **Operating Leverage:** Trailing gross margin is 85.5%. As the company scales its revenue from $26.89 million to the targeted $375 million ARR, fixed data centre overheads will be diluted, leading to significant operating leverage and positive free cash flow.
@@ -252,11 +250,11 @@ The company has not experienced a "multi-year trough" because it is a newly foun
 * **Prior Involvements:** CEO Andrew Karos has a clean record (former Head of Electronic Trading at Galaxy Digital). No prior bankruptcies or securities violations.
 * **Auditor Change:** No unexplained auditor departures. The SPAC's auditor was Marcum, and the combined company is using standard PCAOB-registered auditors.
 * **Material Weaknesses:** Disclosed material weaknesses in ICFR (IT controls and segregation of duties). This is a negative finding.
-* **Delayed Filing:** The NT 10-Q filing on 26 May 2026 is an administrative red flag.
+* **Delayed Filing (Resolved):** The NT 10-Q delay is resolved; the Form 10-Q was filed on 1 June 2026.
 
 ### Component B — Execution Track Record
 
-* **Earnings Beats:** Because the company went public in May 2026, it **does not have a public track record of quarterly earnings releases or beats**. It fails the requirement of 3+ consecutive beats.
+* **Earnings Beats:** As a newly listed de-SPAC, the company does not have the required 3+ consecutive quarters of public beats. Q1 2026 revenue of $10.96 million (+165% YoY) represents its first post-listing report.
 * **Guidance:** Too early to evaluate guidance conservatism.
 
 **Score: 0/1 — Weak.** While management integrity appears clean, the presence of material weaknesses in controls, the delayed 10-Q, and the lack of a public earnings track record require a score of 0.
@@ -286,7 +284,7 @@ The company has not experienced a "multi-year trough" because it is a newly foun
 
 BRUN maps to **Phase 3 (2025–2026): Silicon photonics and co-packaged optics** or **Phase 4 (2026–2027): Power delivery and cloud infrastructure enablers**. 
 
-The discovery catalyst will be the filing of its Q1 10-Q (expected by 1 June 2026) and its first formal quarterly earnings release in Q2 2026. Institutional ownership is currently low, providing a clear window for front-running the rotation.
+The initial discovery catalyst was the filing of its Q1 10-Q on 1 June 2026. Institutional ownership remains low, and the next catalyst will be the Q2 2026 earnings release showing initial Blackwell capacity billing.
 
 ---
 
@@ -310,13 +308,13 @@ The discovery catalyst will be the filing of its Q1 10-Q (expected by 1 June 202
 
 **Verdict: 11/13 — Tier 1: Highest conviction. Serenity-grade chokepoint.**
 
-*Note: The score of 11/13 places BRUN in Tier 1. However, the active monitor flag regarding its material weaknesses and delayed 10-Q filing requires that investors monitor initial quarterly filings before executing a maximum position.*
+*Note: The score of 11/13 places BRUN in Tier 1. The filing of the Q1 10-Q resolves the administrative delay risk, but the active monitor flag remains in place to track the remediation of the IT and segregation controls weaknesses.*
 
 ---
 
 ## SYNTHESIS: THE ONE-PARAGRAPH PITCH
 
-Boost Run, Inc. (NASDAQ: BRUN) is a high-conviction Layer O (Operations & Cloud) enabler in the AI infrastructure supply chain, providing dedicated, TAA-compliant GPU cloud capacity to enterprise developers locked out of hyperscaler allocations. Ramping from a modest $26.89 million FY2025 revenue base, the company has secured a $1.41 billion contracted backlog—including a non-cancelable $471.7 million service agreement with Thinking Machines Lab Inc. that fully allocates its upcoming 5,000 NVIDIA Blackwell B300 GPU cluster. Supported by a $1.44 billion hardware pipeline with Dell Technologies and funded by $134.5 million in non-dilutive de-SPAC trust cash, BRUN is positioned to execute a massive revenue inflection to a targeted $375 million exit ARR in FY2026. The stock is currently under-followed with zero sell-side coverage and low institutional ownership due to its recent listing. Remediation of its pre-merger internal control weaknesses and the filing of its delayed Q1 Form 10-Q will serve as the primary discovery catalysts, driving a projected 5.2× return to a target market capitalisation of $11.55 billion within 36 months.
+Boost Run, Inc. (NASDAQ: BRUN) is a high-conviction Layer O (Operations & Cloud) enabler in the AI infrastructure supply chain, providing dedicated, TAA-compliant GPU cloud capacity to enterprise developers locked out of hyperscaler allocations. Ramping from a modest $26.89 million FY2025 revenue base, the company has secured a $1.41 billion contracted backlog—including a non-cancelable $471.7 million service agreement with Thinking Machines Lab Inc. that fully allocates its upcoming 5,000 NVIDIA Blackwell B300 GPU cluster. Supported by a $1.44 billion hardware pipeline with Dell Technologies and funded by $134.5 million in non-dilutive de-SPAC trust cash, BRUN is positioned to execute a massive revenue inflection to a targeted $375 million exit ARR in FY2026. The stock is currently under-followed with zero sell-side coverage and low institutional ownership due to its recent listing. Remediation of its pre-merger internal control weaknesses remains the primary operational target, while the filing of its Q1 Form 10-Q on 1 June 2026 establishes the baseline for a projected 5.2× return to a target market capitalisation of $11.55 billion within 36 months.
 
 ---
 

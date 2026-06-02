@@ -13,7 +13,7 @@
     *   Silicon photonics/co-packaged optics exposure via the photonixFAB consortium, currently under evaluation by NVIDIA.
     *   Geopolitical backstops (pre-approved €128 million from the EU CHIPS Act for MEMS/AI, $47.6 million EU funding for Silicon Photonics, and $50 million PMT from the US CHIPS Act).
 *   **Management Response:** X-FAB CEO Damien Macq issued a formal statement acknowledging the high trading volumes and stock price volatility. He clarified that the company was unaware of any material, undisclosed corporate developments or structural changes that would explain the sudden movement.
-*   **Market Stabilisation:** Following the intraday spike, the stock experienced profit-taking and adjusted down, closing on Friday, 29 May 2026, at **10.76 EUR**.
+*   **Market Stabilisation:** Following the intraday spike, the stock experienced profit-taking and adjusted down, closing on Friday, 29 May 2026, at **10.76 EUR**. On Monday, 1 June 2026, the stock pulled back a further 10%, closing at **9.70 EUR**.
 
 ---
 
@@ -28,13 +28,13 @@
 
 ---
 
-## 3. Financial & Valuation Metrics (as of 31 May 2026)
+## 3. Financial & Valuation Metrics (as of 1 June 2026)
 
-*   **Share Price:** 10.76 EUR (as of 29 May 2026 market close)
+*   **Share Price:** 9.70 EUR (as of 1 June 2026 close)
 *   **Shares Outstanding:** 130.63 million
-*   **Market Capitalisation:** ~1,405.58 million EUR (~$1.64 billion USD at the ECB exchange rate of 1.165 USD/EUR)
+*   **Market Capitalisation:** ~1,267.11 million EUR (~$1.48 billion USD at the ECB exchange rate of 1.165 USD/EUR)
 *   **Net Debt:** ~$436 million USD
-*   **Enterprise Value (EV):** ~$2.08 billion USD
-*   **Price-to-Book (P/B):** ~1.65× (based on book value of ~$1.0 billion USD, expanding from the pre-spike 1.29×)
+*   **Enterprise Value (EV):** ~$1.91 billion USD
+*   **Price-to-Book (P/B):** ~1.48× (based on book value of ~$1.0 billion USD, compared to pre-spike 1.29×)
 *   **TTM Revenue:** ~$840 million USD
-*   **EV/Revenue Multiple:** ~2.48× TTM
+*   **EV/Revenue Multiple:** ~2.28× TTM

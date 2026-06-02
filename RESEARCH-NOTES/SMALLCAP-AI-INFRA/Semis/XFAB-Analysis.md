@@ -9,7 +9,7 @@
 
 ## RED FLAG PRE-CHECK
 
-**Pass 2 — Red flag sweep result:** CLEAN. No material weaknesses, no going-concern opinion, no SEC or regulatory investigation, no auditor resignation, no short seller reports, no restatements, no related-party transaction concerns flagged in public record. CEO transition in February 2026 (Rudi De Winter → Damien Macq, internal promotion from COO) was orderly and planned, not a red-flag departure. No active short thesis identified as of 31 May 2026. Stock volatility in late May 2026 was driven by a retail-led viral spike on 27 May 2026, where shares surged up to 76% (intraday high of 15.88 EUR) following an X post by "Serenity." CEO Damien Macq confirmed that no undisclosed material developments existed to explain the move.
+**Pass 2 — Red flag sweep result:** CLEAN. No material weaknesses, no going-concern opinion, no SEC or regulatory investigation, no auditor resignation, no short seller reports, no restatements, no related-party transaction concerns flagged in public record. CEO transition in February 2026 (Rudi De Winter → Damien Macq, internal promotion from COO) was orderly and planned, not a red-flag departure. No active short thesis identified as of 31 May 2026. Stock volatility in late May 2026 was driven by a retail-led viral spike on 27 May 2026, where shares surged up to 76% (intraday high of 15.88 EUR) following an X post by "Serenity." CEO Damien Macq confirmed that no undisclosed material developments existed to explain the move. On 1 June 2026, shares pulled back 10% to close at 9.70 EUR.
 
 ---
 
@@ -58,16 +58,16 @@ So now is the risk reward seems compelling, we’ll see if this is right or not.
 
 ## GATE CHECK — MARKET CAP FILTER
 
-- **Market cap:** $1.64 billion USD (as of 29 May 2026 close at 10.76 EUR)
-- **Enterprise value:** ~$2.08 billion USD (Market cap + net debt of ~$436 million USD)
+- **Market cap:** $1.48 billion USD (as of 1 June 2026 close at 9.70 EUR)
+- **Enterprise value:** ~$1.91 billion USD (Market cap + net debt of ~$436 million USD)
 - **Shares outstanding:** ~130.63 million
 
 **PASSES the $5B hard gate.** X-FAB is a small-cap.
 
 **Bull-case market cap in 24–36 months:**
-- **Base Case (Automotive Restocking & SiC Ramp):** Automotive clears, SiC scales to $100M+ run rate. 2028 revenue at $1.1 billion USD. Applying a 2.5× EV/Revenue multiple yields an EV of $2.75 billion USD. Market cap reaches ~$2.31 billion USD (after net debt reduction). Implied return: **+41% (1.41× return).**
-- **Bull Case (Soitec Reversal — Multiple & Book Value Expansion):** Legacy automotive drag clears and high-growth segments (SiC power + silicon photonics via photonixFAB) scale. Book value expands from ~$1.0 billion USD to ~$1.6 billion USD by 2028, driven by retained earnings and non-dilutive government grants (€128 million from the EU CHIPS Act for MEMS/AI, $47.6 million EU funding for Silicon Photonics, and $50 million PMT from the US CHIPS Act, plus expected support from EU CHIPS Act 2). Based on true replacement P/B cost models of ~0.5x to 0.7x, current levels indicate a deeply depressed valuation due to early-stage metrics and legacy drags. Under a Soitec-style reversal, the P/B multiple expands from the depressed 1.29x (now 1.65x) to 2.5x-4.0x or potentially 5.0x (peak specialty player re-rating). Using 5.0x yields a target market cap of $8.0 billion USD. Implied return: **+388% (4.88× return).** An extended bull case (including EU CHIPS Act 2 support and faster wide-bandgap ramp) targets book value at $1.7 billion to $1.8 billion USD, yielding an $8.5 billion to $9.0 billion USD market cap. Implied return: **+418% to +449% (5.18× to 5.49× return).**
-- **Alternate P/E-based Bull Case:** 2028 net income estimated at $180M–$200M USD. Re-rating to 35x P/E on $200M net income yields a target market cap of $7.0 billion USD (implied return: **+327% / 4.27× return**). An extended P/E bull case of 35x P/E on $250M net income (driven by faster high-margin silicon photonics and wide-bandgap adoption) yields a target market cap of $8.75 billion USD. Implied return: **+434% (5.34× return).**
+- **Base Case (Automotive Restocking & SiC Ramp):** Automotive clears, SiC scales to $100M+ run rate. 2028 revenue at $1.1 billion USD. Applying a 2.5× EV/Revenue multiple yields an EV of $2.75 billion USD. Market cap reaches ~$2.31 billion USD (after net debt reduction). Implied return: **+56% (1.56× return).**
+- **Bull Case (Soitec Reversal — Multiple & Book Value Expansion):** Legacy automotive drag clears and high-growth segments (SiC power + silicon photonics via photonixFAB) scale. Book value expands from ~$1.0 billion USD to ~$1.6 billion USD by 2028, driven by retained earnings and non-dilutive government grants (€128 million from the EU CHIPS Act for MEMS/AI, $47.6 million EU funding for Silicon Photonics, and $50 million PMT from the US CHIPS Act, plus expected support from EU CHIPS Act 2). Based on true replacement P/B cost models of ~0.5x to 0.7x, current levels indicate a deeply depressed valuation due to early-stage metrics and legacy drags. Under a Soitec-style reversal, the P/B multiple expands from the depressed 1.29x (now 1.48x) to 2.5x-4.0x or potentially 5.0x (peak specialty player re-rating). Using 5.0x yields a target market cap of $8.0 billion USD. Implied return: **+441% (5.41× return).** An extended bull case (including EU CHIPS Act 2 support and faster wide-bandgap ramp) targets book value at $1.7 billion to $1.8 billion USD, yielding an $8.5 billion to $9.0 billion USD market cap. Implied return: **+474% to +509% (5.74× to 6.09× return).**
+- **Alternate P/E-based Bull Case:** 2028 net income estimated at $180M–$200M USD. Re-rating to 35x P/E on $200M net income yields a target market cap of $7.0 billion USD (implied return: **+373% / 4.73× return**). An extended P/E bull case of 35x P/E on $250M net income (driven by faster high-margin silicon photonics and wide-bandgap adoption) yields a target market cap of $8.75 billion USD. Implied return: **+493% (5.93× return).**
 
 **GATE VERDICT: FULL PASS.** Under the extended Soitec Reversal and wide-bandgap growth scenario, multiple expansion and book value growth yield a credible return profile exceeding the 500% minimum (5×) required by this framework.
 
@@ -261,11 +261,11 @@ Revenue has not achieved consecutive quarters of acceleration from trough. The p
 
 ## SECTION 5 — SMALL CAP / ASYMMETRIC UPSIDE
 
-- **Market cap:** $1.64 billion USD (as of 29 May 2026 close at 10.76 EUR)
-- **Enterprise value:** ~$2.08 billion USD (including ~$436 million USD net debt)
+- **Market cap:** $1.48 billion USD (as of 1 June 2026 close at 9.70 EUR)
+- **Enterprise value:** ~$1.91 billion USD (including ~$436 million USD net debt)
 - **TTM revenue:** ~$840 million USD
-- **Current EV/Revenue:** ~2.48× TTM
-- **Current Price-to-Book (P/B):** ~1.65× (based on book value of ~$1.0 billion USD, expanding from pre-spike 1.29×)
+- **Current EV/Revenue:** ~2.28× TTM
+- **Current Price-to-Book (P/B):** ~1.48× (based on book value of ~$1.0 billion USD, expanding from pre-spike 1.29×)
 
 **Comparable peer multiples at maturity:**
 - Soitec (silicon-on-insulator leader): historically traded at 4.0–6.0× P/B during peak growth cycles.
@@ -277,17 +277,17 @@ Revenue has not achieved consecutive quarters of acceleration from trough. The p
 *Base Case (Automotive Restocking & SiC Ramp):*
 - 2028 revenue: $1.1 billion USD
 - Target EV/Revenue: 2.5× → EV $2.75 billion USD → market cap ~$2.31 billion USD (after net debt reduction)
-- Implied return from today: **+41% (1.41× return)**
+- Implied return from today: **+56% (1.56× return)**
 
 *Bull Case (Soitec Reversal — Multiple & Book Value Expansion):*
 - High-growth segments (SiC power + silicon photonics via photonixFAB) scale, and the legacy automotive drag clears. 
 - Government funding backstops growth capex (reducing cash burn and growing book value): €128 million from the EU CHIPS Act for foundry (MEMS, AI, etc.), $47.6 million EU funding for leading the Silicon Photonics supply chain, $50 million PMT from the US CHIPS Act, plus upcoming EU CHIPS Act 2 grants.
 - Book value expands from ~$1.0 billion USD to ~$1.6 billion USD by 2028 via retained earnings and grants.
-- Applying a Soitec-style re-rating of 5.0× P/B yields a target market cap of $8.0 billion USD. Implied return: **+388% (4.88× return).** An extended bull case (including EU CHIPS Act 2 support and faster wide-bandgap ramp) targets book value at $1.7 billion to $1.8 billion USD, yielding an $8.5 billion to $9.0 billion USD market cap. Implied return: **+418% to +449% (5.18× to 5.49× return).**
+- Applying a Soitec-style re-rating of 5.0× P/B yields a target market cap of $8.0 billion USD. Implied return: **+441% (5.41× return).** An extended bull case (including EU CHIPS Act 2 support and faster wide-bandgap ramp) targets book value at $1.7 billion to $1.8 billion USD, yielding an $8.5 billion to $9.0 billion USD market cap. Implied return: **+474% to +509% (5.74× to 6.09× return).**
 
 *Alternate P/E-based Bull Case:*
 - 2028 personal estimate: fwd P/E at entry of 6.5x–8.5x (corresponding to $150M–$200M USD in net income).
-- Re-rating to 35x P/E on a normalized net income of $200M yields a target market cap of $7.0 billion USD (implied return: **+327% / 4.27× return**). An extended P/E bull case of 35x P/E on $250M net income yields a target market cap of $8.75 billion USD. Implied return: **+434% (5.34× return).**
+- Re-rating to 35x P/E on a normalized net income of $200M yields a target market cap of $7.0 billion USD (implied return: **+373% / 4.73× return**). An extended P/E bull case of 35x P/E on $250M net income yields a target market cap of $8.75 billion USD. Implied return: **+493% (5.93× return).**
 
 **Score: 1/1.** Multiple expansion and book value growth under the extended Soitec Reversal bull case yield a return profile exceeding the 500% minimum (5×) target required by this framework for hardware-dominant businesses.
 
@@ -550,7 +550,7 @@ X-FAB processes are used in aerospace and defence applications by some customers
 **Realistic time to institutional consensus re-rating:** 12–18 months. The automotive overhang must clear first (H2 2026 recovery). Until automotive stabilises, the business is reported at depressed margins and declining overall revenue, which keeps risk-on AI infrastructure money away.
 
 **Risk that rotation has already occurred:**
-Yes, partially. The stock spiked to 15.88 EUR (market cap of ~€2.07 billion / ~$2.41 billion USD) on 27 May 2026 due to retail social media momentum sparked by "Serenity," before settling at 10.76 EUR. While the easy valuation gap from a distressed 1.29× P/B has closed to 1.65× P/B, institutional rotation has not yet fully arrived. The next leg requires either H2 2026 automotive recovery or a named hyperscaler announcement.
+Yes, partially. The stock spiked to 15.88 EUR (market cap of ~€2.07 billion / ~$2.41 billion USD) on 27 May 2026 due to retail social media momentum sparked by "Serenity," before settling at 10.76 EUR. While the easy valuation gap from a distressed 1.29× P/B has closed to 1.48× P/B, institutional rotation has not yet fully arrived. The next leg requires either H2 2026 automotive recovery or a named hyperscaler announcement.
 
 ---
 
@@ -584,7 +584,7 @@ The specific criteria needed to upgrade to Tier 1:
 
 ## SYNTHESIS: THE ONE-PARAGRAPH PITCH
 
-X-FAB Silicon Foundries is the only high-volume pure-play SiC foundry in the United States and one of two credible specialty analog foundries in Europe, processing an estimated 30–50% of the open-access SiC foundry market globally, with switching costs of 24–36 months in automotive and medical applications making it structurally irreplaceable for hundreds of fabless customers. The market has missed its critical role in the NVIDIA ($NVDA) supply chain: X-FAB acts as the core foundry for Power Integrations ($POWI) (named in PCN-22181) and Navitas ($NVTS), both of which supply 800 VDC power semiconductors to NVIDIA, while NVIDIA and Nokia ($NOK) are actively qualifying X-FAB's photonixFAB consortium for high-volume manufacturing of co-packaged optics (CPO) and switches. This growth is heavily backstopped by Western governments, with €128 million from the EU CHIPS Act for MEMS/AI, $47.6 million from the EU for Silicon Photonics, $50 million PMT from the US CHIPS Act, and expected inclusion in the upcoming EU CHIPS Act 2 package, effectively funding expansion capex non-dilutively and growing book value toward $1.6 billion USD. At a $1.64 billion USD current market cap (~1.65× P/B, though true replacement P/B cost is likely closer to 0.5/0.7) with $436 million USD net debt, a Soitec-style reversal—as legacy automotive drag clears and SiC and photonics scale—should drive a P/B expansion to 2.5-4.0x or even 5.0× on an expanded book value of $1.7 billion to $1.8 billion USD (backed by EU CHIPS Act 2), yielding an $8.5 billion to $9.0 billion USD market cap, representing a 5.18× to 5.49× return (+418% to +449%). Followed by only 8–11 analysts on a Euronext listing that keeps it invisible to US-based thematic ETFs, X-FAB is a Tier 2 strong conviction play, warranting a starter or partial position following the 27 May 2026 retail spike, ahead of the H2 2026 automotive recovery and photonixFAB risk production in 2027.
+X-FAB Silicon Foundries is the only high-volume pure-play SiC foundry in the United States and one of two credible specialty analog foundries in Europe, processing an estimated 30–50% of the open-access SiC foundry market globally, with switching costs of 24–36 months in automotive and medical applications making it structurally irreplaceable for hundreds of fabless customers. The market has missed its critical role in the NVIDIA ($NVDA) supply chain: X-FAB acts as the core foundry for Power Integrations ($POWI) (named in PCN-22181) and Navitas ($NVTS), both of which supply 800 VDC power semiconductors to NVIDIA, while NVIDIA and Nokia ($NOK) are actively qualifying X-FAB's photonixFAB consortium for high-volume manufacturing of co-packaged optics (CPO) and switches. This growth is heavily backstopped by Western governments, with €128 million from the EU CHIPS Act for MEMS/AI, $47.6 million from the EU for Silicon Photonics, $50 million PMT from the US CHIPS Act, and expected inclusion in the upcoming EU CHIPS Act 2 package, effectively funding expansion capex non-dilutively and growing book value toward $1.6 billion USD. At a $1.48 billion USD current market cap (~1.48× P/B, though true replacement P/B cost is likely closer to 0.5/0.7) with $436 million USD net debt, a Soitec-style reversal—as legacy automotive drag clears and SiC and photonics scale—should drive a P/B expansion to 2.5-4.0x or even 5.0× on an expanded book value of $1.7 billion to $1.8 billion USD (backed by EU CHIPS Act 2), yielding an $8.5 billion to $9.0 billion USD market cap, representing a 5.74× to 6.09× return (+474% to +509%). Followed by only 8–11 analysts on a Euronext listing that keeps it invisible to US-based thematic ETFs, X-FAB is a Tier 2 strong conviction play, warranting a starter or partial position following the 27 May 2026 retail spike, ahead of the H2 2026 automotive recovery and photonixFAB risk production in 2027.
 
 ---
 

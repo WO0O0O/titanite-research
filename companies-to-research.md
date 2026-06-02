@@ -1,13 +1,15 @@
 ## SMALL CAPS:
+*   [Research Summary Index](file:///Users/danwooster/1.%20DEV/titanite/RESEARCH-NOTES/SMALLCAP-AI-INFRA/TABLE.md)
 
----
+
+## [FLNC](file:///Users/danwooster/1.%20DEV/titanite/RESEARCH-NOTES/SMALLCAP-AI-INFRA/ENERGY/FLNC.md)
 
 IREN
 USAR
 
 more energy companies
 NNE
-ASPI
+[ASPI](file:///Users/danwooster/1.%20DEV/titanite/RESEARCH-NOTES/SMALLCAP-AI-INFRA/ENERGY/ASPI.md)
 
 ## SPACE
 
