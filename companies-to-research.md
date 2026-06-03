@@ -7,7 +7,10 @@ STEM
 
 AMBA ambarella
 
-## FLNC
+## energy
+
+Talen Energy (NASDAQ: TLN)
+Vistra Corp. (NYSE: VST)
 
 IREN
 USAR
@@ -28,7 +31,6 @@ ENAFF
 
 potential 50x:
 bitdeer
-Kopin
 
 Nyomic
 
