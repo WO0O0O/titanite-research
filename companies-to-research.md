@@ -9,8 +9,11 @@ AMBA ambarella
 
 ## energy
 
-Talen Energy (NASDAQ: TLN)
-Vistra Corp. (NYSE: VST)
+GE Vernova (NYSE: GEV)
+NuScale Power Corporation (NYSE: SMR)
+Hammond Power Solutions (TSX: HPS.A / OTC: HMDPF)
+Energy Vault Holdings (NYSE: NRGV)
+Powell Industries (NASDAQ: POWL)
 
 IREN
 USAR
