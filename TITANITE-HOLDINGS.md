@@ -6,6 +6,8 @@ as of 01/06/2026: ~+770% return
 
 ## Current Positions (As of 3 June 2026)
 
+## T212:
+
 - **2DG / SIVE** (Sivers Semiconductors) **50%** — **12/13 (Tier 1)**
 - **LPK** (LPKF Laser & Electronics) **20%** — **11/13 (Tier 1)**
 - **TRT** (Trio-Tech International) **10%** — **12/13 (Tier 1)**
@@ -13,9 +15,9 @@ as of 01/06/2026: ~+770% return
 - **XFAB** (X-Fab Silicon Foundries) **5%** — **10/13 (Tier 2)**
 - **AL2SI** (2CRSi S.A.) **5%** — **12/13 (Tier 1)**
 
-## IBKR
+## IBKR:
 
-- **SEYE** (Smart Eye AB) **5%** — **12/13 (Tier 1)** _(Satellite; Edge AI DMS software, July safety mandate - held directly via IBKR)_
+- **SEYE** (Smart Eye AB) **5%** — **12/13 (Tier 1)**
 
 ### safe/high return:
 

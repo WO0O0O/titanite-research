@@ -1,6 +1,5 @@
 ## SMALL CAPS:
 
-NNE
 LEU
 LTBR
 NRGV

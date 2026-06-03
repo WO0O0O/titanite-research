@@ -6,6 +6,7 @@ A consolidated index of all researched companies within the `SMALLCAP-AI-INFRA` 
 
 | Ticker | Company Name | Score & Tier | Industry (Folder) | Key Summary & Major Events |
 | :--- | :--- | :---: | :--- | :--- |
+| **PENG** | Penguin Solutions, Inc. | **13 / 13 (Tier 1)** | AI-CLOUD-INFRA | Specialized AI factory cluster integration and custom high-density memory solutions. Strategic $200M investment from SK Telecom (Dec 2024) to build South Korea's Haein Blackwell GPU cluster. Reaffirmed FY26 outlook tracking to the high end of ranges. |
 | **SHT** | Smart High-Tech AB | **13 / 13 (Tier 1)** | Semis | Graphene-based Thermal Interface Materials (TIM). Certified as an approved Nvidia supplier (25 May 2026). Partnered with Henkel for global distribution. High operating leverage. |
 | **ACCON** | Acconeer AB | **13 / 13 (Tier 1)** | robotics | Proprietary low-power Pulsed Coherent Radar (PCR) chips. Volume commercial production ramp underway in 2026. Traded via German ticker 4AC. |
 | **ASPI** | ASP Isotopes Inc. | **12 / 13 (Tier 1)** | ENERGY | HALEU nuclear fuel (TerraPower partnership with $22M loan) and Silicon-28 quantum materials. Pretoria facility restarted in May 2026; commercial shipments start Q3 2026. Ongoing SDNY class action litigation represents a moderate risk. |
