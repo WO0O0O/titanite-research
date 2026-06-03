@@ -1,15 +1,20 @@
 ## SMALL CAPS:
-*   [Research Summary Index](file:///Users/danwooster/1.%20DEV/titanite/RESEARCH-NOTES/SMALLCAP-AI-INFRA/TABLE.md)
 
+NNE
+LEU
+LTBR
+NRGV
+STEM
 
-## [FLNC](file:///Users/danwooster/1.%20DEV/titanite/RESEARCH-NOTES/SMALLCAP-AI-INFRA/ENERGY/FLNC.md)
+AMBA ambarella
+
+## FLNC
 
 IREN
 USAR
 
 more energy companies
 NNE
-[ASPI](file:///Users/danwooster/1.%20DEV/titanite/RESEARCH-NOTES/SMALLCAP-AI-INFRA/ENERGY/ASPI.md)
 
 ## SPACE
 

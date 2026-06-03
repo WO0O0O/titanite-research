@@ -382,3 +382,18 @@ Write the investment thesis in one paragraph: direct, data-driven, zero fluff, n
 ---
 
 _Disclaimer: Research use only. Not financial advice. Perform your own due diligence._
+
+---
+
+## POST-RESEARCH PROTOCOL: UPDATE TABLE.md
+
+Once the research report is completed and the final scorecard has been computed:
+1. Open [TABLE.md](file:///Users/danwooster/1.%20DEV/titanite/TABLE.md).
+2. Insert or update the company in the table under the appropriate Tier and Score sequence (highest score to lowest).
+3. Populate all columns:
+   - **Ticker** (in bold)
+   - **Company Name**
+   - **Score & Tier** (in bold)
+   - **Industry (Folder)**
+   - **Key Summary & Major Events** (concise, data-dense bullet points summarising the thesis, key catalysts, and risks).
+

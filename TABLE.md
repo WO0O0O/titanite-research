@@ -37,6 +37,9 @@ A consolidated index of all researched companies within the `SMALLCAP-AI-INFRA` 
 | **ENAFF** | Enablence Technologies | **7 / 13 (Tier 3)** | photonics | PLC star couplers. Low capacity, heavily unprofitable, and fails the Strait of Hormuz chokepoint test. |
 | **Sakai** | Sakai Chemical Industry | **7 / 13 (Tier 3)** | MLCC | Titanate and barium titanate raw materials. Low growth profile relative to specialty MLCC powder competitors. Ticker 4078.T. |
 | **GCTS** | GCT Semiconductor | **6 / 13 (Tier 3)** | Semis | 5G and satellite NTN chipsets. Pre-revenue, highly speculative, and fails the 5x return hurdle. |
+| **LTBR** | Lightbridge Corporation | **4 / 13 (Pass)** | ENERGY | Pre-revenue nuclear fuel design house developing helical metallic fuel. Robust cash balance of $215.7M with zero debt (Q1 2026) and active irradiation testing at Idaho National Laboratory. Fails due to extremely long commercialisation timeline (5-10+ years) and lack of a physical supply chain chokepoint today. |
+| **LASE** | Laser Photonics Corp. | **0 / 13 (Pass)** | directed-energy | **DISQUALIFIED** due to Weinberg & Company going concern opinion (20 April 2026) and delinquent Q1 2026 Form 10-Q. Controlling shareholder Dmitri Nikitin maintains related-party links to affiliate Fonon Technologies. |
+| **NNE** | NANO Nuclear Energy Inc. | **0 / 13 (Pass)** | ENERGY | **DISQUALIFIED** due to an active, formal SEC investigation and subpoena (16 January 2026). Pre-commercial microreactor developer trading at a speculative $1.59B valuation with no reactor deployments expected until 2030. |
 
 ---
-_Index compiled on 2 June 2026. All data points sourced from official company filings, transcripts, and Titanite Research reports._
+_Index compiled on 3 June 2026. All data points sourced from official company filings, transcripts, and Titanite Research reports._

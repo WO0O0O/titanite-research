@@ -529,3 +529,18 @@ If you cannot write this paragraph with hard numbers and specific evidence from 
 ---
 
 _Framework based on Serenity (@aleabitoreddit) Chokepoint Theory. Research use only — not financial advice. DYOR._
+
+---
+
+## POST-RESEARCH PROTOCOL: UPDATE TABLE.md
+
+Once the research report is completed and the final scorecard has been computed:
+1. Open [TABLE.md](file:///Users/danwooster/1.%20DEV/titanite/TABLE.md).
+2. Insert or update the company in the table under the appropriate Tier and Score sequence (highest score to lowest).
+3. Populate all columns:
+   - **Ticker** (in bold)
+   - **Company Name**
+   - **Score & Tier** (in bold)
+   - **Industry (Folder)**
+   - **Key Summary & Major Events** (concise, data-dense bullet points summarising the thesis, key catalysts, and risks).
+

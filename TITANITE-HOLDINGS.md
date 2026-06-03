@@ -4,20 +4,20 @@ Opened ISA 01/04/2024
 as of 01/06/2026: ~+770% return
 (updated monthly)
 
-### Current Positions (As of 2 June 2026)
+## Current Positions (As of 3 June 2026)
 
-- **2DG / SIVE** (Sivers Semiconductors) **45%** — **12/13 (Tier 1)** _(Long-Term Core Hold - do not trim)_
-- **LPK** (LPKF Laser & Electronics) **20%** — **11/13 (Tier 1)** _(Long-Term Core Hold - do not trim during pullback)_
-- **TRT** (Trio-Tech International) **10%** — **12/13 (Tier 1)** _(Target: 15.0% - fund via Space trims)_
+- **2DG / SIVE** (Sivers Semiconductors) **50%** — **12/13 (Tier 1)**
+- **LPK** (LPKF Laser & Electronics) **20%** — **11/13 (Tier 1)**
+- **TRT** (Trio-Tech International) **10%** — **12/13 (Tier 1)**
+- **BRUN** (Boost Run, Inc.) **10%** — **11/13 (Tier 1)**
+- **XFAB** (X-Fab Silicon Foundries) **5%** — **10/13 (Tier 2)**
+- **AL2SI** (2CRSi S.A.) **5%** — **12/13 (Tier 1)**
 
-- **BRUN** (Boost Run, Inc.) **5%** — **11/13 (Tier 1)** _(NeoCloud GPU cloud, 10-Q filed, $1.41B backlog)_
-- **LUNR** (Intuitive Machines) **5%** — **7/12 (Tier 2)** _(Gradual trigger-based trim only)_
-- **XFAB** (X-Fab Silicon Foundries) **5%** — **10/13 (Tier 2)** _(Target: 10.0% - fund via Space trims)_
-- **AL2SI** (2CRSi S.A.) **5%** — **12/13 (Tier 1)** _(Target: 15.0% - fund via Space trims)_
-- **P4O** (Planoptik) **5%** — **8/13 (Tier 2)** _(Hold core tracking position)_
-- **RKLB** (Rocket Lab) **5%** — **8/12 (Tier 2)** _(Gradual trigger-based trim only)_
+## IBKR
 
-safe/high return:
+- **SEYE** (Smart Eye AB) **5%** — **12/13 (Tier 1)** _(Satellite; Edge AI DMS software, July safety mandate - held directly via IBKR)_
+
+### safe/high return:
 
 - **AAOI** (Applied Optoelectronics)
 - **NBIS** (Nebius Group)
@@ -28,16 +28,16 @@ safe/high return:
 > [!NOTE]
 > Sivers Semiconductors ($SIVE) is excluded from the 100% target transition allocation. It is held as a long-term core lock-up (currently 45% of total capital) and is not subject to trimming or redistribution into these ten satellite and core positions.
 
-- **LPK** (LPKF Laser & Electronics SE) **20%** — **11/13 (Tier 1)** _(Core hold; glass substrate LIDE chokepoint)_
-- **TRT** (Trio-Tech International) **15%** — **12/13 (Tier 1)** _(Core growth; GPU reliability testing, Penang expansion)_
-- **AL2SI** (2CRSi S.A.) **15%** — **12/13 (Tier 1)** _(Core catalyst; liquid-cooled servers, Sacramento deliveries H2 2026)_
-- **SHT** (Smart High-Tech AB) **10%** — **13/13 (Tier 1)** _(Core growth; TIM 1.5 graphene cooling chokepoint - trade via German ticker 7H6)_
-- **ACCON** (Acconeer AB) **10%** — **13/13 (Tier 1)** _(Core growth; low-power PCR chip chokepoint - trade via German ticker 4AC)_
-- **XFAB** (X-Fab Silicon Foundries) **10%** — **10/13 (Tier 2)** _(Value anchor; US SiC foundry & photonics, 9.70 EUR pullback)_
-- **GAPW** (Gapwaves AB) **5%** — **12/13 (Tier 1)** _(Satellite; contactless waveguides for 4D radar - trade via German ticker 6GW)_
-- **SEYE** (Smart Eye AB) **5%** — **12/13 (Tier 1)** _(Satellite; Edge AI DMS software, July safety mandate - trade via German ticker S9E)_
-- **SILC** (Silicom Ltd.) **5%** — **12/13 (Tier 1)** _(Satellite; Edge AI & PQC SmartNICs, NASDAQ-listed)_
-- **BRUN** (Boost Run, Inc.) **5%** — **11/13 (Tier 1)** _(Satellite; NeoCloud GPU cloud, 10-Q filed, $1.41B backlog)_
+- **LPK** (LPKF Laser & Electronics SE) **20%** — **11/13 (Tier 1)**
+- **TRT** (Trio-Tech International) **15%** — **12/13 (Tier 1)**
+- **AL2SI** (2CRSi S.A.) **15%** — **12/13 (Tier 1)**
+- **SHT** (Smart High-Tech AB) **10%** — **13/13 (Tier 1)** -- cannot purchase via t212 or IBKR
+- **ACCON** (Acconeer AB) **10%** — **13/13 (Tier 1)** -- price too high
+- **XFAB** (X-Fab Silicon Foundries) **10%** — **10/13 (Tier 2)**
+- **GAPW** (Gapwaves AB) **5%** — **12/13 (Tier 1)** -- IBKR?
+- **SEYE** (Smart Eye AB) **5%** — **12/13 (Tier 1)** DONE
+- **SILC** (Silicom Ltd.) **5%** — **12/13 (Tier 1)**
+- **BRUN** (Boost Run, Inc.) **5%** — **11/13 (Tier 1)** DONE
 
 ---
 
@@ -52,7 +52,7 @@ safe/high return:
 - **ACCON (Acconeer) — 10%:** Low-power Pulsed Coherent Radar. Volume ramp begins. Trade via German ticker **4AC** to bypass First North broker lock.
 - **XFAB (X-Fab Silicon Foundries) — 10%:** US SiC foundry. Pullback to 9.70 EUR (~1.48x P/B) represents a deep value entry point.
 - **GAPW (Gapwaves) — 5%:** Waveguide antennas. H2 2026 Frencken automated line transfer. Trade via German ticker **6GW** to bypass First North broker lock.
-- **SEYE (Smart Eye) — 5%:** DMS eye-tracking software. July 2026 EU safety mandate. Royalty inflection started, EBITDA positive. Trade via German ticker **S9E** to bypass First North broker lock.
+- **SEYE (Smart Eye) — 5%:** DMS eye-tracking software. July 2026 EU safety mandate. Royalty inflection started, EBITDA positive. Held directly in SEK via IBKR.
 - **SILC (Silicom) — 5%:** Secure Edge AI / post-quantum encryption. NASDAQ-listed. Q1 2026 revenue inflection (+32.6% YoY).
 - **BRUN (Boost Run) — 5%:** NeoCloud GPU cloud de-SPAC. $1.41B backlog. Deploy now that the Q1 10-Q has filed.
 
