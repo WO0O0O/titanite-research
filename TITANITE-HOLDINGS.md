@@ -1,7 +1,7 @@
 # Titanite Holdings
 
 Opened ISA 01/04/2024
-as of 01/06/2026: ~+770% return
+as of 04/06/2026: ~+810% return
 (updated monthly)
 
 ## Current Positions (As of 3 June 2026)
