@@ -53,9 +53,9 @@ I run a hybrid intelligence pipeline: I leverage fine-tuned prompt architectures
 
 I build and deploy specialised, prompt-engineered AI agents to run initial company and sector assessments. Currently, this repository utilises three framework modules:
 
-- **Small-Cap AI Infrastructure Chokepoints** (defined in [RESEARCH-NOTES/SMALLCAP-AI-INFRA/SC-AI-INFRA.md](./RESEARCH-NOTES/SMALLCAP-AI-INFRA/SC-AI-INFRA.md)). This module targets micro-to-small cap companies (<$5B market cap) in the hardware supply chain, auditing earnings transcripts and regulatory filings for capacity constraints, lead time extensions, and backlog changes.
-- **Trillion-Dollar Scale-Up Beneficiaries** (defined in [RESEARCH-NOTES/SITUATIONAL-AWARENESS/leopold.md](./RESEARCH-NOTES/SITUATIONAL-AWARENESS/leopold.md)). This module targets mid-to-large-cap companies that are primary enablers or operators of the AI infrastructure buildout, focusing on power and scale.
-- **Space-Infrastructure & Orbital Chokepoint Framework** (defined in [RESEARCH-NOTES/SPACE/SPACE-INFRA.md](./RESEARCH-NOTES/SPACE/SPACE-INFRA.md)). This module targets Space Tech companies, focusing on launch capacity bottlenecks, spectrum/regulatory moats, and constellation capital runways.
+- **Small-Cap AI Infrastructure Chokepoints** (defined in [RESEARCH-NOTES/SMALLCAP-AI-INFRA/SC-AI-INFRA.md](./RESEARCH-NOTES/SMALLCAP-AI-INFRA/SC-AI-INFRA.md)). Targets micro-to-small cap companies (<$5B market cap) in the hardware supply chain, auditing earnings transcripts and regulatory filings for capacity constraints, lead time extensions, and backlog changes.
+- **Trillion-Dollar Scale-Up Beneficiaries** (defined in [RESEARCH-NOTES/SITUATIONAL-AWARENESS/leopold.md](./RESEARCH-NOTES/SITUATIONAL-AWARENESS/leopold.md)). Targets mid-to-large-cap companies that are primary enablers or operators of the AI infrastructure buildout, focusing on power and scale.
+- **Space-Infrastructure & Orbital Chokepoint Framework** (defined in [RESEARCH-NOTES/SPACE/SPACE-INFRA.md](./RESEARCH-NOTES/SPACE/SPACE-INFRA.md)). Targets Space Tech companies, focusing on launch capacity bottlenecks, spectrum/regulatory moats, and constellation capital runways.
 
 ### Phase 2: Human Reconciliation
 
@@ -64,32 +64,6 @@ The agentic output is a starting filter, not the final investment decision. I ma
 - **Forensic Accounting**: Checking auditor credibility, internal controls, related-party transactions, and capital allocation discipline (e.g. share buybacks vs. dilutive raises).
 - **Competitive Roadmap Verification**: Scrutinising emerging technology threats, Chinese competitor progress, and customer qualification cycle times.
 - **Upside Arithmetic**: Auditing valuation models and peer-group multiple comparisons to ensure candidate companies present genuine asymmetric risk-reward profiles.
-
-## Repository Structure
-
-My research is categorised by thematic bottlenecks:
-
-- **`RESEARCH-NOTES/SMALLCAP-AI-INFRA/`**: Small-cap chokepoints.
-  - `2-phase-cooling/`: Advanced liquid and phase-change cooling solutions for server chassis.
-  - `3D-metrology/`: Yield inspection systems for high-bandwidth memory (HBM).
-  - `AI-CLOUD-INFRA/`: Private GPU cloud operators and sovereign hosting platforms.
-  - `MLCC/`: High-capacitance Multi-Layer Ceramic Capacitors for GPU power delivery.
-  - `Semis/`: Specialty foundry and component fabrication.
-  - `TGV/`: Glass substrates and laser-induced deep etching (LIDE).
-  - `advanced-packaging-equip/`: 2.5D/3D chip stacking.
-  - `broadband/`: Optical transport and cable infrastructure.
-  - `computer-vision/`: Machine vision systems for manufacturing and automotive safety.
-  - `directed-energy/`: Power transmission and specialized laser manufacturing tools.
-  - `photonics/`: Silicon photonics and optical interconnects.
-  - `robotics/`: Specialized automation and robotics components.
-  - `server-systems/`: Custom server chassis integration and power distribution systems.
-- **`RESEARCH-NOTES/SITUATIONAL-AWARENESS/`**: Mid-to-large cap scale-up plays.
-  - `AI-CLOUD-INFRA/`: GPU cloud operators and sovereign hyperscalers.
-  - `ENERGY/`: Fuel cells, SMRs, power generation, and grid equipment.
-  - `defence/`: National security and sovereign space/communication systems.
-  - `photonics/`: Transceivers and optical networking.
-  - `thermal/`: Liquid cooling, heat exchangers, and thermal management at data centre scale.
-- **`RESEARCH-NOTES/SPACE/`**: Launch services, satellite manufacturers, and orbital connectivity operators.
 
 ---
 
