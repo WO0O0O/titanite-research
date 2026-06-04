@@ -10,13 +10,15 @@
 
 ## RED FLAG PRE-CHECK
 
-**Pass 2 — Red flag sweep result: MONITOR FLAG (Thesis active; caution warranted).**
+**Pass 2 — Red flag sweep result: CRITICAL OVERHANG FLAG (High technical risk; caution warranted).**
 
-1. **Material Weaknesses:** In its pre-merger filings (specifically within its April 2026 S-4/A disclosures), Boost Run identified material weaknesses in its internal control over financial reporting (ICFR). These weaknesses relate specifically to the design and implementation of IT general controls over systems supporting financial reporting and an insufficient segregation of duties. 
-2. **Late Filing Notification (Resolved):** On 26 May 2026, the company filed a Form NT 10-Q indicating a delay due to de-SPAC complexity. The Form 10-Q was successfully filed on 1 June 2026, resolving the late filing status.
-3. **Pre-Merger Going Concern (Resolved):** Working capital concerns were resolved by the closing of the merger on 8 May 2026, injecting $134.5 million in cash. No active going-concern opinion exists post-merger.
+1. **Imminent Lock-up Expiration (8 June 2026):** Grammatical analysis of the S-4 lock-up proviso reveals that the 6-month lock-up terminates entirely upon the stock satisfying the $12.00 price trigger for 20 trading days. On Monday, 8 June 2026 (the 20th trading day post-closing), 90% of all locked shares will be released. This will unlock 43.90 million shares ($1.49 billion at $34.05), expanding the tradeable float by 250.5% in a single day.
+2. **Immediate Earn-out Dilution (8 June 2026):** The $12.00, $15.00, and $18.00 price targets for the 10.97 million contingent earn-out shares will be simultaneously met on Monday, 8 June 2026, triggering immediate issuance and 17.9% share count dilution.
+3. **Material Weaknesses:** Disclosed material weaknesses in IT controls and segregation of duties in pre-merger S-4/A filings are undergoing remediation.
+4. **Late Filing Notification (Resolved):** Form 10-Q was filed on 1 June 2026.
+5. **Pre-Merger Going Concern (Resolved):** $134.5 million in cash injected at closing.
 
-These issues do not disqualify the company under the framework, but they represent execution and controls risk. A monitor flag remains active solely to track the remediation of the material weaknesses in IT controls and segregation of duties.
+These issues do not disqualify the company under the framework, but they represent extreme near-term technical supply risk. A critical overhang flag remains active until the unlocked share supply is fully digested by the market.
 
 ---
 
@@ -216,11 +218,11 @@ The company has not experienced a "multi-year trough" because it is a newly foun
 ## SECTION 9 — RECENT CAPITAL RAISE
 
 1. **SPAC Trust Cash:** The business combination with Willow Lane Acquisition Corp. provided **$134.5 million in cash** from the trust account.
-2. **Dilution:** Because the cash came from the SPAC trust account (with zero shareholder redemptions), it did not cause distressed dilution to the public shares post-merger.
+2. **Dilution:** The trust cash was non-dilutive at closing, but the price-triggered termination of the lock-up on 8 June 2026 releases 43.90 million shares into the float. Concurrently, the vesting of 10.97 million earn-out shares introduces a +17.9% structural dilution to total shares outstanding.
 3. **Use of Proceeds:** The capital is explicitly earmarked to fund growth capex and lease commitments for the GPU rollout.
-4. **Share Performance:** The stock has performed strongly since listing, trading up from its $10.00 merger price to ~$34.05, indicating strong market demand.
+4. **Share Performance:** The stock has traded up from its $10.00 merger price to ~$34.05, satisfying the early release price trigger of $12.00 for 20 trading days.
 
-**Score: 1/1 — Strong.** The transaction provided non-dilutive trust cash that is fully allocated to capacity expansion.
+**Score: 1/1 — Strong.** The cash raise remains highly supportive of growth capex, but the technical structure triggers massive, immediate float expansion on 8 June 2026.
 
 ---
 
@@ -264,10 +266,11 @@ The company has not experienced a "multi-year trough" because it is a newly foun
 ## SECTION 13 — ADVERSARIAL TESTING: STEEL-MAN THE BEAR CASE
 
 1. **Thesis Killer:** A severe delay in the delivery of NVIDIA Blackwell B300 GPUs. If NVIDIA delays shipment by 6 to 12 months, BRUN cannot meet its deployment schedule for Thinking Machines Lab, leading to contract penalties and a delayed revenue inflection.
-2. **Customer Default Risk:** If Thinking Machines Lab faces funding constraints and defaults on its non-cancelable contract, BRUN's revenue projections collapse.
-3. **Balance Sheet Risk:** The company has $134.5 million in cash, which is sufficient for near-term lease commitments but requires debt financing (via Dell Financial Services) to execute the full $1.44 billion hardware pipeline. If credit markets tighten, the company may face liquidity pressure.
+2. **Technical Supply Shock (Immediate Risk):** Grammatical analysis of the S-4 shows that the 6-month lock-up terminates entirely on 8 June 2026. Reselling of the newly unlocked 43.90 million shares ($1.49 billion in value) into a thin post-SPAC order book represents a major supply overhang. This will likely cause a severe downward re-rating of the stock in the near term.
+3. **Customer Default Risk:** If Thinking Machines Lab faces funding constraints and defaults on its non-cancelable contract, BRUN's revenue projections collapse.
+4. **Balance Sheet Risk:** The company has $134.5 million in cash, which is sufficient for near-term lease commitments but requires debt financing (via Dell Financial Services) to execute the full $1.44 billion hardware pipeline. If credit markets tighten, the company may face liquidity pressure.
 
-**Bear Case Rating: MODERATE.**
+**Bear Case Rating: STRONG (due to technical supply shock on 8 June 2026; long-term fundamentals remain MODERATE).**
 
 ---
 
@@ -308,13 +311,13 @@ The initial discovery catalyst was the filing of its Q1 10-Q on 1 June 2026. Ins
 
 **Verdict: 11/13 — Tier 1: Highest conviction. Serenity-grade chokepoint.**
 
-*Note: The score of 11/13 places BRUN in Tier 1. The filing of the Q1 10-Q resolves the administrative delay risk, but the active monitor flag remains in place to track the remediation of the IT and segregation controls weaknesses.*
+*Note: The score of 11/13 places BRUN in Tier 1. However, due to the imminent 8 June 2026 lock-up expiration releasing 43.90 million shares and triggering 10.97 million earn-out shares, the stock faces extreme technical downside. Immediate capital deployment is suspended. We will monitor the supply digestion post-unlock to identify a more favourable entry point.*
 
 ---
 
 ## SYNTHESIS: THE ONE-PARAGRAPH PITCH
 
-Boost Run, Inc. (NASDAQ: BRUN) is a high-conviction Layer O (Operations & Cloud) enabler in the AI infrastructure supply chain, providing dedicated, TAA-compliant GPU cloud capacity to enterprise developers locked out of hyperscaler allocations. Ramping from a modest $26.89 million FY2025 revenue base, the company has secured a $1.41 billion contracted backlog—including a non-cancelable $471.7 million service agreement with Thinking Machines Lab Inc. that fully allocates its upcoming 5,000 NVIDIA Blackwell B300 GPU cluster. Supported by a $1.44 billion hardware pipeline with Dell Technologies and funded by $134.5 million in non-dilutive de-SPAC trust cash, BRUN is positioned to execute a massive revenue inflection to a targeted $375 million exit ARR in FY2026. The stock is currently under-followed with zero sell-side coverage and low institutional ownership due to its recent listing. Remediation of its pre-merger internal control weaknesses remains the primary operational target, while the filing of its Q1 Form 10-Q on 1 June 2026 establishes the baseline for a projected 5.2× return to a target market capitalisation of $11.55 billion within 36 months.
+Boost Run, Inc. (NASDAQ: BRUN) is a high-conviction Layer O (Operations & Cloud) enabler in the AI infrastructure supply chain, providing dedicated, TAA-compliant GPU cloud capacity to enterprise developers locked out of hyperscaler allocations. Ramping from a modest $26.89 million FY2025 revenue base, the company has secured a $1.41 billion contracted backlog—including a non-cancelable $471.7 million service agreement with Thinking Machines Lab Inc. that fully allocates its upcoming 5,000 NVIDIA Blackwell B300 GPU cluster. Supported by a $1.44 billion hardware pipeline with Dell Technologies and funded by $134.5 million in non-dilutive de-SPAC trust cash, BRUN is positioned to execute a massive revenue inflection to a targeted $375 million exit ARR in FY2026. The stock is currently under-followed with zero sell-side coverage and low institutional ownership due to its recent listing. While long-term fundamentals support a projected 5.2× return to a target market capitalisation of $11.55 billion within 36 months, the imminent lock-up expiration on Monday, 8 June 2026, presents an extreme technical supply shock. The termination of the lock-up releases 43.90 million shares (a 250.5% float expansion), while concurrently triggering 10.97 million earn-out shares, creating severe short-term price pressure. Capital allocation is deferred until this supply overhang is digested.
 
 ---
 

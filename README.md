@@ -2,7 +2,7 @@
 
 ## The Thesis: Mapping the Decade of the OOMs
 
-The scaling laws of AGI are no longer confined to the digital realm. As model training and deployment scale by orders of magnitude (OOMs), the primary constraints have shifted from algorithmic design to the physical world: power generation, transmission infrastructure, advanced metrology, and semiconductor supply-chain security.
+The scaling laws of AGI are no longer confined to software. As model training and deployment scale by orders of magnitude (OOMs), the primary constraints have shifted from algorithmic design to the physical world: power generation, transmission infrastructure, advanced metrology, and semiconductor supply-chain security.
 
 Titanite Research is my personal research project to identify, analyse, and track the critical nodes, materials, and equipment manufacturers that underpin this transition. Heavily inspired by the macro-industrial and national security outlook of Leopold Aschenbrenner's _Situational Awareness_ thesis, I focus on the mispriced companies that will capture the economics of this capex before the market prices them in.
 

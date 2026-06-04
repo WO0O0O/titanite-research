@@ -1,6 +1,13 @@
 ## SMALL CAPS:
 
-LEU
+DGXX
+INFQ
+MRLN
+LWLG
+ALMU
+AMPG
+AIRJ
+
 LTBR
 NRGV
 STEM
@@ -19,7 +26,6 @@ IREN
 USAR
 
 more energy companies
-NNE
 
 ## SPACE
 
