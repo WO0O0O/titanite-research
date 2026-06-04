@@ -2,9 +2,9 @@
 
 ### Deep AI supply chain bottleneck analysis — Stock: $SIVE (Sivers Semiconductors AB)
 
-**Date of analysis:** 2 June 2026  
+**Date of analysis:** 4 June 2026
 **Primary listing:** Nasdaq Stockholm (SIVE.ST)  
-**Analyst note:** SIVE is a **qualification-cycle player**. Modified scoring rules apply to Sections 3 and 4 per the Framework Modifier. SIVE is scored at **12/13 (Tier 1 — Highest Conviction)** following the 2 June 2026 GlobalFoundries strategic collaboration announcement and the Computex physical hardware validation of the AyarLabs/GUC CPO stack. While the EBM leak investigation and auditor-mandated restatements introduce governance noise (Section 12 scored 0), these issues do not impair the commercial viability of Sivers' technology. The GlobalFoundries SCALE™ platform integration and Wiwynn booth placement confirm that Sivers' laser arrays are the default continuous-wave light source for next-generation Western CPO architectures, completely refuting the active short thesis.
+**Analyst note:** SIVE is a **qualification-cycle player**. Modified scoring rules apply to Sections 3 and 4 per the Framework Modifier. SIVE is scored at **11/13 (Tier 1 — Highest Conviction — Low End)** following the 2 June 2026 GlobalFoundries strategic collaboration announcement, the Computex physical hardware validation of the AyarLabs/GUC CPO stack, and the disclosure of a major insider stock dump. While the EBM leak investigation, the insider selling, and auditor-mandated restatements introduce governance noise (Section 12 scored 0 and Section 9 scored 0), these issues do not impair the commercial viability of Sivers' technology. The GlobalFoundries SCALE™ platform integration and Wiwynn booth placement confirm that Sivers' laser arrays are the default continuous-wave light source for next-generation Western CPO architectures, completely refuting the active short thesis.
 
 ---
 
@@ -15,6 +15,7 @@
 
 **Active Short Thesis & Factual Reconciliation (1 June 2026):**
 Ningi Research published a short report alleging Sivers is a retail-driven promotion with dubious revenue accounting, hollow contracts, and product reliability failures. Reconciling these claims against semiconductor physics and public records reveals:
+
 - **The InP Yield Misunderstanding:** The report alleges Sivers' lasers have low reliability because WIN Semiconductors' production line is inactive and yields are low. In III-V compound semiconductor manufacturing, bare die yields for single-wavelength InP DFB lasers naturally range between 40% and 70%. Array yields are mathematically lower. This is a physics constraint, not a product reliability defect. The difficulty of achieving high yields actually increases the chokepoint value of Sivers' vertical Glasgow foundry and its proprietary etched-facet technology (InP100), which enables on-wafer testing.
 - **Achilles Capital Share Sale:** Board director Erik Fällström's entity Achilles Capital AB liquidated its entire 29 million share position (SEK 461 million) between September 2025 and May 2026. This was a liquidity event mandated by the corporate restructuring of its parent holding company, DDM Finance, to cover EUR 225 million in maturing bond loans. It was not driven by Sivers' operational deterioration.
 - **POET/Marvell Cancellation:** Marvell cancelled POET's purchase orders in April 2026 due to POET's CFO breaching confidentiality on Stocktwits TV. It was not a failure of Sivers' laser technology. Sivers retains direct integration relationships with Celestial AI (Marvell), Jabil, O-Net, and Enablence.
@@ -30,6 +31,7 @@ The 2025 annual report restatements of three years of financials were auditor-ma
 ## KNOWN CONTEXT — ALPHA INJECTOR
 
 The 1 June 2026 short report by Ningi Research is reconciled against the 2 June 2026 GlobalFoundries (GF) strategic collaboration announcement and the Wiwynn Computex demonstration of the CPO in-chassis stack:
+
 - **GlobalFoundries Strategic Collaboration (2 June 2026):** Sivers has announced a formal partnership with GF to integrate its laser arrays into reference designs built on GF's silicon photonics platform. Sivers' arrays will also be available on GF's Silicon Photonics Co-packaged Advanced Light Engine (SCALE™) platform. This establishes Sivers as a key design partner for CPO and LPO architectures, invalidating allegations of non-functional technology.
 - **Wiwynn Computex Demonstration:** Wiwynn (Nvidia's ODM rack partner) has publicly displayed the complete CPO in-chassis optical interconnect stack, showing the AyarLabs TeraPHY optical engine integrated with a GUC ASIC in a Multi-Chip Package. The External Light Source (ELSFP) powering the engine is the AyarLabs SuperNova, which is built using Sivers' laser arrays. This provides physical verification of Sivers' CPO integration, refuting the claim that the AyarLabs partnership is a hollow MoU without shipments.
 - **Jabil Partnership:** The joint development of a 1.6T LRO pluggable transceiver is active. The GlobalFoundries SCALE™ agreement validates Sivers' reliability and manufacturing capability, confirming the WIN Semiconductors pilot production line is tuning parameters rather than halted due to failure.
@@ -76,7 +78,7 @@ Sivers' vertical InP fabrication capability is a structural node in the CPO supp
 
 **Score: 1/1 | Evidence: Strong**
 
-The bottleneck is optical interconnect — specifically, the external light source problem for co-packaged optics. Silicon photonics integrates passive optical functions (routing, modulation) on silicon chips but cannot generate light. InP DFB laser arrays are the only commercially viable III-V solution for providing the continuous-wave light source. 
+The bottleneck is optical interconnect — specifically, the external light source problem for co-packaged optics. Silicon photonics integrates passive optical functions (routing, modulation) on silicon chips but cannot generate light. InP DFB laser arrays are the only commercially viable III-V solution for providing the continuous-wave light source.
 
 The naturally low yield of InP arrays (40%–70% bare die yield) actually intensifies the chokepoint nature of the technology, as qualified optical sources are extremely scarce.
 
@@ -89,6 +91,7 @@ The naturally low yield of InP arrays (40%–70% bare die yield) actually intens
 **Score: 1/1 | Evidence: Strong**
 
 Sivers has established direct linkages to the AI hyperscaler supply chain through key system integrators and semiconductor foundries:
+
 - **GlobalFoundries Strategic Collaboration (2 June 2026):** Sivers' laser arrays are integrated into reference designs built on GF's silicon photonics platform and are available in GF's SCALE™ CPO platform. GF's platform targets next-generation optical sub-assemblies for major AI accelerator programs, including AMD's Instinct platform.
 - **Wiwynn Computex Demonstration (June 2026):** Wiwynn, Nvidia's primary ODM rack partner, has demonstrated the complete CPO in-chassis stack using Sivers' lasers via the AyarLabs SuperNova ELSFP and GUC ASIC in a Multi-Chip Package. This directly connects Sivers to Nvidia's future CPO hardware pipeline.
 - **Jabil Partnership (April 2026):** Joint development of 1.6T LRO transceivers using Sivers' laser arrays. Jabil's silicon photonics division (acquired from Intel) lists Meta and Amazon as anchor customers.
@@ -113,6 +116,7 @@ The shortage of continuous-wave (CW) lasers is exacerbated by the low yield phys
 **Score: 1/1 | Evidence: Moderate (qualification-cycle modifier applied)**
 
 While trailing revenue remains unrepresentative due to the wireless segment trough, Sivers is a qualification-cycle player whose forward inflection is supported by:
+
 - A $799 million pipeline (up 77% in five months), predominantly driven by photonics.
 - Near-term volume catalysts including SATCOM production and a LiDAR volume ramp scheduled for Q4 2026.
 - The Jabil pluggable transceiver ramp starting in H2 2027.
@@ -167,11 +171,13 @@ Sivers' InP100 platform is a proprietary process platform for DFB laser arrays o
 
 ## SECTION 9 — RECENT CAPITAL RAISE
 
-**Score: 1/1 | Evidence: Strong**
+**Score: 0/1 | Evidence: Moderate**
 
-Sivers raised SEK 125 million via a directed share issue in May 2026 at SEK 14.5/share, resulting in a minimal 2.5% dilution. While board director Erik Fällström's Achilles Capital AB liquidated its entire 29 million share position, this was a parent-company debt-clearing requirement (DDM Finance bond maturities) rather than a reflection of Sivers' operational health. CEO Vickram Vathulya purchased 472,000 shares in the open market in March 2026.
+- **Recent Capital Raise:** Sivers raised SEK 125 million via a directed share issue in May 2026 at SEK 14.5/share, resulting in a minimal 2.5% dilution. While board director Erik Fällström's Achilles Capital AB liquidated its entire 29 million share position due to parent-company debt restructuring (DDM Finance), this has been overshadowed by an operational insider dump.
+- **Insider Trading:** Managing Director of Sivers Wireless, Harish Krishnaswamy, sold 1,394,608 shares on 29 May 2026 (publicly disclosed 3 June 2026). This discretionary sale right before the publication of the Ningi short report and the GlobalFoundries news breaks the insider alignment thesis.
+- **Post-Raise Performance:** The stock has continued to fall post-raise (down 12% on 4 June 2026), violating the post-raise performance green flags of this framework.
 
-**Score: 1**
+**Score: 0**
 
 ---
 
@@ -200,6 +206,7 @@ Only 4 sell-side analysts cover the stock, and institutional ownership remains l
 **Score: 0/1 | Evidence: Moderate**
 
 The integrity audit reveals significant governance concern flags:
+
 - **EBM Leak Investigation:** EBM is investigating suspected information leakage regarding Sivers' US dual-listing announcement in April 2026.
 - **Financial Restatements:** Mandated by Deloitte to correct revenue policy violations; Sivers subsequently rewrote its policy to permit booking revenue as raw materials hit the warehouse (accrued material costs).
 - **IFRS and IAS Violations:** Booking US CHIPS Act grants as NRE revenue in violation of IAS 20; recognizing Ayar Labs revenue without shipments in violation of IFRS 15.
@@ -251,24 +258,24 @@ SIVERS maps directly to **Phase 3** of the known AI infrastructure institutional
 
 ## FINAL SCORECARD
 
-| Section | Criterion                                | Max    | Score | Evidence Quality |
-| ------- | ---------------------------------------- | ------ | ----- | ---------------- |
-| 01      | AI infra bottleneck                      | 1      | 1     | Strong           |
-| 02      | Hyperscaler linkage                      | 1      | 1     | Strong           |
-| 03      | Demand > supply                          | 2      | 2     | Strong           |
-| 04      | Revenue inflection after trough          | 1      | 1     | Moderate         |
-| 05      | Small cap / asymmetric upside            | 1      | 1     | Strong           |
-| 06      | R&D to scaling transition                | 1      | 1     | Strong           |
-| 07      | Customer concentration with hyperscalers | 1      | 1     | Strong           |
-| 08      | Technology leadership / first-mover      | 1      | 1     | Strong           |
-| 09      | Recent capital raise                     | 1      | 1     | Strong           |
-| 10      | Secular + cyclical tailwinds             | 1      | 1     | Strong           |
-| 11      | Under-followed / under-researched        | 1      | 1     | Strong           |
-| 12      | Management integrity and execution       | 1      | 0     | Moderate         |
-|         | **TOTAL**                                | **13** | **12**|                  |
+| Section | Criterion                                | Max    | Score  | Evidence Quality |
+| ------- | ---------------------------------------- | ------ | ------ | ---------------- |
+| 01      | AI infra bottleneck                      | 1      | 1      | Strong           |
+| 02      | Hyperscaler linkage                      | 1      | 1      | Strong           |
+| 03      | Demand > supply                          | 2      | 2      | Strong           |
+| 04      | Revenue inflection after trough          | 1      | 1      | Moderate         |
+| 05      | Small cap / asymmetric upside            | 1      | 1      | Strong           |
+| 06      | R&D to scaling transition                | 1      | 1      | Strong           |
+| 07      | Customer concentration with hyperscalers | 1      | 1      | Strong           |
+| 08      | Technology leadership / first-mover      | 1      | 1      | Strong           |
+| 09      | Recent capital raise                     | 1      | 0      | Moderate         |
+| 10      | Secular + cyclical tailwinds             | 1      | 1      | Strong           |
+| 11      | Under-followed / under-researched        | 1      | 1      | Strong           |
+| 12      | Management integrity and execution       | 1      | 0      | Moderate         |
+|         | **TOTAL**                                | **13** | **11** |                  |
 
-**Verdict: Tier 1 — 12/13 (Highest Conviction)**
-Sivers Semiconductors represents a Serenity-grade chokepoint and is restored as a Tier 1 position. The GlobalFoundries strategic collaboration and the Computex physical hardware validation confirm that Sivers' laser arrays are the default continuous-wave light source for Western CPO architectures, completely refuting the active short thesis. While the EBM leak investigation and auditor-mandated restatements warrant scoring Section 12 at 0, this governance noise does not impair the technology moat or commercial inflection.
+**Verdict: Tier 1 — 11/13 (Highest Conviction — Low End)**
+Sivers Semiconductors represents a Serenity-grade chokepoint and is restored as a Tier 1 position, though at the lower end due to severe governance strain. The GlobalFoundries strategic collaboration and the Computex physical hardware validation confirm that Sivers' laser arrays are the default continuous-wave light source for Western CPO architectures, completely refuting the active short thesis. While the EBM leak investigation, the 1.4M share discretionary insider dump by Harish Krishnaswamy, and auditor-mandated restatements warrant scoring Section 12 and Section 9 at 0, this governance noise does not impair the technology moat or commercial inflection.
 
 **Automatic disqualifier check: PASS.**
 The short report allegations regarding yield, reliability, and insider dumping are refuted by standard III-V industry physics, the GlobalFoundries strategic partnership, and documented corporate restructuring filings. Sivers is not disqualified, and its technology chokepoint is fully validated.
@@ -277,7 +284,7 @@ The short report allegations regarding yield, reliability, and insider dumping a
 
 ## SYNTHESIS: THE ONE-PARAGRAPH PITCH
 
-Sivers Semiconductors ($SIVE.ST) owns the critical Western-sovereign chokepoint for multi-wavelength continuous-wave (CW) InP laser arrays—the only light source next-generation co-packaged optics (CPO) architectures cannot generate. With the 2 June 2026 GlobalFoundries strategic collaboration, Sivers' lasers are integrated into reference designs built on GF's silicon photonics platform and are the default light sources on GF's SCALE™ CPO platform, placing them in the direct dependency chain of every major AI hyperscaler scaling CPO. This platform-level integration and Sivers' placement on the Wiwynn Computex board powering AyarLabs' TeraPHY optical engine and GUC ASIC in a Multi-Chip Package completely refute Ningi's short thesis alleging reliability failures and hollow contracts. Sivers is a qualification-cycle player whose $799 million pipeline is backed by a WIN Semiconductors capacity reservation to meet an industry-wide CW laser shortage. At a $1.9 billion market cap, capturing a 10% share of a $25 billion optics market by 2030 implies an EV of $100 billion (SEK 1.08 trillion) or a 5.1× return. Sivers is a Phase 3 institutional rotation play, with discovery accelerated by the GlobalFoundries agreement and an upcoming Nasdaq New York listing.
+Sivers Semiconductors ($SIVE.ST) owns the critical Western-sovereign chokepoint for multi-wavelength continuous-wave (CW) InP laser arrays—the only light source next-generation co-packaged optics (CPO) architectures cannot generate. With the 2 June 2026 GlobalFoundries strategic collaboration, Sivers' lasers are integrated into reference designs built on GF's silicon photonics platform and are the default light sources on GF's SCALE™ CPO platform, placing them in the direct dependency chain of every major AI hyperscaler scaling CPO. This platform-level integration and Sivers' placement on the Wiwynn Computex board powering AyarLabs' TeraPHY optical engine and GUC ASIC in a Multi-Chip Package completely refute Ningi's short thesis alleging reliability failures and hollow contracts. Sivers is a qualification-cycle player whose $799 million pipeline is backed by a WIN Semiconductors capacity reservation to meet an industry-wide CW laser shortage. At a $1.9 billion market cap, capturing a 10% share of a $25 billion optics market by 2030 implies an EV of $100 billion (SEK 1.08 trillion) or a 5.1× return. Sivers is a Phase 3 institutional rotation play, with discovery accelerated by the GlobalFoundries agreement, though near-term momentum is severely challenged by a 1.4M share discretionary insider dump and the ongoing EBM leak investigation (total score downgraded to 11/13).
 
 ---
 
