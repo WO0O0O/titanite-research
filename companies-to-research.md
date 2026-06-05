@@ -1,10 +1,6 @@
 ## SMALL CAPS:
 
-DGXX
-INFQ
-MRLN
 LWLG
-ALMU
 AMPG
 AIRJ
 
@@ -72,12 +68,6 @@ $LAES
 
 $IONQ
 
-Data Center Power
-$CEG
-
-$BE
-
-$FCEL
 
 Fintech
 $HOOD

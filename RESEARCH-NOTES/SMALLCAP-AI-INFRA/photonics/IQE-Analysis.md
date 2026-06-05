@@ -30,19 +30,19 @@ IQE is a sole source vendor to all major U.S. defense prime contractors. Raytheo
 
 ## GATE CHECK — MARKET CAP FILTER
 
-*   **Market cap:** ~£623.5 million (~$839.2 million USD) based on a share price of 47.50 GBX (29 May 2026 close) and 1,312.59 million ordinary shares outstanding post-fundraise.
-*   **Enterprise value:** ~£631.5 million (Market cap + £31.5 million net debt as of 31 December 2025, adjusting for the post-raise cash injection).
+*   **Market cap:** ~£647.7 million (~$871.8 million USD) based on a share price of 49.35 GBX (4 June 2026 close) and 1,312.59 million ordinary shares outstanding post-fundraise.
+*   **Enterprise value:** ~£655.7 million (Market cap + £31.5 million net debt as of 31 December 2025, adjusting for the post-raise cash injection).
 *   **Alternative Baseline (Post-Raise Announcement / Pre-Rally):** £448 million market cap, based on a share price of ~34 pence or pre-admission share counts.
 
 **PASSES the $5B hard gate.** IQE is a micro-to-small cap company.
 
 **Bull-case market cap in 24–36 months:**
-*   **Conservative Bull Case:** Photonics revenue expands at 20% CAGR driven by InP data centre demands, while the Wireless segment stabilizes and recovers to a 10% growth rate. Total revenue reaches £140 million by FY 2028. Applying a 5.0× EV/Revenue multiple, EV expands to £700 million → Market cap ~£680 million. Implied return from current price: **+9% (1.09× return).** Implied return from £448M baseline: **+52% (1.52× return).**
-*   **Aggressive Bull Case:** The MACOM partnership accelerates design-wins. Photonics revenue grows at a 35% CAGR, reaching £104 million by FY 2028. Wireless recovers to £60 million. Total revenue reaches £164 million. Adjusted EBITDA margins expand to 20% on high factory utilization, yielding £32.8 million in EBITDA. Applying an 8.0× EV/Revenue multiple, EV expands to £1.31 billion → Market cap ~£1.28 billion. Implied return from current price: **+105% (2.05× return).** Implied return from £448M baseline: **+186% (2.86× return).**
-*   **Premium Multiple Case (Defense Moat + AI Photonics):** If the market assigns a premium multiple of 10.0× EV/Revenue to reflect IQE's sole-source U.S. defense chokepoint and rapid optical interconnect growth, EV expands to £1.64 billion → Market cap ~£1.62 billion. Implied return from current price: **+160% (2.60× return).** Implied return from £448M baseline: **+262% (3.62× return).**
+*   **Conservative Bull Case:** Photonics revenue expands at 20% CAGR driven by InP data centre demands, while the Wireless segment stabilises and recovers to a 10% growth rate. Total revenue reaches £140 million by FY 2028. Applying a 5.0× EV/Revenue multiple, EV expands to £700 million → Market cap ~£680 million. Implied return from current price: **+5% (1.05× return).** Implied return from £448M baseline: **+52% (1.52× return).**
+*   **Aggressive Bull Case:** The MACOM partnership accelerates design-wins. Photonics revenue grows at a 35% CAGR, reaching £104 million by FY 2028. Wireless recovers to £60 million. Total revenue reaches £164 million. Adjusted EBITDA margins expand to 20% on high factory utilisation, yielding £32.8 million in EBITDA. Applying an 8.0× EV/Revenue multiple, EV expands to £1.31 billion → Market cap ~£1.28 billion. Implied return from current price: **+98% (1.98× return).** Implied return from £448M baseline: **+186% (2.86× return).**
+*   **Premium Multiple Case (Defence Moat + AI Photonics):** If the market assigns a premium multiple of 10.0× EV/Revenue to reflect IQE's sole-source U.S. defence chokepoint and rapid optical interconnect growth, EV expands to £1.64 billion → Market cap ~£1.62 billion. Implied return from current price: **+150% (2.50× return).** Implied return from £448M baseline: **+262% (3.62× return).**
 
 **GATE VERDICT: MARGINAL PASS.** 
-The current valuation does not mathematically yield the 500% minimum return bar required for a high-conviction Tier 1 rating under a realistic 36-month timeline. Following the share price rally to 47.50 GBX, the return potential has compressed. Even under the premium multiple case starting at the £448M baseline, the implied return is 3.62×, which falls short of the 5.0× threshold. However, the presence of a strategic corporate partner (MACOM) investing at a substantial premium de-risks the downside and warrants proceeding with the complete chokepoint analysis.
+The current valuation does not mathematically yield the 500% minimum return bar required for a high-conviction Tier 1 rating under a realistic 36-month timeline. Following the share price rally to 49.35 GBX, the return potential has compressed. Even under the premium multiple case starting at the £448M baseline, the implied return is 3.62×, which falls short of the 5.0× threshold. However, the presence of a strategic corporate partner (MACOM) investing at a substantial premium de-risks the downside and warrants proceeding with the complete chokepoint analysis.
 
 ---
 
@@ -168,10 +168,10 @@ The business has established a trailing trough in H1 2025 and has guided to >20%
 
 ## SECTION 5 — SMALL CAP / ASYMMETRIC UPSIDE
 
-*   **Market Cap:** £623.5 million ($839.2 million USD)
-*   **Enterprise Value:** £631.5 million ($850.0 million USD)
+*   **Market Cap:** £647.7 million ($871.8 million USD)
+*   **Enterprise Value:** £655.7 million ($882.6 million USD)
 *   **TTM Revenue:** £97.3 million ($130.9 million USD)
-*   **Current EV/Revenue:** ~6.5× TTM
+*   **Current EV/Revenue:** ~6.7× TTM
 
 ### Comparable Peer Multiples
 *   **VPEC (Visual Photonics Epitaxy Co.):** Historically trades between 6.0× and 10.0× revenue during optical upcycles.
@@ -185,12 +185,12 @@ The business has established a trailing trough in H1 2025 and has guided to >20%
 *   **Target EV:** £168m × 7.0 = £1.176 billion.
 *   **Target Market Cap:** £1.176B - Net Debt (£20m estimated post-cash generation) = £1.156 billion.
 *   **Implied Return:**
-    *   **Conservative Bull Case:** £680M target market cap / £623.5M current = **1.09× return (9% upside).**
-    *   **Aggressive Bull Case:** £1.28B target market cap / £623.5M current = **2.05× return (105% upside).**
+    *   **Conservative Bull Case:** £680M target market cap / £647.7M current = **1.05× return (5% upside).**
+    *   **Aggressive Bull Case:** £1.28B target market cap / £647.7M current = **1.98× return (98% upside).**
     *   **Premium Multiple Case (From £448M Baseline):** If evaluated from the £448M baseline with a 10.0× multiple on £164m revenue, target market cap reaches £1.62 billion, representing **3.62× return.**
 
 ### **Score: 0/1**
-The return mathematics under the aggressive bull case yields only 2.05× upside from the current price, and 3.62× under the premium multiple case from the £448M baseline. Both fail to meet the strict 5.0× (500% return) threshold required by the framework for taking compound semiconductor micro-cap risk.
+The return mathematics under the aggressive bull case yields only 1.98× upside from the current price, and 3.62× under the premium multiple case from the £448M baseline. Both fail to meet the strict 5.0× (500% return) threshold required by the framework for taking compound semiconductor micro-cap risk.
 
 ---
 
@@ -256,8 +256,8 @@ IQE is positioned at the intersection of a near-term cyclical recovery in wirele
 ## SECTION 11 — UNDER-FOLLOWED AND UNDER-RESEARCHED
 
 *   **Analyst Coverage:** Under LSE AIM rules, IQE is covered by fewer than 8 sell-side analysts (primarily UK-based brokers such as Peel Hunt and Deutsche Numis). 
-*   **Institutional Profile:** Institutional ownership is concentrated among UK small-cap managers. Artisan Partners holds a 13.30% stake and Lombard Odier holds a 14.47% stake. Point72 Asset Management filed a Form 8.3 under Rule 8.3 of the UK Takeover Code disclosing a ~1.07% holding via cash-settled derivatives during the active offer period in April 2026, indicating hedge fund interest in the strategic review outcome. The stock is completely ignored by US-based technology and AI-thematic ETFs because of its LSE AIM listing and micro-cap status.
-*   **Information Asymmetry:** The consensus narrative surrounding IQE is centered on "struggling legacy UK industrial company with weak cash flows." The market has failed to price the structural value of the MACOM partnership, the strategic role IQE plays in the global InP optical transceiver supply chain, and its sole-source positioning across U.S. defense primes.
+*   **Institutional Profile:** Institutional ownership is concentrated among UK small-cap managers. Artisan Partners holds a 13.30% stake and Lombard Odier holds a 14.47% stake. Point72 Asset Management filed a Form 8.3 under Rule 8.3 of the UK Takeover Code disclosing a ~1.07% holding via cash-settled derivatives in April 2026. This disclosure was a regulatory requirement during the formal Strategic Review, which has since concluded, meaning active takeover speculation has subsided. The stock is completely ignored by US-based technology and AI-thematic ETFs because of its LSE AIM listing and micro-cap status.
+*   **Information Asymmetry:** The consensus narrative surrounding IQE is centred on "struggling legacy UK industrial company with weak cash flows." The market has failed to price the structural value of the MACOM partnership, the strategic role IQE plays in the global InP optical transceiver supply chain, and its sole-source positioning across U.S. defence primes.
 
 ### **Score: 1/1**
 Ignored by global tech funds, covered by fewer than 10 regional analysts, and mischaracterised as a legacy wireless business despite strategic takeover interest and significant institutional backing.
@@ -343,7 +343,7 @@ The balance sheet risk has been mitigated by the £81m raise, but the structural
 
 ## SYNTHESIS: THE ONE-PARAGRAPH PITCH
 
-IQE plc holds over 55% of the outsourced merchant market for advanced compound semiconductor epitaxial wafers, creating a critical materials chokepoint for the Indium Phosphide (InP) and Gallium Arsenide (GaAs) lasers that power 800G and 1.6T optical transceivers. This chokepoint extends directly into the U.S. aerospace and defense supply chain, where IQE operates as a qualified sole source supplier to all major primes (including Raytheon via its Greensboro facility, BAE Systems, Lockheed, and Northrop), protected from foreign competitors like Landmark by strict geopolitical and regulatory barriers. The strategic value of this supply chain was validated by a U.S. executive order in January 2026 enforcing InP asset divestments, and by MACOM's £81 million strategic rescue and growth package in April 2026, which took an 11.5% equity stake and secured capacity via Long-Term Supply Agreements. While trailing consolidated financials show a trough in H1 2025 due to cyclical wireless smartphone destocking, the Photonics division grew 15% to £57.1 million, and management has guided for >20% revenue growth in FY 2026. Backed by institutional size from Artisan Partners (13.30%), Lombard Odier (14.47%), and Point72 (Form 8.3 takeover disclosure), the stock represents a 2.0× return target from the current £623 million market cap (2.8× from the £448 million pre-rally baseline), positioning it as an under-researched Phase 3 silicon photonics rotation candidate prior to wider consensus recognition of the structural transition from copper to optical interconnects.
+IQE plc holds over 55% of the outsourced merchant market for advanced compound semiconductor epitaxial wafers, creating a critical materials chokepoint for the Indium Phosphide (InP) and Gallium Arsenide (GaAs) lasers that power 800G and 1.6T optical transceivers. This chokepoint extends directly into the U.S. aerospace and defence supply chain, where IQE operates as a key qualified supplier to major primes (including Raytheon via its Greensboro facility, BAE Systems, Lockheed, and Northrop), protected from foreign competitors like Landmark by strict geopolitical and regulatory barriers. The strategic value of this supply chain was validated by a U.S. executive order in January 2026 enforcing InP asset divestments, and by MACOM's £81 million strategic growth package in May 2026, which took an 11.5% equity stake and secured capacity via Long-Term Supply Agreements. While trailing consolidated financials show a trough in H1 2025 due to cyclical wireless smartphone destocking, the Photonics division grew 15% to £57.1 million, and management has guided for >20% revenue growth in FY 2026. Backed by institutional size from Artisan Partners (13.30%), Lombard Odier (14.47%), and Point72 (Rule 8.3 disclosure during the now-concluded Strategic Review), the stock represents a 1.98× return target under an aggressive bull case from the current £647.7 million market cap (3.62× under a premium multiple from the £448 million pre-rally baseline), positioning it as an under-researched Phase 3 silicon photonics rotation candidate prior to wider consensus recognition of the structural transition from copper to optical interconnects.
 
 ---
 _Framework based on Serenity (@aleabitoreddit) Chokepoint Theory. Research use only — not financial advice. DYOR._
