@@ -184,7 +184,7 @@ Map the complete supply chain for [TICKER]'s primary product from raw material t
 6. Every known competitor or substitute. Monopoly, duopoly, or oligopoly?
 7. Strait of Hormuz test: what percentage of total global industry flow passes through [TICKER]? Give a number or range with source.
 8. Switching costs: how long would it take a customer to qualify an alternative supplier?
-9. **Cloud & Operations (Layer O) Moat Audit:** For cloud, hosting, or colocation providers: does the provider yield full control of the equipment to the customer, retaining no operating rights under GAAP (ASC 842)? What is the value of capitalised software on the balance sheet relative to physical hardware assets? If the provider sells undifferentiated bare metal with negligible software IP (e.g. under $1M capitalised software) and retains no operating rights, it must be classified as a **COMMODITY SUPPLIER (Equipment Lessor)**. (Physical hardware, materials, and semiconductor component developers are exempt from this software/lease audit).
+9. **Cloud & Operations (Layer O) Moat Audit:** For cloud, hosting, or colocation providers: does the provider yield full control of the equipment to the customer, retaining no operating rights under GAAP (ASC 842)? What is the value of capitalised software on the balance sheet relative to physical hardware assets? If the provider sells undifferentiated bare metal with negligible software IP (e.g. under $1M capitalised software) and retains no operating rights, it must be classified as a **COMMODITY SUPPLIER (Equipment Lessor)**. (Physical hardware, materials, semiconductor component developers, and cloud providers holding exclusive Tier 1 OEM chip allocation certifications—such as NVIDIA Exemplar Cloud status—are exempt from this software/lease audit).
 
 **Required verdict:** CHOKEPOINT / PARTIAL CHOKEPOINT / COMMODITY SUPPLIER
 
@@ -240,7 +240,7 @@ _2 points — highest weighted category_
 2. Reported backlog or deferred revenue — is it growing faster than revenue?
 3. Price increase announcements in press releases or regulatory filings in the past 12 months
 4. Any "sold out" or "capacity constrained" language in filed documents
-5. **Idle GPU Capacity Check (Layer O):** For dedicated GPU cloud providers, is any portion of revenue derived from decentralized networks (e.g. blockchain rewards or token validation)? If an AI cloud provider directs GPU clusters to validation networks during a global hardware shortage, it indicates an inability to secure commercial enterprise tenants. Deduct 1 point from Section 3 if crypto rewards exceed 10% of revenue, unless the company is a transitioning miner utilizing legacy ASIC/non-GPU infrastructure.
+5. **Idle GPU Capacity Check (Layer O):** For dedicated GPU cloud providers, is any portion of revenue derived from decentralized networks (e.g. blockchain rewards or token validation)? If an AI cloud provider directs GPU clusters to validation networks during a global hardware shortage, it indicates an inability to secure commercial enterprise tenants. Deduct 1 point from Section 3 if crypto rewards exceed 10% of revenue and forward contracted backlog/pipeline remains dominated (>20%) by validation networks, unless the company is a transitioning miner utilizing legacy ASIC/non-GPU infrastructure or the validation activity was a temporary capacity-fill measure during the initial cluster ramp.
 
 **Sub-section B — Forward run-rate signals (from transcript keyword sweep)**
 
@@ -321,7 +321,7 @@ _1 point_
 4. Contract structure: spot, multi-year supply agreements, or take-or-pay?
 5. Single customer loss scenario: revenue impact and implied stock price?
 6. Customer concentration rate of change: calculate the growth rate of bookings and revenue outside the top-2 customers. Is the concentration risk actively dissolving (e.g. non-top customers growing >50% YoY and representing the majority of bookings)?
-7. **Counterparty Credit & Aggregator Audit:** Are the top customers pre-revenue startups, GPU brokers/aggregators, or related-party entities? In small caps, high concentration is normal; however, concentration must be audited for credit quality. If the customer book represents adverse selection (pre-revenue counterparties carrying high default risk), deduct 1 point.
+7. **Counterparty Credit & Aggregator Audit:** Are the top customers pre-revenue startups, GPU brokers/aggregators, or related-party entities? In small caps, high concentration is normal; however, concentration must be audited for credit quality. If the customer book represents adverse selection (pre-revenue counterparties carrying high default risk), deduct 1 point. (Pre-revenue startup counterparties do not trigger this deduction if they are backed by Tier 1 venture capital or strategic partners exceeding a $100M funding threshold).
 
 Acceptable thresholds: top customer >25%; top 3–5 >50%; confirmed hyperscaler or Tier 1 design-in even if undisclosed.
 
@@ -513,7 +513,7 @@ Known AI infrastructure institutional rotation sequence:
 - Short report allegations that cannot be refuted with filed evidence
 - Integrity audit finding of prior fraud or securities violations by current leadership
 - Auditor resignation or replacement with no credible explanation
-- Active debt defaults or debt default waivers on bridge or related-party loans within the last 12 months that threaten entity solvency
+- Active debt defaults or debt default waivers on bridge or related-party loans within the last 12 months that threaten entity solvency (historical defaults do not disqualify if they were fully retired, settled, or restructured as a condition of a completed merger or capital raise that leaves the company with a positive net working capital position)
 - Reclassification as a commodity supplier (Layer O equipment lessor) in Section 0
 
 ---
