@@ -1,3 +1,11 @@
+# Serenity / CPO Ecosystem Targets
+
+$FOCI (3363.TW)
+$6451.TW (Shunsin)
+$3105.TWO (WIN Semiconductors)
+$TSEM (Tower Semiconductor)
+$3290.TW (Nextron)
+
 ## SMALL CAPS:
 
 LWLG
@@ -67,7 +75,6 @@ $INFQ
 $LAES
 
 $IONQ
-
 
 Fintech
 $HOOD

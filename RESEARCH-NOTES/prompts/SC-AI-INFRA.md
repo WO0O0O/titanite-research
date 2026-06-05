@@ -184,6 +184,7 @@ Map the complete supply chain for [TICKER]'s primary product from raw material t
 6. Every known competitor or substitute. Monopoly, duopoly, or oligopoly?
 7. Strait of Hormuz test: what percentage of total global industry flow passes through [TICKER]? Give a number or range with source.
 8. Switching costs: how long would it take a customer to qualify an alternative supplier?
+9. **Cloud & Operations (Layer O) Moat Audit:** For cloud, hosting, or colocation providers: does the provider yield full control of the equipment to the customer, retaining no operating rights under GAAP (ASC 842)? What is the value of capitalised software on the balance sheet relative to physical hardware assets? If the provider sells undifferentiated bare metal with negligible software IP (e.g. under $1M capitalised software) and retains no operating rights, it must be classified as a **COMMODITY SUPPLIER (Equipment Lessor)**. (Physical hardware, materials, and semiconductor component developers are exempt from this software/lease audit).
 
 **Required verdict:** CHOKEPOINT / PARTIAL CHOKEPOINT / COMMODITY SUPPLIER
 
@@ -239,6 +240,7 @@ _2 points — highest weighted category_
 2. Reported backlog or deferred revenue — is it growing faster than revenue?
 3. Price increase announcements in press releases or regulatory filings in the past 12 months
 4. Any "sold out" or "capacity constrained" language in filed documents
+5. **Idle GPU Capacity Check (Layer O):** For dedicated GPU cloud providers, is any portion of revenue derived from decentralized networks (e.g. blockchain rewards or token validation)? If an AI cloud provider directs GPU clusters to validation networks during a global hardware shortage, it indicates an inability to secure commercial enterprise tenants. Deduct 1 point from Section 3 if crypto rewards exceed 10% of revenue, unless the company is a transitioning miner utilizing legacy ASIC/non-GPU infrastructure.
 
 **Sub-section B — Forward run-rate signals (from transcript keyword sweep)**
 
@@ -319,10 +321,11 @@ _1 point_
 4. Contract structure: spot, multi-year supply agreements, or take-or-pay?
 5. Single customer loss scenario: revenue impact and implied stock price?
 6. Customer concentration rate of change: calculate the growth rate of bookings and revenue outside the top-2 customers. Is the concentration risk actively dissolving (e.g. non-top customers growing >50% YoY and representing the majority of bookings)?
+7. **Counterparty Credit & Aggregator Audit:** Are the top customers pre-revenue startups, GPU brokers/aggregators, or related-party entities? In small caps, high concentration is normal; however, concentration must be audited for credit quality. If the customer book represents adverse selection (pre-revenue counterparties carrying high default risk), deduct 1 point.
 
 Acceptable thresholds: top customer >25%; top 3–5 >50%; confirmed hyperscaler or Tier 1 design-in even if undisclosed.
 
-**Score 1 point** only if thresholds are met with confirmed hyperscaler or Tier 1 connections (including industry-specific Tier 1 connections for edge or niche hardware).
+**Score 1 point** only if thresholds are met with confirmed hyperscaler or Tier 1 connections (including industry-specific Tier 1 connections for edge or niche hardware) AND counterparty credit check is passed (no deduction under item 7).
 
 ---
 
@@ -349,10 +352,11 @@ _1 point_
 3. Timing: raised near trough or near a recent peak?
 4. Dilution as % of shares outstanding: under 10% acceptable; over 20% requires justification
 5. Post-raise stock performance: held / rallied (bullish) or continued falling (bearish)?
+6. **Bridge Debt & Default Audit:** Review pre-listing or pre-merger bridge debt. Was there any amendment including a waiver of existing defaults, high original issue discounts (OID), or interest rates indicating distressed liquidity? If yes, score Section 9 a 0 and flag under Section 12 (Management Integrity).
 
-Green flags: "expand manufacturing capacity," "fund growth capex," raised near trough, small dilution. Red flags: "debt repayment," "extend runway," raised at recent high, stock continued declining post-raise.
+Green flags: "expand manufacturing capacity," "fund growth capex," raised near trough, small dilution. Red flags: "debt repayment," "extend runway," raised at recent high, stock continued declining post-raise, or distressed debt/defaults under item 6.
 
-**Score 1 point** only if the raise was for growth, well-timed, not distressed, and dilution is proportionate.
+**Score 1 point** only if the raise was for growth, well-timed, not distressed, dilution is proportionate, and bridge debt audit is clean (no defaults or OID penalties).
 
 ---
 
@@ -505,10 +509,12 @@ Known AI infrastructure institutional rotation sequence:
 **Automatic disqualifiers — score 0 and do not invest regardless of total:**
 
 - Active regulatory investigation against the company or current executives
-- Going concern opinion from the current auditor
+- Going concern opinion from the current auditor or unresolved going concern disclosures
 - Short report allegations that cannot be refuted with filed evidence
 - Integrity audit finding of prior fraud or securities violations by current leadership
 - Auditor resignation or replacement with no credible explanation
+- Active debt defaults or debt default waivers on bridge or related-party loans within the last 12 months that threaten entity solvency
+- Reclassification as a commodity supplier (Layer O equipment lessor) in Section 0
 
 ---
 

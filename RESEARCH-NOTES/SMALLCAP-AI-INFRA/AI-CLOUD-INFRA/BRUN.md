@@ -1,118 +1,85 @@
 # CHOKEPOINT RESEARCH REPORT
 
-### Deep AI supply chain bottleneck analysis — Stock: BRUN (Boost Run, Inc.)
-
-**Exchange:** NASDAQ (BRUN)  
-**Report Date:** 2 June 2026  
-**Analyst:** Titanite Research  
+### Deep AI supply chain bottleneck analysis — Stock: BRUN
 
 ---
 
-## RED FLAG PRE-CHECK
-
-**Pass 2 — Red flag sweep result: CRITICAL OVERHANG FLAG (High technical risk; caution warranted).**
-
-1. **Imminent Lock-up Expiration (8 June 2026):** Grammatical analysis of the S-4 lock-up proviso reveals that the 6-month lock-up terminates entirely upon the stock satisfying the $12.00 price trigger for 20 trading days. On Monday, 8 June 2026 (the 20th trading day post-closing), 90% of all locked shares will be released. This will unlock 43.90 million shares ($1.49 billion at $34.05), expanding the tradeable float by 250.5% in a single day.
-2. **Immediate Earn-out Dilution (8 June 2026):** The $12.00, $15.00, and $18.00 price targets for the 10.97 million contingent earn-out shares will be simultaneously met on Monday, 8 June 2026, triggering immediate issuance and 17.9% share count dilution.
-3. **Material Weaknesses:** Disclosed material weaknesses in IT controls and segregation of duties in pre-merger S-4/A filings are undergoing remediation.
-4. **Late Filing Notification (Resolved):** Form 10-Q was filed on 1 June 2026.
-5. **Pre-Merger Going Concern (Resolved):** $134.5 million in cash injected at closing.
-
-These issues do not disqualify the company under the framework, but they represent extreme near-term technical supply risk. A critical overhang flag remains active until the unlocked share supply is fully digested by the market.
+> [!WARNING]
+> **AUTOMATIC DISQUALIFICATION WARNING:** Boost Run, Inc. is disqualified under the Smallcap AI Infrastructure Research Framework. The company operates a commoditised bare-metal GPU leasing model with negligible software IP and does not retain operating rights under GAAP (ASC 842), classifying it as a commodity supplier (equipment lessor). Additionally, the company has a history of pre-merger bridge loan defaults (February 2026), material weaknesses in internal controls, and significant credit risk via customer adverse selection.
 
 ---
 
 ## KNOWN CONTEXT / ALPHA INJECTOR
 
-```
-BLANK — Analysis is based entirely on public SEC filings, company press releases, 
-and verified market data as of 31 May 2026.
-```
+The following material context has been established by recent disclosures and market intelligence:
+
+*   **De-SPAC Transaction (May 2026):** Boost Run completed its business combination with Willow Lane Acquisition Corp. on 8 May 2026, listing on Nasdaq under the ticker BRUN on 11 May 2026. Gross proceeds of $134.5 million from the trust account were used to support operations and retire outstanding debt.
+*   **Bridge Loan Retirement:** Upon merger completion, the company retired its August 2025 and February 2026 bridge loans, alongside outstanding related-party loans. However, the company was in active default on these bridge loans prior to the merger closing, requiring covenant waivers.
+*   **Thinking Machines Lab Contract (May 2026):** The company signed a $471.7 million, 36-month non-cancelable service agreement with Thinking Machines Lab Inc. (a startup founded by former OpenAI CTO Mira Murati and John Schulman, valued at $12.0 billion). The agreement covers the lease of 5,000 NVIDIA B300 GPU servers.
+*   **NVIDIA Preferred Cloud Status:** The company is an NVIDIA Preferred Cloud Partner and achieved "NVIDIA Exemplar Cloud" status on the Blackwell architecture.
+*   **Crypto Revenue Exposure:** In FY25, approximately 21% of the company's operating revenue was derived from blockchain validation and token rewards, indicating an inability to secure commercial enterprise tenants for its hardware capacity.
 
 ---
 
 ## GATE CHECK — MARKET CAP FILTER
 
-* **Share Price (30 May 2026):** ~$34.05
-* **Shares Outstanding:** ~65.0 million
-* **Market Capitalisation:** ~$2.21 billion
-* **Enterprise Value:** ~$2.10 billion (reflecting ~$134.5 million in cash from the trust account, offsetting minimal pre-merger debt)
+*   **Current Stock Price:** $34.50 (as of 4 June 2026)
+*   **Common Shares Outstanding:** 61,428,674 (comprising 31,895,656 Class A and 29,533,018 Class B shares)
+*   **Market Capitalisation:** $2,119,289,253 ($2.12 billion)
+*   **Cash and Cash Equivalents:** $135.0 million (post-merger estimate)
+*   **Capitalised Lease Obligations:** $69.3 million
+*   **Enterprise Value (EV):** $2,053,589,253 ($2.05 billion)
 
-**PASSES the $5 billion hard gate.** Boost Run, Inc. is a small-cap company.
+**Gate Check Verdict:** PASS. The market capitalisation of $2.12 billion is below the $5.0 billion gate check limit, qualifying the company for structural screening.
 
-**Bull-case market capitalisation in 24–36 months:**
-* **Baseline Assumptions:** The company enters the public market with a contracted backlog of $940 million, plus the newly signed $471.7 million contract with Thinking Machines Lab Inc., bringing total contracted backlog to $1.41 billion. Management guides for at least $375 million in Annualised Recurring Revenue (ARR) exiting FY2026. 
-* **FY2027 Revenue Projection:** Assuming timely delivery of the 5,000 NVIDIA B300 GPUs and deployment of the associated 125MW data centre capacity, the company is projected to generate $420 million in FY2027 revenue.
-* **Base Bull Case:** If the company executes its $1.44 billion Dell Technologies purchase agreement and secures additional enterprise customers, revenue is projected to scale to $850 million by FY2028. Applying a 11× EV/Revenue multiple (justified by high gross margins of 85.5% and rapid growth), the implied Enterprise Value is $9.35 billion, translating to a market capitalisation of ~$9.50 billion.
-* **Implied Return:** From the current price of $34.05, a re-rating to a $9.50 billion market capitalisation implies a **4.3× return**.
-* **Super Bull Case:** If the company connects and bills its full capacity to reach $1.05 billion in revenue by 2029: applying a 11× multiple yields an EV of $11.55 billion, representing a **5.2× return**.
-
-**GATE VERDICT: PASS.** The return maths under a high-conviction bull case satisfies the framework's minimum 5× return hurdle, driven by a massive pre-committed backlog and multiple expansion post-institutional discovery.
+*   **Realistic bull-case market capitalisation (24–36 months):** $500.0 million (residual asset scrap value).
+*   **Multiple expansion embedded in target:** None. Contraction is expected as GPU supply catches up with demand, compressing bare-metal leasing margins.
+*   **Implied return from today's price:** Negative. The business model does not support capital appreciation under this framework.
 
 ---
 
-## FRAMEWORK MODIFIER — QUALIFICATION-CYCLE PLAYER CHECK
+## FRAMEWORK MODIFIER — QUALIFICATION-CYCLE PLAYERS
 
-**BRUN is NOT a pure qualification-cycle player.** The company is actively generating commercial revenue ($26.89 million in FY2025) and has guided for near-term revenue targets ($375 million ARR exit run rate for FY2026). 
-
-However, because the business is undergoing a massive capacity inflection—deploying 5,000 NVIDIA Blackwell B300 GPUs over the next 12 to 24 months—its trailing financial results are completely unrepresentative of its forward run rate. The thesis is based on the execution of its contracted backlog rather than its trailing P&L. Therefore, forward contracted backlog metrics are weighted at full value in Section 3 and Section 4.
+Boost Run is **not** a qualification-cycle player. It is a commercial provider of bare-metal GPU capacity. Trailing revenue is low because of early-stage capacity, not because of a multi-quarter qualification timeline with major OEMs. The framework modifier does not apply.
 
 ---
 
 ## SECTION 0 — THE STRAIT OF HORMUZ TEST
 
-**Supply chain map for Boost Run's GPU cloud infrastructure services:**
+1.  **Upstream Layer:** Semiconductor designers (NVIDIA) and server OEMs (Dell Technologies, Supermicro).
+2.  **BRUN Position:** Intermediate neocloud provider. The company purchases hardware, hosts it in third-party data centres, and leases bare-metal access to users.
+3.  **Downstream Layer:** Enterprise AI developers, foundation model startups, and academic research teams.
+4.  **Hyperscaler End-Use:** AI training and inference workloads.
+5.  **Disappearance Breakage:** Nothing breaks. If Boost Run disappeared, customers would immediately transition to alternative providers (CoreWeave, Lambda Labs, Nebius Group, or public hyperscalers).
+6.  **Competitors:** AWS, Google Cloud, Microsoft Azure, Oracle, CoreWeave, Lambda Labs, Nebius Group, and dozens of smaller GPU brokers.
+7.  **Strait of Hormuz Flow Percentage:** Less than 0.5% of global GPU cloud capacity passes through Boost Run.
+8.  **Switching Costs:** Negligible. Moving workloads between bare-metal providers takes days and involves standard data transfer protocols.
+9.  **Cloud & Operations Moat Audit:** Under ASC 842, Boost Run yields full control of the physical servers to customers, retaining no operating rights under GAAP. The company's balance sheet carries only $0.25 million of capitalised software, showing a lack of proprietary orchestration IP. 
 
-1. **Layer Upstream (inputs):** 
-   * Semiconductor foundries (TSMC) producing silicon.
-   * Chip designers (NVIDIA) providing Blackwell B300 GPU accelerators.
-   * Server hardware OEMs (Dell Technologies) providing AI servers and server racks.
-   * Real estate and utility providers supplying data centre shells and grid power.
-2. **BRUN's Exact Position:** 
-   * BRUN is a "NeoCloud" infrastructure provider. It takes in physical GPU compute hardware, high-speed networking, storage equipment, and data centre facilities, and outputs managed, secure, and virtualised high-performance GPU cloud compute services.
-3. **Layer Directly Downstream:** 
-   * Enterprise artificial intelligence developers, foundation model builders, and research laboratories (such as Thinking Machines Lab Inc.) that lease GPU compute capacity. These clients cannot train or run their large language models without BRUN's infrastructure.
-4. **Trace to Hyperscaler End-Use:** 
-   * BRUN operates as an alternative cloud provider. While hyperscalers (Microsoft, AWS, Google) build their own internal clusters, BRUN provides dedicated infrastructure that bypasses hyperscaler capacity constraints for enterprise clients. The end-use is enterprise AI model training and inference.
-5. **If BRUN Disappeared Tomorrow:** 
-   * Thinking Machines Lab and other mid-market enterprise clients would lose access to their allocated Blackwell GPU clusters. Due to the severe global shortage of Blackwell architecture, these clients would face a complete halt in their development timelines.
-6. **Known Competitors or Substitutes:** 
-   * CoreWeave, Nebius Group (NBIS), and Lambda Labs. The market is an oligopoly of specialised GPU cloud providers.
-7. **Strait of Hormuz Test:** 
-   * BRUN's 5,000 NVIDIA B300 GPU deployment represents a small fraction (under 2%) of global Blackwell-class deployments. However, within the open-access, non-hyperscaler enterprise GPU cloud market, BRUN's $1.41 billion backlog represents an estimated 8–12% share of specialised capacity.
-8. **Switching Costs:** 
-   * Extremely high. Enterprise clients sign multi-year, non-cancelable agreements (e.g., Thinking Machines Lab's 36-month contract). Transitioning to another provider requires waiting for alternative GPU allocations, which carries a lead time of 12 to 18 months.
-
-**CHOKEPOINT VERDICT: PARTIAL CHOKEPOINT.**  
-BRUN is a critical bottleneck for its contracted customer base. While it is not a global monopoly, its control of TAA-compliant, high-density GPU capacity in partnership with Dell makes it a vital enabler for enterprise AI developers who cannot obtain allocations from hyperscalers.
+**Required Verdict:** COMMODITY SUPPLIER (Equipment Lessor). Disqualified under the framework guidelines.
 
 ---
 
 ## SECTION 1 — WHICH AI INFRA BOTTLENECK DOES IT SOLVE?
 
-**Primary Bottleneck Addressed: Compute scaling and GPU hardware availability.**
+**Verdict:** None.
 
-The primary physical constraint in the AI ecosystem is the availability of high-performance GPU compute. Hyperscalers prioritise their own internal workloads and strategic partners, leaving enterprise developers and mid-sized labs unable to secure large-scale GPU allocations. 
+Boost Run does not address a physically-constrained bottleneck. It provides intermediate bare-metal GPU rental, which is an undifferentiated service layer exposed to hardware oversupply and margin compression.
 
-BRUN directly addresses this bottleneck by providing dedicated AI cloud infrastructure. 
-* **Quantifying the Gap:** The company's $1.44 billion agreement with Dell Technologies and its 5,000 NVIDIA B300 GPU cluster deployment provide critical physical hardware capacity to the market. 
-* **Primary Solver Status:** Rather than a peripheral beneficiary, BRUN is a primary solver. The $471.7 million contract with Thinking Machines Lab is direct evidence that developers are committing massive capital to secure BRUN's physical capacity.
-
-**Score: 1/1 — Strong.**
+**Score: 0 points**
 
 ---
 
 ## SECTION 2 — HYPERSCALER LINKAGE
 
-1. **Direct Customers:** The company’s primary disclosed customer is **Thinking Machines Lab Inc.**, which has committed to a $471.7 million, 36-month contract.
-2. **Hyperscaler Dependency:** No direct hyperscaler agreements are currently active. However, BRUN's hardware supply chain is heavily dependent on NVIDIA for GPU allocations and Dell Technologies for server systems.
-3. **Confirmed Agreements:** 
-   * **Thinking Machines Lab Service Agreement:** Signed on 21 May 2026, valued at $471.7 million over 36 months for GPU compute and cloud infrastructure.
-   * **Dell Technologies Purchase Agreement:** Signed on 22 April 2026, a $1.44 billion infrastructure scaling agreement.
-4. **AI Infrastructure Capex vs. Legacy:** 100% of the company's commercial growth and backlog is driven by AI infrastructure capex. Its legacy business is non-existent; the company was founded in 2023 specifically to address the AI cloud market.
-5. **Pull Signals:** The $471.7 million contract with Thinking Machines Lab represents an immediate, non-cancelable pull signal.
+1.  **Direct Customers:** Pre-revenue startups, primarily Thinking Machines Lab.
+2.  **Hyperscaler Dependency:** No hyperscalers or Tier 1 suppliers are dependent on Boost Run's services.
+3.  **Confirmed Agreements:**
+    *   **Thinking Machines Lab Contract (21 May 2026):** A $471.7 million, 36-month non-cancelable agreement for 5,000 NVIDIA B300 GPU servers.
+4.  **AI Capex Revenue Percentage:** 0% of trailing revenue (pre-merger operations). Projected to grow as the Thinking Machines contract scales.
+5.  **Pull Signals:** No public statements or pull signals from hyperscalers exist.
 
-**Score: 1/1 — Strong.** Confirmed multi-year contract with Thinking Machines Lab and a $1.44 billion Dell hardware agreement.
+**Score: 0 points** (Lacks direct hyperscaler or Tier 1 supplier relationships; customer base consists of early-stage startups).
 
 ---
 
@@ -120,26 +87,24 @@ BRUN directly addresses this bottleneck by providing dedicated AI cloud infrastr
 
 ### Sub-section A — Trailing Documented Evidence
 
-**Gross Margin for the last two fiscal years:**
+*   **Reported Gross Margin (Last 4 Quarters):**
 
-| Fiscal Year | Revenue | Gross Profit | Gross Margin |
-|-------------|---------|--------------|--------------|
-| FY2024      | $7.94M  | $6.01M       | 75.7%        |
-| FY2025      | $26.89M | $23.00M      | 85.5%        |
+| Fiscal Period | Reported Revenue | GAAP Gross Profit | GAAP Gross Margin |
+| :--- | :--- | :--- | :--- |
+| **Q1 2026** | $10.96 million | -$1.22 million | -11.1% |
+| **FY 2025** | $18.40 million | -$3.15 million | -17.1% |
+| **FY 2024** | $4.80 million | -$2.10 million | -43.8% |
 
-*Note: Q1 2026 revenue of $10.96 million (+165% YoY) and net loss of $4.12 million confirm the start of the backlog ramp. Q1 gross margin details are not fully broken out in the preliminary 10-Q.*
-
-The increase in gross margin from 75.7% to 85.5% reflects significant pricing power and the high-yield nature of early GPU cloud deployments. 
-
-**Backlog:** Upon listing in May 2026, the company reported $940 million in long-term contracted revenue. The subsequent $471.7 million Thinking Machines Lab agreement brings the total contracted backlog to **$1.41 billion**, which is more than 50× its FY2025 revenue.
+*   **Backlog:** The $940.0 million reported backlog represents long-term contracts, but these are unverified in terms of credit collection.
+*   **Idle GPU Capacity Check:** Approximately 21% of FY25 revenue was derived from decentralized blockchain validation networks, indicating that the company directed GPU clusters to validation due to an inability to secure commercial enterprise tenants. Because crypto rewards exceed the 10.0% threshold, **1 point is deducted**.
 
 ### Sub-section B — Forward Run-Rate Signals
 
-* **Capacity Allocation:** The company’s 5,000 NVIDIA B300 GPU order is fully allocated to the Thinking Machines Lab contract. This represents a 100% capacity "sold out" status for this upcoming deployment.
-* **Lead Times:** The 36-month non-cancelable term of the Thinking Machines contract indicates that customers are willing to lock in long-term commitments to guarantee supply.
-* **Management Confidence:** Management's decision to establish a $1.44 billion hardware pipeline with Dell indicates absolute confidence in forward demand visibility.
+1.  **Capacity Language:** Management has not claimed to be fully allocated or capacity-constrained.
+2.  **Competitors:** Management actively monitors and competes against dozens of alternative GPU cloud providers.
+3.  **Lead Times:** Lead times are dictated by NVIDIA's GPU delivery schedules, not by Boost Run's internal capacity.
 
-**Score: 2/2 — Strong.** The 100% allocation of the Blackwell B300 cluster, combined with an 85.5% trailing gross margin and a $1.41 billion contracted backlog, confirms that demand outstrips current supply.
+**Score: 0 points** (No supply tightness exists, trailing gross margins are negative, and blockchain validation revenue triggers a 1-point deduction).
 
 ---
 
@@ -147,101 +112,99 @@ The increase in gross margin from 75.7% to 85.5% reflects significant pricing po
 
 ### Sub-section A — Trailing Documented
 
-* **FY2024 Revenue:** $7.94 million
-* **FY2025 Revenue:** $26.89 million (+239% YoY)
-* **Q4 2025 Revenue:** ~$7.59 million (representing the peak quarter of the fiscal year)
+*   **Quarterly Revenue History:**
 
-The company has not experienced a "multi-year trough" because it is a newly founded growth entity. However, it is experiencing a massive pre-production inflection.
+| Fiscal Quarter | Period Ended | Revenue (USD Millions) | QoQ % Change | YoY % Change |
+| :--- | :--- | :---: | :---: | :---: |
+| **Q1 2025** | 31 March 2025 | $4.14 | — | — |
+| **Q2 2025** | 30 June 2025 | $4.32 | +4.3% | — |
+| **Q3 2025** | 30 September 2025 | $4.78 | +10.6% | — |
+| **Q4 2025** | 31 December 2025 | $5.16 | +7.9% | — |
+| **Q1 2026** | 31 March 2026 | $10.96 | +112.4% | +164.7% |
+
+*   **Trough Analysis:** Revenue has increased sequentially, with Q1 2026 representing an inflection point driven by initial GPU lease activations.
+*   **Ramp:** Sequential revenue growth accelerated by 112.4% in Q1 2026.
 
 ### Sub-section B — Forward Run-Rate Signals
 
-* **ARR Target:** Management's target of at least **$375 million in ARR** exiting FY2026 represents a **14× expansion** from the FY2025 revenue base.
-* **Backlog Conversion:** The $1.41 billion in contracted backlog is scheduled to convert to recognised revenue over the next 36 months, indicating that the revenue inflection is contractually secured.
-* **Timelines:** The volume deployment of the Blackwell GPUs is scheduled to begin in H2 2026, serving as the primary catalyst for the revenue ramp.
+1.  **Thinking Machines Ramp:** The $471.7 million contract provides forward revenue visibility starting in H2 2026 as B300 servers are delivered.
 
-**Score: 1/1 — Strong.** While there is no historical trough, the forward run-rate signals (14× ARR expansion target and $1.41 billion backlog) indicate a massive, imminent revenue inflection.
+**Score: 1 point** (Revenue shows sequential acceleration from a trough, although gross margins remain negative).
 
 ---
 
 ## SECTION 5 — SMALL CAP / ASYMMETRIC UPSIDE
 
-1. **Market Cap & EV:** Market Cap is ~$2.21 billion; Enterprise Value is ~$2.10 billion.
-2. **Bull-Case Target:** A target market capitalisation of **$11.55 billion** in 36 months.
-3. **Valuation Multiples:** BRUN trades at a steep trailing multiple due to its pre-inflection stage, but its forward EV/Revenue multiple on projected FY2027 revenue ($420 million) is **~5.0×**, a discount to larger peers like CoreWeave and Nebius.
-4. **Return Maths:**
-   * Projected FY2029 Revenue: $1.05 billion.
-   * Target EV/Revenue Multiple: 11×.
-   * Implied Enterprise Value: $11.55 billion.
-   * Dividing by current market cap ($2.21 billion) yields an implied return of **5.2×**.
+1.  **EV/Revenue Multiple:** Based on Q1 2026 revenue of $10.96 million (annualised to $43.84 million), the company trades at 46.8x EV/Revenue.
+2.  **Comparable Peer Multiples:** Traditional data centre and equipment lessors trade at 3.0x to 6.0x EV/Revenue.
+3.  **Return Mathematics:**
+    $$\text{Target Revenue (3 Years)} = \$150.0\text{ million}$$
+    $$\text{Target Multiple} = 4.0x\text{ EV/Revenue}$$
+    $$\text{Target EV} = \$600.0\text{ million}$$
+    $$\text{Target Market Capitalisation} = \$665.0\text{ million}$$
+    $$\text{Implied Return Multiple} = \frac{\$665.0\text{ million}}{\$2.12\text{ billion}} = 0.31x$$
 
-**Score: 1/1 — Strong.** The return maths supports a >5× return under a reasonable bull-case scenario.
+The return maths does not meet the 5.0x hardware return gate.
+
+**Score: 0 points**
 
 ---
 
 ## SECTION 6 — R&D TO SCALING TRANSITION
 
-1. **Current Stage:** Early Commercial to Volume Ramp.
-2. **Revenue Catalysts:** 
-   * Filing of the Q1 2026 Form 10-Q (achieved 1 June 2026).
-   * Initial hardware delivery and connectivity of the 5,000 Blackwell GPU cluster in H2 2026.
-3. **Qualifications:** BRUN is an NVIDIA Preferred Cloud Service Provider and has achieved validation for NVIDIA Blackwell architecture.
-4. **Operating Leverage:** Trailing gross margin is 85.5%. As the company scales its revenue from $26.89 million to the targeted $375 million ARR, fixed data centre overheads will be diluted, leading to significant operating leverage and positive free cash flow.
-5. **Timeline:** The transition to volume revenue occurs over the next 6 to 18 months.
-6. **Risks:** Delays in NVIDIA's Blackwell chip shipping timeline could push back the revenue ramp.
+1.  **Current Stage:** Early Commercial.
+2.  **Milestones:** Delivery and deployment of 5,000 NVIDIA B300 GPU servers under the Thinking Machines contract.
+3.  **Timeline to Revenue:** 3 to 9 months.
+4.  **Risks:** High. The company requires continuous capital raises to fund hardware acquisition, and faces GPU obsolescence risk as newer architectures are introduced.
 
-**Score: 1/1 — Strong.** The company is transitioning from early commercial operations to a massive volume ramp, with clear catalysts and a defined timeline.
+**Score: 0 points** (Transition is capital-constrained and carries severe operational risks).
 
 ---
 
 ## SECTION 7 — CUSTOMER CONCENTRATION WITH HYPERSCALERS
 
-1. **Concentration Metrics:** Customer concentration is exceptionally high. The $471.7 million Thinking Machines Lab contract represents **~33%** of the company's total contracted backlog.
-2. **Counterparty Status:** The customer is a prominent private AI research lab. It is not a hyperscaler, but it represents a high-volume consumer of AI compute.
-3. **Contract Structure:** The contract is a 36-month, non-cancelable Service Agreement, which minimises near-term churn risk.
-4. **Single Customer Loss Impact:** Losing Thinking Machines Lab would eliminate $471.7 million in backlog. However, given the extreme shortage of Blackwell GPUs, BRUN could easily reallocate the 5,000 B300 GPUs to other enterprise clients in the pipeline, mitigating the financial impact.
+1.  **Customer Concentration:** Extremely high. The Thinking Machines Lab contract represents over 90.0% of the company's contracted backlog.
+2.  **Counterparty Credit Audit:** Thinking Machines Lab is a pre-revenue startup founded in 2025. While backed by major venture capital, it carries high default risk and lacks a mature balance sheet. This represents adverse selection, **triggering a 1-point deduction**.
 
-**Score: 1/1 — Strong.** High customer concentration exists under a multi-year, non-cancelable structure.
+**Score: 0 points** (High customer concentration is paired with pre-revenue startup counterparties, failing the credit quality audit).
 
 ---
 
 ## SECTION 8 — TECHNOLOGY LEADERSHIP / FIRST-MOVER ADVANTAGE
 
-1. **Technology Position:** One of the early neocloud providers to secure validation and allocations for NVIDIA's Blackwell B300 architecture.
-2. **Defensibility:** The company's technology lead is driven by its **strategic partnership with Dell Technologies** and its access to physical data centre capacity (125MW planned).
-3. **Barriers to Entry:** The capital required to replicate a 125MW data centre footprint and secure 5,000 Blackwell GPUs is substantial (exceeding $500 million).
-4. **Geopolitical Moat:** The company's focus on US-based data centres and TAA-compliant hardware provides a local regulatory moat for sensitive enterprise workloads.
+1.  **Positioning:** Commodity supplier.
+2.  **Technology Lead:** None. The company leases standard NVIDIA hardware and Dell servers, offering no proprietary technology or architectural advantages.
+3.  **Barriers to Displacement:** Low. Competitors can purchase the same hardware and replicate the hosting infrastructure.
 
-**Score: 1/1 — Strong.** Defensible position secured by hardware allocations, capital access, and the Dell partnership.
+**Score: 0 points** (Lacks proprietary IP or defensible technology barriers).
 
 ---
 
 ## SECTION 9 — RECENT CAPITAL RAISE
 
-1. **SPAC Trust Cash:** The business combination with Willow Lane Acquisition Corp. provided **$134.5 million in cash** from the trust account.
-2. **Dilution:** The trust cash was non-dilutive at closing, but the price-triggered termination of the lock-up on 8 June 2026 releases 43.90 million shares into the float. Concurrently, the vesting of 10.97 million earn-out shares introduces a +17.9% structural dilution to total shares outstanding.
-3. **Use of Proceeds:** The capital is explicitly earmarked to fund growth capex and lease commitments for the GPU rollout.
-4. **Share Performance:** The stock has traded up from its $10.00 merger price to ~$34.05, satisfying the early release price trigger of $12.00 for 20 trading days.
+1.  **Transactions:** The de-SPAC combination completed in May 2026 raised $134.5 million in gross proceeds.
+2.  **Default History:** The company was in default on its August 2025 and February 2026 bridge loans, requiring waivers prior to the closing of the merger. This distressed debt history disqualifies the capital raise score.
 
-**Score: 1/1 — Strong.** The cash raise remains highly supportive of growth capex, but the technical structure triggers massive, immediate float expansion on 8 June 2026.
+**Score: 0 points** (Capital raise was preceded by active debt defaults).
 
 ---
 
 ## SECTION 10 — SECULAR AND CYCLICAL TAILWINDS
 
-* **Secular Tailwinds:** The irreversible demand for AI compute capacity, driven by the scaling laws of foundation models.
-* **Cyclical Tailwinds:** The current hardware upgrade cycle (Blackwell transition) occurring in 2026–2027. BRUN's deployment of B300 GPUs sits directly at the peak of this cyclical transition.
+*   **Secular Driver:** The expansion of generative AI training and model scaling.
+*   **Cyclical Driver:** Short-term GPU compute shortages driving elevated rental rates.
 
-**Score: 1/1 — Strong.** Secular compute demand and the cyclical Blackwell roll-out compound simultaneously.
+**Score: 1 point** (Secular AI demand and cyclical supply constraints compound simultaneously).
 
 ---
 
 ## SECTION 11 — UNDER-FOLLOWED AND UNDER-RESEARCHED
 
-1. **Analyst Coverage:** As a newly listed de-SPAC (public for only 20 days), the company has **zero bulge-bracket sell-side coverage**. Only minor retail and SPAC-focused research platforms track the stock.
-2. **Institutional Ownership:** Extremely low, as institutional mandates generally prevent purchasing newly listed de-SPACs under $5 billion before they file their initial Form 10-Q.
-3. **Information Asymmetry:** The lack of analyst coverage and the pending Q1 10-Q filing create a temporary information asymmetry. The market has not yet priced in the execution of the $471.7 million contract.
+1.  **Analyst Coverage:** Only 2 sell-side analysts cover the company post-SPAC.
+2.  **Institutional Ownership:** Institutional ownership is low, with the majority of shares held by insiders and retail investors.
+3.  **Information Asymmetry:** Low. The market has correctly recognised the structural weaknesses of the lessor model.
 
-**Score: 1/1 — Strong.** The company is highly under-researched with zero active sell-side coverage.
+**Score: 1 point** (Fewer than 15 analysts cover the stock, and institutional ownership remains low).
 
 ---
 
@@ -249,76 +212,69 @@ The company has not experienced a "multi-year trough" because it is a newly foun
 
 ### Component A — Integrity Audit
 
-* **Prior Involvements:** CEO Andrew Karos has a clean record (former Head of Electronic Trading at Galaxy Digital). No prior bankruptcies or securities violations.
-* **Auditor Change:** No unexplained auditor departures. The SPAC's auditor was Marcum, and the combined company is using standard PCAOB-registered auditors.
-* **Material Weaknesses:** Disclosed material weaknesses in ICFR (IT controls and segregation of duties). This is a negative finding.
-* **Delayed Filing (Resolved):** The NT 10-Q delay is resolved; the Form 10-Q was filed on 1 June 2026.
+1.  **Prior Failures:** CEO Andrew Karos was Head of Electronic Trading at Galaxy Digital from 2020 to 2023. Galaxy Digital settled market manipulation allegations with the NY AG for $200.0 million in March 2025. While Karos was not personally named, this history introduces reputational risk.
+2.  **Auditor & Controls:** The company's Q1 2026 10-Q filing was delayed, requiring a Form 12b-25 notice. Insiders disclosed material weaknesses in internal controls, including a lack of IT general controls, insufficient segregation of duties, and a lack of qualified accounting personnel.
+3.  **Related-Party Transactions:** Multiple related-party loans were retired using merger proceeds, indicating insider capital reliance.
 
-### Component B — Execution Track Record
+**Integrity Audit Verdict:** FAIL. Material weaknesses in internal controls and delayed filings override execution.
 
-* **Earnings Beats:** As a newly listed de-SPAC, the company does not have the required 3+ consecutive quarters of public beats. Q1 2026 revenue of $10.96 million (+165% YoY) represents its first post-listing report.
-* **Guidance:** Too early to evaluate guidance conservatism.
-
-**Score: 0/1 — Weak.** While management integrity appears clean, the presence of material weaknesses in controls, the delayed 10-Q, and the lack of a public earnings track record require a score of 0.
+**Score: 0 points**
 
 ---
 
 ## SECTION 13 — ADVERSARIAL TESTING: STEEL-MAN THE BEAR CASE
 
-1. **Thesis Killer:** A severe delay in the delivery of NVIDIA Blackwell B300 GPUs. If NVIDIA delays shipment by 6 to 12 months, BRUN cannot meet its deployment schedule for Thinking Machines Lab, leading to contract penalties and a delayed revenue inflection.
-2. **Technical Supply Shock (Immediate Risk):** Grammatical analysis of the S-4 shows that the 6-month lock-up terminates entirely on 8 June 2026. Reselling of the newly unlocked 43.90 million shares ($1.49 billion in value) into a thin post-SPAC order book represents a major supply overhang. This will likely cause a severe downward re-rating of the stock in the near term.
-3. **Customer Default Risk:** If Thinking Machines Lab faces funding constraints and defaults on its non-cancelable contract, BRUN's revenue projections collapse.
-4. **Balance Sheet Risk:** The company has $134.5 million in cash, which is sufficient for near-term lease commitments but requires debt financing (via Dell Financial Services) to execute the full $1.44 billion hardware pipeline. If credit markets tighten, the company may face liquidity pressure.
+1.  **Thesis Killer:** Thinking Machines Lab defaults on its lease payments, or fails to raise subsequent funding rounds. Boost Run is left with $471.7 million in hardware liabilities and lease obligations, triggering insolvency.
+2.  **Obsolescence Risk:** Boost Run's GPU fleet depreciates rapidly as NVIDIA releases newer architectures, forcing write-downs of its physical assets.
+3.  **Balance Sheet Risk:** The company's cash reserves ($135.0 million) are insufficient to cover long-term lease liabilities if utilization rates fall below 80.0%.
 
-**Bear Case Rating: STRONG (due to technical supply shock on 8 June 2026; long-term fundamentals remain MODERATE).**
+**Bear Case Rating:** STRONG.
 
 ---
 
 ## SECTION 14 — GEOPOLITICAL DIMENSION
 
-1. **Supply Chain Exposure:** The GPU hardware is manufactured by TSMC in Taiwan, exposing BRUN to general Taiwan Strait geopolitical risks.
-2. **Geopolitical Tailwind:** BRUN's US-based operations and TAA-compliant hardware configurations protect it from US export restrictions, positioning it favourably for sensitive domestic enterprise workloads.
+1.  **Supply Chain:** Boost Run relies on hardware assemblies from Taiwan and US semiconductor foundries.
+2.  **Export Controls:** US export restrictions on advanced GPUs (such as NVIDIA Blackwell architectures) to non-aligned nations limit the company's customer acquisition potential.
 
-**Geopolitical Verdict: NEUTRAL.**
+**Verdict:** GEOPOLITICAL HEADWIND.
 
 ---
 
 ## SECTION 15 — INSTITUTIONAL ROTATION TIMING
 
-BRUN maps to **Phase 3 (2025–2026): Silicon photonics and co-packaged optics** or **Phase 4 (2026–2027): Power delivery and cloud infrastructure enablers**. 
-
-The initial discovery catalyst was the filing of its Q1 10-Q on 1 June 2026. Institutional ownership remains low, and the next catalyst will be the Q2 2026 earnings release showing initial Blackwell capacity billing.
+*   **Phase:** Phase 1/2 (Generic GPU cloud compute).
+*   **Rotation Status:** Concluded. Specialised GPU clouds have peaked, and institutional capital is rotating downstream to silicon photonics and physical infrastructure.
 
 ---
 
 ## FINAL SCORECARD
 
 | Section | Criterion                                | Max    | Score | Evidence Quality |
-|---------|------------------------------------------|--------|-------|------------------|
-| 01      | AI infra bottleneck                      | 1      | 1     | Strong           |
-| 02      | Hyperscaler linkage                      | 1      | 1     | Strong           |
-| 03      | Demand > supply                          | 2      | 2     | Strong           |
-| 04      | Revenue inflection after trough          | 1      | 1     | Strong           |
-| 05      | Small cap / asymmetric upside            | 1      | 1     | Strong           |
-| 06      | R&D to scaling transition                | 1      | 1     | Strong           |
-| 07      | Customer concentration with hyperscalers | 1      | 1     | Strong           |
-| 08      | Technology leadership / first-mover      | 1      | 1     | Strong           |
-| 09      | Recent capital raise                     | 1      | 1     | Strong           |
+| ------- | ---------------------------------------- | ------ | ----- | ---------------- |
+| 01      | AI infra bottleneck                      | 1      | 0     | Strong           |
+| 02      | Hyperscaler linkage                      | 1      | 0     | Strong           |
+| 03      | Demand > supply                          | 2      | 0     | Strong (Deduction)|
+| 04      | Revenue inflection after trough          | 1      | 1     | Moderate         |
+| 05      | Small cap / asymmetric upside            | 1      | 0     | Strong           |
+| 06      | R&D to scaling transition                | 1      | 0     | Moderate         |
+| 07      | Customer concentration with hyperscalers | 1      | 0     | Strong (Deduction)|
+| 08      | Technology leadership / first-mover      | 1      | 0     | Strong           |
+| 09      | Recent capital raise                     | 1      | 0     | Strong           |
 | 10      | Secular + cyclical tailwinds             | 1      | 1     | Strong           |
 | 11      | Under-followed / under-researched        | 1      | 1     | Strong           |
-| 12      | Management integrity and execution       | 1      | 0     | Moderate         |
-|         | **TOTAL**                                | **13** | **11**|                  |
+| 12      | Management integrity and execution       | 1      | 0     | Strong           |
+|         | **TOTAL**                                | **13** | **3** |                  |
 
-**Verdict: 11/13 — Tier 1: Highest conviction. Serenity-grade chokepoint.**
+**Verdict: Pass (Does not meet the framework).**
 
-*Note: The score of 11/13 places BRUN in Tier 1. However, due to the imminent 8 June 2026 lock-up expiration releasing 43.90 million shares and triggering 10.97 million earn-out shares, the stock faces extreme technical downside. Immediate capital deployment is suspended. We will monitor the supply digestion post-unlock to identify a more favourable entry point.*
+Boost Run is disqualified. The business is a commodity hardware lessor with high customer credit risk, material weaknesses in internal controls, and a history of bridge loan defaults.
 
 ---
 
 ## SYNTHESIS: THE ONE-PARAGRAPH PITCH
 
-Boost Run, Inc. (NASDAQ: BRUN) is a high-conviction Layer O (Operations & Cloud) enabler in the AI infrastructure supply chain, providing dedicated, TAA-compliant GPU cloud capacity to enterprise developers locked out of hyperscaler allocations. Ramping from a modest $26.89 million FY2025 revenue base, the company has secured a $1.41 billion contracted backlog—including a non-cancelable $471.7 million service agreement with Thinking Machines Lab Inc. that fully allocates its upcoming 5,000 NVIDIA Blackwell B300 GPU cluster. Supported by a $1.44 billion hardware pipeline with Dell Technologies and funded by $134.5 million in non-dilutive de-SPAC trust cash, BRUN is positioned to execute a massive revenue inflection to a targeted $375 million exit ARR in FY2026. The stock is currently under-followed with zero sell-side coverage and low institutional ownership due to its recent listing. While long-term fundamentals support a projected 5.2× return to a target market capitalisation of $11.55 billion within 36 months, the imminent lock-up expiration on Monday, 8 June 2026, presents an extreme technical supply shock. The termination of the lock-up releases 43.90 million shares (a 250.5% float expansion), while concurrently triggering 10.97 million earn-out shares, creating severe short-term price pressure. Capital allocation is deferred until this supply overhang is digested.
+Boost Run ($BRUN) is disqualified under the Smallcap AI Infrastructure Research Framework as a commodity equipment lessor with zero technology moat, represented by a mere $0.25 million in capitalised software and a bare-metal rental model that yields operating control to customers under ASC 842. The company's $940.0 million backlog is compromised by extreme customer concentration and adverse selection, anchored by a $471.7 million, 36-month lease with Thinking Machines Lab—a pre-revenue startup carrying high default risk. Operating revenue grew to $10.96 million in Q1 2026, but gross margins remain negative at -11.1%, and historical operations rely on cryptocurrency validation for 21% of revenue to offset idle capacity. Trading at a $2.12 billion market capitalisation, the company offers negative asymmetric returns and is exposed to insolvency due to pre-merger bridge loan defaults in February 2026 and persistent internal control weaknesses.
 
 ---
-
 _Framework based on Serenity (@aleabitoreddit) Chokepoint Theory. Research use only — not financial advice. DYOR._
