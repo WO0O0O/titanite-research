@@ -448,13 +448,13 @@ Known AI infrastructure institutional rotation sequence:
 
 Write the investment thesis in one paragraph as Serenity would post it on X: direct, data-driven, aggressive, zero fluff, no hedging language. The paragraph must contain:
 
-- The specific chokepoint [TICKER] owns and what % of industry flow passes through it
-- The hyperscaler dependency chain
-- The supply shortage evidence or qualification-ramp timeline
-- The revenue inflection data or volume ramp trigger
-- The market cap vs. bull-case target with the explicit return multiple
-- The institutional rotation phase and estimated time to discovery
-- If an active short thesis exists: one sentence acknowledging it and why the bull case survives it.
+- **The specific chokepoint [TICKER] owns and the exact % of industry flow** (you must state the exact numeric percentage/range calculated in Section 0, e.g. "under 2%", "15-20%").
+- The hyperscaler dependency chain.
+- The supply shortage evidence or qualification-ramp timeline.
+- **The revenue inflection data or volume ramp trigger** (you must state the specific volume ramp timeline, e.g. "late 2026 / 2027").
+- The market cap vs. bull-case target with the explicit return multiple.
+- **The institutional rotation phase and estimated time to discovery** (you must explicitly state the Phase number, e.g. "Phase 3").
+- **Short-Seller Survival Verdict:** If an active short thesis exists, you must write one sentence acknowledging it and explicitly stating the structural mechanism by which the bull case survives the allegations (e.g. why the PDK-level reference design/foundry status bypasses historical collection or pipeline risks).
 
 ---
 
