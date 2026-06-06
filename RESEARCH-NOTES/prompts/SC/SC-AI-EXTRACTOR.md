@@ -8,12 +8,12 @@
 
 Apply these rules to every word of the output. Do not deviate.
 
-*   **Voice and register:** Write like a serious analyst who has thought about this harder than anyone else in the room. Think Leopold Aschenbrenner's *Situational Awareness* essays crossed with Serenity's X thread style: dense with data, zero throat-clearing, no hedging language, no caveats. Every sentence should carry weight.
-*   **British English throughout:** Colour, behaviour, organise, licence (noun), recognise, programme, defence, centre, catalogue. Use the Oxford comma.
-*   **No emojis. Ever.** Do not use tick marks, cross marks, or any Unicode symbol as a substitute for prose judgment.
-*   **No AI-flavoured filler:** Delete on sight: "It's worth noting that," "It is important to understand that," "In the context of," "This underscores the fact that," "delve into," "nuanced," "multifaceted," "comprehensive," "robust" (unless describing a specific technical property), "leveraging," "ecosystem."
-*   **No hedging for its own sake:** "May," "might," "could potentially," "it appears that" — use these only when genuine epistemic uncertainty exists and you are flagging it explicitly.
-*   **Directness:** State the verdict first. Explain it second. Never bury the lede.
+- **Voice and register:** Write like a serious analyst who has thought about this harder than anyone else in the room. Think Leopold Aschenbrenner's _Situational Awareness_ essays crossed with Serenity's X thread style: dense with data, zero throat-clearing, no hedging language, no caveats. Every sentence should carry weight.
+- **British English throughout:** Colour, behaviour, organise, licence (noun), recognise, programme, defence, centre, catalogue. Use the Oxford comma.
+- **No emojis. Ever.** Do not use tick marks, cross marks, or any Unicode symbol as a substitute for prose judgment.
+- **No AI-flavoured filler:** Delete on sight: "It's worth noting that," "It is important to understand that," "In the context of," "This underscores the fact that," "delve into," "nuanced," "multifaceted," "comprehensive," "robust" (unless describing a specific technical property), "leveraging," "ecosystem."
+- **No hedging for its own sake:** "May," "might," "could potentially," "it appears that" — use these only when genuine epistemic uncertainty exists and you are flagging it explicitly.
+- **Directness:** State the verdict first. Explain it second. Never bury the lede.
 
 ---
 
@@ -28,52 +28,54 @@ Do not write a single word of narrative analysis. You must perform the following
 
 Pull the last three earnings call transcripts for [TICKER]. Run three separate passes.
 
-*   *Pass 1 — Opportunity signals:* Search for every occurrence of:
-    *   "capacity" / "capacity constraints" / "capacity sold out"
-    *   "lead times" / "lead time extension" / "delivery"
-    *   "competitors" / "competitive" / "alternative suppliers"
-    *   "backlog" / "bookings" / "order book" / "pre-orders"
-    *   "margins" / "gross margin" / "pricing"
-    *   "demand" / "customer demand" / "pull" / "urgency"
-    *   "qualification" / "qualified" / "customer qualification" / "volume ramp" / "mass production"
-    *   "guidance" / "pipeline" / "visibility"
-    *   "crypto" / "blockchain" / "validation network" / "decentralised" / "decentralized"
+- _Pass 1 — Opportunity signals:_ Search for every occurrence of:
+  - "capacity" / "capacity constraints" / "capacity sold out"
+  - "lead times" / "lead time extension" / "delivery"
+  - "competitors" / "competitive" / "alternative suppliers"
+  - "backlog" / "bookings" / "order book" / "pre-orders"
+  - "margins" / "gross margin" / "pricing"
+  - "demand" / "customer demand" / "pull" / "urgency"
+  - "qualification" / "qualified" / "customer qualification" / "volume ramp" / "mass production"
+  - "guidance" / "pipeline" / "visibility"
+  - "crypto" / "blockchain" / "validation network" / "decentralised" / "decentralized"
     Extract exact quotes with speaker name and quarter.
 
-*   *Pass 2 — Red flag signals:* Search for every occurrence of:
-    *   "material weakness" / "internal controls"
-    *   "related party" / "related-party transaction"
-    *   "going concern"
-    *   "SEC" / "regulatory investigation" / "subpoena"
-    *   "resignation" / "departure" (CFO, auditor, or board member)
-    *   "restatement" / "restate"
-    *   "dilution" / "offering" / "equity raise"
-    *   "ASC 842" / "capitalised software" / "capitalized software" / "bridge debt" / "OID" / "default waiver"
+- _Pass 2 — Red flag signals:_ Search for every occurrence of:
+  - "material weakness" / "internal controls"
+  - "related party" / "related-party transaction"
+  - "going concern"
+  - "SEC" / "regulatory investigation" / "subpoena"
+  - "resignation" / "departure" (CFO, auditor, or board member)
+  - "restatement" / "restate"
+  - "dilution" / "offering" / "equity raise"
+  - "ASC 842" / "capitalised software" / "capitalized software" / "bridge debt" / "OID" / "default waiver"
 
-*   *Pass 3 — Moat and concentration signals:* Search for every occurrence of:
-    *   "certification" / "qualification cycle"
-    *   "switching" / "switching costs" / "lock-in"
-    *   "rest of market" / "bookings mix" / "customer concentration"
+- _Pass 3 — Moat and concentration signals:_ Search for every occurrence of:
+  - "certification" / "qualification cycle"
+  - "switching" / "switching costs" / "lock-in"
+  - "rest of market" / "bookings mix" / "customer concentration"
 
 **Step B — Fraud, short seller, integrity, and deep moat sweep**
 
 Run explicit web and X searches for:
-*   "[TICKER] short report" or "[TICKER] short seller"
-*   "[TICKER] fraud" or "[TICKER] accounting"
-*   "[TICKER] SEC investigation" or "[TICKER] lawsuit"
-*   "[TICKER] CEO history" or "[TICKER] management background"
-*   "[TICKER] auditor" or "[TICKER] auditor change"
-*   Name of the CEO and Chairman: "[Name] fraud," "[Name] SEC," "[Name] bankruptcy," "[Name] SPAC"
-*   "[TICKER] switching costs", "[TICKER] qualification timeline", "[TICKER] customer certification", "[TICKER] market share"
-*   Search for industry reports, specialist analyses, Substack write-ups, or X/Twitter discussions relating to the company's technology moat and client concentration changes.
-*   *Recent News Sweep:* Search for "[Company Name] press release" and "[Company Name] news" restricted to the last 30 days.
-*   *National Innovation Agency Checks:* For European/regional micro-caps, search for the company name alongside regional funding bodies (e.g. "Vinnova", "FFI", "Horizon Europe", "Innovate UK").
+
+- "[TICKER] short report" or "[TICKER] short seller"
+- "[TICKER] fraud" or "[TICKER] accounting"
+- "[TICKER] SEC investigation" or "[TICKER] lawsuit"
+- "[TICKER] CEO history" or "[TICKER] management background"
+- "[TICKER] auditor" or "[TICKER] auditor change"
+- Name of the CEO and Chairman: "[Name] fraud," "[Name] SEC," "[Name] bankruptcy," "[Name] SPAC"
+- "[TICKER] switching costs", "[TICKER] qualification timeline", "[TICKER] customer certification", "[TICKER] market share"
+- Search for industry reports, specialist analyses, Substack write-ups, or X/Twitter discussions relating to the company's technology moat and client concentration changes.
+- _Recent News Sweep:_ Search for "[Company Name] press release" and "[Company Name] news" restricted to the last 30 days.
+- _National Innovation Agency Checks:_ For European/regional micro-caps, search for the company name alongside regional funding bodies (e.g. "Vinnova", "FFI", "Horizon Europe", "Innovate UK").
 
 **Step C — Forward vs. trailing separation**
 
 Sort evidence into:
-*   *Trailing documented:* figures already in filed financials — reported revenue, reported gross margin, filed backlog, published lead times.
-*   *Forward run-rate signals:* management language about booking pace, capacity statements, guidance, design-win pipeline, qualification progress, volume ramp timelines.
+
+- _Trailing documented:_ figures already in filed financials — reported revenue, reported gross margin, filed backlog, published lead times.
+- _Forward run-rate signals:_ management language about booking pace, capacity statements, guidance, design-win pipeline, qualification progress, volume ramp timelines.
 
 **Step D — Qualification-cycle player check**
 
@@ -87,15 +89,15 @@ Determine whether [TICKER] is a qualification-cycle player (forward narrative fo
 
 Before writing out the JSON code block, you must populate this exact Search Execution Log. If any row is marked as skipped or left unexecuted, the entire run is invalid.
 
-| Required Target Query Vector | Live Search Engine Query String Used | Total Results Clicked/Parsed | Primary Qualitative Insight Extracted |
-| :--- | :--- | :--- | :--- |
-| **Pass 1:** Transcript Opportunities | | | |
-| **Pass 2:** Transcript Red Flags | | | |
-| **Pass 3:** Transcript Moats | | | |
-| **Step B:** Short Seller / Accounting Fraud | | | |
-| **Step B:** Substack & Specialist Moat Analyses | | | |
-| **Step B:** National Innovation Agency Checks | | | |
-| **Step B:** Executive / Leadership Background | | | |
+| Required Target Query Vector                    | Live Search Engine Query String Used | Total Results Clicked/Parsed | Primary Qualitative Insight Extracted |
+| :---------------------------------------------- | :----------------------------------- | :--------------------------- | :------------------------------------ |
+| **Pass 1:** Transcript Opportunities            |                                      |                              |                                       |
+| **Pass 2:** Transcript Red Flags                |                                      |                              |                                       |
+| **Pass 3:** Transcript Moats                    |                                      |                              |                                       |
+| **Step B:** Short Seller / Accounting Fraud     |                                      |                              |                                       |
+| **Step B:** Substack & Specialist Moat Analyses |                                      |                              |                                       |
+| **Step B:** National Innovation Agency Checks   |                                      |                              |                                       |
+| **Step B:** Executive / Leadership Background   |                                      |                              |                                       |
 
 Output **ONLY** the Search Audit Trail Verification table followed by the raw, structured JSON block matching this schema:
 
@@ -151,7 +153,8 @@ Output **ONLY** the Search Audit Trail Verification table followed by the raw, s
 ```
 
 Formula guidelines for calculated ratios:
-*   **Receivables growth vs revenue growth %**: Delta percentage check over consecutive periods.
-*   **Days Sales Outstanding (DSO)**: $\left(\frac{\text{Average Accounts Receivable Converted to USD}}{\text{Quarterly Revenue Converted to USD}}\right) \times 90 \text{ days}$
-*   **Contract Assets % Receivables**: $\frac{\text{Contract Assets Converted to USD}}{\text{Accounts Receivable Converted to USD} + \text{Contract Assets Converted to USD}} \times 100$
-*   **Inventory-to-binding backlog**: $\frac{\text{Inventories Converted to USD}}{\text{Stated Backlog Firm Binding USD}}$
+
+- **Receivables growth vs revenue growth %**: Delta percentage check over consecutive periods.
+- **Days Sales Outstanding (DSO)**: $\left(\frac{\text{Average Accounts Receivable Converted to USD}}{\text{Quarterly Revenue Converted to USD}}\right) \times 90 \text{ days}$
+- **Contract Assets % Receivables**: $\frac{\text{Contract Assets Converted to USD}}{\text{Accounts Receivable Converted to USD} + \text{Contract Assets Converted to USD}} \times 100$
+- **Inventory-to-binding backlog**: $\frac{\text{Inventories Converted to USD}}{\text{Stated Backlog Firm Binding USD}}$

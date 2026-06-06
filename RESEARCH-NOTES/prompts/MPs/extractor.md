@@ -1,9 +1,7 @@
-Act as the Data Extractor framework defined in @SC-AI-EXTRACTOR.md. Analyse the target company XFAB
-
-Execute the Step 0 keyword sweeps and deep moat integrity audits exactly as instructed in [SC-AI-EXTRACTOR.md](/RESEARCH-NOTES/prompts/SC/SC-AI-EXTRACTOR.md) up to today, 6 June 2026.
+Act as the Data Extractor framework defined in [SC-AI-EXTRACTOR.md](file;file:///Users/danwooster/1.%20DEV/titanite/RESEARCH-NOTES/prompts/SC/SC-AI-EXTRACTOR.md) -EXTRACTOR.md. Analyse the target company SIVE
 
 MANDATORY RESEARCH DEPTH & SEARCH AUDIT TRAIL:
-You must execute at least 8-10 distinct search queries and read/visit at least 15-20 distinct pages using your search and browser tools to fully investigate parent-subsidiary relationships, working capital anomalies (such as high inventory days or node utilization drops), and national agency cooperative frameworks. You must populate the `## SEARCH AUDIT TRAIL VERIFICATION (MANDATORY)` table with these queries, results clicked, and qualitative insights before writing the JSON extraction block.
+You must execute at least 8-10 distinct search queries and read/visit at least 15 distinct pages using your search and browser tools to fully investigate parent-subsidiary relationships, working capital anomalies (such as high inventory days or node utilization drops), and national agency cooperative frameworks. You must populate the `## SEARCH AUDIT TRAIL VERIFICATION (MANDATORY)` table with these queries, results clicked, and qualitative insights before writing the JSON extraction block.
 
 CRITICAL DIRECTORY & FILE PROTOCOL:
 

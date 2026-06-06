@@ -41,7 +41,7 @@ State the current market cap and enterprise value of [TICKER].
 If it qualifies, also state:
 
 - Realistic bull-case market cap in 24–36 months if thesis plays out?
-- Multiple expansion embedded in that target? (e.g. revenue 3× + P/S re-rates 2× to 8× = 12× stock)
+- Multiple expansion embedded in that target? Calculate and explicitly state the current trailing annualised P/S or EV/Sales multiple. If the future target multiple (e.g. 20x) is lower than the current multiple, explicitly label the valuation shift as "Multiple Contraction offset by Volumetric Revenue Scale-Up" instead of "Multiple Expansion Target".
 - Implied return from today's price to that target? (Minimum acceptable implied return is 500% / 5x for hardware, 400% / 4x for software).
 
 ---
@@ -376,9 +376,10 @@ If STRONG — explain in detail why the bull case still wins. If a short report 
 4. Export control risk: could [TICKER]'s products or customers be caught by US export restrictions to China? Revenue % exposed?
 5. Any national security or strategic supply chain argument? Government or defence contractor engagement?
 6. **Sovereign Supply Chain Decoupling Test**: Audit the sub-tier component inputs for the company's hardware or infrastructure layer:
-   - Does the company depend on high-purity micro-materials or specialized machinery processed exclusively within jurisdictions subject to Western export controls or Chinese retaliatory bans?
+   - Does the company depend on high-purity micro-materials or specialised machinery processed exclusively within jurisdictions subject to Western export controls or Chinese retaliatory bans?
    - If the company fails this test, Section 14 must be rated a GEOPOLITICAL HEADWIND. Additionally, the company is automatically disqualified from Tier 1 status.
    - **MANDATORY DECOUPLING AUDIT:** You must write out the explicit sub-tier auditing steps for this test as a standalone sub-section, explicitly identifying and detailing the origin of raw wafer substrates, packaging locations, assembly partners, and cleanroom equipment. Do not default to a NEUTRAL or TAILWIND verdict without writing out this sub-tier decoupling audit.
+   - **Defence and Military Linkage Audit:** If any prior section notes that corporate revenue or troughs were impacted by government defence budgets, you must explicitly audit the regulatory, ITAR, and export control risks associated with the company's military application exposure under this section.
 
 **Required verdict:** GEOPOLITICAL TAILWIND / NEUTRAL / GEOPOLITICAL HEADWIND (If the company fails the Sovereign Supply Chain Decoupling Test in item 6, this verdict must automatically be GEOPOLITICAL HEADWIND).
 
