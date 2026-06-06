@@ -124,6 +124,51 @@ Classify [TICKER] into one or more of the following layers:
 
 A company that spans multiple layers scores higher on durability. A company in Layer P or Layer N scores additional modifiers in Sections 1 and 6.
 
+**Step E — The Raw Data Extraction Buffer (Operational Guardrail)**
+
+Before writing a single sentence of narrative analysis or scoring any section, you must first output a raw, structured JSON block containing verified quotes, balance sheet values, and working capital metrics under the header `## RAW DATA EXTRACTION BUFFER`. This separates data ingestion and extraction from analytical evaluation, preventing confirmation bias or data framing.
+
+The JSON block must conform exactly to this schema:
+```json
+{
+  "ticker": "[TICKER]",
+  "audit_completed_at": "YYYY-MM-DD",
+  "transcript_extracts": {
+    "pass_1_opportunities": [
+      {
+        "keyword": "string",
+        "quote": "verbatim quote...",
+        "speaker": "name",
+        "quarter": "Qx YYYY"
+      }
+    ],
+    "pass_2_red_flags": [],
+    "pass_3_moat_concentration": []
+  },
+  "working_capital_metrics": {
+    "quarters": ["Q-2", "Q-1", "Current"],
+    "revenue": [0.0, 0.0, 0.0],
+    "accounts_receivable": [0.0, 0.0, 0.0],
+    "contract_assets_unbilled": [0.0, 0.0, 0.0],
+    "inventories": [0.0, 0.0, 0.0],
+    "stated_backlog_binding": [0.0, 0.0, 0.0],
+    "stated_backlog_non_binding": [0.0, 0.0, 0.0]
+  },
+  "calculated_ratios": {
+    "receivables_growth_vs_revenue_growth_pct": 0.0,
+    "days_sales_outstanding_dso": [0.0, 0.0, 0.0],
+    "contract_assets_pct_receivables": 0.0,
+    "inventory_to_binding_backlog_ratio": 0.0
+  }
+}
+```
+
+Formula guidelines for calculated ratios:
+*   **Receivables growth vs revenue growth %**: $\frac{\text{Current Receivables} - \text{Receivables}_{Q-1}}{\text{Receivables}_{Q-1}} \text{ vs } \frac{\text{Current Revenue} - \text{Revenue}_{Q-1}}{\text{Revenue}_{Q-1}}$
+*   **Days Sales Outstanding (DSO)**: $\left(\frac{\text{Average Accounts Receivable}}{\text{Quarterly Revenue}}\right) \times 90 \text{ days}$
+*   **Contract Assets % Receivables**: $\frac{\text{Contract Assets}}{\text{Accounts Receivable} + \text{Contract Assets}} \times 100$
+*   **Inventory-to-binding-backlog**: $\frac{\text{Inventories}}{\text{Stated Backlog (Binding)}}$
+
 ---
 
 ## KNOWN CONTEXT / ALPHA INJECTOR
@@ -324,7 +369,7 @@ Using the gap analysis from Step C:
 3. How far through the inflection are we? Is [TICKER] in the early innings of its cluster-scale inflection or late?
 4. What has management said about the current quarter's revenue trajectory and near-term visibility?
 
-**Score 1:** 2+ consecutive quarters of accelerating revenue from a documented inflection point, with gross margin holding or improving, AND the cluster math implies the inflection still has multiple years to run. **Score 0:** No clear inflection, or the inflection is primarily driven by non-AI revenue, or cluster math implies the relevant inflection point has already passed.
+**Score 1:** 2+ consecutive quarters of accelerating revenue from a documented inflection point, with gross margin holding or improving, AND the cluster math implies the inflection still has multiple years to run. (Note: If the forward revenue inflection calculation relies heavily on non-binding LOIs/MOUs/frame agreements without a signed commercial timeline—as extracted in the JSON buffer under `stated_backlog_non_binding`—you must automatically reduce the Evidence Quality score to 'Weak' for Section 4). **Score 0:** No clear inflection, or the inflection is primarily driven by non-AI revenue, or cluster math implies the relevant inflection point has already passed.
 
 ---
 
@@ -336,9 +381,26 @@ This section is the intellectual core of the framework. It is entirely absent fr
 
 1. **State the consensus model explicitly.** What is the mean sell-side revenue estimate for [TICKER] for the next 2 full fiscal years? What CAGR does that imply? What terminal multiple is embedded in the consensus price target?
 
-2. **State the cluster math model explicitly.** Using the scaling table and [TICKER]'s current market share in its layer: what does the cluster buildout imply for [TICKER]'s revenue at the 2026 and 2028 cluster scales? Show the arithmetic.
+2. **State the cluster math model explicitly.** Using the scaling table and [TICKER]'s current market share in its specific layer, calculate the implied revenue for 2026 and 2028 cluster scales. You must execute this as a strict, step-by-step deterministic calculation block. Show all arithmetic using the following schema:
 
-3. **Compute the consensus gap.** Gap = (cluster-math-implied revenue) ÷ (consensus revenue estimate). State as a multiple. A gap below 1.5× is weak. A gap of 2× is strong. A gap of 3× or more is exceptional.
+   a. **Compute Node Normalization**: Identify the target cluster size. If reported in next-gen units (e.g., Blackwell/B200), normalize to H100 compute/power equivalents or state the upgraded kW-per-slot footprint explicitly.
+   
+   b. **Calculate Implied Power Demand (MW)**:
+      $$\text{Implied Power (MW)} = \text{Projected Cluster Size (H100 equivalents)} \times 0.001 \text{ MW/GPU}$$
+      *(Note: If using next-gen high-density architectures, adjust the multiplier up to 0.0016 - 0.002 MW/slot as physically required).*
+      *(Networking Layer Non-Linear Coefficient: If [TICKER] is classified under Layer N, you must apply a super-linear multiplier to the Layer TAM in step (d) to account for scale-dependent leaf-spine cluster switching density. Stating that optical transceiver or switch demand scales strictly 1:1 with MW demand will trigger a mathematical error).*
+
+   c. **Define Layer-Specific Spend ($C_{\text{layer}}$)**: Explicitly state and justify the dollar spend *per MW* that belongs exclusively to [TICKER]'s layer of the stack (e.g., Do not use raw datacenter shell buildout costs if the company sells optical switches; use 'Optical Spend per MW of deployed AI compute').
+
+   d. **Calculate Layer TAM**:
+      $$\text{Layer TAM} = \text{Implied Power Demand (MW)} \times C_{\text{layer}}$$
+
+   e. **Calculate Implied Ticker Revenue**:
+      $$\text{Implied [TICKER] Revenue} = \text{Layer TAM} \times \text{[TICKER]'s Estimated Market Share}$$
+
+   f. **Asymmetry Delta Check**: Compare this physically implied revenue against current Wall Street consensus revenue for 2026/2028. State the percentage variance (The Asymmetry Gap).
+
+3. **Compute the consensus gap.** Gap = (Implied [TICKER] Revenue) ÷ (consensus revenue estimate). State as a multiple. A gap below 1.5× is weak. A gap of 2× is strong. A gap of 3× or more is exceptional.
 
 4. **Explain why the gap exists.** Is the consensus growth rate too low? Is the consensus TAM definition too narrow? Is the consensus model using the wrong cluster scale as its reference point? Is there a technology shift that the consensus has not yet priced in?
 
@@ -354,7 +416,7 @@ _1 point_
 
 For infrastructure-scale companies, execution is the moat. Technology lead matters, but a company that cannot build fast enough, finance its capex, and retain key partnerships loses its position regardless of how good its technology is.
 
-1. **Infrastructure commitments in hand.** For Layer P (power): how many GW/MW of power contracts are signed? For Layer O (cloud operators): how many MW of committed data centre capacity? For Layer N (networking): what multi-year supply agreements exist? For Layer F (physical fabric): what land bank and construction pipeline is disclosed? Provide exact figures with sources.
+1. **Infrastructure commitments in hand.** For Layer P (power): how many GW/MW of power contracts are signed? For Layer O (cloud operators): how many MW of committed data centre capacity? For Layer N (networking): what multi-year supply agreements exist? For Layer F (physical fabric): what land bank and construction pipeline is disclosed? Provide exact figures with sources. Run the **Physical Power Feasibility Test**: compare the scaling timeline against grid interconnection lead times (e.g. PJM queue times of 4–7 years) and verify if the timeline is protected by behind-the-meter nuclear/gas PPAs.
 
 2. **Geographic positioning.** Is [TICKER]'s infrastructure in the United States or in close democratic allies (UK, Japan, South Korea, Australia, Canada, Germany)? Infrastructure in Middle Eastern or Chinese jurisdictions is a structural risk given the national security dimension of the cluster buildout. Rate the geographic portfolio: Domestic-primary / Allied-primary / Geopolitically-exposed.
 
@@ -378,7 +440,7 @@ Leopold Aschenbrenner explicitly argues that by 2027/28, the US government will 
 
 2. **Security and compliance posture.** Does [TICKER] hold or is it pursuing: FedRAMP authorisation, IL4/IL5 (Impact Level) certification, CMMC (Cybersecurity Maturity Model Certification), or equivalent allied standards? Name the certifications with dates of award.
 
-3. **Physical security infrastructure.** Can [TICKER]'s facilities support air-gapped operations, SCIF-adjacent deployments, or classified-workload environments? Has [TICKER] built or announced any facility that meets government physical security requirements?
+3. **Physical security infrastructure.** Can [TICKER]'s facilities support air-gapped operations, SCIF-adjacent deployments, or classified-workload environments? Has [TICKER] built or announced any facility that meets government physical security requirements? (Perform an **Air-Gapped Power & Grid Security Audit** to verify if the site has dedicated, off-grid power generation that is physically insulated from civilian grid vulnerabilities).
 
 4. **Government partnerships and contracts.** List every confirmed DoD, intelligence community, or allied government contract or partnership for [TICKER] in the past 24 months. Quote the scope, value, and duration where disclosed.
 
@@ -386,11 +448,16 @@ Leopold Aschenbrenner explicitly argues that by 2027/28, the US government will 
 
 6. **Active disqualifiers for government positioning.** The following are structural barriers that prevent a company from entering classified or sensitive US government programmes, regardless of its commercial positioning: current OFAC designation or sanctions on any board member or significant shareholder; headquarters or majority infrastructure in a non-allied nation; Chinese-sourced critical inputs that cannot be substituted; CEO or founder who held citizenship of an adversarial nation within the past 36 months. Note any that apply.
 
+7. **Sovereign Supply Chain Decoupling Test**: Audit the sub-tier component inputs for the company's hardware or infrastructure layer:
+   - Does the company depend on high-purity micro-materials or specialized machinery processed exclusively within jurisdictions subject to Western export controls or Chinese retaliatory bans (e.g., advanced CMP slurries, specific precursor isotopes, localized TGV glass processing)?
+   - If the company is classified as Layer P (Power) or Layer F (Physical Fabric), evaluate if its manufacturing line utilizes components (such as high-voltage transformer cores or utility-scale switchgear components) manufactured in non-NATO or non-allied nations.
+   - If the company fails this test, Section 7 must be scored a 0. Additionally, the company is automatically disqualified from Tier 1 status.
+
 **Scoring logic — three tiers:**
 
-- **Score 1:** Existing government or defence revenue confirmed in filings, with one or more active certifications (FedRAMP, IL4/IL5, CMMC) and facilities capable of classified workloads.
-- **Score 0.5 — Path to Government Positioning:** No current government revenue, but ALL of the following are true: (a) infrastructure is 100% in the US or NATO-allied nations; (b) no active disqualifiers from point 6 above; (c) management has made a documented public statement of intent to pursue government certifications; (d) the company's layer of the stack is one the government will require (Layer P, Layer F, Layer N, or Layer O). Score 0.5 here; round up to 1 in the final scorecard only if the total score is otherwise 10 or above.
-- **Score 0:** No government revenue, active disqualifiers present, or infrastructure in geopolitically exposed jurisdictions.
+- **Score 1:** Existing government or defence revenue confirmed in filings, with one or more active certifications (FedRAMP, IL4/IL5, CMMC) and facilities capable of classified workloads, AND passes the Sovereign Supply Chain Decoupling Test.
+- **Score 0.5 — Path to Government Positioning:** No current government revenue, but ALL of the following are true: (a) infrastructure is 100% in the US or NATO-allied nations; (b) no active disqualifiers from point 6 above; (c) management has made a documented public statement of intent to pursue government certifications; (d) the company's layer of the stack is one the government will require (Layer P, Layer F, Layer N, or Layer O); (e) passes the Sovereign Supply Chain Decoupling Test. Score 0.5 here; round up to 1 in the final scorecard only if the total score is otherwise 10 or above.
+- **Score 0:** No government revenue, active disqualifiers present, infrastructure in geopolitically exposed jurisdictions, or fails the Sovereign Supply Chain Decoupling Test.
 
 ---
 
@@ -406,7 +473,7 @@ _1 point_
 
 4. **Vertical integration risk.** Is there a credible scenario in which a hyperscaler develops [TICKER]'s capability in-house and eliminates the need for [TICKER] entirely? Has any hyperscaler announced programs in this direction? Timeline and probability?
 
-5. **Skip risk.** Is there a next-generation AI architecture that would bypass [TICKER]'s layer entirely? (Examples: if training paradigms shift from massive centralised clusters to distributed training, the value of centralised power contracts decreases. If photonic computing matures, some optical transceiver segments become obsolete.) Assess honestly.
+5. **Skip risk.** Is there a next-generation AI architecture that would bypass [TICKER]'s layer entirely? (Examples: if training paradigms shift from massive centralised clusters to distributed training, the value of centralised power contracts decreases. If photonic computing matures, some optical transceiver segments become obsolete.) Assess honestly. Run the **Interconnect Standards Transition Audit**: evaluate if the networking layer is exposed to skip risk during the transition from proprietary fabrics (NVLink/InfiniBand) to open standards (Ultra Ethernet Consortium/UEC) or co-packaged optics (CPO).
 
 **Score 1 point** only if [TICKER]'s technology is demonstrably durable through at least the 2028 cluster scale, with a credible development roadmap for the 2030 scale, no imminent vertical integration threat, and no plausible technology-skip risk within 36 months.
 
@@ -422,7 +489,7 @@ The trillion-dollar cluster buildout requires sustained, multi-year capex at a s
 
 2. **Capex intensity.** What is [TICKER]'s announced capex plan for the next 2–3 years? Is it large enough to participate at the 2026 and 2028 cluster scales? Compare to competitors.
 
-3. **Capital access.** Can [TICKER] raise large amounts of capital cheaply? Investment-grade bond issuance, revolving credit facility size, sovereign partnership capital, infrastructure fund partnerships. A company with investment-grade debt and government-backed financing has a structural capex advantage over one dependent on equity dilution.
+3. **Capital access.** Can [TICKER] raise large amounts of capital cheaply? Investment-grade bond issuance, revolving credit facility size, sovereign partnership capital, infrastructure fund partnerships. A company with investment-grade debt and government-backed financing has a structural capex advantage over one dependent on equity dilution. Run the **Cost of Capital Advantage Check**: verify if the company is partnering with infrastructure private equity funds (e.g. Brookfield, Blackstone) or using off-balance-sheet joint ventures (JVs) to keep debt off the primary corporate entity.
 
 4. **Dilution risk.** Has [TICKER] issued equity to fund capex in the past 24 months? If yes: use of proceeds (growth capex vs. debt repayment vs. runway extension), timing relative to stock price trough or peak, dilution as % of shares outstanding. Under 10% acceptable; over 20% requires justification.
 
@@ -482,14 +549,20 @@ Search the following for the CEO, Chairman, CFO, and any board members with sign
 3. Has the current auditor flagged any material weaknesses in internal controls in the most recent annual filing?
 4. Are there any ongoing or recently settled regulatory investigations, class action lawsuits, or shareholder derivative suits?
 5. Are there related-party transactions disclosed in the filings? If yes, describe them. Do they appear to benefit insiders at the company's expense?
+6. **Working Capital Anomaly Check**: Calculate the directional variance between revenue growth and key working capital accounts over the last three quarters (derived from the Extraction Buffer):
+   - Days Sales Outstanding (DSO): Is the collection cycle lengthening while revenue accelerates?
+   - Unbilled Receivables / Contract Assets: Is the company recognizing revenue on long-lead infrastructure rollouts before hitting billing milestones?
+   - Inventory-to-Backlog Ratio: Is physical inventory accumulating faster than the stated near-term backlog drawdown timeline implies?
+   
+   If revenue growth is accelerating but DSO is expanding by >15% sequentially or contract assets comprise >30% of total receivables (receivables + contract assets), you must automatically downgrade Section 12 to a maximum score of 0, activate a 'Working Capital Divergence' monitor flag, and look for signs of channel-stuffing or aggressive revenue recognition.
 
 **Graduated scoring for integrity findings — three tiers:**
 
 - **Automatic disqualifier — score 0, halt thesis:** Material weakness in the core revenue-generating line of business. Going-concern note from the auditor. Active SEC investigation. Restatement of financials. Prior fraud or securities violations by current leadership. These findings are not mitigatable by context.
 
-- **Score 0, monitor flag, thesis continues:** Material weakness confirmed in a non-core segment that is being wound down, divested, or restructured AND the company is actively remediating (upgrading auditor, implementing controls, management statement of remediation timeline). The finding must be isolated — it cannot affect the primary investment thesis revenue line. Flag this prominently at the top of the report. State that a full position is not justified until the material weakness is resolved, but do not stop the analysis.
+- **Score 0, monitor flag, thesis continues:** Material weakness confirmed in a non-core segment that is being wound down, divested, or restructured AND the company is actively remediating (upgrading auditor, implementing controls, management statement of remediation timeline). The finding must be isolated — it cannot affect the primary investment thesis revenue line. Flag this prominently at the top of the report. State that a full position is not justified until the material weakness is resolved, but do not stop the analysis. Alternatively, if the company triggers the 'Working Capital Divergence' monitor flag in item 6, score this a 0 under the monitor flag.
 
-- **Score 1:** Integrity audit is fully clean. No material weaknesses, no auditor changes with unexplained departures, no regulatory investigations, no related-party concerns.
+- **Score 1:** Integrity audit is fully clean. No material weaknesses, no auditor changes with unexplained departures, no regulatory investigations, no related-party concerns, and no working capital divergence anomalies.
 
 **Component B — Execution track record at scale**
 
@@ -595,7 +668,7 @@ Known AI infrastructure institutional rotation sequence (from Serenity's framewo
 
 **Verdict:**
 
-- **11–13 — Tier 1:** Highest conviction. Serenity-grade scale-up play. Maximum position for risk tolerance.
+- **11–13 — Tier 1:** Highest conviction. Serenity-grade scale-up play. Maximum position for risk tolerance. (Note: A company that fails the Sovereign Supply Chain Decoupling Test in Section 7 is disqualified from Tier 1 and capped at Tier 2).
 - **8–10 — Tier 2:** Strong thesis. Partial position now, add on catalysts.
 - **5–7 — Tier 3:** Interesting but incomplete. Watchlist until 1–2 more criteria confirmed.
 - **Below 5 — Pass:** Does not meet the framework. Move on.
@@ -608,6 +681,7 @@ Known AI infrastructure institutional rotation sequence (from Serenity's framewo
 - Integrity audit finding of prior fraud or securities violations by current leadership
 - Auditor resignation or replacement with no credible explanation
 - Infrastructure in Middle Eastern autocracies or Chinese-controlled jurisdictions comprising >30% of total capacity, with no credible diversification plan
+- Physical delivery roadmap relies on a single-point-of-failure component that fails the Sovereign Supply Chain Decoupling Test in Section 7 (disqualifies the company from Tier 1 ranking, capping maximum conviction level to Tier 2).
 
 ---
 

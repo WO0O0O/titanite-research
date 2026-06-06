@@ -32,7 +32,7 @@ as of 04/06/2026: ~+810% return
 
 ### Planned Target Portfolio (Top 10 Transition Strategy)
 
-- **SIVE** (Sivers Semiconductors) **20%** — **12/13 (Tier 1)** -- REDUCE
+- **SIVE** (Sivers Semiconductors) **20%** — **11/13 (Tier 1)** -- REDUCE
 - **LPK** (LPKF Laser & Electronics SE) **20%** — **11/13 (Tier 1)** -- DONE
 - **TRT** (Trio-Tech International) **10%** — **12/13 (Tier 1)** -- DONE
 - **AL2SI** (2CRSi S.A.) **10%** — **12/13 (Tier 1)** -- DONE
