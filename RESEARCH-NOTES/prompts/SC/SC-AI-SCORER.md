@@ -29,20 +29,37 @@ This JSON block acts as your immutable data layer. Any scores, calculations, or 
 
 ---
 
+## SECTION 00 — CRITICAL MATERIAL OVERHANG AUDIT
+
+Examine the `pass_2_red_flags` array and the `operational_flags` inside your Raw Data Extraction Buffer. If there are active class-action lawsuits, federal regulatory investigations, or outstanding short seller fraud allegations, you must explicitly output an alert block here before proceeding to the gate check. 
+
+If no severe overhangs are present, state: "Active Risk Overhang: CLEAN."
+
+If active overhangs exist, you must format this section exactly as follows:
+
+> [!WARNING]
+> **ACTIVE CORPORATE / SECURITIES LITIGATION WARNING:** [TICKER] is currently exposed to material legal or regulatory headwind: [Name of Lawsuit/Investigation/Short Report]. You must explicitly summarise the exact baseline allegations concerning the company's core technology, financial statements, or executive integrity here. This risk must be explicitly reconciled against your forward thesis in the final synthesis.
+
+---
+
 ## GATE CHECK — MARKET CAP FILTER
 
-State the current market cap and enterprise value of [TICKER].
+State the baseline capital structure parameters of [TICKER]. To prevent rounding errors or unverified valuation tracking, you are strictly forbidden from writing single hardcoded totals without detailing the underlying structural inputs. Fill out the following schema exactly:
 
-- Market cap: $\_\_\_
-- Enterprise value: $\_\_\_
+* **Current Stock Price:** $___ (As of [Date])
+* **Common Shares Outstanding:** ___ (From most recent 10-Q/10-K filing)
+* **Market Capitalisation:** $___ (Calculated as Stock Price x Shares Outstanding)
+* **Cash and Short-Term Investments:** $___ million (From most recent balance sheet)
+* **Total Debt & Convertible Notes Payable:** $___ million
+* **Net Debt Position:** $___ million (Calculated as Total Debt minus Cash)
+* **Enterprise Value (EV):** $___ million (Calculated as Market Capitalisation plus Net Debt)
 
 **Hard gate: if [TICKER] has a market cap above $5 billion, stop here. Do not continue.**
 
 If it qualifies, also state:
-
-- Realistic bull-case market cap in 24–36 months if thesis plays out?
-- Multiple expansion embedded in that target? Calculate and explicitly state the current trailing annualised P/S or EV/Sales multiple. If the future target multiple (e.g. 20x) is lower than the current multiple, explicitly label the valuation shift as "Multiple Contraction offset by Volumetric Revenue Scale-Up" instead of "Multiple Expansion Target".
-- Implied return from today's price to that target? (Minimum acceptable implied return is 500% / 5x for hardware, 400% / 4x for software).
+* **Realistic bull-case market cap in 24–36 months if thesis plays out:** $___ billion
+* **Multiple expansion embedded in that target:** Calculate and explicitly state the current trailing annualised P/S or EV/Sales multiple based on your extraction buffer. If the future target multiple (e.g. 5x) is lower than the current multiple, explicitly label the valuation shift as "Multiple Contraction offset by Volumetric Revenue Scale-Up" instead of "Multiple Expansion Target".
+* **Implied return from today's price to that target:** ___x return (Minimum acceptable implied return is 5.0x / 500% for hardware, 4.0x / 400% for software).
 
 ---
 

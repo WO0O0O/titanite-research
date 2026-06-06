@@ -17,6 +17,5 @@ Once you have reviewed the JSON buffer, copy it into the **Scorer template** to 
 
 - [SC-AI-SCORER.md](SC-AI-SCORER.md)
 
----
-
-_Framework based on Serenity (@aleabitoreddit) Chokepoint Theory._
+### Turn 2 Data Validation Rule:
+When executing the Scorer template (Turn 2), you must cross-examine the JSON data block metrics against your text conclusions before writing any narrative sections. If the buffer shows an inventory-to-binding backlog ratio near zero (e.g., 0.003) or a zero drawdown velocity, your analysis in Section 3, Section 4, and Section 6 must explicitly address this operational bottleneck (e.g., explaining that the company's immediate valuation is bound to facility qualification milestones rather than physical inventory accumulation). If data and narrative contradict, halt and recalibrate the timeline tracking parameters.
