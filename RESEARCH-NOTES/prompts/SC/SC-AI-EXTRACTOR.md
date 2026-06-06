@@ -19,7 +19,10 @@ Apply these rules to every word of the output. Do not deviate.
 
 ## STEP 0 — EXECUTION PROTOCOL (Turn 1 Data Extraction)
 
-Do not write a single word of narrative analysis. You must perform the following data gathering and write both the raw, structured JSON block and subsequent research to the appropriate Markdown (.md) file located in the correct sub-folder (e.g. `RESEARCH-NOTES/SMALLCAP-AI-INFRA/[industry]/[TICKER]-[company-name].md`) under the `## RAW DATA EXTRACTION BUFFER` header. Do not output this to the chat interface.
+CRITICAL RESEARCH DEPTH & MULTI-PAGE AUDIT REQUIREMENT:
+You are strictly required to avoid the "Satisficing" trap (stopping research early once raw numbers for the JSON block are found). You must run at least 8-10 distinct search queries and parse/visit at least 15-20 separate web pages (such as earnings transcripts, substack analyses, press releases, regional funding agencies, and short reports) to extract qualitative depth on parent entity structures, inventory days, customer concentration credit profiles, and national innovation cooperative realities. Every live search query, results clicked, and qualitative takeaways must be documented in the Search Execution Log table under the `## SEARCH AUDIT TRAIL VERIFICATION (MANDATORY)` header.
+
+Do not write a single word of narrative analysis. You must perform the following data gathering and write both the Search Audit Trail Verification table and the raw, structured JSON block to the appropriate Markdown (.md) file located in the correct sub-folder (e.g. `RESEARCH-NOTES/SMALLCAP-AI-INFRA/[industry]/[TICKER]-EXTRACTION-BUFFER.md`) under the `## RAW DATA EXTRACTION BUFFER` header. Do not output this to the chat interface.
 
 **Step A — Transcript keyword sweep (three passes)**
 
@@ -80,7 +83,21 @@ Determine whether [TICKER] is a qualification-cycle player (forward narrative fo
 
 ## RAW DATA EXTRACTION BUFFER
 
-Output **ONLY** a raw, structured JSON block matching this schema:
+## SEARCH AUDIT TRAIL VERIFICATION (MANDATORY)
+
+Before writing out the JSON code block, you must populate this exact Search Execution Log. If any row is marked as skipped or left unexecuted, the entire run is invalid.
+
+| Required Target Query Vector | Live Search Engine Query String Used | Total Results Clicked/Parsed | Primary Qualitative Insight Extracted |
+| :--- | :--- | :--- | :--- |
+| **Pass 1:** Transcript Opportunities | | | |
+| **Pass 2:** Transcript Red Flags | | | |
+| **Pass 3:** Transcript Moats | | | |
+| **Step B:** Short Seller / Accounting Fraud | | | |
+| **Step B:** Substack & Specialist Moat Analyses | | | |
+| **Step B:** National Innovation Agency Checks | | | |
+| **Step B:** Executive / Leadership Background | | | |
+
+Output **ONLY** the Search Audit Trail Verification table followed by the raw, structured JSON block matching this schema:
 
 ```json
 {

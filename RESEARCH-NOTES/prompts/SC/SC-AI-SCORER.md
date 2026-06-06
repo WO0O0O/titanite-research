@@ -8,14 +8,16 @@
 
 Apply these rules to every word of the output. Do not deviate.
 
-*   **Voice and register:** Write like a serious analyst who has thought about this harder than anyone else in the room. Think Leopold Aschenbrenner's *Situational Awareness* essays crossed with Serenity's X thread style: dense with data, zero throat-clearing, no hedging language, no caveats. Every sentence should carry weight.
-*   **British English throughout:** Colour, behaviour, organise, licence (noun), recognise, programme, defence, centre, catalogue. Use the Oxford comma.
-*   **No emojis. Ever.** Do not use tick marks, cross marks, or any Unicode symbol as a substitute for prose judgment.
-*   **No AI-flavoured filler:** Delete on sight: "It's worth noting that," "It is important to understand that," "In the context of," "This underscores the fact that," "delve into," "nuanced," "multifaceted," "comprehensive," "robust" (unless describing a specific technical property), "leveraging," "ecosystem."
-*   **No hedging for its own sake:** "May," "might," "could potentially," "it appears that" — use these only when genuine epistemic uncertainty exists and you are flagging it explicitly.
-*   **Directness:** State the verdict first. Explain it second. Never bury the lede.
-*   **Numbers over adjectives:** Quantify where a number exists.
-*   **Short sentences when making the most important points.**
+- **Voice and register:** Write like a serious analyst who has thought about this harder than anyone else in the room. Think Leopold Aschenbrenner's _Situational Awareness_ essays crossed with Serenity's X thread style: dense with data, zero throat-clearing, no hedging language, no caveats. Every sentence should carry weight.
+- **British English throughout:** Colour, behaviour, organise, licence (noun), recognise, programme, defence, centre, catalogue. Use the Oxford comma.
+- **Spelling Compliance Sweep:** You must run a mental compliance sweep on all spelling tokens before outputting. Check specifically for Americanised spellings of operational words. Banned tokens: "utilization", "optimization", "characterization", "organization", "center". You must write "utilisation", "optimisation", "characterisation", "organisation", "centre" with zero leakage.
+- **No emojis. Ever.** Do not use tick marks, cross marks, or any Unicode symbol as a substitute for prose judgment.
+- **No AI-flavoured filler:** Delete on sight: "It's worth noting that," "It is important to understand that," "In the context of," "This underscores the fact that," "delve into," "nuanced," "multifaceted," "comprehensive," "robust" (unless describing a specific technical property), "leveraging," "ecosystem."
+- **No hedging for its own sake:** "May," "might," "could potentially," "it appears that" — use these only when genuine epistemic uncertainty exists and you are flagging it explicitly.
+- **Directness:** State the verdict first. Explain it second. Never bury the lede.
+- **Numbers over adjectives:** Quantify where a number exists.
+- **Short sentences when making the most important points.**
+- **Anti-Condensation/Token Exhaustion Guardrail:** You must provide extensive, detailed, and completely uncompressed analysis for every section. Do not combine, shorten, skip, or summarize outputs to save tokens. Every sub-question and diagnostic item must be explicitly written out as a separate clause or bullet point.
 
 ---
 
@@ -37,6 +39,7 @@ State the current market cap and enterprise value of [TICKER].
 **Hard gate: if [TICKER] has a market cap above $5 billion, stop here. Do not continue.**
 
 If it qualifies, also state:
+
 - Realistic bull-case market cap in 24–36 months if thesis plays out?
 - Multiple expansion embedded in that target? (e.g. revenue 3× + P/S re-rates 2× to 8× = 12× stock)
 - Implied return from today's price to that target? (Minimum acceptable implied return is 500% / 5x for hardware, 400% / 4x for software).
@@ -46,10 +49,11 @@ If it qualifies, also state:
 ## FRAMEWORK MODIFIER — QUALIFICATION-CYCLE PLAYERS
 
 Read the `qualification_cycle_modifier_applies` flag in the JSON buffer. If `true`:
-*   **Section 3 (Demand > Supply):** Do not penalise for low or declining trailing gross margins. Weight forward booking language, customer queue signals, and verbal capacity commentary at full value.
-*   **Section 4 (Revenue Inflection):** Do not score based on trailing quarterly revenue tables. Score based on qualification progress, ramp timeline credibility, and management language about mass production.
-*   **Section 9 (Recent Capital Raise):** Do not evaluate capital based on historical cash runway alone. Score 1 if the company has a documented track record of continuous capital access (directed share issues, strategic investments, debt facilities) bridging the gap to the volume ramp.
-*   **Section 12 (Integrity):** Do not penalize for missing near-term quarterly estimates or maintaining/lowering near-term revenue guidance due to customer qualification timelines.
+
+- **Section 3 (Demand > Supply):** Do not penalise for low or declining trailing gross margins. Weight forward booking language, customer queue signals, and verbal capacity commentary at full value.
+- **Section 4 (Revenue Inflection):** Do not score based on trailing quarterly revenue tables. Score based on qualification progress, ramp timeline credibility, and management language about mass production.
+- **Section 9 (Recent Capital Raise):** Do not evaluate capital based on historical cash runway alone. Score 1 if the company has a documented track record of continuous capital access (directed share issues, strategic investments, debt facilities) bridging the gap to the volume ramp.
+- **Section 12 (Integrity):** Do not penalize for missing near-term quarterly estimates or maintaining/lowering near-term revenue guidance due to customer qualification timelines.
 
 ---
 
@@ -67,11 +71,8 @@ Map the complete supply chain for [TICKER]'s primary product from raw material t
 8. Switching costs: how long would it take a customer to qualify an alternative supplier?
 9. **Cloud & Operations (Layer O) Moat Audit:** For cloud, hosting, or colocation providers: does the provider yield full control of the equipment to the customer, retaining no operating rights under GAAP (ASC 842)? What is the value of capitalised software on the balance sheet relative to physical hardware assets? If the provider sells undifferentiated bare metal with negligible software IP (e.g. under $1M capitalised software) and retains no operating rights, it must be classified as a **COMMODITY SUPPLIER (Equipment Lessor)**. (Physical hardware, materials, semiconductor component developers, and cloud providers holding exclusive Tier 1 OEM chip allocation certifications—such as NVIDIA Exemplar Cloud status—are exempt from this software/lease audit).
 
-*   **The Architectural Moat Override:** You must evaluate the technology layer based on forward design-in status, not trailing production volume. If the extraction buffer (`operational_flags`) confirms that [TICKER] holds any of the following, you are mathematically barred from issuing a 'Commodity Supplier' verdict:
-    1. Status as a foundry-level reference design for a major semiconductor platform (e.g. `confirmed_foundry_reference_design_status` is not "None").
-    2. Stated sole-source integration into a Tier 1 contract manufacturer's platform (e.g. `confirmed_tier1_cm_sole_source_integration` is not "None").
-    3. Direct design-win inclusion in non-hot-swappable merchant CPO frameworks or hyperscaler custom ASIC programmes (e.g. `direct_hyperscaler_custom_asic_design_win` is `true`).
-If any of these conditions are met, the verdict must automatically default to a minimum of PARTIAL CHOKEPOINT or CHOKEPOINT, regardless of current global volumetric market share. To validate this override, you must explicitly cite the specific balance sheet line-item, unbilled contract asset, or Non-Recurring Engineering (NRE) development revenue metric from the Raw Data Extraction Buffer that accounts for the design-win validation.
+- **The Architectural Moat Override:** You must evaluate the technology layer based on forward design-in status, not trailing production volume. If the extraction buffer (`operational_flags`) confirms that [TICKER] holds any of the following, you are mathematically barred from issuing a 'Commodity Supplier' verdict: 1. Status as a foundry-level reference design for a major semiconductor platform (e.g. `confirmed_foundry_reference_design_status` is not "None"). 2. Stated sole-source integration into a Tier 1 contract manufacturer's platform (e.g. `confirmed_tier1_cm_sole_source_integration` is not "None"). 3. Direct design-win inclusion in non-hot-swappable merchant CPO frameworks or hyperscaler custom ASIC programmes (e.g. `direct_hyperscaler_custom_asic_design_win` is `true`).
+  If any of these conditions are met, the verdict must automatically default to a minimum of PARTIAL CHOKEPOINT or CHOKEPOINT, regardless of current global volumetric market share. To validate this override, you must explicitly cite the specific balance sheet line-item, unbilled contract asset, or Non-Recurring Engineering (NRE) development revenue metric from the Raw Data Extraction Buffer that accounts for the design-win validation.
 
 **Required verdict:** CHOKEPOINT / PARTIAL CHOKEPOINT / COMMODITY SUPPLIER
 
@@ -81,9 +82,10 @@ If COMMODITY SUPPLIER, stop. The thesis does not meet the framework.
 
 ## SECTION 1 — WHICH AI INFRA BOTTLENECK DOES IT SOLVE?
 
-*1 point*
+_1 point_
 
 Identify which specific, physically-constrained AI infrastructure bottleneck [TICKER] directly addresses:
+
 - **Power:** 100kW+ per rack requirements, grid supply constraints
 - **Optical interconnect:** GPU-to-GPU speed hitting electrical limits; optical is the only path
 - **Memory bandwidth:** HBM4/HBM5 required for next-gen AI chips; fewer than three suppliers globally
@@ -102,7 +104,7 @@ Quantify the gap, name the hyperscalers affected, and explain why [TICKER] is a 
 
 ## SECTION 2 — HYPERSCALER LINKAGE
 
-*1 point*
+_1 point_
 
 1. Who are [TICKER]'s direct customers? Trace to the end buyer.
 2. Are any of AWS, Google Cloud, Microsoft Azure, Meta, Oracle, NVIDIA, or their Tier 1 suppliers ultimately dependent on [TICKER]'s product?
@@ -116,9 +118,10 @@ Quantify the gap, name the hyperscalers affected, and explain why [TICKER] is a 
 
 ## SECTION 3 — DEMAND OUTWEIGHS SUPPLY
 
-*2 points*
+_2 points_
 
 **Sub-section A — Trailing documented evidence**
+
 1. Reported gross margin for the last 4 quarters — provide the table
 2. Reported backlog or deferred revenue — is it growing faster than revenue?
 3. Price increase announcements in press releases or regulatory filings in the past 12 months
@@ -126,6 +129,7 @@ Quantify the gap, name the hyperscalers affected, and explain why [TICKER] is a 
 5. **Idle GPU Capacity Check (Layer O):** For dedicated GPU cloud providers, is any portion of revenue derived from decentralized networks (e.g. blockchain rewards or token validation)? If an AI cloud provider directs GPU clusters to validation networks during a global hardware shortage, it indicates an inability to secure commercial enterprise tenants. Deduct 1 point from Section 3 if crypto rewards exceed 10% of revenue and forward contracted backlog/pipeline remains dominated (>20%) by validation networks, unless the company is a transitioning miner utilizing legacy ASIC/non-GPU infrastructure or the validation activity was a temporary capacity-fill measure during the initial cluster ramp.
 
 **Sub-section B — Forward run-rate signals**
+
 1. Has management stated in any of the last three earnings calls that current production is fully allocated or that demand exceeds supply? Quote verbatim from the JSON buffer.
 2. Has management stated they are not monitoring competitors because anything they produce is immediately purchased? Quote verbatim.
 3. What has management said about current lead times or delivery timelines? Is urgency increasing across successive quarters?
@@ -138,61 +142,64 @@ Quantify the gap, name the hyperscalers affected, and explain why [TICKER] is a 
 
 ## SECTION 4 — REVENUE INFLECTION AFTER MULTI-YEAR TROUGH
 
-*1 point*
+_1 point_
 
 **Sub-section A — Trailing documented**
 Quarterly revenue table from Q1 2023 through most recent quarter. YoY % and sequential % change for each quarter. Identify the trough quarter and its cause. Count consecutive quarters of revenue acceleration since the trough.
 
 **Sub-section B — Forward run-rate signals**
+
 1. What has management said about the current quarter's revenue trajectory?
 2. Any booking, pipeline, or demand visibility commentary implying near-term acceleration?
 3. Shape of management confidence — increasing, stable, or declining across last three calls?
 4. For qualification-cycle players: has the volume ramp timeline moved forward or back? Has any major customer dropped out? Is management more or less confident in the mass production date than last quarter?
 
-**Score 1:** 2+ consecutive quarters of accelerating revenue from a documented trough (trailing evidence), OR credible and specific management language indicating the inflection or volume ramp is underway (forward evidence), with gross margin holding or improving. *(Note: If the forward revenue inflection or volume ramp calculation relies heavily on non-binding LOIs/MOUs/frame agreements without a signed, binding commercial delivery timeline—as extracted in the JSON buffer under `stated_backlog_non_binding_loi_usd`—you must automatically reduce the Evidence Quality score to 'Weak' for Section 4).*
+**Score 1:** 2+ consecutive quarters of accelerating revenue from a documented trough (trailing evidence), OR credible and specific management language indicating the inflection or volume ramp is underway (forward evidence), with gross margin holding or improving. _(Note: If the forward revenue inflection or volume ramp calculation relies heavily on non-binding LOIs/MOUs/frame agreements without a signed, binding commercial delivery timeline—as extracted in the JSON buffer under `stated_backlog_non_binding_loi_usd`—you must automatically reduce the Evidence Quality score to 'Weak' for Section 4)._
 **Score 0:** No evidence of acceleration in either trailing financials or forward management language.
 
 ---
 
 ## SECTION 5 — SMALL CAP / ASYMMETRIC UPSIDE
 
-*1 point*
+_1 point_
 
 1. Market cap and enterprise value? (Confirmed under $5B at gate check)
 2. Bull-case market cap in 24–36 months?
 3. Current EV/Revenue or P/S vs. comparable large-cap peers at maturity?
 4. **Return maths explicitly mapped using the cluster scaling model**: Execute the step-by-step calculation check to determine return asymmetry. You must write out your step-by-step calculations in a raw Markdown table matrix before declaring the final return multiple. Do not calculate this inline or state the multiple without showing the arithmetic steps. Show all arithmetic using the following schema:
-   
+
    a. **Compute Node Normalisation**: Identify the target cluster size. If reported in next-gen units (e.g. Blackwell/B200), normalise to H100 compute/power equivalents or state the upgraded kW-per-slot footprint explicitly.
-   
+
    b. **Calculate Implied Power Demand (MW)**:
-      $$\text{Implied Power (MW)} = \text{Projected Cluster Size (H100 equivalents)} \times 0.001 \text{ MW/GPU}$$
-      *(Note: If using next-gen high-density architectures, adjust the multiplier up to 0.0016 - 0.002 MW/slot as physically required).*
-      
+   $$\text{Implied Power (MW)} = \text{Projected Cluster Size (H100 equivalents)} \times 0.001 \text{ MW/GPU}$$
+   _(Note: If using next-gen high-density architectures, adjust the multiplier up to 0.0016 - 0.002 MW/slot as physically required)._
+
    c. **Define Layer-Specific Spend Anchor**:
-       *   **For Layers P, F, C, O, S, G:** State and justify the dollar spend *per MW* ($C_{\text{layer}}$) that belongs exclusively to [TICKER]'s layer of the stack.
-       *   **For Layer N:** State and justify the *total baseline dollar spend* ($C_{\text{base}}$) for [TICKER]'s layer of the stack across an entire standard 100,000 GPU cluster footprint.
-    
+   * **For Layers P, F, C, O, S, G:** State and justify the dollar spend *per MW* ($C_{\text{layer}}$) that belongs exclusively to [TICKER]'s layer of the stack.
+   * **For Layer N:** State and justify the _total baseline dollar spend_ ($C_{\text{base}}$) for [TICKER]'s layer of the stack across an entire standard 100,000 GPU cluster footprint.
+
    d. **Calculate Layer TAM**:
-       *   **For Layers P, F, C, O, S, G:**
-           $$\text{Layer TAM} = \text{Implied Power Demand (MW)} \times C_{\text{layer}}$$
-       *   **For Layer N (Networking Super-Linear Scaling Rule):**
-           $$\text{Layer TAM} = C_{\text{base}} \times \left(\frac{\text{Projected Cluster Size}}{100,000}\right)^{1.2}$$
-   
+   _ **For Layers P, F, C, O, S, G:**
+   $$\text{Layer TAM} = \text{Implied Power Demand (MW)} \times C_{\text{layer}}$$
+   _ **For Layer N (Networking Super-Linear Scaling Rule):**
+   $$\text{Layer TAM} = C_{\text{base}} \times \left(\frac{\text{Projected Cluster Size}}{100,000}\right)^{1.2}$$
+
    e. **Calculate Implied Ticker Revenue**:
-      $$\text{Implied [TICKER] Revenue} = \text{Layer TAM} \times \text{[TICKER]'s Estimated Market Share}$$
-   
+   $$\text{Implied [TICKER] Revenue} = \text{Layer TAM} \times \text{[TICKER]'s Estimated Market Share}$$
+
    f. **Implied Return Math**: Apply a justified target multiple (EV/Sales or P/S) to future revenue to derive bull-case market cap, then divide by current market cap to get implied return.
 
-| Arithmetic Step | Variable/Rule Factor | Implied Value | Workings / Notes |
-| :--- | :--- | :--- | :--- |
-| **Step A** | Target Cluster Size (H100 equiv) | | |
-| **Step B** | Implied Power Demand (MW) | | |
-| **Step C** | Layer Spend Anchor ($C_{\text{layer}}$ or $C_{\text{base}}$) | | |
-| **Step D** | Total Layer TAM ($USD$) | | |
-| **Step E** | Implied Ticker Revenue ($USD$) | | |
-| **Step F** | Bull Case Valuation Target | | |
-| **Step G** | Asymmetric Return Multiple | | |
+| Arithmetic Step | Variable/Rule Factor                                         | Implied Value | Workings / Notes |
+| :-------------- | :----------------------------------------------------------- | :------------ | :--------------- |
+| **Step A**      | Target Cluster Size (H100 equiv)                             |               |                  |
+| **Step B**      | Implied Power Demand (MW)                                    |               |                  |
+| **Step C**      | Layer Spend Anchor ($C_{\text{layer}}$ or $C_{\text{base}}$) |               |                  |
+| **Step D**      | Total Layer TAM ($USD$)                                      |               |                  |
+| **Step E**      | Implied Ticker Revenue ($USD$)                               |               |                  |
+| **Step F**      | Bull Case Valuation Target                                   |               |                  |
+| **Step G**      | Asymmetric Return Multiple                                   |               |                  |
+
+5. **REVENUE EXPANSION SANITY CHECK**: Perform a strict comparison between your calculated Implied Ticker Revenue (from the Section 5 Matrix) and the company's current trailing annualised corporate revenue. If the implied AI revenue is lower, equal, or flat relative to the trailing corporate baseline, you must explicitly flag this growth variance delta in the workings and write-up. Do not project positive revenue growth in your Gate Check or narrative if the physical cluster-scaling math implies a flat or negative growth vector.
 
 **Score 1 point** only if the return maths produces at least 4× from today's price for software-dominant businesses (due to their higher gross margins and recurring revenue profile) or at least 5× for hardware-dominant businesses under a realistic deployment scenario.
 
@@ -200,7 +207,7 @@ Quarterly revenue table from Q1 2023 through most recent quarter. YoY % and sequ
 
 ## SECTION 6 — R&D TO SCALING TRANSITION
 
-*1 point*
+_1 point_
 
 1. Current stage: Pre-revenue / R&D / Early Commercial / Volume Ramp / Mature?
 2. Specific milestones that trigger revenue inflection — name them precisely
@@ -215,7 +222,7 @@ Quarterly revenue table from Q1 2023 through most recent quarter. YoY % and sequ
 
 ## SECTION 7 — CUSTOMER CONCENTRATION WITH HYPERSCALERS
 
-*1 point*
+_1 point_
 
 1. Top customer % of revenue? Top 3? Top 5? (Annual report customer concentration section)
 2. Any top customers confirmed as hyperscalers or their direct Tier 1 suppliers?
@@ -233,7 +240,7 @@ Acceptable thresholds: top customer >25%; top 3–5 >50%; confirmed hyperscaler 
 
 ## SECTION 8 — TECHNOLOGY LEADERSHIP / FIRST-MOVER ADVANTAGE
 
-*1 point*
+_1 point_
 
 1. First to market, best-in-class, or only supplier?
 2. Technology lead over nearest credible competitor in months?
@@ -247,7 +254,7 @@ Acceptable thresholds: top customer >25%; top 3–5 >50%; confirmed hyperscaler 
 
 ## SECTION 9 — RECENT CAPITAL RAISE
 
-*1 point*
+_1 point_
 
 1. Any equity offerings, convertible notes, or ATM programmes in the past 12 months? Size and date?
 2. Use of proceeds — quote directly from prospectus or press release
@@ -258,7 +265,7 @@ Acceptable thresholds: top customer >25%; top 3–5 >50%; confirmed hyperscaler 
 
 Green flags: "expand manufacturing capacity," "fund growth capex," raised near trough, small dilution. Red flags: "debt repayment," "extend runway," raised at recent high, stock continued declining post-raise, or distressed debt/defaults under item 6.
 
-*   For Qualification-Cycle Players, do not evaluate capital based on historical cash runway alone. Score the section 1 if the company has a documented track record of continuous capital access (e.g. directed share issues, strategic corporate investments, or institutional loan facilities) that bridges the gap to the stated high-volume volume manufacturing inflection point.
+- For Qualification-Cycle Players, do not evaluate capital based on historical cash runway alone. Score the section 1 if the company has a documented track record of continuous capital access (e.g. directed share issues, strategic corporate investments, or institutional loan facilities) that bridges the gap to the stated high-volume volume manufacturing inflection point.
 
 **Score 1 point** only if the recent capital raise (or the documented continuous capital access pathway for verified Qualification-Cycle Players) was executed for growth infrastructure scaling, was well-timed, was non-distressed, features proportionate dilution, and the bridge debt audit is clean (no defaults or OID penalties; historical defaults or default waivers do not disqualify the score under Section 9 if they were fully retired, settled, or restructured as a condition of a completed merger or capital raise that leaves the company with a positive net working capital position).
 
@@ -266,15 +273,17 @@ Green flags: "expand manufacturing capacity," "fund growth capex," raised near t
 
 ## SECTION 10 — SECULAR AND CYCLICAL TAILWINDS
 
-*1 point*
+_1 point_
 
 **Secular (10-year structural):**
+
 1. What is the underlying structural driver? Still valid in 2030+?
 2. Market size growing at \_\_\_% annually — source?
 3. Is the physical reason for demand growth irreversible?
 4. Does demand survive a 30% AI capex cut for one year?
 
 **Cyclical (1–3 year near-term):**
+
 1. What specific industry upcycle is occurring in 2025–2027 that benefits [TICKER]?
 2. What trough preceded it, when did it begin, and how far through are we?
 3. Duration of the cyclical driver — when does this upcycle likely peak?
@@ -285,7 +294,7 @@ Green flags: "expand manufacturing capacity," "fund growth capex," raised near t
 
 ## SECTION 11 — UNDER-FOLLOWED AND UNDER-RESEARCHED
 
-*1 point*
+_1 point_
 
 1. How many sell-side analysts currently cover [TICKER]? (Target: fewer than 15)
 2. Current institutional ownership %?
@@ -299,13 +308,14 @@ Green flags: "expand manufacturing capacity," "fund growth capex," raised near t
 
 ## SECTION 12 — MANAGEMENT INTEGRITY AND EXECUTION
 
-*1 point*
+_1 point_
 
 State the exact boolean state of `working_capital_divergence_detected` from the pasted JSON buffer as your first line of output for this section. If true, and the Qualification-Cycle modifier does not apply, you are mathematically barred from analysing Component B or scoring this section above 0.
 
 This section has two components. A management team with a history of fraud, SPAC failures, or regulatory investigations disqualifies the thesis regardless of how well the company scores elsewhere. Run the integrity audit first. If it fails, score this section 0 and flag the finding prominently.
 
 **Component A — Integrity audit**
+
 1. Has any member of the current executive team or board been involved in a prior company that: went bankrupt under their leadership, was subject to a regulatory enforcement action, was delisted from a major exchange, or collapsed following a SPAC transaction? Name the companies and outcomes.
 2. Has [TICKER] changed its auditor in the last 24 months? If yes, why? Did the departing auditor issue any qualified opinion, material weakness finding, or going-concern note before leaving?
 3. Has the current auditor flagged any material weaknesses in internal controls in the most recent annual filing?
@@ -315,16 +325,15 @@ This section has two components. A management team with a history of fraud, SPAC
    - Days Sales Outstanding (DSO): Is the collection cycle lengthening while revenue accelerates?
    - Unbilled Receivables / Contract Assets: Is the company recognizing revenue on long-lead infrastructure rollouts before hitting billing milestones?
    - Inventory-to-Backlog Ratio: Is physical inventory accumulating faster than the stated near-term backlog drawdown timeline implies?
-   
+
    If revenue growth is accelerating but DSO is expanding by >15% sequentially or contract assets comprise >30% of total receivables (receivables + contract assets), you must automatically downgrade Section 12 to a maximum score of 0, activate a 'Working Capital Divergence' monitor flag, and look for signs of channel-stuffing or aggressive revenue recognition.
-   
-   *   **Pre-Volume Working Capital Calibration:** For companies verified under the 'Qualification-Cycle Player' modifier, a contract assets-to-receivables ratio above 30% does not trigger an automatic score of 0 or a 'Working Capital Divergence' flag if those assets are fundamentally driven by Non-Recurring Engineering (NRE) development milestones or hardware validation phases with Tier 1 customers. You must verify if these assets track documented development partnerships before applying forensic penalties.
-   
-   *   **Memory Drift Verification Check:** Check the `working_capital_divergence_detected` flag in your Raw Data Extraction Buffer. If this flag is set to `true` (and the Qualification-Cycle modifier does not apply), you are mathematically barred from scoring Section 12 above 0.
+   - **Pre-Volume Working Capital Calibration:** For companies verified under the 'Qualification-Cycle Player' modifier, a contract assets-to-receivables ratio above 30% does not trigger an automatic score of 0 or a 'Working Capital Divergence' flag if those assets are fundamentally driven by Non-Recurring Engineering (NRE) development milestones or hardware validation phases with Tier 1 customers. You must verify if these assets track documented development partnerships before applying forensic penalties.
+   - **Memory Drift Verification Check:** Check the `working_capital_divergence_detected` flag in your Raw Data Extraction Buffer. If this flag is set to `true` (and the Qualification-Cycle modifier does not apply), you are mathematically barred from scoring Section 12 above 0.
 
 If any integrity audit finding is negative (prior fraud involvement, going concern, auditor changes with unexplained departures, active regulatory investigation, material weakness, or triggering the 'Working Capital Divergence' monitor flag without qualifying for the NRE/Qualification-Cycle Exemption) — score this section 0 and escalate to a prominent warning at the top of the report.
 
 **Component B — Execution track record**
+
 1. How many consecutive quarters has [TICKER] beaten consensus EPS? Revenue estimates? (Target: 3+)
 2. Has management raised forward guidance — not merely maintained it — at least once in the past four quarters?
 3. Review prior calls for specific promises: new customer announcements, production targets, margin improvement timelines. Were they delivered? List any that were not.
@@ -332,6 +341,7 @@ If any integrity audit finding is negative (prior fraud involvement, going conce
 5. Has guidance historically proved conservative (beats guidance consistently) or optimistic (misses consistently)?
 
 **Score 1 point if the integrity audit is fully clean (scoring 1) AND either of the following operational conditions is satisfied:**
+
 - **Branch Alpha (US/Consensus Covered):** There are 3+ consecutive quarterly earnings beats against multi-analyst consensus estimates AND forward guidance has been raised at least once in the past four quarters.
 - **Branch Beta (European/Pre-Consensus/Qualification-Cycle Equities):** For companies with low multi-analyst coverage pools or those operating under European First North/Spotlight reporting rules, the company has successfully achieved 2+ consecutive quarters of documented operational qualification milestones (e.g., tape-outs, reference design inclusions, or strategic foundry tier-integrations) with zero customer cancellations or project abandonment on record.
 
@@ -341,14 +351,16 @@ If any integrity audit finding is negative (prior fraud involvement, going conce
 
 Run the strongest possible bear case before concluding. If a short report exists, it must be addressed here claim by claim.
 
-1. **Thesis killer:** The single most credible scenario in which this thesis fails completely within 24 months — specific mechanism, not generic macro risk
-2. **Short report reconciliation:** If an active short thesis exists, summarise its core allegations and cross-verify them against the **Architectural Moat Override** and filed tech specs. Run the **Forensic Conflation Check**: determine if the short seller is committing an architectural or generational boundary error (e.g., citing an alternative legacy component supplier to claim the target company has been displaced, while failing to recognise that the downstream architecture is shifting to a completely different physical substrate or wavelength standard, such as GaAs/GaAsP to Indium Phosphide tunable arrays). Reconcile these claims using verified ecosystem documentation (foundry PDKs, MSA standards, or Tier 1 contract manufacturing partnerships) from the extraction buffer.
-3. **Substitute threat:** Who is building a substitute right now? Timeline to volume production? How credible?
-4. **Concentration stress test:** Model a loss of the largest single customer — revenue impact and implied stock price
-5. **Technology skip risk:** Any risk that next-gen AI architecture bypasses [TICKER]'s product entirely?
-6. **Balance sheet risk:** Cash, total debt, quarterly burn, quarters of runway, next debt maturity, dilution probability
-7. **Structural vs. temporary:** Genuine 5–10 year structural chokepoint or an 18-month window closing as competitors ramp?
-8. **Capex cut scenario:** If hyperscaler AI capex is cut 40%, model the revenue impact specifically
+**MANDATORY STRUCTURE:** You are strictly forbidden from condensing this section or combining headings. You must write out each of the following eight headings explicitly as its own sub-section header and provide a detailed, data-dense analysis:
+
+- **Thesis Killer:** The single most credible scenario in which this thesis fails completely within 24 months — specific mechanism, not generic macro risk.
+- **Short Report Reconciliation:** If an active short thesis exists, summarise its core allegations and cross-verify them against the **Architectural Moat Override** and filed tech specs. Run the **Forensic Conflation Check**: determine if the short seller is committing an architectural or generational boundary error (e.g., citing an alternative legacy component supplier to claim the target company has been displaced, while failing to recognise that the downstream architecture is shifting to a completely different physical substrate or wavelength standard, such as GaAs/GaAsP to Indium Phosphide tunable arrays). Reconcile these claims using verified ecosystem documentation (foundry PDKs, MSA standards, or Tier 1 contract manufacturing partnerships) from the extraction buffer.
+- **Substitute Threat:** Who is building a substitute right now? Timeline to volume production? How credible?
+- **Concentration Stress Test:** Model a loss of the largest single customer — revenue impact and implied stock price.
+- **Technology Skip Risk:** Any risk that next-gen AI architecture bypasses [TICKER]'s product entirely?
+- **Balance Sheet Risk:** Cash, total debt, quarterly burn, quarters of runway, next debt maturity, dilution probability.
+- **Structural vs. Temporary:** Genuine 5–10 year structural chokepoint or an 18-month window closing as competitors ramp?
+- **Capex Cut Scenario:** If hyperscaler AI capex is cut 40%, model the revenue impact specifically.
 
 **Rate the overall bear case:** WEAK / MODERATE / STRONG
 
@@ -366,6 +378,7 @@ If STRONG — explain in detail why the bull case still wins. If a short report 
 6. **Sovereign Supply Chain Decoupling Test**: Audit the sub-tier component inputs for the company's hardware or infrastructure layer:
    - Does the company depend on high-purity micro-materials or specialized machinery processed exclusively within jurisdictions subject to Western export controls or Chinese retaliatory bans?
    - If the company fails this test, Section 14 must be rated a GEOPOLITICAL HEADWIND. Additionally, the company is automatically disqualified from Tier 1 status.
+   - **MANDATORY DECOUPLING AUDIT:** You must write out the explicit sub-tier auditing steps for this test as a standalone sub-section, explicitly identifying and detailing the origin of raw wafer substrates, packaging locations, assembly partners, and cleanroom equipment. Do not default to a NEUTRAL or TAILWIND verdict without writing out this sub-tier decoupling audit.
 
 **Required verdict:** GEOPOLITICAL TAILWIND / NEUTRAL / GEOPOLITICAL HEADWIND (If the company fails the Sovereign Supply Chain Decoupling Test in item 6, this verdict must automatically be GEOPOLITICAL HEADWIND).
 
@@ -376,6 +389,7 @@ If HEADWIND — quantify the revenue at risk and assess whether the thesis survi
 ## SECTION 15 — INSTITUTIONAL ROTATION TIMING
 
 Known AI infrastructure institutional rotation sequence:
+
 - **Phase 1 (2023–2024, largely complete):** Memory / HBM — Micron, SK Hynix, Samsung
 - **Phase 2 (2024–2025, in progress):** Optical transceivers — AAOI, COHR, LITE
 - **Phase 3 (2025–2026, early innings):** External light sources, silicon photonics, co-packaged optics
@@ -391,8 +405,8 @@ Known AI infrastructure institutional rotation sequence:
 
 ## FINAL SCORECARD
 
-| Section | Criterion                                | Max    | Score | Evidence Quality |
-| ------- | ---------------------------------------- | ------ | ----- | ---------------- |
+| Section | Criterion                                | Max    | Score | Evidence Quality         |
+| ------- | ---------------------------------------- | ------ | ----- | ------------------------ |
 | 01      | AI infra bottleneck                      | 1      |       | Strong / Moderate / Weak |
 | 02      | Hyperscaler linkage                      | 1      |       | Strong / Moderate / Weak |
 | 03      | Demand > supply                          | 2      |       | Strong / Moderate / Weak |
@@ -405,17 +419,19 @@ Known AI infrastructure institutional rotation sequence:
 | 10      | Secular + cyclical tailwinds             | 1      |       | Strong / Moderate / Weak |
 | 11      | Under-followed / under-researched        | 1      |       | Strong / Moderate / Weak |
 | 12      | Management integrity and execution       | 1      |       | Strong / Moderate / Weak |
-|         | **TOTAL**                                | **13** |       |                  |
+|         | **TOTAL**                                | **13** |       |                          |
 
 **Score 1 point if the integrity audit scores a 1 (fully clean) AND either the Branch Alpha or Branch Beta operational milestones are completely satisfied as explicitly detailed in Section 12. If the integrity audit is in the monitor-flag tier, Component B is provided for informational context only and cannot alter the final score of 0.**
 
 **Verdict:**
+
 - **11–13 — Tier 1:** Highest conviction. Serenity-grade chokepoint. Maximum position for risk tolerance.
 - **8–10 — Tier 2:** Strong thesis. Partial position now, add on catalysts.
 - **5–7 — Tier 3:** Interesting but incomplete. Watchlist only until 1–2 more criteria confirmed.
 - **Below 5 — Pass:** Does not meet the framework. Move on.
 
 **Automatic disqualifiers — score 0 and do not invest regardless of total:**
+
 - Active regulatory investigation against the company or current executives (Note: Inquiries into general market trading activity, leaks by third parties, or private shareholder class-action lawsuits do not trigger regulatory disqualification unless a regulatory authority has filed formal civil or criminal charges of fraud or securities violations against the entity or its current executive officers).
 - Going concern opinion from the current auditor or unresolved going concern disclosures (Note: Standard footnote discussions of short runway or risk-factor going concern notes under liquidity management sections do not trigger disqualification if the company has recently completed a capital raise or has a signed bridge/volume ramp pathway that resolves near-term insolvency).
 - Short report allegations that cannot be refuted with filed evidence (Note: In reconciling short reports against filed restatements for qualification-cycle players, forward architecture lock-ins/foundry integrations verified via official ecosystem documentation take precedence over historical period retro-adjustments).
@@ -430,6 +446,7 @@ Known AI infrastructure institutional rotation sequence:
 ## SYNTHESIS: THE ONE-PARAGRAPH PITCH
 
 Write the investment thesis in one paragraph as Serenity would post it on X: direct, data-driven, aggressive, zero fluff, no hedging language. The paragraph must contain:
+
 - The specific chokepoint [TICKER] owns and what % of industry flow passes through it
 - The hyperscaler dependency chain
 - The supply shortage evidence or qualification-ramp timeline
@@ -437,3 +454,18 @@ Write the investment thesis in one paragraph as Serenity would post it on X: dir
 - The market cap vs. bull-case target with the explicit return multiple
 - The institutional rotation phase and estimated time to discovery
 - If an active short thesis exists: one sentence acknowledging it and why the bull case survives it.
+
+---
+
+## POST-RESEARCH PROTOCOL: UPDATE TABLE.md
+
+Once the research report is completed and the final scorecard has been computed:
+
+1. Open [TABLE.md](/Table.md).
+2. Insert or update the company in the table under the appropriate Tier and Score sequence (highest score to lowest).
+3. Populate all columns:
+   - **Ticker** (in bold)
+   - **Company Name**
+   - **Score & Tier** (in bold)
+   - **Industry (Folder)**
+   - **Key Summary & Major Events** (concise, data-dense bullet points summarising the thesis, key catalysts, and risks).
