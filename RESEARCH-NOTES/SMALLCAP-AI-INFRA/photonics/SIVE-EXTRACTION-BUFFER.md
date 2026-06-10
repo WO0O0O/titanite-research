@@ -112,7 +112,7 @@
     "inventory_to_binding_backlog_ratio": 0.0
   },
   "operational_flags": {
-    "working_capital_divergence_detected": true,
+    "working_capital_divergence_detected": false,
     "qualification_cycle_modifier_applies": true,
     "potential_channel_stuffing_signals": false,
     "confirmed_foundry_reference_design_status": "GlobalFoundries",

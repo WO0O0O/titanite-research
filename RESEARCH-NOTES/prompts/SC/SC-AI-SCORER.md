@@ -63,14 +63,15 @@ If it qualifies, also state:
 
 ---
 
-## FRAMEWORK MODIFIER — QUALIFICATION-CYCLE PLAYERS
+## FRAMEWORK MODIFIERS — DETECTING UNPRICED ASYMMETRY
 
-Read the `qualification_cycle_modifier_applies` flag in the JSON buffer. If `true`:
+Read the `qualification_cycle_modifier_applies` and `ai_segment_pivot_modifier_applies` flags in the JSON buffer. If either is `true`, apply the following risk-mitigation rules to prevent premature penalisation of companies during initial infrastructure scaling phases:
 
-- **Section 3 (Demand > Supply):** Do not penalise for low or declining trailing gross margins. Weight forward booking language, customer queue signals, and verbal capacity commentary at full value.
-- **Section 4 (Revenue Inflection):** Do not score based on trailing quarterly revenue tables. Score based on qualification progress, ramp timeline credibility, and management language about mass production.
-- **Section 9 (Recent Capital Raise):** Do not evaluate capital based on historical cash runway alone. Score 1 if the company has a documented track record of continuous capital access (directed share issues, strategic investments, debt facilities) bridging the gap to the volume ramp.
-- **Section 12 (Integrity):** Do not penalize for missing near-term quarterly estimates or maintaining/lowering near-term revenue guidance due to customer qualification timelines.
+- **Section 3 (Demand > Supply):** Do not penalise for low, declining, or yield-depressed trailing gross margins (underabsorbed initial scaling costs are exempt). Weight forward booking language, raw material purchases, customer queue signals, and verbal capacity commentary at full value.
+- **Section 4 (Revenue Inflection):** Do not score based on trailing quarterly revenue tables. Score 1 if there is documented evidence of leading indicators of inflection (e.g. raw materials inventory growth >20% sequentially, or DPO expansion indicating component hoarding for builds), or qualification progress and volume ramp timelines.
+- **Section 9 (Recent Capital Raise):** Do not evaluate capital based on historical cash runway alone. Score 1 if the company has a documented track record of continuous capital access (ATM programmes, directed share issues, strategic investments, debt facilities) bridging the gap to the volume ramp.
+- **Section 12 (Integrity & Execution):** Do not penalize for missing near-term quarterly estimates or maintaining/lowering near-term revenue guidance due to customer qualification timelines. Sequential DSO growth of up to 50% does not trigger the Working Capital Divergence monitor penalty if it is audited as shipment timing variance (late-quarter shipping) with clean collections, and contract assets above 30% are exempt if driven by NRE milestones. Allow the operational Branch Beta tracking (operational milestones) instead of consensus beats.
+- **Section 5 (Small Cap / Asymmetry Gate Override):** If `ai_segment_pivot_modifier_applies` is `true`, allow an override for the market cap gate and return multiple hurdle if the consensus gap exceeds **2.0x**, scoring Section 5 a **1 / 1** if the model asymmetry is deterministically verified.
 
 ---
 
@@ -342,12 +343,11 @@ This section has two components. A management team with a history of fraud, SPAC
    - Days Sales Outstanding (DSO): Is the collection cycle lengthening while revenue accelerates?
    - Unbilled Receivables / Contract Assets: Is the company recognizing revenue on long-lead infrastructure rollouts before hitting billing milestones?
    - Inventory-to-Backlog Ratio: Is physical inventory accumulating faster than the stated near-term backlog drawdown timeline implies?
+   - If revenue growth is accelerating but DSO is expanding by >15% sequentially or contract assets comprise >30% of total receivables (receivables + contract assets), you must automatically downgrade Section 12 to a maximum score of 0, activate a 'Working Capital Divergence' monitor flag, and look for signs of channel-stuffing or aggressive revenue recognition.
+   - **Pre-Volume Working Capital Calibration:** For companies verified under the 'Qualification-Cycle Player' or 'Segment-Pivot Player' modifier, a contract assets-to-receivables ratio above 30% does not trigger an automatic score of 0 or a 'Working Capital Divergence' flag if those assets are fundamentally driven by Non-Recurring Engineering (NRE) development milestones or hardware validation phases with Tier 1 customers. Sequential DSO expansion up to 50% does not trigger the automatic downgrade if it is documented as a shipment timing variance with clean collections.
+   - **Memory Drift Verification Check:** Check the `working_capital_divergence_detected` flag in your Raw Data Extraction Buffer. If this flag is set to `true` (and neither the Qualification-Cycle nor the Segment-Pivot modifier applies), you are mathematically barred from scoring Section 12 above 0.
 
-   If revenue growth is accelerating but DSO is expanding by >15% sequentially or contract assets comprise >30% of total receivables (receivables + contract assets), you must automatically downgrade Section 12 to a maximum score of 0, activate a 'Working Capital Divergence' monitor flag, and look for signs of channel-stuffing or aggressive revenue recognition.
-   - **Pre-Volume Working Capital Calibration:** For companies verified under the 'Qualification-Cycle Player' modifier, a contract assets-to-receivables ratio above 30% does not trigger an automatic score of 0 or a 'Working Capital Divergence' flag if those assets are fundamentally driven by Non-Recurring Engineering (NRE) development milestones or hardware validation phases with Tier 1 customers. You must verify if these assets track documented development partnerships before applying forensic penalties.
-   - **Memory Drift Verification Check:** Check the `working_capital_divergence_detected` flag in your Raw Data Extraction Buffer. If this flag is set to `true` (and the Qualification-Cycle modifier does not apply), you are mathematically barred from scoring Section 12 above 0.
-
-If any integrity audit finding is negative (prior fraud involvement, going concern, auditor changes with unexplained departures, active regulatory investigation, material weakness, or triggering the 'Working Capital Divergence' monitor flag without qualifying for the NRE/Qualification-Cycle Exemption) — score this section 0 and escalate to a prominent warning at the top of the report.
+If any integrity audit finding is negative (prior fraud involvement, going concern, auditor changes with unexplained departures, active regulatory investigation, material weakness, or triggering the 'Working Capital Divergence' monitor flag without qualifying for the NRE/Qualification-Cycle/Segment-Pivot Exemption) — score this section 0 and escalate to a prominent warning at the top of the report.
 
 **Component B — Execution track record**
 
@@ -360,7 +360,7 @@ If any integrity audit finding is negative (prior fraud involvement, going conce
 **Score 1 point if the integrity audit is fully clean (scoring 1) AND either of the following operational conditions is satisfied:**
 
 - **Branch Alpha (US/Consensus Covered):** There are 3+ consecutive quarterly earnings beats against multi-analyst consensus estimates AND forward guidance has been raised at least once in the past four quarters.
-- **Branch Beta (European/Pre-Consensus/Qualification-Cycle Equities):** For companies with low multi-analyst coverage pools or those operating under European First North/Spotlight reporting rules, the company has successfully achieved 2+ consecutive quarters of documented operational qualification milestones (e.g., tape-outs, reference design inclusions, or strategic foundry tier-integrations) with zero customer cancellations or project abandonment on record.
+- **Branch Beta (European/Pre-Consensus/Qualification-Cycle/Segment-Pivot Equities):** For companies with low multi-analyst coverage pools, those operating under European First North/Spotlight reporting rules, or segment-pivot players whose legacy segments distort consensus, the company has successfully achieved 2+ consecutive quarters of documented operational qualification milestones (e.g., tape-outs, reference design inclusions, strategic customer design-wins, or volume shipment qualifications) with zero customer cancellations or project abandonment on record.
 
 ---
 

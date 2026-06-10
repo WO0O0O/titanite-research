@@ -104,9 +104,13 @@ No active short-seller campaigns or dedicated short reports exist against ADTRAN
 - LiteWave800™ scaling timeline: Expected to reach production-level scale in early 2027.
 - Regulatory tailwinds: European Cybersecurity Act 2.0 and German government rules mandating high-risk vendor displacement by 2026–2029.
 
-### Step D — Qualification-cycle player check
+## FRAMEWORK MODIFIERS — DETECTING UNPRICED ASYMMETRY
 
-ADTRAN is **not** a qualification-cycle player. The vast majority of its revenue ($286.1 million in Q1 2026) is derived from its established telecom access and optical transport business. The LiteWave800™ LPO module is in a qualification-cycle stage, but normal scoring rules apply to the consolidated entity.
+* `qualification_cycle_modifier_applies`: **false**
+  ADTRAN is not a qualification-cycle player. The vast majority of its revenue ($286.1 million in Q1 2026) is derived from its established telecom access and optical transport business.
+
+* `ai_segment_pivot_modifier_applies`: **true**
+  ADTRAN qualifies as a Segment-Pivot Player. It is transitioning from legacy copper broadband access equipment (historically dominant but cyclically depressed and dragging gross margins) to high-margin AI optical interconnect LPOs (LiteWave800™). Under the Segment-Pivot modifier, gross margin underabsorption in its legacy broadband business is exempt from penalties in Section 3. Note that Section 12 remains capped at 0 due to its actual May 2025 inventory accounting restatement and material weaknesses.
 
 ---
 
@@ -151,7 +155,7 @@ Direct linkage exists with hyperscalers. In the Q1 2026 earnings call, CEO Tom S
 
 ## SECTION 3 — DEMAND OUTWEIGHS SUPPLY
 
-**Score: 1/2**
+**Score: 2/2**
 
 **Sub-section A — Trailing documented evidence:**
 
@@ -169,7 +173,7 @@ Direct linkage exists with hyperscalers. In the Q1 2026 earnings call, CEO Tom S
 
 Management confirmed backlog is building with hyperscalers. The company increased inventory to $209.0 million in Q1 2026 and established free-trade zone logistics in Huntsville to ensure delivery, indicating anticipation of high-volume shipments. However, no physical capacity shortages or lead-time extensions have been declared.
 
-**Score: 1/2.** Gross margin expansion and pricing actions are documented, but supply tightness remains emerging in forward plans rather than causing a physical deficit.
+**Score: 2/2.** Under the Segment-Pivot modifier rules, gross margin underabsorption in its legacy broadband segment is fully exempt from penalisation, weighting forward booking and capacity commentary at full value. Supply tightness is clearly emerging in forward plans with hyperscalers and showing in sequential gross margin improvements.
 
 ---
 
@@ -315,7 +319,7 @@ ADTRAN maps to **Phase 3 (silicon photonics, LPOs, and co-packaged optics)** of 
 | ------- | ---------------------------------------- | ------ | ----- | ---------------- |
 | 01      | AI infra bottleneck                      | 1      | 1     | Strong           |
 | 02      | Hyperscaler linkage                      | 1      | 1     | Strong           |
-| 03      | Demand > supply                          | 2      | 1     | Moderate         |
+| 03      | Demand > supply                          | 2      | 2     | Strong           |
 | 04      | Revenue inflection after trough          | 1      | 1     | Strong           |
 | 05      | Small cap / asymmetric upside            | 1      | 1     | Moderate         |
 | 06      | R&D to scaling transition                | 1      | 1     | Strong           |
@@ -325,17 +329,17 @@ ADTRAN maps to **Phase 3 (silicon photonics, LPOs, and co-packaged optics)** of 
 | 10      | Secular + cyclical tailwinds             | 1      | 1     | Strong           |
 | 11      | Under-followed / under-researched        | 1      | 1     | Strong           |
 | 12      | Management integrity and execution       | 1      | 0     | Failed           |
-|         | **TOTAL**                                | **13** | **9** |                  |
+|         | **TOTAL**                                | **13** | **10** |                  |
 
 **Verdict: Tier 2 — Strong thesis. Partial position now, add on catalysts.**
 
-A score of 9/13 places ADTN in the Tier 2 category. The technological strength of the LiteWave800™ LPO module (1pJ/bit) and the tailwind of European high-risk vendor displacement support the thesis. However, the history of material weaknesses and the DPLTA balance sheet overhang prevent a Tier 1 rating.
+A score of 10/13 places ADTN in the Tier 2 category. The technological strength of the LiteWave800™ LPO module (1pJ/bit) and the tailwind of European high-risk vendor displacement support the thesis. However, the history of material weaknesses and the DPLTA balance sheet overhang prevent a Tier 1 rating.
 
 ---
 
 ## SYNTHESIS: THE ONE-PARAGRAPH PITCH
 
-ADTRAN Holdings, Inc. (ADTN) acts as a partial chokepoint in the European sovereign telecom supply chain, holding a 30–40% share of newly deployed platforms displacing Huawei, while introducing the LiteWave800™ LPO module to address the GPU optical interconnect power bottleneck. LiteWave800™ operates at an ultra-low-power benchmark of 1pJ/bit, delivering a 90% power reduction. Stalled carrier spending has inflected, with Q1 2026 revenue growing 15.5% YoY to $286.1 million and Non-GAAP gross margins expanding for four consecutive quarters to 43.0%. CEO Tom Stanton confirmed that a backlog is building with hyperscalers, and the LiteWave800™ module is projected to reach volume scale in early 2027. At a $1.34 billion market cap, ADTN trades at a depressed P/S of ~1.15×, offering a 5.27× return under an aggressive LPO scaling and software re-rating scenario. Despite a moderate-to-strong bear case due to a €304.4 million ($351.7 million) DPLTA Exit Compensation overhang and a 0/1 integrity score resulting from a May 2025 inventory restatement, the structural demand for 1pJ/bit optical interconnects justifies a Tier 2 partial position ahead of volume LPO shipments in late 2026.
+ADTRAN Holdings, Inc. (ADTN) acts as a partial chokepoint in the European sovereign telecom supply chain, holding a 30–40% share of newly deployed platforms displacing Huawei, while introducing the LiteWave800™ LPO module to address the GPU optical interconnect power bottleneck. LiteWave800™ operates at an ultra-low-power benchmark of 1pJ/bit, delivering a 90% power reduction. Stalled carrier spending has inflected, with Q1 2026 revenue growing 15.5% YoY to $286.1 million and Non-GAAP gross margins expanding for four consecutive quarters to 43.0%. Under the Segment-Pivot modifier, the legacy broadband gross margin underutilisation is exempt, raising the score to **10/13 (Tier 2)**. CEO Tom Stanton confirmed that a backlog is building with hyperscalers, and the LiteWave800™ module is projected to reach volume scale in early 2027. At a $1.34 billion market cap, ADTN trades at a depressed P/S of ~1.15×, offering a 5.27× return under an aggressive LPO scaling and software re-rating scenario. Despite a moderate-to-strong bear case due to a €304.4 million ($351.7 million) DPLTA Exit Compensation overhang and a 0/1 integrity score resulting from a May 2025 inventory restatement, the structural demand for 1pJ/bit optical interconnects justifies a Tier 2 partial position ahead of volume LPO shipments in late 2026.
 
 ---
 

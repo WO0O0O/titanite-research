@@ -234,10 +234,16 @@ The raise was growth-oriented, caused minimal dilution, and has been followed by
 ## SECTION 10 — SECULAR AND CYCLICAL TAILWINDS
 
 *   **Secular Driver:** The increasing thermal profile and complexity of AI computing chips, which require more rigorous reliability testing to prevent catastrophic field failures.
-*   **Cyclical Driver:** The cyclical recovery of the automotive semiconductor industry (EV power devices using SiC and GaN), which is beginning to restock after a destocking downturn in FY 2024/2025.
+*   **Cyclical Driver:** The cyclical recovery of the automotive semiconductor industry (EV power devices using SiC and GaN), which is beginning to restock after a drop in FY 2024/2025.
+*   **Industry Testing Validation Metrics (Q1/H1 2026):**
+    *   **Teradyne (TER):** AI test mix rose to **70%+ of Q1 2026 revenue**, demonstrating accelerated HPC testing allocations.
+    *   **Aehr Test Systems (AEHR):** Bookings surged to **$92 million** in H2, showing rapid adoption of high-performance wafer-level burn-in.
+    *   **Advantest:** Operating profit increased by **135%** YoY on HPC and HBM testing demand.
+    *   **ChipMOS:** Q1 2026 revenue grew by **25%** on AI memory testing ramps.
+    *   **TSMC CoWoS capacity:** Expanding to **130,000 wafers per month** by late 2026, driving downstream test demand.
 
 ### **Score: 1/1**
-Benefiting from both the secular structural demand for AI chip reliability and the cyclical recovery of automotive semiconductor content.
+Benefiting from both the secular structural demand for AI chip reliability and the cyclical recovery of automotive semiconductor content, fully supported by robust testing peer billing expansions (+12% global SEMI test billing forecast for 2026).
 
 ---
 
@@ -245,10 +251,14 @@ Benefiting from both the secular structural demand for AI chip reliability and t
 
 *   **Analyst Coverage:** **0 analysts**. No Wall Street brokerage firm publishes research on Trio-Tech.
 *   **Institutional Ownership:** Estimated between 3% and 23%. Ignored by major US technology and thematic ETFs due to its micro-cap status and NYSE American listing. However, 13F filings for the period ending 31 March 2026 reveal a 550% surge in net institutional inflows, with 26 hedge funds and institutions now holding positions (including 13 brand new positions). Notable buyers include Renaissance Technologies (which increased its holding by 162,848 shares to a total of 325,526 shares), Citadel Advisors LLC (which opened a new position of 38,547 shares), Marshall Wace LLP, and Vanguard.
+*   **Catalyst Audit & Inflection Verification (Q2/Q3 2026 Status):**
+    *   *Catalyst 1: Q3 FY26 Earnings (mid-May 2026):* Delivered a **123% YoY revenue inflection** ($16.5M vs $7.4M), confirming the stability of the AI GPU test ramp.
+    *   *Catalyst 2: Capacity Expansion:* Leased the **104,000-square-foot facility in Penang** in May 2026, resolving the physical space constraint.
+    *   *Catalyst 3: Sell-Side Coverage:* Remains at **0 analysts**, preserving the information asymmetry.
 *   **Information Asymmetry:** The market views TRT as a legacy, low-margin packaging distributor. It has completely failed to price in the inflection of their SBS testing business, the major institutional inflows, and the new 104,000 sq ft Penang capacity dedicated to AI GPU screening.
 
 ### **Score: 1/1**
-Zero analyst coverage and a massive information mismatch regarding the company's shift toward high-performance AI GPU testing services.
+Zero analyst coverage and a massive information mismatch regarding the company's shift toward high-performance AI GPU testing services, with core catalysts transitioning from expectations to physical reality.
 
 ---
 
@@ -275,8 +285,8 @@ Under the modified rules for non-covered micro-caps: the integrity audit is clea
 ### 1. The Thesis Killer
 The single most credible failure mechanism is prolonged gross margin suppression. If high-volume AI GPU testing contracts remain priced at compressed gross margins (16.0% consolidated, 14.6% in SBS) due to aggressive pricing by regional competitors like KESM Industries, the company will fail to generate sufficient operating cash flow to cover the lease and capital equipment costs of the new 104,000 sq ft Penang facility. This would lead to capital distress and dilutive equity raises.
 
-### 2. Price-Taker and Competitive Pricing Risk
-Unlike wafer-level equipment vendors (such as Aehr Test Systems) that command 60%+ gross margins, Trio-Tech acts as a package-level services provider, rendering it a price-taker at the testing end of the portfolio. This exposure is exacerbated by the front-loaded costs of qualifying next-generation AI platforms. However, the drop in Days Sales Outstanding (DSO) from 106 to 69 days during the volume ramp indicates high urgency among customers, providing Trio-Tech with working capital flexibility that partially offsets this margin pressure.
+### 2. Price-Taker and Competitive Pricing Risk (Aehr Valuation Gap Reconciled)
+Unlike wafer-level equipment vendors (such as Aehr Test Systems) that command 60%+ gross margins and premium valuations (~60x sales at historical peaks), Trio-Tech acts as a package-level services provider, rendering it a price-taker at the testing end of the portfolio. This model difference explains the valuation gap, with TRT trading at only ~1.74x EV/Revenue. This margin pressure is reflected in the 16.0% consolidated gross margin (14.6% in SBS) due to setup and tooling costs. However, TRT's services model requires much lower customer capex, making it easier to qualify for multi-platform workloads. The drop in Days Sales Outstanding (DSO) from 106 to 69 days during the volume ramp indicates high urgency among customers, providing Trio-Tech with working capital flexibility that partially offsets this margin pressure.
 
 ### 3. Substitute Threat
 The risk that wafer-level testing equipment suppliers (like Aehr Test Systems) convince chip designers to perform 100% of burn-in at the wafer stage, bypassing the package-level burn-in services and board fabrication where Trio-Tech specialises. However, package-level testing remains essential for complex multi-chip modules (such as next-generation Blackwell-class GPUs) to validate package-level thermal hotspots and assembly stresses (e.g. substrate warpage) that cannot be replicated at the wafer level.

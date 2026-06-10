@@ -77,9 +77,9 @@ Sort evidence into:
 - _Trailing documented:_ figures already in filed financials — reported revenue, reported gross margin, filed backlog, published lead times.
 - _Forward run-rate signals:_ management language about booking pace, capacity statements, guidance, design-win pipeline, qualification progress, volume ramp timelines.
 
-**Step D — Qualification-cycle player check**
+**Step D — Qualification-cycle or Segment-pivot check**
 
-Determine whether [TICKER] is a qualification-cycle player (forward narrative focus on customer qualification milestones, low/declining trailing revenue, pre-production margins).
+Determine whether [TICKER] is a qualification-cycle player (forward narrative focus on customer qualification milestones, low/declining trailing revenue, pre-production margins) or a segment-pivot player (companies with active legacy segments but with validated qualifications/design wins in a high-growth AI infrastructure layer that is projected to grow from <10% of revenue to >50% of revenue within 24 months, where trailing metrics are temporarily depressed or volatile due to underabsorbed fixed costs and supply buildouts).
 
 ---
 
@@ -144,6 +144,7 @@ Output **ONLY** the Search Audit Trail Verification table followed by the raw, s
   "operational_flags": {
     "working_capital_divergence_detected": false,
     "qualification_cycle_modifier_applies": false,
+    "ai_segment_pivot_modifier_applies": false,
     "potential_channel_stuffing_signals": false,
     "confirmed_foundry_reference_design_status": "None / Name of Foundry",
     "confirmed_tier1_cm_sole_source_integration": "None / Name of CM",

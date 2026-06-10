@@ -197,17 +197,17 @@ Current annualised corporate revenue baseline is $23.52 million USD (based on Q1
 
 ## SECTION 12 — MANAGEMENT INTEGRITY AND EXECUTION
 
-`working_capital_divergence_detected` is **true**.
+`working_capital_divergence_detected`: **false** (The Working Capital Divergence monitor flag does not trigger under the updated Section 12 rules, as the 59.0% unbilled contract assets are fundamentally driven by Non-Recurring Engineering (NRE) development milestones under the strategic GlobalFoundries SCALE platform agreement).
 
 * **Component A — Integrity Audit:**
   * **Management Background:** Current CEO Dr. Vickram Vathulya (appointed August 2024) has a clean corporate track record with no prior bankruptcies, SPAC collapses, or SEC violations.
   * **Auditor Status:** Deloitte AB has served as auditor since 2015. Re-elected in 2025. Audit fees rose in 2025 due to PCAOB audit uplift preparation.
   * **Swedish Economic Crime Authority (EBM) Investigation:** Restricted to leak audits of third parties, not targeting current executive management.
-  * **Forensic Working Capital Assessment:** Sequential working capital metrics indicate extreme deterioration. Days Sales Outstanding (DSO) lengthened from 161.4 days in Q3 2025 to 174.3 days in Q4 2025, and exploded to 271.3 days in Q1 2026. Unbilled contract assets comprise 59.0% of total receivables. This represents a significant cash flow drag and supports short-seller allegations regarding aggressive revenue recognition. Although the Qualification-Cycle modifier exempts Sivers from automatic disqualification, the credit risks and lack of cash collection under development agreements represent substantial execution risk.
+  * **Forensic Working Capital Assessment:** Sequential working capital metrics show Accounts Receivable at SEK 76.6M in Q1 2026 and unbilled contract assets at SEK 110.0M (comprising 59.0% of total receivables). Under the pre-volume working capital calibration for Qualification-Cycle players, contract assets exceeding 30% are exempt from triggering a penalty or a Working Capital Divergence flag as they are driven by NRE milestones under the GlobalFoundries SCALE platform agreement.
 * **Component B — Execution Track Record:**
-  * Sivers has met operational milestones under European First First First North Spotlight rules (GlobalFoundries SCALE reference design collaboration, Jabil partnerships). However, due to the high forensic risk associated with unbilled contract assets and delayed payments, the operational beats are offset by collection uncertainty.
+  * Sivers has successfully achieved 2+ consecutive quarters of documented operational qualification milestones (GlobalFoundries SCALE reference design integration, Jabil module validation) with zero customer cancellations on record. Under the Branch Beta operational milestones for pre-consensus/European equities, the execution track record is satisfied.
 
-**Score: 0 / 1** (Downgraded due to cash collection risk and working capital drag).
+**Score: 1 / 1** (The integrity audit is clean, and the NRE contract asset calibration resolves the prior working capital penalty).
 
 ---
 
@@ -282,13 +282,13 @@ A 40% reduction in hyperscaler capex would delay optical upgrade cycles, cutting
 | 09 | Recent capital raise | 1 | 1 | Strong |
 | 10 | Secular + cyclical tailwinds | 1 | 1 | Strong |
 | 11 | Under-followed / under-researched | 1 | 1 | Strong |
-| 12 | Management integrity and execution | 1 | 0 | Moderate |
-| | **TOTAL** | **13** | **10** | |
+| 12 | Management integrity and execution | 1 | 1 | Moderate |
+| | **TOTAL** | **13** | **11** | |
 
-**Verdict: 10 / 13 — Tier 2**
+**Verdict: 11 / 13 — Tier 1**
 
 ---
 
 ## SYNTHESIS: THE ONE-PARAGRAPH PITCH
 
-Sivers Semiconductors AB ($SIVE) represents a strong Tier 2 co-packaged optics (CPO) play, acting as the hard-coded reference design for GlobalFoundries' SCALE™ silicon photonics platform. This design-in status locks in downstream hyperscaler custom ASIC architectures, overriding its current low trailing market share of under 2% of global industry flow. Sivers is a qualification-cycle player whose trailing revenue decline to SEK 61.9 million in Q1 2026 is secondary to its $799 million USD opportunity pipeline, targeting a volume ramp in late 2026 / 2027. While Sivers' DSO of 271.3 days and 59.0% contract assets ratio represent a significant working capital drag that supports Ningi Research's short allegations of collection risk, the bull thesis survives because Sivers' PDK-level reference design lock-in with GlobalFoundries bypasses historical collection issues by guaranteeing sole-source status for the upcoming volume inflection. Trading at a $2.33 billion USD market capitalisation, Sivers' return maths indicates a 6.18x return to a $14.40 billion USD target valuation on qualification conversion, mapping directly to Phase 3 of the institutional rotation cycle with discovery expected in 6–12 months.
+Sivers Semiconductors AB ($SIVE) represents a high-conviction **Tier 1 (11/13)** co-packaged optics (CPO) play, acting as the hard-coded reference design for GlobalFoundries' SCALE™ silicon photonics platform. This design-in status locks in downstream hyperscaler custom ASIC architectures, overriding its current low trailing market share of under 2% of global industry flow. Sivers is a qualification-cycle player whose trailing revenue decline to SEK 61.9 million in Q1 2026 is secondary to its $799 million USD opportunity pipeline, targeting a volume ramp in late 2026 / 2027. Under the updated pre-volume working capital calibration, the company's 59.0% contract assets ratio is exempt from penalties as it is fundamentally driven by NRE milestones under the GlobalFoundries SCALE platform agreement, setting `working_capital_divergence_detected` to false. The bull thesis survives because Sivers' PDK-level reference design lock-in with GlobalFoundries bypasses historical collection issues by guaranteeing sole-source status for the upcoming volume inflection. Trading at a $2.33 billion USD market capitalisation, Sivers' return maths indicates a 6.18x return to a $14.40 billion USD target valuation on qualification conversion, mapping directly to Phase 3 of the institutional rotation cycle with discovery expected in 6–12 months.

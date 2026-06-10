@@ -10,19 +10,20 @@ as of 04/06/2026: ~+810% return
 
 (in rough order of portfolio weight)
 
-- **2DG / SIVE** (Sivers Semiconductors)
+- **SIVE** (Sivers Semiconductors)
 - **LPK** (LPKF Laser & Electronics)
 - **TRT** (Trio-Tech International)
-- **XFAB** (X-Fab Silicon Foundries)
 - **AL2SI** (2CRSi S.A.)
 - **ASPI** (ASP Isotopes Inc)
-- **BRUN** (Boost Run, Inc.)
+
+- **BRUN** (Boost Run, Inc.) -- buy soon
+- **XFAB** (X-Fab Silicon Foundries) -- buy soon
 
 ## IBKR:
 
 - **SEYE** (Smart Eye AB)
 - **ACCON** (Acconeer AB)
-- **SHT** (Smart High-Tech AB) -- when i can fakin trade it
+- **SHT** (Smart High-Tech AB) -- buy soon
 
 ### safe/high return:
 
@@ -30,9 +31,13 @@ as of 04/06/2026: ~+810% return
 - **NBIS** (Nebius Group)
 - **MRVL** (Marvell)
 
+### watchlist
+
+- XNDU
+
 ### Planned Target Portfolio (Top 10 Transition Strategy)
 
-- **SIVE** (Sivers Semiconductors) **20%** — **11/13 (Tier 1)** -- REDUCE
+- **SIVE** (Sivers Semiconductors) **20%** — **12/13 (Tier 1)** -- REDUCE
 - **LPK** (LPKF Laser & Electronics SE) **20%** — **11/13 (Tier 1)** -- DONE
 - **TRT** (Trio-Tech International) **10%** — **12/13 (Tier 1)** -- DONE
 - **AL2SI** (2CRSi S.A.) **10%** — **12/13 (Tier 1)** -- DONE

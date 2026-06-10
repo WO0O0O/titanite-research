@@ -99,6 +99,7 @@ Boost Run addresses the physical bottleneck of advanced Blackwell GPU supply. Th
 
 *   **Backlog:** Contracted backlog stands at $1.415 billion, with average contract lengths of 36 months.
 *   **Idle GPU Capacity Check:** The historical 21% crypto validation revenue in FY25 was a temporary capacity-fill measure during the initial cluster ramp. Forward backlog is 100% committed to AI compute, rendering the crypto validation discount inactive.
+*   **Inventory-to-Binding Backlog and Drawdown Audit:** Because Boost Run operates as a bare-metal GPU cloud provider under ASC 842 finance leases rather than a hardware manufacturing firm, it does not carry physical product inventory on its balance sheet (yielding an inventory-to-binding backlog ratio of 0.00). This near-zero/zero ratio highlights that the company's valuation is bound to facility qualification milestones (securing data centre space, liquid cooling capacity, and power provisioning) rather than physical inventory accumulation. Near-term revenue generation is strictly gated by facility readiness and hardware delivery schedules rather than inventory build-ups.
 
 ### Sub-section B — Forward Run-Rate Signals
 
@@ -130,8 +131,9 @@ Boost Run addresses the physical bottleneck of advanced Blackwell GPU supply. Th
 ### Sub-section B — Forward Run-Rate Signals
 
 1.  **Thinking Machines Ramp:** The $471.7 million contract locks in an ARR run-rate contribution of $157.2 million starting in H2 2026, driving a massive revenue acceleration.
+2.  **Drawdown Velocity and Facility Milestones:** The initial drawdown velocity of the $1.415 billion backlog is effectively zero in early 2026, as the first phase of the Thinking Machines contract is gated by facility qualification timelines. Revenue acceleration is concentrated in H2 2026 because the volume ramp is bound to the qualification of the new data centre facilities housing the 5,000 NVIDIA B300 GPU servers.
 
-**Score: 1 point** (Revenue shows clear sequential and year-over-year acceleration from the Q1 2025 trough).
+**Score: 1 point** (Revenue shows clear sequential and year-over-year acceleration from the Q1 2025 trough, with the forward inflection gated by facility qualification timelines).
 
 ---
 
@@ -156,10 +158,10 @@ The asymmetric upside is supported by a strong M&A floor (5.0x ARR comp).
 ## SECTION 6 — R&D TO SCALING TRANSITION
 
 1.  **Current Stage:** Early Commercial.
-2.  **Milestones:** Active deployment of 5,000 NVIDIA B300 GPU servers starting H2 2026.
+2.  **Milestones:** Active deployment of 5,000 NVIDIA B300 GPU servers starting H2 2026. Transition to volume scaling is bound to facility qualification milestones rather than physical inventory accumulation. The critical gating items are power grid connection schedules, data centre facility construction, and the successful delivery and installation qualification of the Blackwell clusters.
 3.  **Operating Leverage:** Management targets gross margins of >50.0% once clusters scale, with high software orchestration margins offset by initial depreciation.
 
-**Score: 1 point** (Transition to volume revenue is secured under the non-cancelable Thinking Machines contract).
+**Score: 1 point** (Transition to volume revenue is secured under the non-cancelable Thinking Machines contract, with scaling timelines bound to facility qualification milestones).
 
 ---
 
