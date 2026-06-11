@@ -11,10 +11,11 @@ as of 04/06/2026: ~+810% return
 (in rough order of portfolio weight)
 
 - **SIVE** (Sivers Semiconductors)
-- **LPK** (LPKF Laser & Electronics)
 - **TRT** (Trio-Tech International)
+- **LPK** (LPKF Laser & Electronics)
 - **AL2SI** (2CRSi S.A.)
 - **ASPI** (ASP Isotopes Inc)
+- **IQE** (IQE Plc)
 
 - **BRUN** (Boost Run, Inc.) -- buy soon
 - **XFAB** (X-Fab Silicon Foundries) -- buy soon
@@ -33,7 +34,7 @@ as of 04/06/2026: ~+810% return
 
 ### watchlist
 
-- XNDU
+- AMPG
 
 ### Planned Target Portfolio (Top 10 Transition Strategy)
 
