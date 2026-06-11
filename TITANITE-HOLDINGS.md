@@ -31,6 +31,7 @@ as of 04/06/2026: ~+810% return
 - **AAOI** (Applied Optoelectronics)
 - **NBIS** (Nebius Group)
 - **MRVL** (Marvell)
+- **SKM** (SK Telecom) -- buy soon
 
 ### watchlist
 

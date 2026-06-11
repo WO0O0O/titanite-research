@@ -8,7 +8,6 @@ $3290.TW (Nextron)
 
 ## SMALL CAPS:
 
-AMPG!!!
 AIRJ
 
 LTBR
@@ -16,6 +15,13 @@ NRGV
 STEM
 
 AMBA ambarella
+
+## taiwanese glass substrate
+
+E&R Engineering Corporation (8027.TW)
+Grand Process Technology (3131.TW / GPTC)
+Group Up Industrial (6613.TW)
+C SUN Mfg (2467.TW)
 
 ## energy
 
