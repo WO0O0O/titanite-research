@@ -46,6 +46,8 @@ Apply these rules to every word of the output. Do not deviate.
 
 **Short sentences when making the most important points.** Long sentences for context. Short sentences for verdicts.
 
+**Framework governance.** All framework modifications must be logged in `/docs/CHANGELOG.md`. Tier 1/2 positions should be tracked in `/docs/CATALYST-TRACKER.md` for event monitoring.
+
 ---
 
 ## STEP 0 — EXECUTION PROTOCOL (run this before writing a single word of analysis)

@@ -18,6 +18,7 @@ Apply these rules to every word of the output. Do not deviate.
 - **Numbers over adjectives:** Quantify where a number exists.
 - **Short sentences when making the most important points.**
 - **Anti-Condensation/Token Exhaustion Guardrail:** You must provide extensive, detailed, and completely uncompressed analysis for every section. Do not combine, shorten, skip, or summarize outputs to save tokens. Every sub-question and diagnostic item must be explicitly written out as a separate clause or bullet point.
+- **Framework governance:** All framework modifications must be logged in `/docs/CHANGELOG.md`. Tier 1/2 positions should be tracked in `/docs/CATALYST-TRACKER.md` for event monitoring.
 
 ---
 
