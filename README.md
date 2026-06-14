@@ -10,7 +10,7 @@ This is a solo project. I am not a financial advisor and this is not investment 
 
 ## Portfolio & Active Holdings
 
-My current research conviction scores and active portfolio allocations are tracked in [TITANITE-HOLDINGS.md](./TITANITE-HOLDINGS.md).
+My current research conviction scores and active portfolio allocations are tracked in [TITANITE-HOLDINGS.md](docs/TITANITE-HOLDINGS.md).
 
 My research is organised around four interlocking structural pillars:
 
