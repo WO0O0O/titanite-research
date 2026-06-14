@@ -35,6 +35,15 @@ If catalysts consistently arrive 6-12 months late, the thesis return profile deg
 | **AAOI** | 800G transceiver volume shipment ramp (post-Q1 2026 delay) | Q2-Q3 2026 | Medium | _Pending_ | — | Revenue recovery from $50M → $80M+ quarterly | 🟡 Active |
 | **SEE** | Magna convertible note refinancing (due Oct 2026) | Q3 2026 (before Oct) | High | _Pending_ | — | Balance sheet risk mitigation | 🟡 Active |
 | **KEEL** | Panther Creek 62 MW AI data centre lease-up (first tenant) | Q3-Q4 2026 | Medium | _Pending_ | — | Validates pivot from Bitcoin to AI colocation | 🟡 Active |
+| **BRUN** | 5,000 NVIDIA B300 GPU server cluster activation (Thinking Machines) | H2 2026 (Aug-Dec) | High | _Pending_ | — | Revenue inflection lock-in ($157.2M ARR run-rate) | 🟡 Active |
+| **DGXX** | Phase 1 Columbiana (15 MW) ready-for-service / online date | 15 December 2026 | Medium-High | _Pending_ | — | Triggers $1.1B Cerebras contract revenue recognition | 🟡 Active |
+| **SKM** | KKR 49% acquisition of the AIDC unit transaction close (₩2.0–2.5T valuation) | 30 June 2026 | High | _Pending_ | — | Unlocks AIDC valuation and validates infrastructure asset values | 🟡 Active |
+| **PENG** | Q3 FY2026 earnings release showing guided revenue step-up to $375M | 7 July 2026 | High | _Pending_ | — | Validates sequential growth inflection and margin expansion | 🟡 Active |
+| **MXL** | Rushmore 1.6T PAM4 DSP qualification confirmation at major hyperscaler | H2 2026 | Medium | _Pending_ | — | De-risks market share position vs. Marvell and ramps 1.6T revenue | 🟡 Active |
+| **LPK** | First publicly named glass substrate production system LIDE order (TGV) | Q4 2026 / H1 2027 | Medium | _Pending_ | — | Confirms commercial system adoption and triggers re-rating | 🟡 Active |
+| **ACCON** | Commercial launch and volume shipments of the A212 sensor on automotive platform | Late 2026 | Medium-High | _Pending_ | — | Drives royalty and volume sales inflection | 🟡 Active |
+| **XFAB** | Confirmed volume production contract for silicon photonics or GaN with Tier 1 | H2 2026 / H1 2027 | Medium | _Pending_ | — | De-risks capacity utilisation ramp at Lubbock or Corbeil-Essonnes | 🟡 Active |
+| **TRT** | Penang facility operational commencement and gross margin recovery to >20% | Q4 2026 | Medium-High | _Pending_ | — | De-risks capacity constraints and triggers gross margin recovery | 🟡 Active |
 
 ---
 
@@ -52,31 +61,31 @@ If catalysts consistently arrive 6-12 months late, the thesis return profile deg
 ## CATALYST HIT RATE METRICS
 
 ### Overall Performance (Rolling 12 Months)
-- **Total Catalysts Tracked:** 15
-- **Catalysts Hit On Time (±30 days):** 4
+- **Total Catalysts Tracked:** 24
+- **Catalysts Hit On Time (±30 days):** 5
 - **Catalysts Delayed (>30 days late):** 0
 - **Catalysts Accelerated (>30 days early):** 0
-- **Catalysts Still Pending:** 11
-- **Hit Rate (Completed Catalysts Only):** 100% (4/4)
+- **Catalysts Still Pending:** 18
+- **Hit Rate (Completed Catalysts Only):** 83.3% (5/6)
   
 _Note: Hit rate is artificially high due to small sample size. Requires 12+ months of tracking for statistical significance._
 
 ### By Confidence Level
 | Confidence | Total Tracked | Hit On Time | Delayed | Early | Pending | Hit Rate |
 |------------|---------------|-------------|---------|-------|---------|----------|
-| **High**   | 7 | 4 | 0 | 0 | 3 | 100% (4/4) |
-| **Medium-High** | 2 | 0 | 0 | 0 | 2 | _Pending_ |
-| **Medium** | 6 | 0 | 0 | 0 | 6 | _Pending_ |
+| **High**   | 11 | 5 | 0 | 0 | 6 | 100% (5/5) |
+| **Medium-High** | 4 | 0 | 0 | 0 | 4 | _Pending_ |
+| **Medium** | 9 | 0 | 0 | 0 | 8 | 0% (0/1) |
 | **Low**    | 0 | 0 | 0 | 0 | 0 | N/A |
 
 ### By Catalyst Type
 | Catalyst Type | Total Tracked | Hit On Time | Delayed | Average Delta (Days) |
 |---------------|---------------|-------------|---------|---------------------|
 | **Regulatory Approval** | 3 | 1 | 0 | 0 |
-| **Manufacturing Ramp** | 4 | 0 | 0 | _Pending_ |
-| **Financial Close** | 3 | 2 | 0 | 0 |
-| **Product Shipment** | 4 | 0 | 0 | _Pending_ |
-| **Management Change** | 1 | 1 | 0 | 0 |
+| **Manufacturing Ramp** | 11 | 0 | 0 | _Pending_ |
+| **Financial Close** | 6 | 3 | 0 | 0 |
+| **Product Shipment** | 2 | 0 | 0 | _Pending_ |
+| **Management Change** | 2 | 1 | 0 | 0 |
 
 ---
 

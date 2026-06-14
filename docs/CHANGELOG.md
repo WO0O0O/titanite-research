@@ -252,6 +252,7 @@ If framework modification is implemented, re-score all current Tier 1/Tier 2 hol
 ### Small-Cap Framework:
 - ASPI (add Working Capital Override Log documentation)
 - Any company benefiting from unstated Qualification-Cycle modifier (formalize activation)
+- **BRUN** (re-audited, split into extraction buffer and analytical scorer, and added to the catalyst tracker on 14 June 2026)
 
 **Deadline for Re-Audit:** 30 July 2026
 
