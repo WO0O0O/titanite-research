@@ -455,8 +455,8 @@ Leopold Aschenbrenner explicitly argues that by 2027/28, the US government will 
 
 **Scoring logic — three tiers:**
 
-- **Score 1:** Existing government or defence revenue confirmed in filings, with one or more active certifications (FedRAMP, IL4/IL5, CMMC) and facilities capable of classified workloads, AND passes the Sovereign Supply Chain Decoupling Test.
-- **Score 0.5 — Path to Government Positioning:** No current government revenue, but ALL of the following are true: (a) infrastructure is 100% in the US or NATO-allied nations; (b) no active disqualifiers from point 6 above; (c) management has made a documented public statement of intent to pursue government certifications; (d) the company's layer of the stack is one the government will require (Layer P, Layer F, Layer N, or Layer O); (e) passes the Sovereign Supply Chain Decoupling Test. Score 0.5 here; round up to 1 in the final scorecard only if the total score is otherwise 10 or above.
+- **Score 1.0:** Existing government or defence revenue confirmed in filings, with one or more active certifications (FedRAMP, IL4/IL5, CMMC) and facilities capable of classified workloads, AND passes the Sovereign Supply Chain Decoupling Test.
+- **Score 0.5 — Path to Government Positioning:** No current government revenue, but ALL of the following are true: (a) infrastructure is 100% in the US or NATO-allied nations; (b) no active disqualifiers from point 6 above; (c) management has made a documented public statement of intent to pursue government certifications; (d) the company's layer of the stack is one the government will require (Layer P, Layer F, Layer N, or Layer O); (e) passes the Sovereign Supply Chain Decoupling Test. **Important: Companies scoring 0.5 in Section 7 remain at 0.5 in the final scorecard—no rounding up. This prevents path-dependent score inflation.**
 - **Score 0:** No government revenue, active disqualifiers present, infrastructure in geopolitically exposed jurisdictions, or fails the Sovereign Supply Chain Decoupling Test.
 
 ---
@@ -550,11 +550,27 @@ Search the following for the CEO, Chairman, CFO, and any board members with sign
 4. Are there any ongoing or recently settled regulatory investigations, class action lawsuits, or shareholder derivative suits?
 5. Are there related-party transactions disclosed in the filings? If yes, describe them. Do they appear to benefit insiders at the company's expense?
 6. **Working Capital Anomaly Check**: Calculate the directional variance between revenue growth and key working capital accounts over the last three quarters (derived from the Extraction Buffer):
-   - Days Sales Outstanding (DSO): Is the collection cycle lengthening while revenue accelerates?
-   - Unbilled Receivables / Contract Assets: Is the company recognizing revenue on long-lead infrastructure rollouts before hitting billing milestones?
+   - Days Sales Outstanding (DSO): Is the collection cycle lengthening while revenue accelerates? **Trigger threshold:** DSO expanding by >15% on a quarter-over-quarter basis for 2 consecutive quarters, OR Y/Y DSO expansion >25%
+   - Unbilled Receivables / Contract Assets: Is the company recognizing revenue on long-lead infrastructure rollouts before hitting billing milestones? **Trigger threshold:** Contract assets comprise >30% of total receivables (receivables + contract assets), AND the company is post-revenue with >$50M in trailing twelve-month revenue. Pre-revenue companies in qualification cycles are exempt from this threshold.
    - Inventory-to-Backlog Ratio: Is physical inventory accumulating faster than the stated near-term backlog drawdown timeline implies?
    
-   If revenue growth is accelerating but DSO is expanding by >15% sequentially or contract assets comprise >30% of total receivables (receivables + contract assets), you must automatically downgrade Section 12 to a maximum score of 0, activate a 'Working Capital Divergence' monitor flag, and look for signs of channel-stuffing or aggressive revenue recognition.
+   If working capital divergence is detected, you must automatically downgrade Section 12 to a maximum score of 0, activate a 'Working Capital Divergence' monitor flag, and look for signs of channel-stuffing or aggressive revenue recognition.
+
+**MANDATORY: Working Capital Override Log**
+
+Every report must include this section immediately after the integrity audit:
+
+```markdown
+### Working Capital Override Log
+**Working Capital Divergence Detected:** YES / NO
+**If YES:**
+- Specific metric triggering flag: [DSO expansion / Contract assets ratio / Inventory accumulation]
+- Quantified magnitude: [X% DSO increase Q/Q, Y% contract assets ratio]
+- Management explanation: [Direct quote from filings/transcripts]
+- Resolution timeline: [Expected quarter of normalization]
+- Override applied: YES / NO
+- If override applied, justification: [One-time event, segment divestiture, accounting standard change, etc.]
+```
 
 **Graduated scoring for integrity findings — three tiers:**
 
@@ -624,7 +640,37 @@ If HEADWIND — quantify the revenue at risk and assess whether the thesis survi
 
 ---
 
-## SECTION 15 — INSTITUTIONAL ROTATION AND DISCOVERY TIMING
+## SECTION 15 — GEOPOLITICAL RISK PENALTY (MANDATORY)
+
+_Penalty range: 0 to -2 points (deducted from total score)_
+
+China supply chain exposure represents a binary, non-diversifiable tail risk capable of causing 50-80% drawdowns regardless of fundamentals due to export control expansion, CFIUS intervention, or supply chain decoupling mandates.
+
+**Penalty Matrix:**
+
+| Exposure Level | Criteria | Penalty | Additional Restrictions |
+|---|---|---|---|
+| **SEVERE** | >50% revenue from China customers OR >50% of critical manufacturing in China OR fails Sovereign Supply Chain Decoupling Test with zero diversification plan | **-2 points** | Automatic cap at Tier 2 maximum regardless of total score |
+| **MODERATE** | 30-50% revenue from China customers OR 30-50% of critical manufacturing in China OR single critical input sourced exclusively from China with 18+ month requalification timeline | **-1 point** | Position size limited to 5% maximum portfolio weight |
+| **LOW** | 10-30% China exposure with documented 24-month diversification plan OR non-critical inputs from China with <12 month substitution timeline | **-0.5 points** | Monitor flag active; quarterly review required |
+| **MINIMAL** | <10% China exposure OR zero China manufacturing/customers | **0 points** | No restrictions |
+
+**Critical Input Definition:** Any component, material, or manufacturing process where >70% of global supply originates from China and requalification with alternative suppliers requires >12 months.
+
+**Mandatory Disclosure:**
+Every report must include a "Geopolitical Exposure Map" section explicitly stating:
+- % revenue from China customers
+- % of manufacturing capacity in Chinese territory
+- List of China-sourced critical inputs with switching timelines
+- Management's stated diversification strategy (if any)
+- Penalty assigned: [0 / -0.5 / -1 / -2]
+
+**Automatic Tier Cap Rule:**
+Any company receiving a -2 penalty (SEVERE exposure) is automatically capped at Tier 2 classification regardless of pre-penalty score. This is non-negotiable.
+
+---
+
+## SECTION 16 — INSTITUTIONAL ROTATION AND DISCOVERY TIMING
 
 _Required — no score, but timing determines whether you capture the return or watch it happen_
 
@@ -702,6 +748,60 @@ If you cannot write this paragraph with hard numbers and specific evidence from 
 ---
 
 _Framework based on Serenity (@aleabitoreddit) Chokepoint Theory, extended for AI infrastructure scale-up plays. Intellectual foundation: Leopold Aschenbrenner, "Situational Awareness: The Decade Ahead" (June 2024). Research use only — not financial advice. DYOR._
+
+---
+
+## POST-MORTEM PROTOCOL (MANDATORY FOR THESIS FAILURES)
+
+When a Tier 1 or Tier 2 thesis fails (defined as stock declining >50% from entry OR company hitting an automatic disqualifier post-initial scoring), a post-mortem analysis is mandatory within 30 days.
+
+**Post-Mortem Template:**
+
+### Company: [TICKER]
+**Original Tier:** [Tier 1 / Tier 2]
+**Original Score:** [X/13]
+**Entry Date:** [Date]
+**Thesis Failure Trigger:** [Stock decline >50% / Going concern opinion / SEC investigation / Other disqualifier]
+**Failure Date:** [Date]
+
+**Section-by-Section Failure Analysis:**
+
+| Section | Original Score | Should Have Been | Error Source |
+|---|---|---|---|
+| 01 | X/1 | Y/1 | [What data point was missed? Was the scoring criterion too loose?] |
+| 02 | X/1 | Y/1 | [Did customer linkage prove weaker than assessed?] |
+| 03 | X/2 | Y/2 | [Was supply constraint language misinterpreted?] |
+| 04 | X/1 | Y/1 | [Was revenue inflection premature or consensus gap miscalculated?] |
+| 05 | X/1 | Y/1 | [Did cluster math assumptions prove wrong?] |
+| 06 | X/1 | Y/1 | [Did execution moat fail to materialize?] |
+| 07 | X/1 | Y/1 | [Was government positioning overstated?] |
+| 08 | X/1 | Y/1 | [Did technology become obsolete faster than projected?] |
+| 09 | X/1 | Y/1 | [Was capital structure inadequate?] |
+| 10 | X/1 | Y/1 | [Did secular/cyclical assumptions break?] |
+| 11 | X/1 | Y/1 | [Did consensus model actually close the gap?] |
+| 12 | X/1 | Y/1 | [Were integrity issues missed or execution failures unpredictable?] |
+
+**Root Cause Classification:**
+- [ ] Framework structural flaw (scoring criteria too loose)
+- [ ] Data availability gap (critical information not accessible during initial research)
+- [ ] Management integrity failure (fraud/misrepresentation not detectable via public filings)
+- [ ] Exogenous shock (macro event, regulatory change, geopolitical disruption)
+- [ ] Execution failure (thesis was correct but company failed to execute)
+- [ ] Cluster math error (scaling assumptions proved incorrect)
+- [ ] Technology skip risk materialized (faster than 36-month window)
+
+**Proposed Framework Modification:**
+[If framework structural flaw identified, specify exact wording change needed. Reference section and criterion.]
+
+**CHANGELOG Update Required:**
+All post-mortems resulting in framework modifications must be logged in `/docs/CHANGELOG.md` with:
+- Date of modification
+- Company ticker that triggered the lesson
+- Before/after wording of changed criterion
+- List of other companies requiring re-audit under new rule
+
+**Historical Re-Scoring:**
+If framework modification is implemented, re-score all current Tier 1/Tier 2 holdings under the new rules within 60 days. Document results in a separate re-audit report.
 
 ---
 

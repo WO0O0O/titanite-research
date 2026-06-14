@@ -340,12 +340,30 @@ This section has two components. A management team with a history of fraud, SPAC
 4. Are there any ongoing or recently settled regulatory investigations, class action lawsuits, or shareholder derivative suits?
 5. Are there related-party transactions disclosed in the filings? If yes, describe them. Do they appear to benefit insiders at the company's expense?
 6. **Working Capital Anomaly Check**: Calculate the directional variance between revenue growth and key working capital accounts over the last three quarters (derived from the Extraction Buffer):
-   - Days Sales Outstanding (DSO): Is the collection cycle lengthening while revenue accelerates?
-   - Unbilled Receivables / Contract Assets: Is the company recognizing revenue on long-lead infrastructure rollouts before hitting billing milestones?
+   - Days Sales Outstanding (DSO): Is the collection cycle lengthening while revenue accelerates? **Trigger threshold:** DSO expanding by >15% on a quarter-over-quarter basis for 2 consecutive quarters, OR Y/Y DSO expansion >25%
+   - Unbilled Receivables / Contract Assets: Is the company recognizing revenue on long-lead infrastructure rollouts before hitting billing milestones? **Trigger threshold:** Contract assets comprise >30% of total receivables (receivables + contract assets), AND the company is post-revenue with >$50M in trailing twelve-month revenue. Pre-revenue companies in qualification cycles are exempt from this threshold.
    - Inventory-to-Backlog Ratio: Is physical inventory accumulating faster than the stated near-term backlog drawdown timeline implies?
-   - If revenue growth is accelerating but DSO is expanding by >15% sequentially or contract assets comprise >30% of total receivables (receivables + contract assets), you must automatically downgrade Section 12 to a maximum score of 0, activate a 'Working Capital Divergence' monitor flag, and look for signs of channel-stuffing or aggressive revenue recognition.
+   
+   If working capital divergence is detected, you must automatically downgrade Section 12 to a maximum score of 0, activate a 'Working Capital Divergence' monitor flag, and look for signs of channel-stuffing or aggressive revenue recognition.
+   
    - **Pre-Volume Working Capital Calibration:** For companies verified under the 'Qualification-Cycle Player' or 'Segment-Pivot Player' modifier, a contract assets-to-receivables ratio above 30% does not trigger an automatic score of 0 or a 'Working Capital Divergence' flag if those assets are fundamentally driven by Non-Recurring Engineering (NRE) development milestones or hardware validation phases with Tier 1 customers. Sequential DSO expansion up to 50% does not trigger the automatic downgrade if it is documented as a shipment timing variance with clean collections.
    - **Memory Drift Verification Check:** Check the `working_capital_divergence_detected` flag in your Raw Data Extraction Buffer. If this flag is set to `true` (and neither the Qualification-Cycle nor the Segment-Pivot modifier applies), you are mathematically barred from scoring Section 12 above 0.
+
+**MANDATORY: Working Capital Override Log**
+
+Every report must include this section immediately after the integrity audit:
+
+```markdown
+### Working Capital Override Log
+**Working Capital Divergence Detected:** YES / NO
+**If YES:**
+- Specific metric triggering flag: [DSO expansion / Contract assets ratio / Inventory accumulation]
+- Quantified magnitude: [X% DSO increase Q/Q, Y% contract assets ratio]
+- Management explanation: [Direct quote from filings/transcripts]
+- Resolution timeline: [Expected quarter of normalization]
+- Qualification-Cycle or Segment-Pivot Exemption Applied: YES / NO
+- If exemption applied, justification: [NRE milestone revenue / Customer qualification phase / Segment transition]
+```
 
 If any integrity audit finding is negative (prior fraud involvement, going concern, auditor changes with unexplained departures, active regulatory investigation, material weakness, or triggering the 'Working Capital Divergence' monitor flag without qualifying for the NRE/Qualification-Cycle/Segment-Pivot Exemption) — score this section 0 and escalate to a prominent warning at the top of the report.
 
@@ -401,6 +419,36 @@ If STRONG — explain in detail why the bull case still wins. If a short report 
 **Required verdict:** GEOPOLITICAL TAILWIND / NEUTRAL / GEOPOLITICAL HEADWIND (If the company fails the Sovereign Supply Chain Decoupling Test in item 6, this verdict must automatically be GEOPOLITICAL HEADWIND).
 
 If HEADWIND — quantify the revenue at risk and assess whether the thesis survives.
+
+---
+
+## SECTION 14.5 — GEOPOLITICAL RISK PENALTY (MANDATORY)
+
+_Penalty range: 0 to -2 points (deducted from total score)_
+
+China supply chain exposure represents a binary, non-diversifiable tail risk capable of causing 50-80% drawdowns regardless of fundamentals due to export control expansion, CFIUS intervention, or supply chain decoupling mandates.
+
+**Penalty Matrix:**
+
+| Exposure Level | Criteria | Penalty | Additional Restrictions |
+|---|---|---|---|
+| **SEVERE** | >50% revenue from China customers OR >50% of critical manufacturing in China OR fails Sovereign Supply Chain Decoupling Test with zero diversification plan | **-2 points** | Automatic cap at Tier 2 maximum regardless of total score |
+| **MODERATE** | 30-50% revenue from China customers OR 30-50% of critical manufacturing in China OR single critical input sourced exclusively from China with 18+ month requalification timeline | **-1 point** | Position size limited to 5% maximum portfolio weight |
+| **LOW** | 10-30% China exposure with documented 24-month diversification plan OR non-critical inputs from China with <12 month substitution timeline | **-0.5 points** | Monitor flag active; quarterly review required |
+| **MINIMAL** | <10% China exposure OR zero China manufacturing/customers | **0 points** | No restrictions |
+
+**Critical Input Definition:** Any component, material, or manufacturing process where >70% of global supply originates from China and requalification with alternative suppliers requires >12 months.
+
+**Mandatory Disclosure:**
+Every report must include a "Geopolitical Exposure Map" section explicitly stating:
+- % revenue from China customers
+- % of manufacturing capacity in Chinese territory
+- List of China-sourced critical inputs with switching timelines
+- Management's stated diversification strategy (if any)
+- Penalty assigned: [0 / -0.5 / -1 / -2]
+
+**Automatic Tier Cap Rule:**
+Any company receiving a -2 penalty (SEVERE exposure) is automatically capped at Tier 2 classification regardless of pre-penalty score. This is non-negotiable.
 
 ---
 
@@ -472,6 +520,64 @@ Write the investment thesis in one paragraph as Serenity would post it on X: dir
 - The market cap vs. bull-case target with the explicit return multiple.
 - **The institutional rotation phase and estimated time to discovery** (you must explicitly state the Phase number, e.g. "Phase 3").
 - **Short-Seller Survival Verdict:** If an active short thesis exists, you must write one sentence acknowledging it and explicitly stating the structural mechanism by which the bull case survives the allegations (e.g. why the PDK-level reference design/foundry status bypasses historical collection or pipeline risks).
+
+---
+
+## POST-MORTEM PROTOCOL (MANDATORY FOR THESIS FAILURES)
+
+When a Tier 1 or Tier 2 thesis fails (defined as stock declining >50% from entry OR company hitting an automatic disqualifier post-initial scoring), a post-mortem analysis is mandatory within 30 days.
+
+**Post-Mortem Template:**
+
+### Company: [TICKER]
+**Original Tier:** [Tier 1 / Tier 2]
+**Original Score:** [X/13]
+**Entry Date:** [Date]
+**Thesis Failure Trigger:** [Stock decline >50% / Going concern opinion / Fraud allegations / Other disqualifier]
+**Failure Date:** [Date]
+
+**Section-by-Section Failure Analysis:**
+
+| Section | Original Score | Should Have Been | Error Source |
+|---|---|---|---|
+| 01 | X/1 | Y/1 | [What data point was missed? Was chokepoint classification too optimistic?] |
+| 02 | X/1 | Y/1 | [Did hyperscaler linkage prove weaker than assessed?] |
+| 03 | X/2 | Y/2 | [Was supply constraint language misinterpreted?] |
+| 04 | X/1 | Y/1 | [Was revenue inflection premature or volume ramp timeline miscalculated?] |
+| 05 | X/1 | Y/1 | [Did cluster math assumptions prove wrong?] |
+| 06 | X/1 | Y/1 | [Did R&D-to-scaling transition fail to materialize?] |
+| 07 | X/1 | Y/1 | [Was customer concentration risk underestimated?] |
+| 08 | X/1 | Y/1 | [Did technology become obsolete faster than projected?] |
+| 09 | X/1 | Y/1 | [Was capital structure inadequate?] |
+| 10 | X/1 | Y/1 | [Did secular/cyclical assumptions break?] |
+| 11 | X/1 | Y/1 | [Did institutional discovery occur or fail to materialize?] |
+| 12 | X/1 | Y/1 | [Were integrity issues missed or execution failures unpredictable?] |
+
+**Root Cause Classification:**
+- [ ] Framework structural flaw (scoring criteria too loose)
+- [ ] Data availability gap (critical information not accessible during initial research)
+- [ ] Management integrity failure (fraud/misrepresentation not detectable via public filings)
+- [ ] Exogenous shock (macro event, regulatory change, geopolitical disruption)
+- [ ] Execution failure (thesis was correct but company failed to execute)
+- [ ] Qualification-cycle timing error (volume ramp delayed or cancelled)
+- [ ] Chokepoint displacement (competitor emerged or hyperscaler vertically integrated)
+- [ ] Technology skip risk materialized (faster than 24-month window)
+
+**Architectural Moat Override Audit:**
+If the company was scored using the Architectural Moat Override (foundry reference design, Tier 1 CM sole-source, or hyperscaler custom ASIC design-win), did the forward design-in status materialize into actual production volume? Was the override applied correctly based on the evidence available at the time?
+
+**Proposed Framework Modification:**
+[If framework structural flaw identified, specify exact wording change needed. Reference section and criterion.]
+
+**CHANGELOG Update Required:**
+All post-mortems resulting in framework modifications must be logged in `/docs/CHANGELOG.md` with:
+- Date of modification
+- Company ticker that triggered the lesson
+- Before/after wording of changed criterion
+- List of other companies requiring re-audit under new rule
+
+**Historical Re-Scoring:**
+If framework modification is implemented, re-score all current Tier 1/Tier 2 holdings under the new rules within 60 days. Document results in a separate re-audit report.
 
 ---
 

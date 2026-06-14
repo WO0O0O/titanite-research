@@ -8,6 +8,9 @@ $3290.TW (Nextron)
 
 ## SMALL CAPS:
 
+MXL
+DGXX
+
 AIRJ
 
 LTBR
